@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP AMC23C10DWVR
-D Analog Comparators Fast-response, reinforced, isolated differential comparator with open-drain and push-pull outputs
-K
-F https://www.ti.com/lit/ds/symlink/amc23c10.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1691395362663&ref_url=https%253A%252F%252Fwww.mouser.cn%252F
-$ENDCMP
-#
-#End Doc Library
