@@ -637,6 +637,10 @@
       {
         "netclass": "+12V",
         "pattern": "/+12V*"
+      },
+      {
+        "netclass": "+3V3",
+        "pattern": "+3.3VA"
       }
     ]
   },
@@ -789,7 +793,7 @@
         "uuid": "77770e37-dda2-4cf3-b2f1-cea4793bc3be"
       }
     ],
-    "used_designators": "TR1,C1-4,D1,#PWR1-91,U1,F1,R1-2",
+    "used_designators": "TC1-4,Q1-3,P1,M1-4,J1-4,IC1-2,TR1,FL1,SW1,U1-10,C1-54,D1-5,#PWR1-122,F1,R1-41",
     "variants": []
   },
   "sheets": [
