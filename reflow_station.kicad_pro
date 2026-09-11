@@ -603,7 +603,7 @@
         "pattern": "GND*"
       },
       {
-        "netclass": "Default",
+        "netclass": "+5V",
         "pattern": "VBUS"
       },
       {
@@ -793,7 +793,7 @@
         "uuid": "77770e37-dda2-4cf3-b2f1-cea4793bc3be"
       }
     ],
-    "used_designators": "TC1-4,Q1-3,P1,M1-4,J1-4,IC1-2,TR1,FL1,SW1,U1-10,C1-54,D1-5,#PWR1-122,F1,R1-41",
+    "used_designators": "TC1-4,Q1-3,P1,M1-4,J1-4,IC1-2,TR1,FL1,SW1,U1-10,C1-54,D1-5,#PWR1-139,F1,R1-41",
     "variants": []
   },
   "sheets": [
