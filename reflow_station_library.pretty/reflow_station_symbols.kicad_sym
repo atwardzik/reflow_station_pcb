@@ -2875,7 +2875,7 @@
 			(pin open_collector line
 				(at 15.24 0 180)
 				(length 5.08)
-				(name "OC_N"
+				(name "~{OC}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2893,7 +2893,7 @@
 			(pin input line
 				(at -15.24 -5.08 0)
 				(length 5.08)
-				(name "EN"
+				(name "~{EN}"
 					(effects
 						(font
 							(size 1.27 1.27)
