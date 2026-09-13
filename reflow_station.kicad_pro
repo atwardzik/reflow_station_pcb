@@ -649,6 +649,10 @@
       {
         "netclass": "HV",
         "pattern": "/N"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "/SHIELD"
       }
     ]
   },
@@ -801,7 +805,7 @@
         "uuid": "77770e37-dda2-4cf3-b2f1-cea4793bc3be"
       }
     ],
-    "used_designators": "Q1-3,FL1,P1,J1-4,M1-4,TC1-4,IC1-2,TR1,U1-10,SW1,C1-54,#PWR1-139,D1-5,F1,R1-41",
+    "used_designators": "TP1-40,LS1,L1-2,Q1-5,FL1,P1,J1-5,M1-4,TC1-4,IC1-2,TR1,U1-14,SW1-8,C1-60,Y1-2,#PWR1-142,D1-11,F1,R1-85",
     "variants": []
   },
   "sheets": [
