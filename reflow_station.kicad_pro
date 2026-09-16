@@ -69,7 +69,13 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -155,7 +161,7 @@
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 0.4,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -203,7 +209,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -230,7 +238,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -484,7 +497,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "reflow_station_library"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
@@ -895,7 +910,7 @@
         "uuid": "77770e37-dda2-4cf3-b2f1-cea4793bc3be"
       }
     ],
-    "used_designators": "TP1-40,LS1,L1-5,RV1-4,Q1-5,FL1,P1,J1-13,M1-4,TC1-4,IC1-2,TR1,U1-14,SW1-8,C1-63,Y1-2,#PWR1-145,D1-11,F1,R1-85",
+    "used_designators": "TP1-40,L1-5,LS1,Q1-5,RV1-4,FL1,P1,J1-13,M1-4,TC1-4,IC1-2,TR1,C1-63,SW1-8,U1-14,F1,Y1-2,#PWR1-145,D1-11,R1-85",
     "variants": []
   },
   "sheets": [
