@@ -5,10 +5,10 @@
 	(layer "F.Cu")
 	(descr "SOIC8E_2023")
 	(tags "Integrated Circuit")
-	(property "Reference" "IC**"
-		(at 0 0 0)
+	(property "Reference" "REF**"
+		(at 0 0 180)
 		(layer "F.SilkS")
-		(uuid "edca99fa-853c-4aba-b539-f68cd4cc2fb6")
+		(uuid "e808efed-ae22-47b8-be8d-a6541692c875")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16,11 +16,11 @@
 			)
 		)
 	)
-	(property "Value" "SOIC127P600X170-9N"
-		(at 0 0 0)
+	(property "Value" "MP100LGN-Z"
+		(at 0 0 180)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "f7faff5e-3eb0-4cb9-bd39-9d11a545d1dd")
+		(uuid "55714c64-fc62-444b-8ec8-f29d0c631481")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -28,28 +28,95 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
-		(at 0 0 0)
+	(property "Datasheet" "https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP100L/document_id/11"
+		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "cb7ec227-77fd-4067-897c-33a2d8c5924c")
+		(uuid "343d7f96-4d26-4667-8c00-97f7dc945988")
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 	)
-	(property "Description" ""
-		(at 0 0 0)
+	(property "Description" "AC/DC Converters Offline Inductorless regulator, Low EMI"
+		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "314c7b46-5235-4110-9ee2-07a6a9b3cbb3")
+		(uuid "8852e4a0-6f4c-4551-9205-503019d9200e")
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 	)
+	(property "Height" "1.7"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f1bde7c9-c0ca-4476-b8ec-0deb066764ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "946-MP100LGN-Z"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5de560d9-6cd7-43ba-aa7f-93d04c43d2c6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Monolithic-Power-Systems-MPS/MP100LGN-Z?qs=IW9Tsl75qsX3eHoWQ4KqLg%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4b5bcf85-38b9-4714-8fe1-7f1298d00e5b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Monolithic Power Systems (MPS)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0a09e078-f33d-4c4e-b333-4322bb417c18")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "MP100LGN-Z"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "79fe767d-40e6-46f3-be80-7acc684c0416")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/")
+	(sheetfile "reflow_station.kicad_sch")
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
@@ -60,7 +127,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "befe4f5a-23c4-434d-b413-21f2f05dbebc")
+		(uuid "ffca5fae-c6ec-4081-acc6-ca73719ba943")
 	)
 	(fp_line
 		(start -3.725 -2.75)
@@ -70,7 +137,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "9a4d9171-5fe3-43cd-b756-55a994ec25c5")
+		(uuid "157f6a22-dfa7-4805-9771-d1a8fe81b348")
 	)
 	(fp_line
 		(start -3.725 2.75)
@@ -80,7 +147,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "8adbe1b6-0b35-4e6a-b7e5-6ddef071a739")
+		(uuid "f844c585-7323-4fc7-ad16-7548da2087b2")
 	)
 	(fp_line
 		(start 3.725 -2.75)
@@ -90,7 +157,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "67179734-4530-41d0-a659-e45dbf11f5c0")
+		(uuid "8eae60f3-309a-4b25-b71c-5519a12be7de")
 	)
 	(fp_line
 		(start 3.725 2.75)
@@ -100,7 +167,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "0d3402d2-e4c3-40d7-b267-196ed07aba1d")
+		(uuid "97eb16d4-c510-4b86-b7a8-4c008fc56120")
 	)
 	(fp_line
 		(start -1.95 -2.45)
@@ -110,7 +177,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "fbef311a-cd90-4f45-9bb0-f36dd4be969d")
+		(uuid "95b3c6d3-d2c1-43e4-b9d2-9ad28c86d236")
 	)
 	(fp_line
 		(start -1.95 -1.18)
@@ -120,7 +187,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "d2dd4fa0-5710-4921-949d-c178aeb7c28e")
+		(uuid "f9b3aa3a-6b2d-44a0-a11f-33b826d7311e")
 	)
 	(fp_line
 		(start -1.95 2.45)
@@ -130,7 +197,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "b827b029-4dc1-4844-97df-2ca262d436be")
+		(uuid "13b3d43a-9a10-4116-82ff-5157a81d940e")
 	)
 	(fp_line
 		(start 1.95 -2.45)
@@ -140,7 +207,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "22f4faf2-8f7b-4a41-95d2-162e2138717e")
+		(uuid "a8926ed3-e081-4264-890b-78e69df9b00d")
 	)
 	(fp_line
 		(start 1.95 2.45)
@@ -150,12 +217,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "9d2605f8-014a-4557-a168-00c6fb6379ed")
+		(uuid "bf674b97-94e2-4833-825c-d9ab9a3044dd")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at 0 0 180)
 		(layer "F.Fab")
-		(uuid "1faabd12-9899-42fe-a772-81f3d1f910c5")
+		(uuid "314f6d63-89d8-4ae4-bd78-6b89ce97ff23")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -167,55 +234,55 @@
 		(at -2.712 -1.905 90)
 		(size 0.7 1.525)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "177a7235-953b-46a3-80ba-1931f608a5d6")
+		(uuid "3d4e6af7-af5f-4670-b238-305b88a2a385")
 	)
 	(pad "2" smd rect
 		(at -2.712 -0.635 90)
 		(size 0.7 1.525)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "ba135c38-9dfe-45d5-afcd-8531e886ff83")
+		(uuid "ab8084bd-b15f-4e1f-9433-85b805e51efd")
 	)
 	(pad "3" smd rect
 		(at -2.712 0.635 90)
 		(size 0.7 1.525)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "a218456a-1169-4d11-8ce8-6cee1d65a4d1")
+		(uuid "8c059096-1bee-4b2b-ad48-21ed30123287")
 	)
 	(pad "4" smd rect
 		(at -2.712 1.905 90)
 		(size 0.7 1.525)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "18ff8c67-252d-4ce7-95d1-210b4acfbf26")
+		(uuid "755e4b3c-d672-4223-8800-d4bd65922e53")
 	)
 	(pad "5" smd rect
 		(at 2.712 1.905 90)
 		(size 0.7 1.525)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "290ad24d-229f-44f0-aa46-14be939256a9")
+		(uuid "6c45c282-a3f2-41cc-abe4-1c8f14b39775")
 	)
 	(pad "6" smd rect
 		(at 2.712 0.635 90)
 		(size 0.7 1.525)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "fd262b15-95ee-4e60-a7d9-11ec42da391d")
+		(uuid "7cf88d5e-6a99-43e3-bae6-b78af3169796")
 	)
 	(pad "7" smd rect
 		(at 2.712 -0.635 90)
 		(size 0.7 1.525)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "fa009815-f2aa-4695-bc46-e2068fc60382")
+		(uuid "abb91992-5534-4f45-89da-2e399857e8b6")
 	)
 	(pad "8" smd rect
 		(at 2.712 -1.905 90)
 		(size 0.7 1.525)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "46d95092-39e2-4656-9c83-5a5ebb1063bb")
+		(uuid "0d8c1b47-6114-4503-b326-1d3fecbbd796")
 	)
 	(pad "9" smd rect
 		(at 0 0)
 		(size 2.56 3.45)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "0d2fd9c4-91a2-42ca-9fbf-dc6aa0f915ef")
+		(uuid "01bf7cd3-c781-4b82-a752-7fd273523aee")
 	)
 	(embedded_fonts no)
 	(model "${REFLOW_STATION}/MP100LGN-Z.stp"

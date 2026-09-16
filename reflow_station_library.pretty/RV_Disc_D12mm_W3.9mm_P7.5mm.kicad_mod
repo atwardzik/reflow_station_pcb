@@ -6,9 +6,9 @@
 	(descr "Varistor, diameter 12mm, width 3.9mm, pitch 7.5mm")
 	(tags "varistor SIOV")
 	(property "Reference" "REF**"
-		(at 3.75 3.65 0)
+		(at 3.75 3.65 180)
 		(layer "F.SilkS")
-		(uuid "1e4b4415-66d0-42b8-86b9-63d0b5cc4371")
+		(uuid "94c68273-d74b-4d2f-a405-b9e18da8cb4f")
 		(effects
 			(font
 				(size 1 1)
@@ -17,9 +17,9 @@
 		)
 	)
 	(property "Value" "350VAC"
-		(at 3.75 -2.25 0)
+		(at 3.75 -2.25 180)
 		(layer "F.Fab")
-		(uuid "735ffa48-7ae2-4a7b-9125-91f6ace0bacf")
+		(uuid "be2d2bc4-5248-4d88-9231-89a485a1a8b4")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3523a2b4-0b8b-4a33-b0ef-c06980db790c")
+		(uuid "76759fd2-8434-4b97-ac8e-565342a481b9")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1a435041-8992-452f-a28b-5bb8c806dc22")
+		(uuid "f11d9201-426c-403d-bde4-c8c7693fb562")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -58,7 +58,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7f7abfae-e2df-4eb5-90f3-3ea1512cac49")
+		(uuid "081dc8c6-e889-4e26-ac80-43a983b66c52")
 		(effects
 			(font
 				(size 1 1)
@@ -71,7 +71,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7f2216e1-98b2-4173-912e-155fb93757fd")
+		(uuid "62133569-8672-4ee8-b268-7db54314bb40")
 		(effects
 			(font
 				(size 1 1)
@@ -84,7 +84,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7be716a6-4f65-4de4-9291-7210ae027f1d")
+		(uuid "761a7a54-b96b-4448-87a2-e11a94f1266b")
 		(effects
 			(font
 				(size 1 1)
@@ -97,7 +97,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "339ce800-3309-49bf-a172-d7795acd22d7")
+		(uuid "92d76c19-e2ee-4bc9-aeff-e273c2f80b5e")
 		(effects
 			(font
 				(size 1 1)
@@ -110,7 +110,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "86366d8c-82c9-4681-86c6-4dc3b9438974")
+		(uuid "198f8d94-c398-496c-b02f-cd0f82464d23")
 		(effects
 			(font
 				(size 1 1)
@@ -131,7 +131,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "b11e7975-9b54-4ccf-afaa-1c595944c61f")
+		(uuid "6a0efb8c-04cf-4545-81d8-fcc6d921d921")
 	)
 	(fp_line
 		(start -2.25 -1.25)
@@ -141,7 +141,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "0ef89487-52ee-4567-ad9e-085029dd4ccd")
+		(uuid "149ee145-8070-4fc8-ac88-3495ddafb7ed")
 	)
 	(fp_line
 		(start -2.25 2.65)
@@ -151,7 +151,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "f73e148e-ef39-4ca3-a16d-7a997fee63bf")
+		(uuid "a304237c-546b-4c2d-805d-51f52dc37ed7")
 	)
 	(fp_line
 		(start 9.75 -1.25)
@@ -161,7 +161,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "76e597ec-4aed-4104-84fa-7813d213c947")
+		(uuid "a1dcbc38-777f-4012-a4fb-61ff55f83be6")
 	)
 	(fp_line
 		(start -2.5 -1.5)
@@ -171,7 +171,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "f6cba79f-5507-42fd-86cf-0b066e4bc950")
+		(uuid "d88eb2cb-1d97-4af7-aa99-f9a178a0c2ed")
 	)
 	(fp_line
 		(start -2.5 -1.5)
@@ -181,7 +181,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "240647fd-edf1-45f3-9500-687e9f111f6f")
+		(uuid "0f3b66dc-20ef-4d62-b787-5d3fe3bf104b")
 	)
 	(fp_line
 		(start -2.5 2.9)
@@ -191,7 +191,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "aa9cae24-4c80-4ef3-a525-d57ff2cc3d5f")
+		(uuid "06a5b0d8-734a-4625-807c-167bcb29c1af")
 	)
 	(fp_line
 		(start 10 -1.5)
@@ -201,7 +201,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "c624f734-2f96-410d-9ac5-699d4f51be09")
+		(uuid "6bf7d824-54fc-4dd8-868c-afd45f20b2b3")
 	)
 	(fp_line
 		(start -2.25 -1.25)
@@ -211,7 +211,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "ead2726c-bf02-43be-964c-6a301447d0c1")
+		(uuid "20e5c08e-5e3a-475d-88e4-c5f6e2d75876")
 	)
 	(fp_line
 		(start -2.25 -1.25)
@@ -221,7 +221,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "15bfe6d6-4e31-4e68-b86c-b76e1390e9a1")
+		(uuid "a6545eb9-de98-4cd5-8ace-467bc7c26d93")
 	)
 	(fp_line
 		(start -2.25 2.65)
@@ -231,7 +231,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "a7d1f8e1-e2e1-42a4-9355-dfc382c6f309")
+		(uuid "3b036b45-28b4-4399-ac31-e5be73b54add")
 	)
 	(fp_line
 		(start 9.75 -1.25)
@@ -241,12 +241,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "3dd18dcf-ef42-44d4-a564-a0c3b81e85ca")
+		(uuid "bd3e8b74-7e65-4ae8-8313-9ba131b19392")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 3.75 0.7 0)
+		(at 3.75 0.7 180)
 		(layer "F.Fab")
-		(uuid "91aa14b0-9360-4c85-bf88-e69e2482cf6c")
+		(uuid "1e691706-bf0b-43aa-b2d9-a669830cfcc3")
 		(effects
 			(font
 				(size 1 1)
@@ -260,7 +260,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "53955e3a-af26-4660-96bd-164a387b32be")
+		(uuid "7aa87193-4643-4dbf-8be4-43704e0f1156")
 	)
 	(pad "2" thru_hole circle
 		(at 7.5 1.4)
@@ -268,7 +268,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "4ca7c679-0fde-48e0-95dd-75f78e05386a")
+		(uuid "470e37ac-1038-4f64-bb60-38842115d9d8")
 	)
 	(embedded_fonts no)
 	(model "${KICAD10_3DMODEL_DIR}/Varistor.3dshapes/RV_Disc_D12mm_W3.9mm_P7.5mm.step"
