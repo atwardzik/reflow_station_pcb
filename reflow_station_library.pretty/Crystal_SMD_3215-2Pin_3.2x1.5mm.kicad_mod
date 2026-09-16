@@ -6,9 +6,9 @@
 	(descr "SMD Crystal FC-135 https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-135R_en.pdf")
 	(tags "SMD SMT Crystal")
 	(property "Reference" "REF**"
-		(at 0 -2 0)
+		(at 0 -2 180)
 		(layer "F.SilkS")
-		(uuid "2ea4813c-3fc6-49f2-a892-e11568c56a92")
+		(uuid "33ae54d9-9b38-4228-9bd0-32676a63899b")
 		(effects
 			(font
 				(size 1 1)
@@ -17,9 +17,9 @@
 		)
 	)
 	(property "Value" "32.768kHz"
-		(at 0 2 0)
+		(at 0 2 180)
 		(layer "F.Fab")
-		(uuid "21c2c530-3d72-412a-b776-dd52a9e6eb0a")
+		(uuid "3f6364d9-3140-4be7-b322-91782d87539a")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "5157fa52-6d6c-4512-b8f9-d7239c4e757e")
+		(uuid "509b7b1a-9e76-4dc7-a38d-0dd4feac8a62")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "655588b3-5609-4760-9368-42a9e2630f36")
+		(uuid "a6fb9fba-fc46-45a0-ba82-c1bdeba389e2")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -66,7 +66,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "273f8ee5-325b-4c2c-b381-1a738bcd8efc")
+		(uuid "54437d6b-84b6-4f9e-a679-c5c691d5713f")
 	)
 	(fp_line
 		(start -0.675 0.875)
@@ -76,7 +76,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "bc4125c4-357a-4b0b-8613-87694494d6fe")
+		(uuid "c00d8bc2-2cab-422f-a557-5dbf4e948c32")
 	)
 	(fp_line
 		(start -2 -1.15)
@@ -86,7 +86,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "3a30cb64-04fb-4d76-a345-de5676323dc6")
+		(uuid "c42635f8-9635-4f32-8cf3-cdd5ae96b9ac")
 	)
 	(fp_line
 		(start -2 -1.15)
@@ -96,7 +96,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "9172c483-29ae-4810-add6-6156f8db63ba")
+		(uuid "0984ec48-d65b-478b-81a4-66c04c3f3a0b")
 	)
 	(fp_line
 		(start -2 1.15)
@@ -106,7 +106,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "f78a9ee2-6bee-4b00-b555-56f093fe4f4b")
+		(uuid "63a324c3-b653-4735-b296-6df6beaf9f48")
 	)
 	(fp_line
 		(start 2 -1.15)
@@ -116,7 +116,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "b34228b9-248c-4a33-bafa-aa6aa65d5b9f")
+		(uuid "0e35eb7f-5a25-4f0e-9a7b-e7310f3c60a3")
 	)
 	(fp_line
 		(start -1.6 -0.75)
@@ -126,7 +126,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "a58fa535-515e-4440-9bb2-f05a4553f9ae")
+		(uuid "c073cbb5-eccd-4fc0-a38d-c7b041781be2")
 	)
 	(fp_line
 		(start -1.6 -0.75)
@@ -136,7 +136,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "fb751113-6ee0-4374-96d8-fb0371ad2371")
+		(uuid "251f6a8e-8763-4e3e-9bf1-66c075ef9a59")
 	)
 	(fp_line
 		(start -1.6 0.75)
@@ -146,7 +146,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "ba01c53d-8397-45b9-a8fb-65c0af1327b3")
+		(uuid "9b8c443c-ce52-4d93-be90-1405338006f8")
 	)
 	(fp_line
 		(start 1.6 -0.75)
@@ -156,12 +156,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "ff725598-4524-4d9f-8d8a-e95c54970708")
+		(uuid "b79ded67-ca9b-44ca-bf68-0622fd42e3bb")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 -2 0)
+		(at 0 -2 180)
 		(layer "F.Fab")
-		(uuid "1d859a10-7c40-48e7-b5c0-004a16a0beca")
+		(uuid "53be0c69-35b0-44df-9126-6f0ce63fcdbd")
 		(effects
 			(font
 				(size 1 1)
@@ -173,13 +173,13 @@
 		(at 1.25 0)
 		(size 1 1.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "8b10c7e5-805a-4921-823c-d3e60b907064")
+		(uuid "0831dde8-8759-47e1-b43f-a5f45b45f039")
 	)
 	(pad "2" smd rect
 		(at -1.25 0)
 		(size 1 1.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "b7251c80-8f67-4705-aeec-d04be640e77c")
+		(uuid "d308d18f-12d6-4328-b04b-817f27da971f")
 	)
 	(embedded_fonts no)
 	(model "${KICAD10_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_3215-2Pin_3.2x1.5mm.step"

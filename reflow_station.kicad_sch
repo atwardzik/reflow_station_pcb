@@ -11,228 +11,6 @@
 		(company "Artur Twardzik")
 	)
 	(lib_symbols
-		(symbol "Mechanical:MountingHole"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "MountingHole_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "H"
-				(at 0 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole_Pad"
-				(at 0 4.445 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Mounting Hole with connection"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*Pad*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_0_1"
-				(circle
-					(center 0 1.27)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_1_1"
-				(pin input line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "reflow_station_symbols:+12V"
 			(power global)
 			(pin_numbers
@@ -789,7 +567,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "reflow_station_symbols:1707027"
+		(symbol "reflow_station_symbols:1731721"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -806,7 +584,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "1707027"
+			(property "Value" "1731721"
 				(at 16.51 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -817,7 +595,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "1707027"
+			(property "Footprint" "1731721"
 				(at 16.51 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -829,7 +607,7 @@
 					(justify left top)
 				)
 			)
-			(property "Datasheet" "https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-gmkdsn-15-2-762-1707027?type=pdf"
+			(property "Datasheet" "https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-gmkds-3-2-762-1731721?type=pdf"
 				(at 16.51 -194.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -841,7 +619,7 @@
 					(justify left top)
 				)
 			)
-			(property "Description" "GMKDSN 1,5/ 2-7,62 - Printed circuit board terminal, nominal current: 16 A, rated voltage (III/2): 630 V, nominal cross section: 1.5 mm<sup>2</sup>, number of potentials: 2, number of rows: 1, number of positions per row: 2, product range: GMKDSN 1,5, pitch: 7.62 mm, connection method: Screw connection with tension sleeve, screw head form: L Slotted, mounting: Wave soldering, conductor/PCB connection direction: 0 , color: green, Pin layout: Linear pinning, Solder pin [P]: 3.5 mm, number of solder pins per"
+			(property "Description" "GMKDS 3/ 2-7,62 - Printed circuit board terminal, nominal current: 24 A, rated voltage (III/2): 630 V, nominal cross section: 2.5 mm<sup>2</sup>, number of potentials: 2, number of rows: 1, number of positions per row: 2, product range: GMKDS 3, pitch: 7.62 mm, connection method: Screw connection with tension sleeve, screw head form: L Slotted, mounting: Wave soldering, conductor/PCB connection direction: 0 , color: green, Pin layout: Linear pinning, Solder pin [P]: 5 mm, number of solder pins per potentia"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -852,7 +630,7 @@
 					)
 				)
 			)
-			(property "Height" "10"
+			(property "Height" "18.2"
 				(at 16.51 -394.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -900,7 +678,7 @@
 					(justify left top)
 				)
 			)
-			(property "Manufacturer_Part_Number" "1707027"
+			(property "Manufacturer_Part_Number" "1731721"
 				(at 16.51 -794.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -912,7 +690,7 @@
 					(justify left top)
 				)
 			)
-			(symbol "1707027_1_1"
+			(symbol "1731721_1_1"
 				(rectangle
 					(start 5.08 2.54)
 					(end 15.24 -5.08)
@@ -6691,6 +6469,228 @@
 						)
 					)
 					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "reflow_station_symbols:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "reflow_station_symbols:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -34016,7 +34016,7 @@
 		)
 	)
 	(symbol
-		(lib_id "reflow_station_symbols:1707027")
+		(lib_id "reflow_station_symbols:1731721")
 		(at 1007.11 104.14 90)
 		(mirror x)
 		(unit 1)
@@ -34049,7 +34049,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "reflow_station_library:1707027"
+		(property "Footprint" "1731721"
 			(at 1102.03 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -34061,7 +34061,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-gmkdsn-15-2-762-1707027?type=pdf"
+		(property "Datasheet" "https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-gmkds-3-2-762-1731721?type=pdf"
 			(at 1202.03 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -34073,7 +34073,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "GMKDSN 1,5/ 2-7,62 - Printed circuit board terminal, nominal current: 16 A, rated voltage (III/2): 630 V, nominal cross section: 1.5 mm<sup>2</sup>, number of potentials: 2, number of rows: 1, number of positions per row: 2, product range: GMKDSN 1,5, pitch: 7.62 mm, connection method: Screw connection with tension sleeve, screw head form: L Slotted, mounting: Wave soldering, conductor/PCB connection direction: 0 , color: green, Pin layout: Linear pinning, Solder pin [P]: 3.5 mm, number of solder pins per"
+		(property "Description" "GMKDS 3/ 2-7,62 - Printed circuit board terminal, nominal current: 24 A, rated voltage (III/2): 630 V, nominal cross section: 2.5 mm<sup>2</sup>, number of potentials: 2, number of rows: 1, number of positions per row: 2, product range: GMKDS 3, pitch: 7.62 mm, connection method: Screw connection with tension sleeve, screw head form: L Slotted, mounting: Wave soldering, conductor/PCB connection direction: 0 , color: green, Pin layout: Linear pinning, Solder pin [P]: 5 mm, number of solder pins per potentia"
 			(at 1007.11 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -34084,7 +34084,7 @@
 				)
 			)
 		)
-		(property "Height" "10"
+		(property "Height" "18.2"
 			(at 1402.03 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -34132,7 +34132,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "1707027"
+		(property "Manufacturer_Part_Number" "1731721"
 			(at 1802.03 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -47320,7 +47320,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
+		(lib_id "reflow_station_symbols:MountingHole_Pad")
 		(at 63.5 515.62 0)
 		(unit 1)
 		(body_style 1)
@@ -47536,7 +47536,7 @@
 		)
 	)
 	(symbol
-		(lib_id "reflow_station_symbols:1707027")
+		(lib_id "reflow_station_symbols:1731721")
 		(at 1158.24 218.44 90)
 		(mirror x)
 		(unit 1)
@@ -47569,7 +47569,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "reflow_station_library:1707027"
+		(property "Footprint" "1731721"
 			(at 1253.16 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -47581,7 +47581,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-gmkdsn-15-2-762-1707027?type=pdf"
+		(property "Datasheet" "https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-gmkds-3-2-762-1731721?type=pdf"
 			(at 1353.16 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -47593,7 +47593,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "GMKDSN 1,5/ 2-7,62 - Printed circuit board terminal, nominal current: 16 A, rated voltage (III/2): 630 V, nominal cross section: 1.5 mm<sup>2</sup>, number of potentials: 2, number of rows: 1, number of positions per row: 2, product range: GMKDSN 1,5, pitch: 7.62 mm, connection method: Screw connection with tension sleeve, screw head form: L Slotted, mounting: Wave soldering, conductor/PCB connection direction: 0 , color: green, Pin layout: Linear pinning, Solder pin [P]: 3.5 mm, number of solder pins per"
+		(property "Description" "GMKDS 3/ 2-7,62 - Printed circuit board terminal, nominal current: 24 A, rated voltage (III/2): 630 V, nominal cross section: 2.5 mm<sup>2</sup>, number of potentials: 2, number of rows: 1, number of positions per row: 2, product range: GMKDS 3, pitch: 7.62 mm, connection method: Screw connection with tension sleeve, screw head form: L Slotted, mounting: Wave soldering, conductor/PCB connection direction: 0 , color: green, Pin layout: Linear pinning, Solder pin [P]: 5 mm, number of solder pins per potentia"
 			(at 1158.24 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -47604,7 +47604,7 @@
 				)
 			)
 		)
-		(property "Height" "10"
+		(property "Height" "18.2"
 			(at 1553.16 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -47652,7 +47652,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "1707027"
+		(property "Manufacturer_Part_Number" "1731721"
 			(at 1953.16 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -49318,8 +49318,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 316.23 20.32 0)
+		(lib_id "reflow_station_symbols:MountingHole")
+		(at 316.23 21.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -49330,7 +49330,7 @@
 		(fields_autoplaced yes)
 		(uuid "a568ed2a-8047-4316-a400-9bc598a1168b")
 		(property "Reference" "H1"
-			(at 318.77 19.0499 0)
+			(at 318.77 20.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -49341,7 +49341,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 318.77 21.5899 0)
+			(at 318.77 22.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -49352,7 +49352,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3mm"
-			(at 316.23 20.32 0)
+			(at 316.23 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49363,7 +49363,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 316.23 20.32 0)
+			(at 316.23 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49374,7 +49374,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 316.23 20.32 0)
+			(at 316.23 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50611,7 +50611,7 @@
 		)
 	)
 	(symbol
-		(lib_id "reflow_station_symbols:1707027")
+		(lib_id "reflow_station_symbols:1731721")
 		(at 1007.11 218.44 90)
 		(mirror x)
 		(unit 1)
@@ -50644,7 +50644,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "reflow_station_library:1707027"
+		(property "Footprint" "1731721"
 			(at 1102.03 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -50656,7 +50656,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-gmkdsn-15-2-762-1707027?type=pdf"
+		(property "Datasheet" "https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-gmkds-3-2-762-1731721?type=pdf"
 			(at 1202.03 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -50668,7 +50668,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "GMKDSN 1,5/ 2-7,62 - Printed circuit board terminal, nominal current: 16 A, rated voltage (III/2): 630 V, nominal cross section: 1.5 mm<sup>2</sup>, number of potentials: 2, number of rows: 1, number of positions per row: 2, product range: GMKDSN 1,5, pitch: 7.62 mm, connection method: Screw connection with tension sleeve, screw head form: L Slotted, mounting: Wave soldering, conductor/PCB connection direction: 0 , color: green, Pin layout: Linear pinning, Solder pin [P]: 3.5 mm, number of solder pins per"
+		(property "Description" "GMKDS 3/ 2-7,62 - Printed circuit board terminal, nominal current: 24 A, rated voltage (III/2): 630 V, nominal cross section: 2.5 mm<sup>2</sup>, number of potentials: 2, number of rows: 1, number of positions per row: 2, product range: GMKDS 3, pitch: 7.62 mm, connection method: Screw connection with tension sleeve, screw head form: L Slotted, mounting: Wave soldering, conductor/PCB connection direction: 0 , color: green, Pin layout: Linear pinning, Solder pin [P]: 5 mm, number of solder pins per potentia"
 			(at 1007.11 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -50679,7 +50679,7 @@
 				)
 			)
 		)
-		(property "Height" "10"
+		(property "Height" "18.2"
 			(at 1402.03 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -50727,7 +50727,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "1707027"
+		(property "Manufacturer_Part_Number" "1731721"
 			(at 1802.03 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -53486,7 +53486,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
+		(lib_id "reflow_station_symbols:MountingHole_Pad")
 		(at 339.09 21.59 0)
 		(unit 1)
 		(body_style 1)
@@ -54125,7 +54125,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
+		(lib_id "reflow_station_symbols:MountingHole_Pad")
 		(at 38.1 515.62 0)
 		(unit 1)
 		(body_style 1)
@@ -54704,7 +54704,7 @@
 		)
 	)
 	(symbol
-		(lib_id "reflow_station_symbols:1707027")
+		(lib_id "reflow_station_symbols:1731721")
 		(at 1158.24 104.14 90)
 		(mirror x)
 		(unit 1)
@@ -54737,7 +54737,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "reflow_station_library:1707027"
+		(property "Footprint" "1731721"
 			(at 1253.16 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -54749,7 +54749,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-gmkdsn-15-2-762-1707027?type=pdf"
+		(property "Datasheet" "https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-gmkds-3-2-762-1731721?type=pdf"
 			(at 1353.16 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -54761,7 +54761,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "GMKDSN 1,5/ 2-7,62 - Printed circuit board terminal, nominal current: 16 A, rated voltage (III/2): 630 V, nominal cross section: 1.5 mm<sup>2</sup>, number of potentials: 2, number of rows: 1, number of positions per row: 2, product range: GMKDSN 1,5, pitch: 7.62 mm, connection method: Screw connection with tension sleeve, screw head form: L Slotted, mounting: Wave soldering, conductor/PCB connection direction: 0 , color: green, Pin layout: Linear pinning, Solder pin [P]: 3.5 mm, number of solder pins per"
+		(property "Description" "GMKDS 3/ 2-7,62 - Printed circuit board terminal, nominal current: 24 A, rated voltage (III/2): 630 V, nominal cross section: 2.5 mm<sup>2</sup>, number of potentials: 2, number of rows: 1, number of positions per row: 2, product range: GMKDS 3, pitch: 7.62 mm, connection method: Screw connection with tension sleeve, screw head form: L Slotted, mounting: Wave soldering, conductor/PCB connection direction: 0 , color: green, Pin layout: Linear pinning, Solder pin [P]: 5 mm, number of solder pins per potentia"
 			(at 1158.24 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -54772,7 +54772,7 @@
 				)
 			)
 		)
-		(property "Height" "10"
+		(property "Height" "18.2"
 			(at 1553.16 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -54820,7 +54820,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "1707027"
+		(property "Manufacturer_Part_Number" "1731721"
 			(at 1953.16 120.65 0)
 			(hide yes)
 			(show_name no)

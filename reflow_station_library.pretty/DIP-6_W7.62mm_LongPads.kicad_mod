@@ -6,9 +6,9 @@
 	(descr "6-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), LongPads")
 	(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads")
 	(property "Reference" "REF**"
-		(at 3.81 -2.33 0)
+		(at 3.81 -2.33 180)
 		(layer "F.SilkS")
-		(uuid "f2ae66c8-729a-483c-a4af-af17b4d4174c")
+		(uuid "f212d7f2-3422-4749-a53c-54ca27307225")
 		(effects
 			(font
 				(size 1 1)
@@ -17,9 +17,9 @@
 		)
 	)
 	(property "Value" "MOC3023M"
-		(at 3.81 7.41 0)
+		(at 3.81 7.41 180)
 		(layer "F.Fab")
-		(uuid "aa77d9d8-c66f-43de-b35d-aae448e09e38")
+		(uuid "61e70f1b-9df4-45fd-bd0e-6787dc91e505")
 		(effects
 			(font
 				(size 1 1)
@@ -28,10 +28,10 @@
 		)
 	)
 	(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MOC3023M-D.PDF"
-		(at 0 0 0)
+		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "4ad63ed8-4d5c-44a5-b23e-c07b0e64b906")
+		(uuid "674f1a23-c162-4139-9508-17e5854b2b58")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39,10 +39,10 @@
 		)
 	)
 	(property "Description" "Random Phase Opto-Triac, Vdrm 400V, Ift 5mA, DIP6"
-		(at 0 0 0)
+		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c6eddefb-82f5-4c04-b051-a01589620145")
+		(uuid "62938d79-1a32-4549-a9b2-82bf2034d9ac")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50,10 +50,10 @@
 		)
 	)
 	(property "KiLib_Generator" "package/DIP/legacy"
-		(at 0 0 0)
+		(at 0 0 180)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "dcf2eab8-2a40-4ce4-94f3-9354c914cf14")
+		(uuid "86718194-2998-4250-a207-c5d21b4d1257")
 		(effects
 			(font
 				(size 1 1)
@@ -74,7 +74,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "bedeae4c-d5c5-4b63-b94b-27599e34066d")
+		(uuid "14f80203-b4fb-4a2e-aae9-3f60b9f9dd29")
 	)
 	(fp_line
 		(start 1.56 6.41)
@@ -84,7 +84,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "b1ab7b83-515b-4213-98f8-d0f5a0993309")
+		(uuid "21a10b61-d51f-45ed-9df9-81a0b9fa62dc")
 	)
 	(fp_line
 		(start 2.81 -1.33)
@@ -94,7 +94,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "ab12fd23-abe0-4bd9-bfe0-9d15da3806e0")
+		(uuid "01673ea3-b435-4f09-a491-dcadc330e7e0")
 	)
 	(fp_line
 		(start 6.06 -1.33)
@@ -104,7 +104,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "73d023f0-4058-4126-adc6-b174d5d6b8ac")
+		(uuid "1b55c0a6-be96-482c-928c-de8957c0facd")
 	)
 	(fp_line
 		(start 6.06 6.41)
@@ -114,7 +114,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "70379ffe-22e9-4644-ba08-2fbeb53f73bc")
+		(uuid "2ed4df1a-283f-4d16-afbc-d637ef742c5a")
 	)
 	(fp_arc
 		(start 4.81 -1.33)
@@ -125,7 +125,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "24f00862-d280-49f7-9307-d55de9e2acaa")
+		(uuid "c6e48d50-150d-4eb5-b454-d78917ae94d8")
 	)
 	(fp_rect
 		(start -1.45 -1.52)
@@ -136,7 +136,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "31f62f66-f32c-4a37-8ab4-e4cb99fc63ff")
+		(uuid "1e19b4f8-9c35-4ed9-ab2e-94d8a870b76f")
 	)
 	(fp_line
 		(start 0.635 -0.27)
@@ -146,7 +146,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "c81a1957-a264-4e7a-8a5d-e13731ac92d8")
+		(uuid "59626380-9555-48c6-9433-3d86fba747b1")
 	)
 	(fp_line
 		(start 0.635 6.35)
@@ -156,7 +156,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "9577cb0b-0ad4-41d9-a218-5fe84ba98413")
+		(uuid "d6f04056-5a96-4d1b-ac1a-c74dc84abbc1")
 	)
 	(fp_line
 		(start 1.635 -1.27)
@@ -166,7 +166,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "369086b4-e8d9-4409-90b3-9b50cca2da72")
+		(uuid "4e2a00a0-3fdb-4bfe-bbc9-a66d1f0c9dee")
 	)
 	(fp_line
 		(start 6.985 -1.27)
@@ -176,7 +176,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "2ea12423-b580-4419-ab1b-63e58e407993")
+		(uuid "2ef08ccc-b3d0-4a74-95a1-eb78fc622ff9")
 	)
 	(fp_line
 		(start 6.985 6.35)
@@ -186,12 +186,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "f5439942-d18b-40be-9cfe-1e822ad0985f")
+		(uuid "92b3178a-3970-43ac-adac-35ce1843f65f")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 3.81 2.54 90)
 		(layer "F.Fab")
-		(uuid "f326ec9b-8edf-4e36-9d86-6c8d02881e66")
+		(uuid "321f7083-8240-40fd-8c9e-b09828646b68")
 		(effects
 			(font
 				(size 1 1)
@@ -200,10 +200,10 @@
 		)
 	)
 	(point
-		(at 194.27 91.71)
+		(at 377.96 183.95)
 		(size 1.27)
 		(layer "F.Fab")
-		(uuid "ba12107d-ec6c-4e16-a10b-cab336183477")
+		(uuid "793e4eea-c6c0-4cc1-80be-840d18166a39")
 	)
 	(pad "1" thru_hole roundrect
 		(at 0 0)
@@ -212,7 +212,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.15625)
-		(uuid "08c2c3a4-8955-48b7-bd3d-a54d7bb83b2e")
+		(uuid "9505c8e2-75fa-457a-9f48-23e4416b095e")
 	)
 	(pad "2" thru_hole oval
 		(at 0 2.54)
@@ -220,7 +220,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "15fbbd59-32ce-48fe-b53e-f1cf1c230fdb")
+		(uuid "023ae3e9-0389-4d44-a597-2e7b961bd7b1")
 	)
 	(pad "3" thru_hole oval
 		(at 0 5.08)
@@ -228,7 +228,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "377148e0-ac72-493d-b323-c0c9201ac82d")
+		(uuid "dad4ffb0-dad7-4e63-9f1e-f6890709652f")
 	)
 	(pad "4" thru_hole oval
 		(at 7.62 5.08)
@@ -236,7 +236,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "47b341dc-c74c-4fb8-9011-4edafc56845b")
+		(uuid "47bf2873-ecea-42fe-a703-558aa8d8b539")
 	)
 	(pad "5" thru_hole oval
 		(at 7.62 2.54)
@@ -244,7 +244,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "2c652ed0-ba7b-4494-beb7-eb42faedacbf")
+		(uuid "3fdd1403-b77b-4218-a5f7-3e575faa2efa")
 	)
 	(pad "6" thru_hole oval
 		(at 7.62 0)
@@ -252,7 +252,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "07b74914-6189-4e11-b6b3-fbd32c4b2372")
+		(uuid "2452d4fc-251b-4fe1-b442-552e5535b8cb")
 	)
 	(embedded_fonts no)
 	(model "kicad-embed://DIP-6_W7.62mm.step"
