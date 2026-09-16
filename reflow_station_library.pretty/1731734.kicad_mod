@@ -5,10 +5,10 @@
 	(layer "F.Cu")
 	(descr "1731734")
 	(tags "Connector")
-	(property "Reference" "J**"
+	(property "Reference" "REF**"
 		(at 7.61 -0.3 0)
 		(layer "F.SilkS")
-		(uuid "543ac277-c230-4682-94d7-272ab972d3d9")
+		(uuid "bebf67f4-8f16-410f-9981-248993fdd40b")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20,7 +20,7 @@
 		(at 7.61 -0.3 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "1b344d65-07cb-476a-835c-756c09ff43db")
+		(uuid "fc57f1d4-6d41-4f41-9297-332e4b9c22d5")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -28,28 +28,95 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-gmkds-3-3-762-1731734?type=pdf"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ca488689-940a-4ad0-9476-37c562de0212")
+		(uuid "ccdecb23-abfa-4e0b-aa05-06617362199c")
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "GMKDS 3/ 3-7,62 - Printed circuit board terminal, nominal current: 24 A, rated voltage (III/2): 630 V, nominal cross section: 2.5 mm<sup>2</sup>, number of potentials: 3, number of rows: 1, number of positions per row: 3, product range: GMKDS 3, pitch: 7.62 mm, connection method: Screw connection with tension sleeve, screw head form: L Slotted, mounting: Wave soldering, conductor/PCB connection direction: 0 , color: green, Pin layout: Linear pinning, Solder pin [P]: 5 mm, number of solder pins per potentia"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c957115c-5a2a-4e1a-8e6e-0bc16fc72d90")
+		(uuid "24d827bc-7ba3-4bd4-a143-6b9cd6b4c7a8")
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 	)
+	(property "Height" "18"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5e673128-0602-4154-9596-d83abc5b2f87")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "TME Electronic Components Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2bf7d65a-b88e-4413-a639-cdf2f30155a3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "TME Electronic Components Price/Stock" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "46fd1af6-d24f-48f4-9f9a-fd688824fcef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Phoenix Contact"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7004d913-e08d-451e-b64d-654e4b7467e2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "1731734"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d309bdcd-5205-4328-b0cf-4106b8631496")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/")
+	(sheetfile "reflow_station.kicad_sch")
 	(attr through_hole)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
@@ -60,7 +127,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "e2bfe222-bc30-4060-89be-b7b56333c5df")
+		(uuid "cb061f99-25e7-4352-bff2-25db7a3022ee")
 	)
 	(fp_line
 		(start -3.82 5.3)
@@ -70,7 +137,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "8682ac38-aa1e-4cb8-bda3-0129f72261d6")
+		(uuid "1bd54f8b-046b-438f-98a1-d2d8f64b73a5")
 	)
 	(fp_line
 		(start 19.04 -5.9)
@@ -80,7 +147,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "0aa0071f-e9f8-4454-89e6-fe71542d3540")
+		(uuid "7bdd38d2-b2bf-48b3-86e0-015f378a05e5")
 	)
 	(fp_line
 		(start 19.04 5.3)
@@ -90,7 +157,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "c07df62b-3e45-44c7-98e4-f9b2c74b6057")
+		(uuid "00e89c2e-2fff-4a6d-affb-229b5a63354e")
 	)
 	(fp_line
 		(start -4.82 -6.9)
@@ -100,7 +167,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "9ed4fa27-fd43-4a27-9b82-482091f1b4ec")
+		(uuid "0c99d469-2fb5-4728-b50c-13e440d17cff")
 	)
 	(fp_line
 		(start -4.82 6.3)
@@ -110,7 +177,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "14cd819d-7429-4e1c-af3c-a63e626d5f8f")
+		(uuid "d38fb8f2-2884-4f2b-9147-162d5f89a965")
 	)
 	(fp_line
 		(start 20.04 -6.9)
@@ -120,7 +187,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "98bf6200-a2c7-43aa-b09f-db922735e586")
+		(uuid "5adcbd56-ea2c-4d8b-b985-04fc6c87a86d")
 	)
 	(fp_line
 		(start 20.04 6.3)
@@ -130,7 +197,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "dc8b7866-43c0-4a98-bd7e-d8a16c9f5923")
+		(uuid "e1d5f92e-2baf-4316-aed8-2c452ac29096")
 	)
 	(fp_line
 		(start -3.82 -5.9)
@@ -140,7 +207,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "6a22f2c8-8daa-455b-92ba-3f66ff16c614")
+		(uuid "c9bd6814-99d5-4f4f-b994-15aa5527bf11")
 	)
 	(fp_line
 		(start -3.82 5.3)
@@ -150,7 +217,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "de7937a1-5797-478e-8d63-40f61fdd7aa9")
+		(uuid "88ff3b12-0c26-4be5-a7ff-294d638f9f17")
 	)
 	(fp_line
 		(start 19.04 -5.9)
@@ -160,7 +227,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "f88c08bf-d21c-4ca0-b420-6a0479697afb")
+		(uuid "46e1c018-08f1-4aaa-981e-d4da61573b8e")
 	)
 	(fp_line
 		(start 19.04 5.3)
@@ -170,12 +237,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "0acd261a-1bd0-45bb-a4b3-92766cdf4e48")
+		(uuid "2de8d65b-15cf-4c55-b701-9808fa660297")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 7.61 -0.3 0)
 		(layer "F.Fab")
-		(uuid "e1d9e65b-a4e5-4c9f-829c-8d431066d898")
+		(uuid "4921c8f7-540e-45cf-b01e-1aa2b53329f7")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -189,7 +256,7 @@
 		(drill 1.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "e8723cf9-5c51-491e-a6f2-cfa52e5e79d2")
+		(uuid "9d9147f9-d198-4549-936f-2770100bf30a")
 	)
 	(pad "2" thru_hole circle
 		(at 7.61 0)
@@ -197,7 +264,7 @@
 		(drill 1.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "77025abe-4322-428c-a16e-fc0e2f891275")
+		(uuid "c349848b-a91f-4ac6-bf92-e52cf2076400")
 	)
 	(pad "3" thru_hole circle
 		(at 15.22 0)
@@ -205,10 +272,10 @@
 		(drill 1.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "730a83b0-030e-4ef6-886b-a04f9c878f92")
+		(uuid "9c2baf73-4e87-487b-af80-e07bd256660e")
 	)
 	(embedded_fonts no)
-	(model "1731734.stp"
+	(model "${REFLOW_STATION}/1731734.stp"
 		(offset
 			(xyz -3.819999876 -5.26000015 0)
 		)

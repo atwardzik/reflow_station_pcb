@@ -26629,7 +26629,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 438.15 248.158 90)
 			(hide yes)
 			(show_name no)
@@ -26652,6 +26652,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 438.15 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 438.15 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -26711,7 +26722,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "reflow_station_library:TestPoint_Pad_D1.0mm"
 			(at 758.19 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -26790,7 +26801,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 60.198 381 90)
 			(hide yes)
 			(show_name no)
@@ -26813,6 +26824,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 58.42 381 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 58.42 381 0)
 			(hide yes)
 			(show_name no)
@@ -26872,7 +26894,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 150.368 124.46 90)
 			(hide yes)
 			(show_name no)
@@ -26895,6 +26917,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 148.59 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 148.59 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -26952,7 +26985,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 71.12 362.458 90)
 			(hide yes)
 			(show_name no)
@@ -26975,6 +27008,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 71.12 360.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 71.12 360.68 0)
 			(hide yes)
 			(show_name no)
@@ -27034,7 +27078,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:C_0402_1005Metric"
 			(at 258.7752 297.18 0)
 			(hide yes)
 			(show_name no)
@@ -27057,6 +27101,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 257.81 293.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 257.81 293.37 0)
 			(hide yes)
 			(show_name no)
@@ -27114,7 +27169,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 330.2 116.078 90)
 			(hide yes)
 			(show_name no)
@@ -27137,6 +27192,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 330.2 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 330.2 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -27356,7 +27422,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "reflow_station_library:TestPoint_Pad_D1.0mm"
 			(at 755.65 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -27433,7 +27499,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 238.76 362.458 90)
 			(hide yes)
 			(show_name no)
@@ -27456,6 +27522,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 238.76 360.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 238.76 360.68 0)
 			(hide yes)
 			(show_name no)
@@ -27515,7 +27592,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "reflow_station_library:C_0805_2012Metric"
 			(at 91.1352 311.15 0)
 			(hide yes)
 			(show_name no)
@@ -27538,6 +27615,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 90.17 307.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 90.17 307.34 0)
 			(hide yes)
 			(show_name no)
@@ -27597,7 +27685,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "reflow_station_library:C_0805_2012Metric"
 			(at 500.0752 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -27620,6 +27708,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 499.11 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 499.11 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -27913,7 +28012,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+		(property "Footprint" "reflow_station_library:TO-220-3_Vertical"
 			(at 1116.33 93.345 0)
 			(hide yes)
 			(show_name no)
@@ -27939,6 +28038,17 @@
 			)
 		)
 		(property "Description" "16A RMS, 600V Off-State Voltage, 50mA Sensitivity, Insulated, Triac, TO-220"
+			(at 1111.25 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/TO_SOT/THT"
 			(at 1111.25 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -28001,7 +28111,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "reflow_station_library:C_0805_2012Metric"
 			(at 699.4652 416.56 0)
 			(hide yes)
 			(show_name no)
@@ -28024,6 +28134,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 698.5 412.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 698.5 412.75 0)
 			(hide yes)
 			(show_name no)
@@ -28083,7 +28204,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:C_0402_1005Metric"
 			(at 564.8452 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -28106,6 +28227,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 563.88 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 563.88 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -28621,7 +28753,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "reflow_station_library:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 981.202 82.55 90)
 			(hide yes)
 			(show_name no)
@@ -28644,6 +28776,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 982.98 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 982.98 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -28703,7 +28846,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:C_0402_1005Metric"
 			(at 258.7752 384.81 0)
 			(hide yes)
 			(show_name no)
@@ -28726,6 +28869,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 257.81 381 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 257.81 381 0)
 			(hide yes)
 			(show_name no)
@@ -28783,7 +28937,7 @@
 				)
 			)
 		)
-		(property "Footprint" "GeT_Footprints_Library:USB-C_SMD-TYPE-C-31-M-12"
+		(property "Footprint" "reflow_station_library:USB-C_SMD-TYPE-C-31-M-12"
 			(at 128.27 619.76 0)
 			(hide yes)
 			(show_name no)
@@ -28910,7 +29064,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 305.562 120.65 90)
 			(hide yes)
 			(show_name no)
@@ -28933,6 +29087,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 307.34 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 307.34 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -28992,7 +29157,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "reflow_station_library:TestPoint_Pad_D1.0mm"
 			(at 326.39 318.77 0)
 			(hide yes)
 			(show_name no)
@@ -29162,7 +29327,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 736.092 69.85 90)
 			(hide yes)
 			(show_name no)
@@ -29185,6 +29350,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 737.87 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 737.87 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -29543,7 +29719,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 908.05 204.978 90)
 			(hide yes)
 			(show_name no)
@@ -29566,6 +29742,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 908.05 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 908.05 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -29625,7 +29812,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 690.118 227.33 90)
 			(hide yes)
 			(show_name no)
@@ -29648,6 +29835,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 688.34 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 688.34 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -29708,7 +29906,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "reflow_station_library:TestPoint_Pad_D1.0mm"
 			(at 750.57 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -29943,7 +30141,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "reflow_station_library:C_0603_1608Metric"
 			(at 135.5852 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -29966,6 +30164,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 134.62 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 134.62 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -30025,7 +30234,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 766.318 227.33 90)
 			(hide yes)
 			(show_name no)
@@ -30048,6 +30257,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 764.54 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 764.54 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -30330,7 +30550,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "reflow_station_library:TestPoint_Pad_D1.0mm"
 			(at 805.18 467.36 0)
 			(hide yes)
 			(show_name no)
@@ -30487,7 +30707,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+		(property "Footprint" "reflow_station_library:TO-220-3_Vertical"
 			(at 965.2 207.645 0)
 			(hide yes)
 			(show_name no)
@@ -30513,6 +30733,17 @@
 			)
 		)
 		(property "Description" "16A RMS, 600V Off-State Voltage, 50mA Sensitivity, Insulated, Triac, TO-220"
+			(at 960.12 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/TO_SOT/THT"
 			(at 960.12 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -30575,7 +30806,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 148.082 632.46 90)
 			(hide yes)
 			(show_name no)
@@ -30598,6 +30829,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 149.86 632.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 149.86 632.46 0)
 			(hide yes)
 			(show_name no)
@@ -30890,7 +31132,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm"
+		(property "Footprint" "reflow_station_library:Crystal_SMD_3215-2Pin_3.2x1.5mm"
 			(at 820.42 631.19 0)
 			(hide yes)
 			(show_name no)
@@ -30970,7 +31212,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "reflow_station_library:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 539.75 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -30993,6 +31235,17 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 539.75 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "connector/JST"
 			(at 539.75 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -31052,7 +31305,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "reflow_station_library:R_0603_1608Metric"
 			(at 485.902 78.74 90)
 			(hide yes)
 			(show_name no)
@@ -31075,6 +31328,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 487.68 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 487.68 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -31212,7 +31476,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 227.838 353.06 90)
 			(hide yes)
 			(show_name no)
@@ -31235,6 +31499,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 226.06 353.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 226.06 353.06 0)
 			(hide yes)
 			(show_name no)
@@ -31293,7 +31568,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 720.852 81.28 90)
 			(hide yes)
 			(show_name no)
@@ -31316,6 +31591,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 722.63 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 722.63 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -31375,7 +31661,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:C_0402_1005Metric"
 			(at 674.0652 572.77 0)
 			(hide yes)
 			(show_name no)
@@ -31398,6 +31684,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 673.1 568.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 673.1 568.96 0)
 			(hide yes)
 			(show_name no)
@@ -31457,7 +31754,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal"
+		(property "Footprint" "reflow_station_library:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal"
 			(at 130.81 220.726 0)
 			(hide yes)
 			(show_name no)
@@ -31480,6 +31777,17 @@
 			)
 		)
 		(property "Description" "CPU Fan, tacho output, PWM input, 4-pin connector"
+			(at 130.81 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "connector/JST"
 			(at 130.81 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -31700,7 +32008,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 227.838 321.31 90)
 			(hide yes)
 			(show_name no)
@@ -31723,6 +32031,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 226.06 321.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 226.06 321.31 0)
 			(hide yes)
 			(show_name no)
@@ -31875,7 +32194,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:C_0402_1005Metric"
 			(at 191.4652 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -31898,6 +32217,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 190.5 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 190.5 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -32113,7 +32443,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:C_0402_1005Metric"
 			(at 801.0652 416.56 0)
 			(hide yes)
 			(show_name no)
@@ -32136,6 +32466,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 800.1 412.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 800.1 412.75 0)
 			(hide yes)
 			(show_name no)
@@ -32429,7 +32770,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Vertical"
+		(property "Footprint" "reflow_station_library:PinHeader_1x03_P1.00mm_Vertical"
 			(at 886.46 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -32485,6 +32826,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 822.96 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "connector/pin_header_socket"
 			(at 822.96 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -32625,7 +32977,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal"
+		(property "Footprint" "reflow_station_library:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal"
 			(at 293.37 219.456 0)
 			(hide yes)
 			(show_name no)
@@ -32648,6 +33000,17 @@
 			)
 		)
 		(property "Description" "CPU Fan, tacho output, PWM input, 4-pin connector"
+			(at 293.37 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "connector/JST"
 			(at 293.37 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -32713,7 +33076,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "reflow_station_library:TestPoint_Pad_D1.0mm"
 			(at 1036.32 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -32790,7 +33153,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "reflow_station_library:SOT-23"
 			(at 461.645 99.695 0)
 			(hide yes)
 			(show_name no)
@@ -32814,6 +33177,17 @@
 			)
 		)
 		(property "Description" "Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"
+			(at 459.74 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/gullwing"
 			(at 459.74 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -32876,7 +33250,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:C_0402_1005Metric"
 			(at 40.3352 458.47 0)
 			(hide yes)
 			(show_name no)
@@ -32899,6 +33273,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 39.37 454.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 39.37 454.66 0)
 			(hide yes)
 			(show_name no)
@@ -33036,7 +33421,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+		(property "Footprint" "reflow_station_library:TO-220-3_Vertical"
 			(at 965.2 93.345 0)
 			(hide yes)
 			(show_name no)
@@ -33062,6 +33447,17 @@
 			)
 		)
 		(property "Description" "16A RMS, 600V Off-State Voltage, 50mA Sensitivity, Insulated, Triac, TO-220"
+			(at 960.12 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/TO_SOT/THT"
 			(at 960.12 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -33124,7 +33520,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 827.278 214.63 90)
 			(hide yes)
 			(show_name no)
@@ -33147,6 +33543,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 825.5 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 825.5 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -33426,7 +33833,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-6_W7.62mm_LongPads"
+		(property "Footprint" "reflow_station_library:DIP-6_W7.62mm_LongPads"
 			(at 1069.34 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -33452,6 +33859,17 @@
 			)
 		)
 		(property "Description" "Random Phase Opto-Triac, Vdrm 400V, Ift 5mA, DIP6"
+			(at 1074.42 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/DIP/legacy"
 			(at 1074.42 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -33758,7 +34176,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
+		(property "Footprint" "reflow_station_library:TSSOP-10_3x3mm_P0.5mm"
 			(at 135.89 317.5 0)
 			(hide yes)
 			(show_name no)
@@ -33781,6 +34199,17 @@
 			)
 		)
 		(property "Description" "Ultrasmall, Low-Power, SPI-Compatible, 16-Bit Analog-to-Digital Converter with Internal Reference and Temperature Sensor, VSSOP-10"
+			(at 137.16 316.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/gullwing"
 			(at 137.16 316.23 0)
 			(hide yes)
 			(show_name no)
@@ -34018,7 +34447,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+		(property "Footprint" "reflow_station_library:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 666.75 549.91 0)
 			(hide yes)
 			(show_name no)
@@ -34041,6 +34470,17 @@
 			)
 		)
 		(property "Description" "Four pin crystal, GND on pins 2 and 4"
+			(at 666.75 549.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "crystal_resonator_oscillator"
 			(at 666.75 549.91 0)
 			(hide yes)
 			(show_name no)
@@ -34340,7 +34780,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 77.978 471.17 90)
 			(hide yes)
 			(show_name no)
@@ -34363,6 +34803,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 76.2 471.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 76.2 471.17 0)
 			(hide yes)
 			(show_name no)
@@ -34500,7 +34951,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "reflow_station_library:TestPoint_Pad_D1.0mm"
 			(at 340.36 308.61 0)
 			(hide yes)
 			(show_name no)
@@ -34734,7 +35185,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 213.36 52.578 90)
 			(hide yes)
 			(show_name no)
@@ -34757,6 +35208,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 213.36 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 213.36 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -34895,7 +35357,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "reflow_station_library:TestPoint_Pad_D1.0mm"
 			(at 1068.07 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -35131,7 +35593,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "reflow_station_library:LED_0603_1608Metric"
 			(at 222.25 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -35165,6 +35627,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 222.25 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 222.25 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -35224,7 +35697,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "reflow_station_library:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 164.7952 466.09 0)
 			(hide yes)
 			(show_name no)
@@ -35247,6 +35720,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 163.83 462.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 163.83 462.28 0)
 			(hide yes)
 			(show_name no)
@@ -35306,7 +35790,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:C_0402_1005Metric"
 			(at 258.7752 356.87 0)
 			(hide yes)
 			(show_name no)
@@ -35329,6 +35813,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 257.81 353.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 257.81 353.06 0)
 			(hide yes)
 			(show_name no)
@@ -35388,7 +35883,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "reflow_station_library:LED_0805_2012Metric"
 			(at 713.74 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -35422,6 +35917,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 713.74 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 713.74 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -35559,7 +36065,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 737.108 69.85 90)
 			(hide yes)
 			(show_name no)
@@ -35582,6 +36088,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 735.33 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 735.33 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -35786,7 +36303,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "reflow_station_library:C_0805_2012Metric"
 			(at 258.7752 311.15 0)
 			(hide yes)
 			(show_name no)
@@ -35809,6 +36326,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 257.81 307.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 257.81 307.34 0)
 			(hide yes)
 			(show_name no)
@@ -35946,7 +36474,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:C_0402_1005Metric"
 			(at 750.2652 416.56 0)
 			(hide yes)
 			(show_name no)
@@ -35969,6 +36497,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 749.3 412.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 749.3 412.75 0)
 			(hide yes)
 			(show_name no)
@@ -36026,7 +36565,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_1206_3216Metric_Pad1.22x1.90mm_HandSolder"
+		(property "Footprint" "reflow_station_library:L_1206_3216Metric_Pad1.22x1.90mm_HandSolder"
 			(at 171.45 508 0)
 			(hide yes)
 			(show_name no)
@@ -36049,6 +36588,17 @@
 			)
 		)
 		(property "Description" "Inductor"
+			(at 171.45 508 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 171.45 508 0)
 			(hide yes)
 			(show_name no)
@@ -36108,7 +36658,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 639.318 227.33 90)
 			(hide yes)
 			(show_name no)
@@ -36131,6 +36681,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 637.54 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 637.54 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -36267,7 +36828,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:C_0402_1005Metric"
 			(at 788.3652 480.06 0)
 			(hide yes)
 			(show_name no)
@@ -36290,6 +36851,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 787.4 476.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 787.4 476.25 0)
 			(hide yes)
 			(show_name no)
@@ -36349,7 +36921,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:C_0402_1005Metric"
 			(at 263.8552 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -36372,6 +36944,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 262.89 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 262.89 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -36431,7 +37014,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 744.728 81.28 90)
 			(hide yes)
 			(show_name no)
@@ -36454,6 +37037,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 742.95 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 742.95 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -36607,7 +37201,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 154.178 632.46 90)
 			(hide yes)
 			(show_name no)
@@ -36630,6 +37224,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 152.4 632.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 152.4 632.46 0)
 			(hide yes)
 			(show_name no)
@@ -36689,7 +37294,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "reflow_station_library:TestPoint_Pad_D1.0mm"
 			(at 232.41 763.27 0)
 			(hide yes)
 			(show_name no)
@@ -36766,7 +37371,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "reflow_station_library:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 488.95 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -36789,6 +37394,17 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 488.95 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "connector/JST"
 			(at 488.95 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -36847,7 +37463,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 438.15 220.218 90)
 			(hide yes)
 			(show_name no)
@@ -36870,6 +37486,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 438.15 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 438.15 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -36929,7 +37556,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "reflow_station_library:TestPoint_Pad_D1.0mm"
 			(at 201.93 452.12 0)
 			(hide yes)
 			(show_name no)
@@ -37086,7 +37713,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "reflow_station_library:TestPoint_Pad_D1.0mm"
 			(at 298.45 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -37162,7 +37789,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 71.12 315.468 90)
 			(hide yes)
 			(show_name no)
@@ -37185,6 +37812,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 71.12 313.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 71.12 313.69 0)
 			(hide yes)
 			(show_name no)
@@ -37244,7 +37882,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:C_0402_1005Metric"
 			(at 144.4752 369.57 0)
 			(hide yes)
 			(show_name no)
@@ -37267,6 +37905,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 143.51 365.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 143.51 365.76 0)
 			(hide yes)
 			(show_name no)
@@ -37325,7 +37974,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 291.592 128.27 90)
 			(hide yes)
 			(show_name no)
@@ -37348,6 +37997,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 293.37 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 293.37 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -37647,7 +38307,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "reflow_station_library:TestPoint_Pad_D1.0mm"
 			(at 195.58 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -37812,7 +38472,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "reflow_station_library:TestPoint_Pad_D1.0mm"
 			(at 190.5 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -37889,7 +38549,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "reflow_station_library:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 590.55 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -37912,6 +38572,17 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 590.55 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "connector/JST"
 			(at 590.55 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -38203,7 +38874,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 71.12 302.768 90)
 			(hide yes)
 			(show_name no)
@@ -38226,6 +38897,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 71.12 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 71.12 300.99 0)
 			(hide yes)
 			(show_name no)
@@ -38283,7 +38965,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-6_W7.62mm_LongPads"
+		(property "Footprint" "reflow_station_library:DIP-6_W7.62mm_LongPads"
 			(at 918.21 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -38309,6 +38991,17 @@
 			)
 		)
 		(property "Description" "Random Phase Opto-Triac, Vdrm 400V, Ift 5mA, DIP6"
+			(at 923.29 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/DIP/legacy"
 			(at 923.29 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -38458,7 +39151,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:C_0402_1005Metric"
 			(at 91.1352 384.81 0)
 			(hide yes)
 			(show_name no)
@@ -38481,6 +39174,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 90.17 381 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 90.17 381 0)
 			(hide yes)
 			(show_name no)
@@ -38618,7 +39322,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "reflow_station_library:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 981.202 196.85 90)
 			(hide yes)
 			(show_name no)
@@ -38641,6 +39345,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 982.98 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 982.98 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -38858,7 +39573,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 908.05 90.678 90)
 			(hide yes)
 			(show_name no)
@@ -38881,6 +39596,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 908.05 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 908.05 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -38940,7 +39666,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 740.918 227.33 90)
 			(hide yes)
 			(show_name no)
@@ -38963,6 +39689,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 739.14 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 739.14 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -39178,7 +39915,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "reflow_station_library:TestPoint_Pad_D1.0mm"
 			(at 665.48 532.13 0)
 			(hide yes)
 			(show_name no)
@@ -39257,7 +39994,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 305.562 69.85 90)
 			(hide yes)
 			(show_name no)
@@ -39280,6 +40017,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 307.34 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 307.34 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -39417,7 +40165,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx08_Slide_9.78x22.5mm_W7.62mm_P2.54mm"
+		(property "Footprint" "reflow_station_library:SW_DIP_SPSTx08_Slide_9.78x22.5mm_W7.62mm_P2.54mm"
 			(at 406.4 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -39440,6 +40188,17 @@
 			)
 		)
 		(property "Description" "8x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
+			(at 406.4 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "button_switch/DIP"
 			(at 406.4 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -39617,7 +40376,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "reflow_station_library:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 942.34 77.978 90)
 			(hide yes)
 			(show_name no)
@@ -39640,6 +40399,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 942.34 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "resistor/THT"
 			(at 942.34 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -39699,7 +40469,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "reflow_station_library:TestPoint_Pad_D1.0mm"
 			(at 831.85 615.95 0)
 			(hide yes)
 			(show_name no)
@@ -39778,7 +40548,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "reflow_station_library:R_0603_1608Metric"
 			(at 214.122 654.05 90)
 			(hide yes)
 			(show_name no)
@@ -39801,6 +40571,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 215.9 654.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 215.9 654.05 0)
 			(hide yes)
 			(show_name no)
@@ -39860,7 +40641,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Varistor:RV_Disc_D12mm_W3.9mm_P7.5mm"
+		(property "Footprint" "reflow_station_library:RV_Disc_D12mm_W3.9mm_P7.5mm"
 			(at 1000.252 203.2 90)
 			(hide yes)
 			(show_name no)
@@ -39997,7 +40778,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 132.588 438.15 90)
 			(hide yes)
 			(show_name no)
@@ -40020,6 +40801,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 130.81 438.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 130.81 438.15 0)
 			(hide yes)
 			(show_name no)
@@ -40080,7 +40872,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:C_0402_1005Metric"
 			(at 825.8048 641.35 0)
 			(hide yes)
 			(show_name no)
@@ -40103,6 +40895,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 826.77 637.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 826.77 637.54 0)
 			(hide yes)
 			(show_name no)
@@ -40245,7 +41048,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:C_0402_1005Metric"
 			(at 813.1048 641.35 0)
 			(hide yes)
 			(show_name no)
@@ -40268,6 +41071,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 814.07 637.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 814.07 637.54 0)
 			(hide yes)
 			(show_name no)
@@ -40483,7 +41297,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:C_0402_1005Metric"
 			(at 726.1352 480.06 0)
 			(hide yes)
 			(show_name no)
@@ -40506,6 +41320,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 725.17 476.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 725.17 476.25 0)
 			(hide yes)
 			(show_name no)
@@ -40644,7 +41469,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "reflow_station_library:TestPoint_Pad_D1.0mm"
 			(at 173.99 316.23 0)
 			(hide yes)
 			(show_name no)
@@ -41035,7 +41860,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 60.198 353.06 90)
 			(hide yes)
 			(show_name no)
@@ -41058,6 +41883,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 58.42 353.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 58.42 353.06 0)
 			(hide yes)
 			(show_name no)
@@ -41118,7 +41954,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "reflow_station_library:TestPoint_Pad_D1.0mm"
 			(at 504.19 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -41427,7 +42263,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 238.76 315.468 90)
 			(hide yes)
 			(show_name no)
@@ -41450,6 +42286,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 238.76 313.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 238.76 313.69 0)
 			(hide yes)
 			(show_name no)
@@ -41507,7 +42354,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-6_W7.62mm_LongPads"
+		(property "Footprint" "reflow_station_library:DIP-6_W7.62mm_LongPads"
 			(at 918.21 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -41533,6 +42380,17 @@
 			)
 		)
 		(property "Description" "Random Phase Opto-Triac, Vdrm 400V, Ift 5mA, DIP6"
+			(at 923.29 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/DIP/legacy"
 			(at 923.29 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -41604,7 +42462,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 305.562 133.35 90)
 			(hide yes)
 			(show_name no)
@@ -41627,6 +42485,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 307.34 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 307.34 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -41686,7 +42555,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "reflow_station_library:C_0805_2012Metric"
 			(at 801.0652 480.06 0)
 			(hide yes)
 			(show_name no)
@@ -41709,6 +42578,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 800.1 476.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 800.1 476.25 0)
 			(hide yes)
 			(show_name no)
@@ -41768,7 +42648,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "reflow_station_library:C_0805_2012Metric"
 			(at 178.7652 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -41791,6 +42671,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 177.8 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 177.8 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -42004,7 +42895,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-6_W7.62mm_LongPads"
+		(property "Footprint" "reflow_station_library:DIP-6_W7.62mm_LongPads"
 			(at 1069.34 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -42030,6 +42921,17 @@
 			)
 		)
 		(property "Description" "Random Phase Opto-Triac, Vdrm 400V, Ift 5mA, DIP6"
+			(at 1074.42 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/DIP/legacy"
 			(at 1074.42 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -42179,7 +43081,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "reflow_station_library:LED_0603_1608Metric"
 			(at 662.94 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -42213,6 +43115,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 662.94 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 662.94 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -42272,7 +43185,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "reflow_station_library:LED_0805_2012Metric"
 			(at 637.54 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -42306,6 +43219,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 637.54 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 637.54 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -42365,7 +43289,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "reflow_station_library:TestPoint_Pad_D1.0mm"
 			(at 116.84 298.45 0)
 			(hide yes)
 			(show_name no)
@@ -42444,7 +43368,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "reflow_station_library:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 1132.332 82.55 90)
 			(hide yes)
 			(show_name no)
@@ -42467,6 +43391,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 1134.11 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 1134.11 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -42526,7 +43461,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 227.838 381 90)
 			(hide yes)
 			(show_name no)
@@ -42549,6 +43484,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 226.06 381 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 226.06 381 0)
 			(hide yes)
 			(show_name no)
@@ -42686,7 +43632,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:C_0402_1005Metric"
 			(at 775.6652 416.56 0)
 			(hide yes)
 			(show_name no)
@@ -42709,6 +43655,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 774.7 412.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 774.7 412.75 0)
 			(hide yes)
 			(show_name no)
@@ -42768,7 +43725,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "reflow_station_library:TestPoint_Pad_D1.0mm"
 			(at 713.74 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -42925,7 +43882,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 60.198 321.31 90)
 			(hide yes)
 			(show_name no)
@@ -42948,6 +43905,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 58.42 321.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 58.42 321.31 0)
 			(hide yes)
 			(show_name no)
@@ -43006,7 +43974,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:C_0402_1005Metric"
 			(at 635.9652 530.86 0)
 			(hide yes)
 			(show_name no)
@@ -43029,6 +43997,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 635 527.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 635 527.05 0)
 			(hide yes)
 			(show_name no)
@@ -43088,7 +44067,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 729.488 60.96 90)
 			(hide yes)
 			(show_name no)
@@ -43111,6 +44090,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 727.71 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 727.71 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -43248,7 +44238,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "reflow_station_library:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 305.562 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -43271,6 +44261,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 307.34 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 307.34 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -43330,7 +44331,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 214.122 641.35 90)
 			(hide yes)
 			(show_name no)
@@ -43353,6 +44354,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 215.9 641.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 215.9 641.35 0)
 			(hide yes)
 			(show_name no)
@@ -43568,7 +44580,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_QFP:LQFP-100_14x14mm_P0.5mm"
+		(property "Footprint" "reflow_station_library:LQFP-100_14x14mm_P0.5mm"
 			(at 732.79 626.11 0)
 			(hide yes)
 			(show_name no)
@@ -43592,6 +44604,17 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 2048KB flash, 384KB RAM, 180 MHz, 1.7-3.6V, 71 GPIO, LQFP100"
+			(at 760.73 562.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/gullwing"
 			(at 760.73 562.61 0)
 			(hide yes)
 			(show_name no)
@@ -43945,7 +44968,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "reflow_station_library:TestPoint_Pad_D1.0mm"
 			(at 1036.32 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -44024,7 +45047,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "reflow_station_library:C_0603_1608Metric"
 			(at 488.6452 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -44047,6 +45070,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 487.68 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 487.68 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -44106,7 +45140,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:C_0402_1005Metric"
 			(at 131.7752 369.57 0)
 			(hide yes)
 			(show_name no)
@@ -44129,6 +45163,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 130.81 365.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 130.81 365.76 0)
 			(hide yes)
 			(show_name no)
@@ -44345,7 +45390,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "reflow_station_library:TestPoint_Pad_D1.0mm"
 			(at 563.88 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -44679,6 +45724,28 @@
 			)
 		)
 		(property "Description" "Miniature Glass Passivated Single-Phase Surface Mount Bridge Rectifiers, 700V Vrms, 1.0A If, MBLS SMD package"
+			(at 52.07 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC_3DModel" "6ef4e732a59e44bcbac362674dd9511b"
+			(at 52.07 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC_3D_Size" "4.7 7"
 			(at 52.07 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -45056,7 +46123,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:C_0402_1005Metric"
 			(at 91.1352 356.87 0)
 			(hide yes)
 			(show_name no)
@@ -45079,6 +46146,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 90.17 353.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 90.17 353.06 0)
 			(hide yes)
 			(show_name no)
@@ -45215,7 +46293,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:C_0402_1005Metric"
 			(at 658.8252 492.76 0)
 			(hide yes)
 			(show_name no)
@@ -45238,6 +46316,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 657.86 488.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 657.86 488.95 0)
 			(hide yes)
 			(show_name no)
@@ -45689,7 +46778,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "reflow_station_library:TestPoint_Pad_D1.0mm"
 			(at 274.32 363.22 0)
 			(hide yes)
 			(show_name no)
@@ -45766,7 +46855,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 635 508.508 90)
 			(hide yes)
 			(show_name no)
@@ -45789,6 +46878,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 635 506.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 635 506.73 0)
 			(hide yes)
 			(show_name no)
@@ -46004,7 +47104,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Varistor:RV_Disc_D12mm_W3.9mm_P7.5mm"
+		(property "Footprint" "reflow_station_library:RV_Disc_D12mm_W3.9mm_P7.5mm"
 			(at 1151.382 203.2 90)
 			(hide yes)
 			(show_name no)
@@ -46427,7 +47527,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 238.76 302.768 90)
 			(hide yes)
 			(show_name no)
@@ -46450,6 +47550,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 238.76 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 238.76 300.99 0)
 			(hide yes)
 			(show_name no)
@@ -46509,7 +47620,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:C_0402_1005Metric"
 			(at 737.5652 416.56 0)
 			(hide yes)
 			(show_name no)
@@ -46532,6 +47643,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 736.6 412.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 736.6 412.75 0)
 			(hide yes)
 			(show_name no)
@@ -46592,7 +47714,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 478.028 209.55 90)
 			(hide yes)
 			(show_name no)
@@ -46615,6 +47737,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 476.25 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 476.25 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -46674,7 +47807,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:C_0402_1005Metric"
 			(at 152.0952 466.09 0)
 			(hide yes)
 			(show_name no)
@@ -46697,6 +47830,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 151.13 462.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 151.13 462.28 0)
 			(hide yes)
 			(show_name no)
@@ -46756,7 +47900,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:C_0402_1005Metric"
 			(at 813.7652 416.56 0)
 			(hide yes)
 			(show_name no)
@@ -46779,6 +47923,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 812.8 412.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 812.8 412.75 0)
 			(hide yes)
 			(show_name no)
@@ -46839,7 +47994,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "reflow_station_library:TestPoint_Pad_D1.0mm"
 			(at 340.36 316.23 0)
 			(hide yes)
 			(show_name no)
@@ -46994,7 +48149,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_A_Molex_67643_Horizontal"
+		(property "Footprint" "reflow_station_library:USB_A_Molex_67643_Horizontal"
 			(at 189.23 474.98 0)
 			(hide yes)
 			(show_name no)
@@ -47083,7 +48238,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 328.93 52.578 90)
 			(hide yes)
 			(show_name no)
@@ -47106,6 +48261,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 328.93 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 328.93 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -47165,7 +48331,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 734.822 463.55 90)
 			(hide yes)
 			(show_name no)
@@ -47188,6 +48354,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 736.6 463.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 736.6 463.55 0)
 			(hide yes)
 			(show_name no)
@@ -47322,7 +48499,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 1059.18 204.978 90)
 			(hide yes)
 			(show_name no)
@@ -47345,6 +48522,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 1059.18 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 1059.18 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -47402,7 +48590,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 374.65 248.158 90)
 			(hide yes)
 			(show_name no)
@@ -47425,6 +48613,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 374.65 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 374.65 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -47484,7 +48683,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:C_0402_1005Metric"
 			(at 299.4152 369.57 0)
 			(hide yes)
 			(show_name no)
@@ -47507,6 +48706,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 298.45 365.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 298.45 365.76 0)
 			(hide yes)
 			(show_name no)
@@ -47564,7 +48774,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_1206_3216Metric_Pad1.22x1.90mm_HandSolder"
+		(property "Footprint" "reflow_station_library:L_1206_3216Metric_Pad1.22x1.90mm_HandSolder"
 			(at 107.95 660.4 0)
 			(hide yes)
 			(show_name no)
@@ -47587,6 +48797,17 @@
 			)
 		)
 		(property "Description" "Inductor"
+			(at 107.95 660.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 107.95 660.4 0)
 			(hide yes)
 			(show_name no)
@@ -47880,7 +49101,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:C_0402_1005Metric"
 			(at 263.8552 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -47903,6 +49124,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 262.89 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 262.89 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -47962,7 +49194,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "reflow_station_library:TestPoint_Pad_D1.0mm"
 			(at 173.99 308.61 0)
 			(hide yes)
 			(show_name no)
@@ -48042,7 +49274,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "reflow_station_library:TestPoint_Pad_D1.0mm"
 			(at 701.04 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -48275,7 +49507,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 831.85 551.688 90)
 			(hide yes)
 			(show_name no)
@@ -48298,6 +49530,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 831.85 549.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 831.85 549.91 0)
 			(hide yes)
 			(show_name no)
@@ -48818,7 +50061,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:C_0402_1005Metric"
 			(at 724.8652 416.56 0)
 			(hide yes)
 			(show_name no)
@@ -48841,6 +50084,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 723.9 412.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 723.9 412.75 0)
 			(hide yes)
 			(show_name no)
@@ -49120,7 +50374,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_1206_3216Metric_Pad1.22x1.90mm_HandSolder"
+		(property "Footprint" "reflow_station_library:L_1206_3216Metric_Pad1.22x1.90mm_HandSolder"
 			(at 120.65 800.1 0)
 			(hide yes)
 			(show_name no)
@@ -49143,6 +50397,17 @@
 			)
 		)
 		(property "Description" "Inductor"
+			(at 120.65 800.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 120.65 800.1 0)
 			(hide yes)
 			(show_name no)
@@ -49202,7 +50467,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10.5"
+		(property "Footprint" "reflow_station_library:CP_Elec_8x10.5"
 			(at 86.0552 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -49225,6 +50490,17 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 85.09 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "capacitor/SMD/elec_round_polarized"
 			(at 85.09 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -49284,7 +50560,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L12.0mm_D6.5mm_P15.00mm_Horizontal"
+		(property "Footprint" "reflow_station_library:C_Axial_L12.0mm_D6.5mm_P15.00mm_Horizontal"
 			(at 130.5052 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -49307,6 +50583,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 129.54 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "capacitor/THT/other"
 			(at 129.54 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -49718,7 +51005,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "reflow_station_library:TestPoint_Pad_D1.0mm"
 			(at 229.87 751.84 0)
 			(hide yes)
 			(show_name no)
@@ -49875,7 +51162,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Varistor:RV_Disc_D12mm_W3.9mm_P7.5mm"
+		(property "Footprint" "reflow_station_library:RV_Disc_D12mm_W3.9mm_P7.5mm"
 			(at 1151.382 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -50091,7 +51378,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 528.828 209.55 90)
 			(hide yes)
 			(show_name no)
@@ -50114,6 +51401,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 527.05 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 527.05 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -50172,7 +51470,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 438.15 239.268 90)
 			(hide yes)
 			(show_name no)
@@ -50195,6 +51493,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 438.15 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 438.15 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -50410,7 +51719,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "reflow_station_library:C_0805_2012Metric"
 			(at 577.5452 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -50433,6 +51742,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 576.58 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 576.58 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -50492,7 +51812,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:C_0402_1005Metric"
 			(at 258.7752 325.12 0)
 			(hide yes)
 			(show_name no)
@@ -50515,6 +51835,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 257.81 321.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 257.81 321.31 0)
 			(hide yes)
 			(show_name no)
@@ -50652,7 +51983,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "reflow_station_library:TestPoint_Pad_D1.0mm"
 			(at 735.33 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -50730,7 +52061,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 438.15 229.108 90)
 			(hide yes)
 			(show_name no)
@@ -50753,6 +52084,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 438.15 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 438.15 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -50812,7 +52154,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "reflow_station_library:TestPoint_Pad_D1.0mm"
 			(at 763.27 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -50889,7 +52231,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "reflow_station_library:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 438.15 90.678 90)
 			(hide yes)
 			(show_name no)
@@ -50912,6 +52254,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 438.15 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 438.15 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -51047,7 +52400,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_LGA:Texas_SIL0008D_MicroSiP-8-1EP_2.8x3mm_P0.65mm_EP1.1x1.9mm_ThermalVias"
+		(property "Footprint" "reflow_station_library:Texas_SIL0008D_MicroSiP-8-1EP_2.8x3mm_P0.65mm_EP1.1x1.9mm_ThermalVias"
 			(at 276.86 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -51070,6 +52423,17 @@
 			)
 		)
 		(property "Description" "17V Input 3A Step-Down Converter MicroSiP Module with Integrated Inductor, μSiL-8"
+			(at 276.86 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/no_lead"
 			(at 276.86 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -51228,7 +52592,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:C_0402_1005Metric"
 			(at 312.1152 369.57 0)
 			(hide yes)
 			(show_name no)
@@ -51251,6 +52615,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 311.15 365.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 311.15 365.76 0)
 			(hide yes)
 			(show_name no)
@@ -51393,7 +52768,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "reflow_station_library:TestPoint_Pad_D1.0mm"
 			(at 1068.07 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -51472,7 +52847,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "reflow_station_library:LED_0603_1608Metric"
 			(at 739.14 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -51506,6 +52881,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 739.14 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 739.14 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -51719,7 +53105,7 @@
 				)
 			)
 		)
-		(property "Footprint" "GeT_Footprints_Library:SW_TS-1088-AR02016"
+		(property "Footprint" "reflow_station_library:SW_TS-1088-AR02016"
 			(at 651.51 477.52 0)
 			(hide yes)
 			(show_name no)
@@ -51742,6 +53128,138 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 651.51 482.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 651.51 482.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TS-1088-AR02016/Xunpu/view-part/?ref=eda"
+			(at 651.51 482.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" "50mA 4mm 100MΩ 100,000 Times 12V 160gf 3mm 2mm Round Button Vertical welding SPST SMD Tactile Switches ROHS"
+			(at 651.51 482.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Xunpu"
+			(at 651.51 482.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "2.0 mm"
+			(at 651.51 482.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Xunpu"
+			(at 651.51 482.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" "TS-1088-AR02016"
+			(at 651.51 482.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "N/A"
+			(at 651.51 482.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "Package"
+			(at 651.51 482.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "None"
+			(at 651.51 482.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 651.51 482.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TS-1088-AR02016/Xunpu/view-part/?ref=snap"
 			(at 651.51 482.6 0)
 			(hide yes)
 			(show_name no)
@@ -51879,7 +53397,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:C_0402_1005Metric"
 			(at 762.9652 416.56 0)
 			(hide yes)
 			(show_name no)
@@ -51902,6 +53420,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 762 412.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 762 412.75 0)
 			(hide yes)
 			(show_name no)
@@ -51961,7 +53490,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "reflow_station_library:TestPoint_Pad_D1.0mm"
 			(at 229.87 769.62 0)
 			(hide yes)
 			(show_name no)
@@ -52038,7 +53567,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 374.65 220.218 90)
 			(hide yes)
 			(show_name no)
@@ -52061,6 +53590,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 374.65 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 374.65 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -52279,7 +53819,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "reflow_station_library:C_0805_2012Metric"
 			(at 91.1352 370.84 0)
 			(hide yes)
 			(show_name no)
@@ -52302,6 +53842,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 90.17 367.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 90.17 367.03 0)
 			(hide yes)
 			(show_name no)
@@ -52583,7 +54134,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "reflow_station_library:C_0805_2012Metric"
 			(at 648.6652 530.86 0)
 			(hide yes)
 			(show_name no)
@@ -52606,6 +54157,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 647.7 527.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 647.7 527.05 0)
 			(hide yes)
 			(show_name no)
@@ -52665,7 +54227,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 227.838 293.37 90)
 			(hide yes)
 			(show_name no)
@@ -52688,6 +54250,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 226.06 293.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 226.06 293.37 0)
 			(hide yes)
 			(show_name no)
@@ -52744,7 +54317,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 71.12 375.158 90)
 			(hide yes)
 			(show_name no)
@@ -52767,6 +54340,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 71.12 373.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 71.12 373.38 0)
 			(hide yes)
 			(show_name no)
@@ -52904,7 +54488,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
+		(property "Footprint" "reflow_station_library:TSSOP-10_3x3mm_P0.5mm"
 			(at 303.53 317.5 0)
 			(hide yes)
 			(show_name no)
@@ -52927,6 +54511,17 @@
 			)
 		)
 		(property "Description" "Ultrasmall, Low-Power, SPI-Compatible, 16-Bit Analog-to-Digital Converter with Internal Reference and Temperature Sensor, VSSOP-10"
+			(at 304.8 316.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/gullwing"
 			(at 304.8 316.23 0)
 			(hide yes)
 			(show_name no)
@@ -53008,7 +54603,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 806.45 230.378 90)
 			(hide yes)
 			(show_name no)
@@ -53031,6 +54626,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 806.45 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 806.45 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -53090,7 +54696,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:C_0402_1005Metric"
 			(at 91.1352 297.18 0)
 			(hide yes)
 			(show_name no)
@@ -53113,6 +54719,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 90.17 293.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 90.17 293.37 0)
 			(hide yes)
 			(show_name no)
@@ -53251,7 +54868,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "reflow_station_library:TestPoint_Pad_D1.0mm"
 			(at 722.63 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -53565,7 +55182,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "reflow_station_library:C_0603_1608Metric"
 			(at 699.4652 622.3 0)
 			(hide yes)
 			(show_name no)
@@ -53588,6 +55205,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 698.5 618.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 698.5 618.49 0)
 			(hide yes)
 			(show_name no)
@@ -54042,7 +55670,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_LGA:Texas_SIL0008D_MicroSiP-8-1EP_2.8x3mm_P0.65mm_EP1.1x1.9mm_ThermalVias"
+		(property "Footprint" "reflow_station_library:Texas_SIL0008D_MicroSiP-8-1EP_2.8x3mm_P0.65mm_EP1.1x1.9mm_ThermalVias"
 			(at 276.86 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -54065,6 +55693,17 @@
 			)
 		)
 		(property "Description" "17V Input 3A Step-Down Converter MicroSiP Module with Integrated Inductor, μSiL-8"
+			(at 276.86 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/no_lead"
 			(at 276.86 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -54145,7 +55784,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 715.518 227.33 90)
 			(hide yes)
 			(show_name no)
@@ -54168,6 +55807,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 713.74 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 713.74 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -54227,7 +55877,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric_Pad1.97x5.40mm_HandSolder"
+		(property "Footprint" "reflow_station_library:C_2220_5750Metric_Pad1.97x5.40mm_HandSolder"
 			(at 205.4352 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -54250,6 +55900,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 204.47 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 204.47 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -54388,7 +56049,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "reflow_station_library:TestPoint_Pad_D1.0mm"
 			(at 106.68 363.22 0)
 			(hide yes)
 			(show_name no)
@@ -54544,7 +56205,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "reflow_station_library:C_0805_2012Metric"
 			(at 258.7752 370.84 0)
 			(hide yes)
 			(show_name no)
@@ -54567,6 +56228,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 257.81 367.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 257.81 367.03 0)
 			(hide yes)
 			(show_name no)
@@ -54627,7 +56299,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 579.628 209.55 90)
 			(hide yes)
 			(show_name no)
@@ -54650,6 +56322,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 577.85 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 577.85 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -54791,7 +56474,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "reflow_station_library:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 249.8852 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -54814,6 +56497,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 248.92 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 248.92 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -54951,7 +56645,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "reflow_station_library:LED_0603_1608Metric"
 			(at 688.34 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -54985,6 +56679,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 688.34 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 688.34 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -55042,7 +56747,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "reflow_station_library:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 1093.47 192.278 90)
 			(hide yes)
 			(show_name no)
@@ -55065,6 +56770,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 1093.47 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "resistor/THT"
 			(at 1093.47 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -55200,7 +56916,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "reflow_station_library:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 1093.47 77.978 90)
 			(hide yes)
 			(show_name no)
@@ -55223,6 +56939,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 1093.47 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "resistor/THT"
 			(at 1093.47 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -55362,7 +57089,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "reflow_station_library:TestPoint_Pad_D1.0mm"
 			(at 916.94 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -55753,7 +57480,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "reflow_station_library:TestPoint_Pad_D1.0mm"
 			(at 284.48 298.45 0)
 			(hide yes)
 			(show_name no)
@@ -55830,7 +57557,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 374.65 229.108 90)
 			(hide yes)
 			(show_name no)
@@ -55853,6 +57580,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 374.65 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 374.65 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -55912,7 +57650,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "reflow_station_library:TestPoint_Pad_D1.0mm"
 			(at 885.19 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -55991,7 +57729,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "reflow_station_library:C_0603_1608Metric"
 			(at 686.7652 622.3 0)
 			(hide yes)
 			(show_name no)
@@ -56014,6 +57752,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 685.8 618.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 685.8 618.49 0)
 			(hide yes)
 			(show_name no)
@@ -56151,7 +57900,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "reflow_station_library:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 1132.332 196.85 90)
 			(hide yes)
 			(show_name no)
@@ -56174,6 +57923,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 1134.11 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 1134.11 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -56233,7 +57993,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:C_0402_1005Metric"
 			(at 661.3652 572.77 0)
 			(hide yes)
 			(show_name no)
@@ -56256,6 +58016,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 660.4 568.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 660.4 568.96 0)
 			(hide yes)
 			(show_name no)
@@ -56393,7 +58164,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "reflow_station_library:C_1206_3216Metric"
 			(at 322.2752 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -56416,6 +58187,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 321.31 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 321.31 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -56475,7 +58257,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical"
+		(property "Footprint" "reflow_station_library:PinHeader_2x05_P1.27mm_Vertical"
 			(at 137.16 762 0)
 			(hide yes)
 			(show_name no)
@@ -56498,6 +58280,17 @@
 			)
 		)
 		(property "Description" "Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface"
+			(at 137.16 762 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "connector/pin_header_socket"
 			(at 137.16 762 0)
 			(hide yes)
 			(show_name no)
@@ -56581,7 +58374,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:C_0402_1005Metric"
 			(at 788.3652 416.56 0)
 			(hide yes)
 			(show_name no)
@@ -56604,6 +58397,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 787.4 412.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 787.4 412.75 0)
 			(hide yes)
 			(show_name no)
@@ -56663,7 +58467,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 721.868 81.28 90)
 			(hide yes)
 			(show_name no)
@@ -56686,6 +58490,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 720.09 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 720.09 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -56745,7 +58560,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "reflow_station_library:C_0603_1608Metric"
 			(at 737.5652 480.06 0)
 			(hide yes)
 			(show_name no)
@@ -56768,6 +58583,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 736.6 476.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 736.6 476.25 0)
 			(hide yes)
 			(show_name no)
@@ -56826,7 +58652,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "reflow_station_library:TestPoint_Pad_D1.0mm"
 			(at 232.41 758.19 0)
 			(hide yes)
 			(show_name no)
@@ -56902,7 +58728,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "reflow_station_library:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 474.98 90.678 90)
 			(hide yes)
 			(show_name no)
@@ -56925,6 +58751,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 474.98 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 474.98 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -56982,7 +58819,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "reflow_station_library:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 449.58 90.678 90)
 			(hide yes)
 			(show_name no)
@@ -57005,6 +58842,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 449.58 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 449.58 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -57064,7 +58912,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0922_L20.0mm_D9.0mm_P25.40mm_Horizontal"
+		(property "Footprint" "reflow_station_library:R_Axial_DIN0922_L20.0mm_D9.0mm_P25.40mm_Horizontal"
 			(at 127.762 62.23 90)
 			(hide yes)
 			(show_name no)
@@ -57087,6 +58935,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 129.54 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "resistor/THT"
 			(at 129.54 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -57146,7 +59005,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "reflow_station_library:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 249.8852 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -57169,6 +59028,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 248.92 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 248.92 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -57226,7 +59096,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "reflow_station_library:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 426.72 90.678 90)
 			(hide yes)
 			(show_name no)
@@ -57249,6 +59119,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 426.72 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 426.72 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -57402,7 +59283,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "reflow_station_library:TestPoint_Pad_D1.0mm"
 			(at 298.45 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -57715,7 +59596,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal"
+		(property "Footprint" "reflow_station_library:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal"
 			(at 242.57 219.456 0)
 			(hide yes)
 			(show_name no)
@@ -57738,6 +59619,17 @@
 			)
 		)
 		(property "Description" "CPU Fan, tacho output, PWM input, 4-pin connector"
+			(at 242.57 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "connector/JST"
 			(at 242.57 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -57803,7 +59695,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 60.198 293.37 90)
 			(hide yes)
 			(show_name no)
@@ -57826,6 +59718,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 58.42 293.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 58.42 293.37 0)
 			(hide yes)
 			(show_name no)
@@ -57885,7 +59788,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "reflow_station_library:LED_0805_2012Metric"
 			(at 764.54 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -57919,6 +59822,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 764.54 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 764.54 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -57978,7 +59892,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:C_0402_1005Metric"
 			(at 512.7752 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -58001,6 +59915,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 511.81 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 511.81 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -58060,7 +59985,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal"
+		(property "Footprint" "reflow_station_library:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal"
 			(at 80.01 220.726 0)
 			(hide yes)
 			(show_name no)
@@ -58083,6 +60008,17 @@
 			)
 		)
 		(property "Description" "CPU Fan, tacho output, PWM input, 4-pin connector"
+			(at 80.01 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "connector/JST"
 			(at 80.01 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -58146,7 +60082,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "reflow_station_library:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 942.34 192.278 90)
 			(hide yes)
 			(show_name no)
@@ -58169,6 +60105,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 942.34 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "resistor/THT"
 			(at 942.34 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -58388,7 +60335,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 238.76 375.158 90)
 			(hide yes)
 			(show_name no)
@@ -58411,6 +60358,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 238.76 373.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 238.76 373.38 0)
 			(hide yes)
 			(show_name no)
@@ -58469,7 +60427,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 291.592 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -58492,6 +60450,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 293.37 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 293.37 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -58551,7 +60520,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "reflow_station_library:TestPoint_Pad_D1.0mm"
 			(at 160.02 318.77 0)
 			(hide yes)
 			(show_name no)
@@ -58628,7 +60597,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 374.65 239.268 90)
 			(hide yes)
 			(show_name no)
@@ -58651,6 +60620,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 374.65 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 374.65 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -58710,7 +60690,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+		(property "Footprint" "reflow_station_library:TO-220-3_Vertical"
 			(at 1116.33 207.645 0)
 			(hide yes)
 			(show_name no)
@@ -58736,6 +60716,17 @@
 			)
 		)
 		(property "Description" "16A RMS, 600V Off-State Voltage, 50mA Sensitivity, Insulated, Triac, TO-220"
+			(at 1111.25 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/TO_SOT/THT"
 			(at 1111.25 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -58798,7 +60789,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Varistor:RV_Disc_D12mm_W3.9mm_P7.5mm"
+		(property "Footprint" "reflow_station_library:RV_Disc_D12mm_W3.9mm_P7.5mm"
 			(at 1000.252 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -58935,7 +60926,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "reflow_station_library:L_0603_1608Metric"
 			(at 768.35 464.82 0)
 			(hide yes)
 			(show_name no)
@@ -58958,6 +60949,17 @@
 			)
 		)
 		(property "Description" "Inductor"
+			(at 768.35 464.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 768.35 464.82 0)
 			(hide yes)
 			(show_name no)
@@ -59171,7 +61173,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 728.472 60.96 90)
 			(hide yes)
 			(show_name no)
@@ -59194,6 +61196,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 730.25 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 730.25 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -59253,7 +61266,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "reflow_station_library:TestPoint_Pad_D1.0mm"
 			(at 885.19 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -59332,7 +61345,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:C_0402_1005Metric"
 			(at 91.1352 325.12 0)
 			(hide yes)
 			(show_name no)
@@ -59355,6 +61368,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 90.17 321.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 90.17 321.31 0)
 			(hide yes)
 			(show_name no)
@@ -59413,7 +61437,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "reflow_station_library:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 186.3852 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -59436,6 +61460,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 185.42 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 185.42 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -59495,7 +61530,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "reflow_station_library:LED_0603_1608Metric"
 			(at 337.82 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -59529,6 +61564,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 337.82 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 337.82 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -59668,7 +61714,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "reflow_station_library:TestPoint_Pad_D1.0mm"
 			(at 916.94 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -59746,7 +61792,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 743.712 81.28 90)
 			(hide yes)
 			(show_name no)
@@ -59769,6 +61815,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 745.49 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 745.49 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -59826,7 +61883,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Converter_ACDC:Converter_ACDC_Recom_RAC20-xxSK_THT"
+		(property "Footprint" "reflow_station_library:Converter_ACDC_Recom_RAC20-xxSK_THT"
 			(at 158.75 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -59914,7 +61971,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "reflow_station_library:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 319.7352 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -59937,6 +61994,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 318.77 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 318.77 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -60072,7 +62140,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 134.62 114.808 90)
 			(hide yes)
 			(show_name no)
@@ -60095,6 +62163,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 134.62 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 134.62 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -60152,7 +62231,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 1059.18 90.678 90)
 			(hide yes)
 			(show_name no)
@@ -60175,6 +62254,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 1059.18 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 1059.18 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -60234,7 +62324,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 664.718 227.33 90)
 			(hide yes)
 			(show_name no)
@@ -60257,6 +62347,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 662.94 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 662.94 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -60394,7 +62495,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "reflow_station_library:LED_0603_1608Metric"
 			(at 339.09 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -60428,6 +62529,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 339.09 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 339.09 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -60487,7 +62599,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
 			(at 164.338 124.46 90)
 			(hide yes)
 			(show_name no)
@@ -60510,6 +62622,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 162.56 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 162.56 124.46 0)
 			(hide yes)
 			(show_name no)

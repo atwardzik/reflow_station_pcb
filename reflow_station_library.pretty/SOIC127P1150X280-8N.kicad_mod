@@ -5,10 +5,10 @@
 	(layer "F.Cu")
 	(descr "DWV0008A")
 	(tags "Integrated Circuit")
-	(property "Reference" "IC**"
+	(property "Reference" "REF**"
 		(at 0 0 0)
 		(layer "F.SilkS")
-		(uuid "7b3219e7-35c3-4efa-b585-5a620d526336")
+		(uuid "2d1c4da1-cc87-475d-bc80-671739f14e91")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16,11 +16,11 @@
 			)
 		)
 	)
-	(property "Value" "SOIC127P1150X280-8N"
+	(property "Value" "AMC23C10DWVR"
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "cf55f246-e39a-40a6-bd36-9d4b5164a4b1")
+		(uuid "e9b331af-dd34-4bd6-8c57-61b76f2bf63c")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -28,28 +28,95 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://www.ti.com/lit/ds/symlink/amc23c10.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1691395362663&ref_url=https%253A%252F%252Fwww.mouser.cn%252F"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b38ee1ea-d9a4-4d86-b52d-1447b95b9d1f")
+		(uuid "af2a6587-f53c-4dbd-98ce-e840271bfd01")
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "Analog Comparators Fast-response, reinforced, isolated differential comparator with open-drain and push-pull outputs"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8b779d91-24b8-4fe2-9519-968f3df0b4a6")
+		(uuid "daf7d36b-5aab-4f1b-ba5f-10881f811774")
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 	)
+	(property "Height" "2.8"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c924e835-b25e-40a6-a024-56db0201b65e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "595-AMC23C10DWVR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "36f2af98-2a01-4a0c-88cb-de750bb2d616")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/AMC23C10DWVR?qs=By6Nw2ByBD2%2FNLy%2FN6CE9g%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2d852300-bdbf-433c-9cbd-601563fd8b22")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Texas Instruments"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9929d9e6-6ce1-4482-9da1-0894f1a8c5dc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "AMC23C10DWVR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4c0a3adc-722a-4220-935b-46db83df79c4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/")
+	(sheetfile "reflow_station.kicad_sch")
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
@@ -60,7 +127,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "217b19c8-7c13-45f0-a81b-db1c9c60029e")
+		(uuid "4a6d0975-be99-4e23-b229-bc7027ce3fcd")
 	)
 	(fp_line
 		(start -4.05 -2.925)
@@ -70,7 +137,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "423e45b1-59ba-45d9-b54b-2a654e147e60")
+		(uuid "906c1bd4-4fa4-4197-ad4c-05868405457d")
 	)
 	(fp_line
 		(start -4.05 2.925)
@@ -80,7 +147,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "30e9ac95-ddd8-4dd1-bab8-347539781f85")
+		(uuid "8949b629-ba44-4e25-8273-7fd8f1831d80")
 	)
 	(fp_line
 		(start 4.05 -2.925)
@@ -90,7 +157,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "0c0c08d9-7db8-4f64-a4cc-51b90107b76c")
+		(uuid "6c6aec28-a16e-404b-aa42-f3903cf708bf")
 	)
 	(fp_line
 		(start 4.05 2.925)
@@ -100,7 +167,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "493ade9d-6757-4944-8caa-8069a4f51672")
+		(uuid "da61ac7a-cdf6-4b14-ab56-c3d3076316cf")
 	)
 	(fp_line
 		(start -6.5 -3.225)
@@ -110,7 +177,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "4f9fd6cd-268a-4b89-8a0d-bf4e75722b41")
+		(uuid "39c7fe8a-d7ac-46a2-87d0-4eba711e509d")
 	)
 	(fp_line
 		(start -6.5 3.225)
@@ -120,7 +187,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "8742b798-1a38-417f-8560-eb6cf562ca35")
+		(uuid "a6f70d78-d0c4-4767-9018-8a6b08835af3")
 	)
 	(fp_line
 		(start 6.5 -3.225)
@@ -130,7 +197,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "e46ced90-c8bc-4015-a01a-8fb0120d2376")
+		(uuid "aa635d58-e45c-4317-bd11-752649d8515d")
 	)
 	(fp_line
 		(start 6.5 3.225)
@@ -140,7 +207,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "36efa5c6-5ea4-4bdc-8d27-2332695d7f3c")
+		(uuid "44878ad1-abdc-40ef-8c3b-384fb24bca80")
 	)
 	(fp_line
 		(start -3.75 -2.925)
@@ -150,7 +217,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "f30def70-eb13-4f9e-962a-d2d39a5621e2")
+		(uuid "8df53904-0024-412f-8260-58049cecaf8a")
 	)
 	(fp_line
 		(start -3.75 -1.655)
@@ -160,7 +227,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "c52ca0c5-db1f-4c44-b478-3d983df1ba6d")
+		(uuid "18e142f0-e94c-4864-a7bd-3619663ef0df")
 	)
 	(fp_line
 		(start -3.75 2.925)
@@ -170,7 +237,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "b4f53dee-44c5-4a42-998b-e6bf77d959af")
+		(uuid "a173ff0d-621c-422b-9f87-efa2990378d5")
 	)
 	(fp_line
 		(start 3.75 -2.925)
@@ -180,7 +247,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "b2ba51ee-99a5-425a-847f-8f122bdb373b")
+		(uuid "91f9d97d-9846-4c95-aa27-961dbc681341")
 	)
 	(fp_line
 		(start 3.75 2.925)
@@ -190,12 +257,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "f840f439-7c70-47eb-9e82-ac525ce17d19")
+		(uuid "a82dea26-5c8d-4002-8592-dc6c75ff5e53")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "c8b5177e-1b09-47d6-a897-5ccaa36cd6bf")
+		(uuid "1443d887-b5bf-431c-82e8-74e29b6d6f16")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -207,49 +274,49 @@
 		(at -5.325 -1.905 90)
 		(size 0.65 1.85)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "a29c08b0-0963-4ac1-ae96-c2be02871ec5")
+		(uuid "fcf646e7-0e22-41c9-8aa0-7c560cd4d65b")
 	)
 	(pad "2" smd rect
 		(at -5.325 -0.635 90)
 		(size 0.65 1.85)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "436fa598-8909-41ce-acfa-4fd324ce2ea7")
+		(uuid "cb0fa310-1562-4e50-bf3e-f2ed17a576a4")
 	)
 	(pad "3" smd rect
 		(at -5.325 0.635 90)
 		(size 0.65 1.85)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "eb8fb185-6709-473c-9807-c9d736df9074")
+		(uuid "33902531-025b-4ea4-aca7-b53218a6b894")
 	)
 	(pad "4" smd rect
 		(at -5.325 1.905 90)
 		(size 0.65 1.85)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "709afdb2-8407-45c3-933e-e09b63039136")
+		(uuid "3db0ab49-a74d-4deb-af73-8e44dfd89937")
 	)
 	(pad "5" smd rect
 		(at 5.325 1.905 90)
 		(size 0.65 1.85)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "4c7097e5-8b29-4218-b416-e1602fc3b79a")
+		(uuid "73cb3819-476a-4313-b76e-7e47b10adf7e")
 	)
 	(pad "6" smd rect
 		(at 5.325 0.635 90)
 		(size 0.65 1.85)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "02f2d5d2-5168-41a9-bcd4-5878769b8b8c")
+		(uuid "34a8dbaf-97d3-418c-9e72-3cf6092aa024")
 	)
 	(pad "7" smd rect
 		(at 5.325 -0.635 90)
 		(size 0.65 1.85)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "1c56e437-ae2f-4f25-8448-586e81f39829")
+		(uuid "b54b411c-3be1-495a-ab51-f4386e682085")
 	)
 	(pad "8" smd rect
 		(at 5.325 -1.905 90)
 		(size 0.65 1.85)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "740fe4d8-fb2a-49d8-b45d-7ac127dae533")
+		(uuid "df644973-9d16-435c-aeb4-281738154e5d")
 	)
 	(embedded_fonts no)
 	(model "AMC23C10DWVR.stp"
@@ -261,6 +328,28 @@
 		)
 		(rotate
 			(xyz -90 0 -90)
+		)
+	)
+	(model "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_7.5x5.85mm_P1.27mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
 		)
 	)
 )

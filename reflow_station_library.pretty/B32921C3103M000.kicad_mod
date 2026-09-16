@@ -5,10 +5,10 @@
 	(layer "F.Cu")
 	(descr "B32921C_(13_x_4)")
 	(tags "Capacitor")
-	(property "Reference" "C**"
+	(property "Reference" "REF**"
 		(at 4.775 0 0)
 		(layer "F.SilkS")
-		(uuid "dfa21ec1-0676-445e-a3ed-bc35fa8dbf2c")
+		(uuid "c6872bdb-4cc8-418a-8ae5-920b81b1ce91")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16,11 +16,11 @@
 			)
 		)
 	)
-	(property "Value" "B32921C3103M000"
+	(property "Value" "10n 305V X2"
 		(at 4.775 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "15b86f7f-fb6e-4891-9ce8-3fff930f1fd7")
+		(uuid "03f85aeb-2e20-4716-9caa-5fd7886035ab")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -32,24 +32,27 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b039103d-9c2e-4fb0-a87b-1587d6e5a0e0")
+		(uuid "a2734726-d935-4aef-9de3-9bb2d50ed27a")
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "Unpolarized capacitor"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f3004bc5-48c3-4b4e-bd5e-c484a2b391e0")
+		(uuid "292c9146-9d02-4182-aa2e-07c8c2acf836")
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 	)
+	(property ki_fp_filters "C_*")
+	(sheetname "/")
+	(sheetfile "reflow_station.kicad_sch")
 	(attr through_hole)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
@@ -60,7 +63,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "3b421f96-30f1-48ee-ace0-111253e8d4f1")
+		(uuid "5ffd7b48-3756-4b53-90c0-4c2c7d8e1267")
 	)
 	(fp_line
 		(start -2.025 0)
@@ -70,7 +73,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "f13e4e7c-8e21-42e7-bbc4-f42719e2dece")
+		(uuid "d2de6760-a000-40af-aebd-f26b3d3509c1")
 	)
 	(fp_line
 		(start -1.5 -2)
@@ -80,7 +83,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "181cbe51-e264-4f63-8e55-baf06fea56ac")
+		(uuid "a0d29b7e-5d82-4373-809a-8dd53a718af7")
 	)
 	(fp_line
 		(start -1.5 2)
@@ -90,7 +93,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "b44509c9-3b35-4c08-b864-2e9a6f477f93")
+		(uuid "8710ebea-6b08-4213-ab82-9625b8d33280")
 	)
 	(fp_line
 		(start 11.5 -2)
@@ -100,7 +103,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "731588de-7bcd-41e1-9446-fa38df79cbc0")
+		(uuid "fa89d7e3-5f93-46aa-8955-7ba85a60eeb5")
 	)
 	(fp_line
 		(start 11.5 2)
@@ -110,7 +113,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "01edfc88-a410-4eb3-86cf-dc729d3d852c")
+		(uuid "fe18e9c4-2b4c-47ef-a21c-33f94c2f8943")
 	)
 	(fp_arc
 		(start -2.075 0)
@@ -121,7 +124,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "4818273d-a5c5-41b7-939d-37ebd8f96b77")
+		(uuid "494f8092-59c9-4bd6-9eb8-50b390084f8d")
 	)
 	(fp_arc
 		(start -2.025 0)
@@ -132,7 +135,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "4f372ef3-7d3f-408f-9244-971fc48b1113")
+		(uuid "8bf92216-f645-43f3-aba1-95e55d08f1f1")
 	)
 	(fp_line
 		(start -2.95 -3)
@@ -142,7 +145,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "96e38375-ef48-4b45-9d83-b50c18588260")
+		(uuid "bbd649dd-bdd0-4bf6-a0f5-eb37537cb71a")
 	)
 	(fp_line
 		(start -2.95 3)
@@ -152,7 +155,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "d58244a8-d814-46e4-b428-f044b59e17a9")
+		(uuid "d711bf38-9dd7-42db-aabc-f59375e85e28")
 	)
 	(fp_line
 		(start 12.5 -3)
@@ -162,7 +165,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "39fe2504-9e9b-4c18-88dc-2ed7b43adec9")
+		(uuid "eea35c4d-9339-4228-9f0c-89dd7ebb8e3e")
 	)
 	(fp_line
 		(start 12.5 3)
@@ -172,7 +175,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "89244e19-9756-4eca-8f6c-a7748ed3142c")
+		(uuid "c4956710-509e-4f59-bbb9-b38602d5db70")
 	)
 	(fp_line
 		(start -1.5 -2)
@@ -182,7 +185,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "88f4d089-be08-4d34-bcc6-05bb420c89e2")
+		(uuid "6bc590fd-660c-42bc-adcf-d832271e9578")
 	)
 	(fp_line
 		(start -1.5 2)
@@ -192,7 +195,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "d3a0a16f-0861-4cb7-a19c-ce3399e11ef0")
+		(uuid "64804875-e00e-41cf-bc6d-66a5bf025bfa")
 	)
 	(fp_line
 		(start 11.5 -2)
@@ -202,7 +205,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "a14de079-0c49-4079-b28c-60da76a7db15")
+		(uuid "ca69a24b-c05f-4a4f-b788-52a65b9a14cf")
 	)
 	(fp_line
 		(start 11.5 2)
@@ -212,12 +215,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "a8f3a1f8-61f0-4d8d-9e50-a45e4bc8cdb8")
+		(uuid "c7cecfe7-f531-4dfb-87a8-136a773354c1")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 4.775 0 0)
 		(layer "F.Fab")
-		(uuid "e89389c8-2d34-413f-86ef-0b6e79cbb3c2")
+		(uuid "399efaa5-6fae-4685-bbb2-e8a04fbfacf6")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -231,7 +234,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "245bfae8-81de-4c60-abd4-ebebf84f934f")
+		(uuid "d6cde3c6-b1b0-47ef-8f02-312b658cd9dc")
 	)
 	(pad "2" thru_hole circle
 		(at 10 0)
@@ -239,10 +242,10 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "67c007e9-ef33-4af4-aa82-f0888502fbc5")
+		(uuid "b5f19947-8259-4797-8f12-8cb9b2f0655a")
 	)
 	(embedded_fonts no)
-	(model "B32921C3103M189.stp"
+	(model "${REFLOW_STATION}/B32921C3103M189.stp"
 		(offset
 			(xyz 4.999999925 0 4.449999742)
 		)

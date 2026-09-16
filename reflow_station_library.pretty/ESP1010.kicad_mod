@@ -5,10 +5,10 @@
 	(layer "F.Cu")
 	(descr "ESP1010-1")
 	(tags "Switch")
-	(property "Reference" "S**"
+	(property "Reference" "REF**"
 		(at 0 -2.54 0)
 		(layer "F.SilkS")
-		(uuid "0cd681b9-633a-4382-8d79-1d94d1c51f08")
+		(uuid "46e9056d-280b-4ada-9a51-483a6d598fa0")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16,11 +16,11 @@
 			)
 		)
 	)
-	(property "Value" "ESP1010"
+	(property "Value" "SW_SPDT"
 		(at 0 -2.54 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "f1e7a0d5-3427-4f53-9c0d-a4bba7df740d")
+		(uuid "d0088f05-37cc-4106-b535-99a5e56f94d5")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -32,24 +32,26 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3692c062-cf42-4553-90f2-72b782833632")
+		(uuid "6a10a0f3-e267-4e29-8346-6fe7055f9200")
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "Switch, single pole double throw"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "21534cda-932d-44cd-9c99-879b31a2d2cd")
+		(uuid "684ebfe2-3276-4c1c-afa0-aa9e060ca212")
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 	)
+	(sheetname "/")
+	(sheetfile "reflow_station.kicad_sch")
 	(attr through_hole)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
@@ -60,7 +62,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "820f2c5c-1e14-479e-a958-79076e5c29b3")
+		(uuid "9833481a-f0f5-42e8-8e11-dc665562de30")
 	)
 	(fp_line
 		(start -1.25 2.46)
@@ -70,7 +72,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "ae662a15-85c0-4a77-929a-163f9ae7d647")
+		(uuid "83326634-1175-4d98-a095-e3d293375b19")
 	)
 	(fp_line
 		(start 1.25 -7.54)
@@ -80,7 +82,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "b7efcb82-f009-4058-924f-25a175f7a75e")
+		(uuid "6ac63c6d-5ed4-4c96-90de-3788459e1989")
 	)
 	(fp_line
 		(start 1.25 2.46)
@@ -90,7 +92,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "10bb0736-1eca-406e-852d-099d43ccf08e")
+		(uuid "d705b866-ca1a-4f3e-a626-c10ebc901b27")
 	)
 	(fp_line
 		(start 1.7 0)
@@ -100,7 +102,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "4c3d03b3-e245-46f0-9669-44f15dfc1713")
+		(uuid "9b990d7a-3fcb-499d-ada3-6293b95cced2")
 	)
 	(fp_line
 		(start 1.8 0)
@@ -110,7 +112,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "759e028a-93c9-41cb-b065-d2e6b91772cc")
+		(uuid "d1530ba6-fb04-40df-be09-b50d89f6f677")
 	)
 	(fp_arc
 		(start 1.7 0)
@@ -121,7 +123,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "9cac9c21-9ff2-499b-8401-4b3cb5c1a2e8")
+		(uuid "efe36007-3960-4817-80de-baa7558634c4")
 	)
 	(fp_arc
 		(start 1.8 0)
@@ -132,7 +134,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "87cf6d1c-156b-4c46-b57c-0dfd0b9c9f81")
+		(uuid "3ad24ff6-d287-458f-b7d5-4303e452b6b8")
 	)
 	(fp_line
 		(start -2.25 -8.54)
@@ -142,7 +144,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "f98779c3-85ec-49ae-9307-d5f88b997bad")
+		(uuid "c4d0420a-518d-412a-8a1e-e3ba07fad090")
 	)
 	(fp_line
 		(start -2.25 3.46)
@@ -152,7 +154,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "48794fe8-a18d-490a-a909-b34f7591a27c")
+		(uuid "f7950bff-1b09-441b-b720-c0b50b1f116f")
 	)
 	(fp_line
 		(start 2.25 -8.54)
@@ -162,7 +164,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "dd620e3e-2127-4fe1-86e2-9c1968c69a90")
+		(uuid "0441b4e9-ea54-4a0b-9090-0f92e4992166")
 	)
 	(fp_line
 		(start 2.25 3.46)
@@ -172,7 +174,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "589b7e6a-141c-4e92-ba19-c202abc56875")
+		(uuid "a8900ae4-790d-4989-942a-b9272948f93a")
 	)
 	(fp_line
 		(start -1.25 -7.54)
@@ -182,7 +184,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "2bb37be0-70e9-4682-93b9-a78fcbc5458a")
+		(uuid "da7d8713-e961-4b15-8f1a-d2b9e9ea903e")
 	)
 	(fp_line
 		(start -1.25 2.46)
@@ -192,7 +194,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "00e1f53c-390b-4d58-ac2f-f236fc630107")
+		(uuid "897ec9ad-854c-4e68-9ad6-38e03563ebd3")
 	)
 	(fp_line
 		(start 1.25 -7.54)
@@ -202,7 +204,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "7dd7e130-1d8b-4e97-ac10-7032140e30cd")
+		(uuid "cb1c86d8-15c2-443f-8b56-d75434ca9e92")
 	)
 	(fp_line
 		(start 1.25 2.46)
@@ -212,12 +214,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "066d15e9-598b-4b0e-82eb-f76a6493bab1")
+		(uuid "98727bcc-ae37-4610-ab9a-94713e95b9ca")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -2.54 0)
 		(layer "F.Fab")
-		(uuid "6bc07d81-081d-4886-89b4-d18c3bc4d744")
+		(uuid "4e5e0c6a-91d1-4282-8126-084273fd0349")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -231,7 +233,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "747909a2-eef2-42f2-be3d-6a1d428e1ca6")
+		(uuid "76657242-ea60-4127-8942-868fde1b6f80")
 	)
 	(pad "2" thru_hole circle
 		(at 0 -5.08)
@@ -239,7 +241,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "1d95a01d-71a5-41b9-8c18-0653cc90a7fb")
+		(uuid "d688521a-b784-483d-b568-bfbb3db2e22a")
 	)
 	(pad "3" thru_hole circle
 		(at 0 -2.54)
@@ -247,10 +249,10 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "7d131d1e-9751-4217-b16a-edaa6c05875b")
+		(uuid "4e69c011-6dd1-498d-b389-85894e6dab14")
 	)
 	(embedded_fonts no)
-	(model "ESP1010.stp"
+	(model "${REFLOW_STATION}/ESP1010.stp"
 		(offset
 			(xyz 1.249999981 2.539999924 2.690000017)
 		)

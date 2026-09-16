@@ -5,10 +5,10 @@
 	(layer "F.Cu")
 	(descr "PS1240P02BT")
 	(tags "Loudspeaker or Buzzer")
-	(property "Reference" "LS**"
+	(property "Reference" "REF**"
 		(at -0.206 -0.063 0)
 		(layer "F.SilkS")
-		(uuid "9c6bd3c0-8d65-4c0a-b0fa-bd30aac1ec1a")
+		(uuid "8c55d439-a905-4685-8937-4c8871d8e6ef")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20,7 +20,7 @@
 		(at -0.206 -0.063 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "ac411cef-9193-44b3-91a2-c254727f8131")
+		(uuid "c6f568cd-309f-47c8-a5d5-edac3627705e")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -28,28 +28,95 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/sw_piezo/sw_piezo/piezo-buzzer/catalog/piezoelectronic_buzzer_ps_en.pdf"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b82b433e-45dd-478a-9aff-b8c684915c75")
+		(uuid "0cb03945-69d2-4f2d-a3f1-ef988eab986f")
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "Piezoelectric Buzzers, Sound Pressure Level=70dB min, Freq.=4000Hz nom"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1156599f-0b37-4a7a-897c-df7b52614870")
+		(uuid "79b0fcde-69f1-4374-b1db-3aee9ccbf8f8")
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 	)
+	(property "Height" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9a7b3843-8bbd-4be1-a2fd-8d5cb6d88a0f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "810-PS1240P02BT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "330693c4-f219-4bec-9a72-aabdb834716e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TDK/PS1240P02BT?qs=d7g9p1yFhWaZXSY9MjKMkw%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c15b9407-6e4a-418b-bc30-361b1e60cc41")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "TDK"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6eb491d4-0ec8-4bef-9469-816941bf0a87")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "PS1240P02BT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "697d76f9-e7fd-4d2b-bd41-70f38a370f40")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/")
+	(sheetfile "reflow_station.kicad_sch")
 	(attr through_hole)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_circle
@@ -61,7 +128,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "98b1b140-d03b-4699-9a3c-4822c77252fe")
+		(uuid "3e4e39db-b0d8-4b10-8156-a2dc3e6707b3")
 	)
 	(fp_circle
 		(center 0 0)
@@ -72,7 +139,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "5425ad02-31bb-4f3c-a38d-502fe0e27d5b")
+		(uuid "1f2d4685-a387-4747-8331-2b8bc4b1585e")
 	)
 	(fp_circle
 		(center 0 0)
@@ -83,12 +150,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "cd5538bc-caef-4d21-bf5a-d5af0bdbaddd")
+		(uuid "5bb8caac-5137-48a7-94c9-9a0e3aad7f34")
 	)
 	(fp_text user "${REFERENCE}"
 		(at -0.206 -0.063 0)
 		(layer "F.Fab")
-		(uuid "b5b1d5c0-c0e3-4c0d-8216-1a6eea37ea23")
+		(uuid "566f8531-59c1-403e-81f8-668fb1027398")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -102,7 +169,7 @@
 		(drill 0.85)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "2924f8d4-3855-4c06-bbf9-c3f7368fc1ec")
+		(uuid "376c38ad-d759-4478-8f6f-0c135c66a9ef")
 	)
 	(pad "2" thru_hole circle
 		(at 0 2.5)
@@ -110,10 +177,10 @@
 		(drill 0.85)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "21d3b395-d81e-4bfe-92dd-06b1069fc0ff")
+		(uuid "c340377c-029a-4b91-98b8-55d4ebf5512b")
 	)
 	(embedded_fonts no)
-	(model "PS1240P02BT.stp"
+	(model "${REFLOW_STATION}/PS1240P02BT.stp"
 		(offset
 			(xyz 0 0.02999999888 3.859999837)
 		)

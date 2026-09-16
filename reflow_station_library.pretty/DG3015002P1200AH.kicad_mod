@@ -5,10 +5,10 @@
 	(layer "F.Cu")
 	(descr "DG301-5.0-02P-12-00A(H)-2")
 	(tags "Connector")
-	(property "Reference" "J**"
+	(property "Reference" "REF**"
 		(at 2.5 -0.7 0)
 		(layer "F.SilkS")
-		(uuid "e94db655-136b-410f-913b-c861da642010")
+		(uuid "d5cb7283-e904-4f4e-a685-7f8bf252e3aa")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16,11 +16,11 @@
 			)
 		)
 	)
-	(property "Value" "DG3015002P1200AH"
+	(property "Value" "DG301-5.0-02P-12-00A_H_"
 		(at 2.5 -0.7 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "767caf4f-776d-46e5-8e9b-a7b2f00c093a")
+		(uuid "bfcbd58f-3a09-4d3f-95b1-529c6e87df36")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -28,28 +28,95 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://www.tme.com/Document/72ad9f371bb0c16572574ac47903b3a1/DG301-5.0.pdf"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "696ad5bd-8286-4ed5-99a8-8b7a033c70e5")
+		(uuid "40ca767c-6ffc-41ab-bdf2-34d5ceced677")
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "PCB terminal block; angled 90; 5mm; ways: 2; on PCBs; 1.5mm2; blue"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "6578912e-fb75-4621-86c4-892e7bfb8a76")
+		(uuid "69f4c0b3-919c-4351-a2c2-194336c2325e")
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 	)
+	(property "Height" "10"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "365d0f29-2470-43f0-a02d-8dd1d6db7f43")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "TME Electronic Components Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "97ee562b-0af0-4693-91b2-12cab8923814")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "TME Electronic Components Price/Stock" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c3f02da0-80e0-4b4f-b549-162a537a3994")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Degson"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4ad28768-4caa-4d16-8022-15d8c5a1ea09")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "DG301-5.0-02P-12-00A(H)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4fca526c-a9b5-491f-aef7-c546ec5216f3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/")
+	(sheetfile "reflow_station.kicad_sch")
 	(attr through_hole)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
@@ -60,7 +127,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "f4ebe475-dd06-4c62-b035-c5eebb61100b")
+		(uuid "c95471b4-109f-4152-b8e5-7e552828aaae")
 	)
 	(fp_line
 		(start -2.5 3.1)
@@ -70,7 +137,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "dd469f1b-8031-49f9-8517-bc6b3584f1e0")
+		(uuid "aa9ae132-fe5c-41ab-bba7-5ccb422f44d8")
 	)
 	(fp_line
 		(start 0 3.6)
@@ -80,7 +147,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "dd60639f-e023-43d9-b4b6-698ca6af82fa")
+		(uuid "13118281-76d3-405e-b4fa-c00a2a8b3e1c")
 	)
 	(fp_line
 		(start 0 3.7)
@@ -90,7 +157,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "a7d32030-f5a8-436f-be8a-e54dcc7a146d")
+		(uuid "478073ee-a3e3-40c8-acd5-e7ee75d242c6")
 	)
 	(fp_line
 		(start 7.5 -4.5)
@@ -100,7 +167,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "fe3abdbf-db8d-46a0-b699-ec8a202194f7")
+		(uuid "f5c3dd8a-dd7b-477b-ab50-7c3ea7f8ae3b")
 	)
 	(fp_line
 		(start 7.5 3.1)
@@ -110,7 +177,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "7b7d8af1-b0e0-4a24-ba52-3e808ff9106d")
+		(uuid "83d57119-28d7-492b-9b12-b58e83e18886")
 	)
 	(fp_arc
 		(start 0 3.6)
@@ -121,7 +188,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "5d0f932f-3988-48d0-918d-5480050cab72")
+		(uuid "fc248c16-b0e3-4a92-813b-2869fbfcc18f")
 	)
 	(fp_arc
 		(start 0 3.7)
@@ -132,7 +199,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "eae60501-45a5-4b4d-bc71-fdd56ad01620")
+		(uuid "db697a2c-74dc-493e-8f5f-736aa770d7c3")
 	)
 	(fp_line
 		(start -3.5 -5.5)
@@ -142,7 +209,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "78bad042-8a9c-48ec-9e4a-f0b75d62054b")
+		(uuid "e5a3067d-d5a0-493c-8ac0-8d51457525e5")
 	)
 	(fp_line
 		(start -3.5 4.1)
@@ -152,7 +219,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "0f9c3471-5337-468d-ab16-140ee21c5421")
+		(uuid "89831f95-53c4-42f4-a98f-bb2336880970")
 	)
 	(fp_line
 		(start 8.5 -5.5)
@@ -162,7 +229,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "17a53b19-435f-4b99-8ac2-47683d483641")
+		(uuid "588e930b-163e-42eb-8822-dc42fada1d40")
 	)
 	(fp_line
 		(start 8.5 4.1)
@@ -172,7 +239,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "9418ce0f-96d1-4d77-a627-364fef73dbe2")
+		(uuid "3aed36f7-3267-400e-86c3-4d0d01977ced")
 	)
 	(fp_line
 		(start -2.5 -4.5)
@@ -182,7 +249,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "4520245c-e834-4101-9d0c-aca778a2486a")
+		(uuid "18576408-5540-47e8-bdc0-b0b291de6bbc")
 	)
 	(fp_line
 		(start -2.5 3.1)
@@ -192,7 +259,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "2c84d519-1270-4a1c-9ef5-3291e6c4d6b6")
+		(uuid "c39588e6-3064-414d-9c6d-63359d50ef2b")
 	)
 	(fp_line
 		(start 7.5 -4.5)
@@ -202,7 +269,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "4bdd76d1-f18f-4849-87a2-b020e337f692")
+		(uuid "235aa583-f0de-46d9-a54b-fed8067f10d6")
 	)
 	(fp_line
 		(start 7.5 3.1)
@@ -212,12 +279,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "dd920fe8-6897-4f7e-8ddc-0d3a153649e6")
+		(uuid "7c7fc5f1-0b9f-414a-8670-16fca5179c37")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 2.5 -0.7 0)
 		(layer "F.Fab")
-		(uuid "b7e006e0-cf75-4381-a419-0bee0f7d2ac9")
+		(uuid "32ada75f-bb1b-444c-826e-186af58277c5")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -231,7 +298,7 @@
 		(drill 1.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "81f9df14-2eac-47c0-8e6e-5a2556d3df48")
+		(uuid "e6622191-e6da-4e06-ae60-3751a443626b")
 	)
 	(pad "2" thru_hole circle
 		(at 5 0)
@@ -239,10 +306,10 @@
 		(drill 1.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "98290c0b-59ff-42ac-abdc-82d22ebd75cf")
+		(uuid "c40d937d-ceb9-4cb7-86f7-827f51cb9e3b")
 	)
 	(embedded_fonts no)
-	(model "DG301-5.0-02P-12-00A_H_.stp"
+	(model "${REFLOW_STATION}/DG301-5.0-02P-12-00A_H_.stp"
 		(offset
 			(xyz 0 -0.009999999626 -0.1199999955)
 		)
