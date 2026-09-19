@@ -6,9 +6,9 @@
 	(descr "Inductor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 	(tags "inductor handsolder")
 	(property "Reference" "REF**"
-		(at 0 -1.9 180)
+		(at 0 -1.9 0)
 		(layer "F.SilkS")
-		(uuid "9917f185-7a55-42b1-aef4-e32972011672")
+		(uuid "814d1dae-1bb7-46eb-addc-ff8a14eb1893")
 		(effects
 			(font
 				(size 1 1)
@@ -17,9 +17,9 @@
 		)
 	)
 	(property "Value" "33R @ 100MHz"
-		(at 0 1.9 180)
+		(at 0 1.9 0)
 		(layer "F.Fab")
-		(uuid "14aa4cd3-126a-4ec5-8856-6410f9ab0217")
+		(uuid "1f9c8d79-8113-4cf6-9f6a-7a762fc8ebb9")
 		(effects
 			(font
 				(size 1 1)
@@ -28,10 +28,10 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 0 180)
+		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "02407139-1296-460b-9ca7-42bc253341c0")
+		(uuid "cb148712-392f-47dd-bc25-887d717a1b10")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39,10 +39,10 @@
 		)
 	)
 	(property "Description" "Inductor"
-		(at 0 0 180)
+		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "33e7c8d6-bd63-457f-a66a-d6c5910d8fc7")
+		(uuid "66d6f933-23c5-466d-a5f8-fac085a41f9b")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50,10 +50,10 @@
 		)
 	)
 	(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-		(at 0 0 180)
+		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "92403fbb-29f6-4ee5-9d27-bafa3d2f1f6d")
+		(uuid "294a0db0-0ff0-46fc-9f67-8b408c1f5d0b")
 		(effects
 			(font
 				(size 1 1)
@@ -74,7 +74,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "0447009a-3e17-4868-8360-24ce0f7e3204")
+		(uuid "033f5883-c7b4-40d3-98c9-baa1f397468c")
 	)
 	(fp_line
 		(start -0.835242 0.91)
@@ -84,7 +84,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "ee9ec1c3-f508-433c-bc40-348f01f13677")
+		(uuid "04a20b6a-4292-4498-9960-e7c4f5bdbc99")
 	)
 	(fp_rect
 		(start -2.53 -1.2)
@@ -95,7 +95,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "aade1ebc-48ba-44f5-86ef-6639a7b6ac21")
+		(uuid "df86332d-079f-4248-8020-9f7031187728")
 	)
 	(fp_rect
 		(start -1.6 -0.8)
@@ -106,12 +106,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "2bca40f5-2c7a-45b0-95c9-98f3b8483356")
+		(uuid "abc886d0-e3b9-43a5-8325-43feb4c308eb")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 180)
+		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "2bf2d4b4-5c63-4b96-9175-7c8df0bbd3bc")
+		(uuid "e503fa88-dadd-4a65-baf8-e31c5dcee7c7")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -124,14 +124,14 @@
 		(size 1.225 1.9)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.204082)
-		(uuid "22aee3e9-f9ef-4d47-95bf-c934963bb3cd")
+		(uuid "50b6e686-9941-46b1-bb04-7c3e79a21f29")
 	)
 	(pad "2" smd roundrect
 		(at 1.6625 0)
 		(size 1.225 1.9)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.204082)
-		(uuid "994257c6-01ae-4cd3-bd14-b2feff9b14af")
+		(uuid "670f341a-38d9-4d86-944b-013898ebc487")
 	)
 	(embedded_fonts no)
 	(model "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_1206_3216Metric.step"

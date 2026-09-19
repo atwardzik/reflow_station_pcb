@@ -5,10 +5,10 @@
 	(layer "F.Cu")
 	(descr "RAC20-48SK-1")
 	(tags "Power Supply")
-	(property "Reference" "PS**"
+	(property "Reference" "REF**"
 		(at 22.255 10.2 0)
 		(layer "F.SilkS")
-		(uuid "adf8e3bb-44b7-4827-9001-3b966c1a991c")
+		(uuid "5f220e12-9b1a-43b4-9f30-bc7c4c839d8f")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16,11 +16,11 @@
 			)
 		)
 	)
-	(property "Value" "RAC2048SK"
+	(property "Value" "RAC20-12SK"
 		(at 22.255 10.2 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "e32851e4-2f0b-4f70-a45b-160afc7ecd2e")
+		(uuid "d39b927e-c800-4a6c-b6d8-74f63ba484a1")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -28,28 +28,31 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://recom-power.com/pdf/Powerline_AC-DC/RAC20-K.pdf"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0579c1d1-8f4f-4447-a562-94a56f396763")
+		(uuid "8c8012f7-0e30-4989-ba53-c07282968207")
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "20 Watt Single Output AC/DC power supply 12V 1670mA"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "cfcd82f2-8d86-4b55-905c-9614a647157e")
+		(uuid "c3cef8c6-efad-4157-8709-9144b1a24885")
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 	)
+	(property ki_fp_filters "Converter*ACDC*Recom*RAC20*SK*THT*")
+	(sheetname "/")
+	(sheetfile "reflow_station.kicad_sch")
 	(attr through_hole)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
@@ -60,7 +63,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "8515e5c9-a0ba-45b2-884c-070c7032fdc1")
+		(uuid "a621b88e-232b-44b6-af60-8a3429caf4f2")
 	)
 	(fp_line
 		(start -4.5 0)
@@ -70,7 +73,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "5b3cd24d-ba62-482d-972b-ca57753ce868")
+		(uuid "ac9c4c09-de76-497d-8b80-eaed0fbe4ff3")
 	)
 	(fp_line
 		(start -3.39 -3.5)
@@ -80,7 +83,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "94b4da53-9d71-4f94-8c33-312609e467b8")
+		(uuid "5e161479-a315-42a8-86ac-15a3b182ed22")
 	)
 	(fp_line
 		(start -3.39 23.9)
@@ -90,7 +93,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "9306b5d7-b37a-48ec-961e-39ab8a1909e7")
+		(uuid "60826376-4291-4461-a848-21078e2a7fde")
 	)
 	(fp_line
 		(start 49.11 -3.5)
@@ -100,7 +103,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "719d3ef8-7ab6-4c8c-b13c-16557b0693af")
+		(uuid "f1d6a898-da34-4816-b5e2-8248318dfdb7")
 	)
 	(fp_line
 		(start 49.11 23.9)
@@ -110,7 +113,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "698e5937-2ef0-4bdb-8c5c-977ba1c425c0")
+		(uuid "6d335934-4e42-47a6-8d74-98dc28bca430")
 	)
 	(fp_arc
 		(start -4.6 0)
@@ -121,7 +124,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "17e5500f-18c8-455f-85ba-2c104e9898ea")
+		(uuid "ed4dd6ae-53c5-4472-be6e-0a0420209316")
 	)
 	(fp_arc
 		(start -4.5 0)
@@ -132,7 +135,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "ae5541ef-4a6f-4633-a4ee-bd55a71b84e0")
+		(uuid "dbd69ee3-566f-43f6-9d16-afbf9d80a4b8")
 	)
 	(fp_line
 		(start -5.6 -4.5)
@@ -142,7 +145,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "a757d0b4-257e-4dba-a0fd-ff6fa2993b04")
+		(uuid "87826621-5530-46e1-bdfa-63bd292d55d8")
 	)
 	(fp_line
 		(start -5.6 24.9)
@@ -152,7 +155,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "96093886-63c4-485b-9f99-b1e1ab011a24")
+		(uuid "4b68c1b5-b913-4c6a-bcf3-6a38067ce76f")
 	)
 	(fp_line
 		(start 50.11 -4.5)
@@ -162,7 +165,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "7061f884-06bb-4cb4-9944-b0e3eb911cf9")
+		(uuid "17aab969-fe0c-4aa2-99f4-af64d982362a")
 	)
 	(fp_line
 		(start 50.11 24.9)
@@ -172,7 +175,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "d0db38d9-d320-41e2-bca6-9be710b9e341")
+		(uuid "abf975c5-f00c-44d4-a311-da95df7e44be")
 	)
 	(fp_line
 		(start -3.39 -3.5)
@@ -182,7 +185,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "8a053a93-7fcc-4ba0-bd10-29b622091a9e")
+		(uuid "f9ed3913-c167-4297-9e46-648878a7c751")
 	)
 	(fp_line
 		(start -3.39 23.9)
@@ -192,7 +195,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "b41ddd2a-d03d-4f93-b1ef-b6ae7628722d")
+		(uuid "72f16a63-1c2a-4f4b-939d-66e63617d38c")
 	)
 	(fp_line
 		(start 49.11 -3.5)
@@ -202,7 +205,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "d5e2d570-94da-42df-9e09-dec484da4a41")
+		(uuid "6cf8b373-aea4-4924-8ac5-3e709fc87f4f")
 	)
 	(fp_line
 		(start 49.11 23.9)
@@ -212,12 +215,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "bac4b5c1-3ce9-4828-b210-23150610deb6")
+		(uuid "60ad17e6-1b44-496e-89f5-b2b88f9331c6")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 22.255 10.2 0)
 		(layer "F.Fab")
-		(uuid "a8217b99-2c31-4d62-ae13-1d78ed17c369")
+		(uuid "a4968c0a-07a6-4a10-b07c-fb510eacd238")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -231,7 +234,7 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "ed7a3c3f-b497-4f81-be54-73921f27e5a4")
+		(uuid "c29f760a-0c72-41ca-995a-0a1159933edb")
 	)
 	(pad "2" thru_hole circle
 		(at 0 20.32)
@@ -239,7 +242,7 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "fc5160e2-06a3-42d5-9fbc-6d286dcde64b")
+		(uuid "5680a41f-5c25-4cfe-93d6-7172ebf7dffe")
 	)
 	(pad "4" thru_hole circle
 		(at 45.72 10.16)
@@ -247,7 +250,7 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "a7fc6e94-1681-4f55-ab8b-470056df90cd")
+		(uuid "2862eb81-ce82-4eae-b6c5-2fb26709d76c")
 	)
 	(pad "5" thru_hole circle
 		(at 45.72 0)
@@ -255,10 +258,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "82e70606-b3f8-46f2-9d23-cc6b1320c1b4")
+		(uuid "0d9802a6-96d2-4e1c-b238-f513bdd66ec7")
 	)
 	(embedded_fonts no)
-	(model "RAC20-12SK.stp"
+	(model "${REFLOW_STATION}/RAC20-12SK.stp"
 		(offset
 			(xyz 22.25999989 -10.19999966 -0.07999999701)
 		)

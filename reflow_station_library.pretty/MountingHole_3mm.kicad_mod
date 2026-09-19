@@ -9,7 +9,7 @@
 	(property "Reference" "REF**"
 		(at 0 -3.95 0)
 		(layer "F.SilkS")
-		(uuid "c9640ba5-d77d-45bc-9a60-92216dd0560b")
+		(uuid "c757c697-a748-4ff7-ab20-6d68fbafd03e")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 	(property "Value" "MountingHole_Pad"
 		(at 0 3.95 0)
 		(layer "F.Fab")
-		(uuid "717ba86e-0aa7-4e37-a763-5a8fc1fea66e")
+		(uuid "971d0b4d-4ab0-496a-8631-6e0fd3fe5e99")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3096881a-3b97-4db9-893c-2777b1a593f1")
+		(uuid "74b5dfda-d558-4403-b6d2-5b7cf8c5c5dd")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a15cf4e0-a233-49a5-8f60-e88cfe387afc")
+		(uuid "2fa89fcf-05a9-4d96-a5a4-fcf926f0a3c2")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -53,7 +53,7 @@
 	(property ki_fp_filters "MountingHole*")
 	(sheetname "/")
 	(sheetfile "reflow_station.kicad_sch")
-	(attr exclude_from_bom)
+	(attr exclude_from_bom dnp)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_circle
 		(center 0 0)
@@ -64,7 +64,7 @@
 		)
 		(fill no)
 		(layer "Cmts.User")
-		(uuid "9ec17eb2-4466-4be1-a610-31ee36196fe1")
+		(uuid "4a8d23a9-320e-4d46-9b53-f41dffe18428")
 	)
 	(fp_circle
 		(center 0 0)
@@ -75,12 +75,12 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "130dcb60-b59d-49c1-8711-373ca0c43aca")
+		(uuid "cd6e9b7d-f5e5-4299-84d9-15b6f1010092")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "99aaf79d-84c1-41f6-af4a-e069501201f1")
+		(uuid "3d41f0d4-79c9-481c-a00a-91c4ec5d1794")
 		(effects
 			(font
 				(size 1 1)
@@ -93,7 +93,7 @@
 		(size 3 3)
 		(drill 3)
 		(layers "*.Cu" "*.Mask")
-		(uuid "7ebe013a-62a5-42cf-8b59-c7a4a6b20b8e")
+		(uuid "8610841b-5fbd-4aa5-925b-21edd2ff3f60")
 	)
 	(embedded_fonts no)
 )

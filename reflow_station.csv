@@ -21,7 +21,6 @@
 "D3","1","BAT54S","","","","","${EXCLUDE_FROM_POS_FILES}","reflow_station_library:SOT-23","https://www.diodes.com/assets/Datasheets/ds11005.pdf"
 "D4","1","MB10S","","","","","${EXCLUDE_FROM_POS_FILES}","reflow_station_library:MBS_L4.7-W3.8-P2.40-LS7.0-TL","https://www.onsemi.com/pub/Collateral/MDB8S-D.PDF"
 "D6,D9,D11","3","LED","","","","","${EXCLUDE_FROM_POS_FILES}","reflow_station_library:LED_0805_2012Metric",""
-"HS1","1","Heatsink","","","","","${EXCLUDE_FROM_POS_FILES}","",""
 "IC1","1","AMC23C10DWVR","","","","","${EXCLUDE_FROM_POS_FILES}","reflow_station_library:SOIC127P1150X280-8N","https://www.ti.com/lit/ds/symlink/amc23c10.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1691395362663&ref_url=https%253A%252F%252Fwww.mouser.cn%252F"
 "IC2","1","MP100LGN-Z","","","","","${EXCLUDE_FROM_POS_FILES}","reflow_station_library:SOIC127P600X170-9N","https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP100L/document_id/11"
 "J1","1","1731734","","","","","${EXCLUDE_FROM_POS_FILES}","reflow_station_library:1731734","https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-gmkds-3-3-762-1731734?type=pdf"

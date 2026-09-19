@@ -4879,121 +4879,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "reflow_station_symbols:Heatsink"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "HS"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Heatsink"
-				(at 0 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.3048 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0.3048 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Heatsink"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "thermal heat temperature"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Heatsink_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Heatsink_0_1"
-				(polyline
-					(pts
-						(xy -0.3302 1.27) (xy -0.9652 1.27) (xy -0.9652 3.81) (xy -1.6002 3.81) (xy -1.6002 1.27) (xy -2.2352 1.27)
-						(xy -2.2352 3.81) (xy -2.8702 3.81) (xy -2.8702 0) (xy -0.9652 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3302 1.27) (xy -0.3302 3.81) (xy 0.3048 3.81) (xy 0.3048 1.27) (xy 0.9398 1.27) (xy 0.9398 3.81)
-						(xy 1.5748 3.81) (xy 1.5748 1.27) (xy 2.2098 1.27) (xy 2.2098 3.81) (xy 2.8448 3.81) (xy 2.8448 0)
-						(xy -0.9652 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "reflow_station_symbols:IEC_60320_C13_Plug"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5834,7 +5719,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "reflow_station_symbols:MOC3023M"
+		(symbol "reflow_station_symbols:MOC3052M"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -5851,7 +5736,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "MOC3023M"
+			(property "Value" "MOC3052M"
 				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5875,7 +5760,7 @@
 					(justify left)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MOC3023M-D.PDF"
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MOC3052M-D.PDF"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5887,7 +5772,7 @@
 					(justify left)
 				)
 			)
-			(property "Description" "Random Phase Opto-Triac, Vdrm 400V, Ift 5mA, DIP6"
+			(property "Description" "Random Phase Opto-Triac, Vdrm 600V, Ift 10mA, DIP6"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5920,7 +5805,7 @@
 					)
 				)
 			)
-			(symbol "MOC3023M_0_1"
+			(symbol "MOC3052M_0_1"
 				(rectangle
 					(start -5.08 3.81)
 					(end 5.08 -3.81)
@@ -6065,7 +5950,7 @@
 					)
 				)
 			)
-			(symbol "MOC3023M_1_1"
+			(symbol "MOC3052M_1_1"
 				(pin passive line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -25647,7 +25532,7 @@
 		)
 		(uuid "21717b76-36a3-41b8-92d2-769944cd64e5")
 	)
-	(label "L"
+	(label "L_FUSED"
 		(at 1017.27 76.2 180)
 		(effects
 			(font
@@ -25797,7 +25682,7 @@
 		)
 		(uuid "435e8bc9-951e-449d-b63c-c43dc28fc18a")
 	)
-	(label "L"
+	(label "L_FUSED"
 		(at 1168.4 190.5 180)
 		(effects
 			(font
@@ -26187,7 +26072,7 @@
 		)
 		(uuid "8c66d6b6-8ba0-4e78-8634-de2a55bb1295")
 	)
-	(label "L"
+	(label "L_FUSED"
 		(at 1168.4 76.2 180)
 		(effects
 			(font
@@ -26497,7 +26382,7 @@
 		)
 		(uuid "bcf5d0c7-8b6e-4bab-9444-5371a13323dd")
 	)
-	(label "L"
+	(label "L_FUSED"
 		(at 1017.27 190.5 180)
 		(effects
 			(font
@@ -27327,6 +27212,138 @@
 			(project "reflow_station"
 				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be"
 					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reflow_station_symbols:BTA16-600B")
+		(at 1111.25 205.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02bd9d56-a661-41ab-882a-ab70e2a43975")
+		(property "Reference" "Q4"
+			(at 1115.06 205.0541 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BTA16-600B"
+			(at 1115.06 207.5941 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "reflow_station_library:TO-220-3_Vertical_Staggered"
+			(at 1116.33 207.645 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "PDF"
+			(at 1111.25 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "TO-220; pin 2 bent"
+			(at 1111.25 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Creación" "2026-09-16"
+			(at 1111.25 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Descripción 2" "Snnn - Data or Component Name"
+			(at 1111.25 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Texto 1" "T1"
+			(at 1111.25 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Texto 2" "T2"
+			(at 1111.25 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "40060d98-5a8c-492c-ba0c-4fb598390242")
+		)
+		(pin "3"
+			(uuid "c709a291-b50d-4ded-bf58-10f776a93c08")
+		)
+		(pin "2"
+			(uuid "8a26168d-cda9-41d6-947f-880a70deb371")
+		)
+		(instances
+			(project "reflow_station"
+				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be"
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -28352,105 +28369,6 @@
 			(project "reflow_station"
 				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be"
 					(reference "#PWR056")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "reflow_station_symbols:BTA16-600B")
-		(at 1111.25 91.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0ab2b58d-8d62-4445-9dc0-de656e2635f7")
-		(property "Reference" "Q2"
-			(at 1115.06 90.7541 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BTA16-600B"
-			(at 1115.06 93.2941 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "reflow_station_library:TO-220-3_Vertical"
-			(at 1116.33 93.345 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/bta16.pdf"
-			(at 1111.25 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "16A RMS, 600V Off-State Voltage, 50mA Sensitivity, Insulated, Triac, TO-220"
-			(at 1111.25 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "package/TO_SOT/THT"
-			(at 1111.25 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9fc1845b-09e4-4ecd-804a-d34f79ff363a")
-		)
-		(pin "2"
-			(uuid "99fc14cf-233e-492d-a1e2-ffe9f69c3f62")
-		)
-		(pin "3"
-			(uuid "675249dd-e647-460a-94ce-e462b9ea3c23")
-		)
-		(instances
-			(project "reflow_station"
-				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be"
-					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -31131,105 +31049,6 @@
 		)
 	)
 	(symbol
-		(lib_id "reflow_station_symbols:BTA16-600B")
-		(at 960.12 205.74 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1b473017-6d84-4dea-9097-a3b629fc7e4a")
-		(property "Reference" "Q3"
-			(at 963.93 205.0541 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BTA16-600B"
-			(at 963.93 207.5941 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "reflow_station_library:TO-220-3_Vertical"
-			(at 965.2 207.645 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/bta16.pdf"
-			(at 960.12 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "16A RMS, 600V Off-State Voltage, 50mA Sensitivity, Insulated, Triac, TO-220"
-			(at 960.12 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "package/TO_SOT/THT"
-			(at 960.12 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4c5c705c-b921-48d7-938f-ad15ee4dbc20")
-		)
-		(pin "2"
-			(uuid "160dd92b-ecd8-44e2-a232-a0153a407733")
-		)
-		(pin "3"
-			(uuid "aeef286a-15c8-4075-a19b-e419001266c9")
-		)
-		(instances
-			(project "reflow_station"
-				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "reflow_station_symbols:R")
 		(at 149.86 632.46 0)
 		(mirror x)
@@ -31669,7 +31488,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+		(property "Footprint" "reflow_station_library:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
 			(at 539.75 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -31691,7 +31510,7 @@
 				)
 			)
 		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
+		(property "Description" ""
 			(at 539.75 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -32801,7 +32620,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
+		(property "Footprint" "reflow_station_library:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
 			(at 293.37 219.456 0)
 			(hide yes)
 			(show_name no)
@@ -32812,7 +32631,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf"
+		(property "Datasheet" ""
 			(at 293.37 219.456 0)
 			(hide yes)
 			(show_name no)
@@ -32823,7 +32642,7 @@
 				)
 			)
 		)
-		(property "Description" "CPU Fan, tacho output, PWM input, 4-pin connector"
+		(property "Description" ""
 			(at 293.37 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -33523,7 +33342,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds11005.pdf"
+		(property "Datasheet" ""
 			(at 456.692 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -33534,7 +33353,7 @@
 				)
 			)
 		)
-		(property "Description" "Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"
+		(property "Description" ""
 			(at 459.74 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -33746,105 +33565,6 @@
 		)
 	)
 	(symbol
-		(lib_id "reflow_station_symbols:BTA16-600B")
-		(at 960.12 91.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2ccda7a6-92f0-4e96-9a80-727b6c7be0f2")
-		(property "Reference" "Q1"
-			(at 963.93 90.7541 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BTA16-600B"
-			(at 963.93 93.2941 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "reflow_station_library:TO-220-3_Vertical"
-			(at 965.2 93.345 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/bta16.pdf"
-			(at 960.12 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "16A RMS, 600V Off-State Voltage, 50mA Sensitivity, Insulated, Triac, TO-220"
-			(at 960.12 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "package/TO_SOT/THT"
-			(at 960.12 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b40207e6-9b8a-4918-bbbc-3e89c5e075dd")
-		)
-		(pin "2"
-			(uuid "85cd7e7d-c0af-446e-ad84-4dfc8c264c56")
-		)
-		(pin "3"
-			(uuid "7f62a051-82b1-4dae-82c6-ff1a2a52a94d")
-		)
-		(instances
-			(project "reflow_station"
-				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "reflow_station_symbols:R")
 		(at 825.5 214.63 180)
 		(unit 1)
@@ -34049,7 +33769,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "1731721"
+		(property "Footprint" "reflow_station_library:1731721"
 			(at 1102.03 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -34160,7 +33880,7 @@
 		)
 	)
 	(symbol
-		(lib_id "reflow_station_symbols:MOC3023M")
+		(lib_id "reflow_station_symbols:MOC3052M")
 		(at 1074.42 205.74 0)
 		(unit 1)
 		(body_style 1)
@@ -34181,7 +33901,7 @@
 				)
 			)
 		)
-		(property "Value" "MOC3023M"
+		(property "Value" "MOC3052M"
 			(at 1074.42 199.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34191,7 +33911,7 @@
 				)
 			)
 		)
-		(property "Footprint" "reflow_station_library:DIP-6_W7.62mm_LongPads"
+		(property "Footprint" "reflow_station_library:SMDIP-6_W9.53mm"
 			(at 1069.34 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -34204,7 +33924,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MOC3023M-D.PDF"
+		(property "Datasheet" ""
 			(at 1074.42 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -34216,7 +33936,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "Random Phase Opto-Triac, Vdrm 400V, Ift 5mA, DIP6"
+		(property "Description" ""
 			(at 1074.42 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -37729,7 +37449,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+		(property "Footprint" "reflow_station_library:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
 			(at 488.95 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -37751,7 +37471,7 @@
 				)
 			)
 		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
+		(property "Description" ""
 			(at 488.95 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -38907,7 +38627,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+		(property "Footprint" "reflow_station_library:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
 			(at 590.55 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -38929,7 +38649,7 @@
 				)
 			)
 		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
+		(property "Description" ""
 			(at 590.55 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -39286,112 +39006,6 @@
 			(project "reflow_station"
 				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be"
 					(reference "R60")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "reflow_station_symbols:MOC3023M")
-		(at 923.29 91.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "54e6f007-8ac5-472f-9f72-77909e95f094")
-		(property "Reference" "U3"
-			(at 923.29 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MOC3023M"
-			(at 923.29 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "reflow_station_library:DIP-6_W7.62mm_LongPads"
-			(at 918.21 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MOC3023M-D.PDF"
-			(at 923.29 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Random Phase Opto-Triac, Vdrm 400V, Ift 5mA, DIP6"
-			(at 923.29 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "package/DIP/legacy"
-			(at 923.29 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "4c6f42e4-bd22-4074-8c24-16e36d6518b6")
-		)
-		(pin "2"
-			(uuid "565af030-789a-487e-91b3-943a32a5fe27")
-		)
-		(pin "5"
-			(uuid "1d98b505-466c-4127-802c-a876c6a8e456")
-		)
-		(pin "4"
-			(uuid "467d8dd1-41db-4f9b-91ea-2791cfc36503")
-		)
-		(pin "6"
-			(uuid "42fc47b9-0f09-47c9-b4bf-b9b9d4688343")
-		)
-		(pin "1"
-			(uuid "a24877d4-4f19-4c42-83aa-8c8b181cefa8")
-		)
-		(instances
-			(project "reflow_station"
-				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be"
-					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -40724,7 +40338,7 @@
 				)
 			)
 		)
-		(property "Value" "330 1W fusible"
+		(property "Value" "470 1W fusible"
 			(at 942.34 72.39 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42681,7 +42295,7 @@
 		)
 	)
 	(symbol
-		(lib_id "reflow_station_symbols:MOC3023M")
+		(lib_id "reflow_station_symbols:MOC3052M")
 		(at 923.29 205.74 0)
 		(unit 1)
 		(body_style 1)
@@ -42702,7 +42316,7 @@
 				)
 			)
 		)
-		(property "Value" "MOC3023M"
+		(property "Value" "MOC3052M"
 			(at 923.29 199.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42712,7 +42326,7 @@
 				)
 			)
 		)
-		(property "Footprint" "reflow_station_library:DIP-6_W7.62mm_LongPads"
+		(property "Footprint" "reflow_station_library:SMDIP-6_W9.53mm"
 			(at 918.21 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -42725,7 +42339,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MOC3023M-D.PDF"
+		(property "Datasheet" ""
 			(at 923.29 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -42737,7 +42351,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "Random Phase Opto-Triac, Vdrm 400V, Ift 5mA, DIP6"
+		(property "Description" ""
 			(at 923.29 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -43222,7 +42836,7 @@
 		)
 	)
 	(symbol
-		(lib_id "reflow_station_symbols:MOC3023M")
+		(lib_id "reflow_station_symbols:MOC3052M")
 		(at 1074.42 91.44 0)
 		(unit 1)
 		(body_style 1)
@@ -43243,7 +42857,7 @@
 				)
 			)
 		)
-		(property "Value" "MOC3023M"
+		(property "Value" "MOC3052M"
 			(at 1074.42 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43253,7 +42867,7 @@
 				)
 			)
 		)
-		(property "Footprint" "reflow_station_library:DIP-6_W7.62mm_LongPads"
+		(property "Footprint" "reflow_station_library:SMDIP-6_W9.53mm"
 			(at 1069.34 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -43266,7 +42880,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MOC3023M-D.PDF"
+		(property "Datasheet" ""
 			(at 1074.42 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -43278,7 +42892,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "Random Phase Opto-Triac, Vdrm 400V, Ift 5mA, DIP6"
+		(property "Description" ""
 			(at 1074.42 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -44950,7 +44564,7 @@
 				(justify right)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32f469vi.pdf"
+		(property "Datasheet" ""
 			(at 760.73 562.61 0)
 			(hide yes)
 			(show_name no)
@@ -44961,7 +44575,7 @@
 				)
 			)
 		)
-		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 2048KB flash, 384KB RAM, 180 MHz, 1.7-3.6V, 71 GPIO, LQFP100"
+		(property "Description" ""
 			(at 760.73 562.61 0)
 			(hide yes)
 			(show_name no)
@@ -47328,7 +46942,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9b5a55f4-b25d-44f0-9afa-06e5c73c78be")
 		(property "Reference" "H4"
@@ -47353,7 +46967,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_Via"
+		(property "Footprint" "reflow_station_library:MountingHole_3mm_Pad_Via"
 			(at 63.5 515.62 0)
 			(hide yes)
 			(show_name no)
@@ -47569,7 +47183,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "1731721"
+		(property "Footprint" "reflow_station_library:1731721"
 			(at 1253.16 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -49326,7 +48940,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a568ed2a-8047-4316-a400-9bc598a1168b")
 		(property "Reference" "H1"
@@ -49351,7 +48965,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3mm"
+		(property "Footprint" "reflow_station_library:MountingHole_3mm"
 			(at 316.23 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -49466,6 +49080,138 @@
 			(project "reflow_station"
 				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be"
 					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reflow_station_symbols:BTA16-600B")
+		(at 960.12 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7c64ffd-a2f0-4886-bd6e-932833de4b8b")
+		(property "Reference" "Q1"
+			(at 963.93 90.7541 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BTA16-600B"
+			(at 963.93 93.2941 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "reflow_station_library:TO-220-3_Vertical_Staggered"
+			(at 965.2 93.345 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "PDF"
+			(at 960.12 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "TO-220; pin 2 bent"
+			(at 960.12 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Creación" "2026-09-16"
+			(at 960.12 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Descripción 2" "Snnn - Data or Component Name"
+			(at 960.12 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Texto 1" "T1"
+			(at 960.12 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Texto 2" "T2"
+			(at 960.12 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5ac23677-099f-446b-b5b3-333183023383")
+		)
+		(pin "3"
+			(uuid "c06e75f3-0ff9-43f6-b229-0baf6ed35784")
+		)
+		(pin "2"
+			(uuid "8a32f49a-b56f-42f7-adfd-affb61cd7c3b")
+		)
+		(instances
+			(project "reflow_station"
+				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -49911,7 +49657,7 @@
 				)
 			)
 		)
-		(property "Footprint" "reflow_station_library:MBS_L4.7-W3.8-P2.40-LS7.0-TL"
+		(property "Footprint" "reflow_station_library:SOP240P700X300-4N"
 			(at 52.07 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -49922,7 +49668,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MDB8S-D.PDF"
+		(property "Datasheet" ""
 			(at 52.07 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -49933,7 +49679,18 @@
 				)
 			)
 		)
-		(property "Description" "Single-Phase Bridge Rectifier, 700V Vrms, 1A If, TSSOP-4"
+		(property "Description" ""
+			(at 52.07 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/gullwing"
 			(at 52.07 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -50644,7 +50401,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "1731721"
+		(property "Footprint" "reflow_station_library:1731721"
 			(at 1102.03 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -52901,7 +52658,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps82130.pdf"
+		(property "Datasheet" ""
 			(at 276.86 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -52912,7 +52669,7 @@
 				)
 			)
 		)
-		(property "Description" "17V Input 3A Step-Down Converter MicroSiP Module with Integrated Inductor, μSiL-8"
+		(property "Description" ""
 			(at 276.86 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -53494,7 +53251,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c0d2f552-6b3c-43cc-944e-fa64dbf8325c")
 		(property "Reference" "H2"
@@ -53519,7 +53276,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_Via"
+		(property "Footprint" "reflow_station_library:MountingHole_3mm_Pad_Via"
 			(at 339.09 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -53598,7 +53355,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
+		(property "Footprint" "reflow_station_library:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
 			(at 130.81 220.726 0)
 			(hide yes)
 			(show_name no)
@@ -53609,7 +53366,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf"
+		(property "Datasheet" ""
 			(at 130.81 220.726 0)
 			(hide yes)
 			(show_name no)
@@ -53620,7 +53377,7 @@
 				)
 			)
 		)
-		(property "Description" "CPU Fan, tacho output, PWM input, 4-pin connector"
+		(property "Description" ""
 			(at 130.81 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -54133,7 +53890,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c4a986ae-4d01-417c-ac7a-5a05c6dce859")
 		(property "Reference" "H3"
@@ -54158,7 +53915,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_Via"
+		(property "Footprint" "reflow_station_library:MountingHole_3mm_Pad_Via"
 			(at 38.1 515.62 0)
 			(hide yes)
 			(show_name no)
@@ -54737,7 +54494,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "1731721"
+		(property "Footprint" "reflow_station_library:1731721"
 			(at 1253.16 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -55536,7 +55293,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
+		(property "Footprint" "reflow_station_library:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
 			(at 242.57 219.456 0)
 			(hide yes)
 			(show_name no)
@@ -55547,7 +55304,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf"
+		(property "Datasheet" ""
 			(at 242.57 219.456 0)
 			(hide yes)
 			(show_name no)
@@ -55558,7 +55315,7 @@
 				)
 			)
 		)
-		(property "Description" "CPU Fan, tacho output, PWM input, 4-pin connector"
+		(property "Description" ""
 			(at 242.57 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -56527,7 +56284,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps82130.pdf"
+		(property "Datasheet" ""
 			(at 276.86 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -56538,7 +56295,7 @@
 				)
 			)
 		)
-		(property "Description" "17V Input 3A Step-Down Converter MicroSiP Module with Integrated Inductor, μSiL-8"
+		(property "Description" ""
 			(at 276.86 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -57583,7 +57340,7 @@
 				)
 			)
 		)
-		(property "Value" "330 1W fusible"
+		(property "Value" "470 1W fusible"
 			(at 1093.47 186.69 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57752,7 +57509,7 @@
 				)
 			)
 		)
-		(property "Value" "330 1W fusible"
+		(property "Value" "470 1W fusible"
 			(at 1093.47 72.39 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58542,6 +58299,112 @@
 		)
 	)
 	(symbol
+		(lib_id "reflow_station_symbols:MOC3052M")
+		(at 923.29 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2844ae3-49b5-41db-9a4f-288d1413a203")
+		(property "Reference" "U3"
+			(at 923.29 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MOC3052M"
+			(at 923.29 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "reflow_station_library:SMDIP-6_W9.53mm"
+			(at 918.21 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 923.29 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 923.29 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/DIP/legacy"
+			(at 923.29 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b40e8f2c-4735-41a4-b9fb-2406ac566f4a")
+		)
+		(pin "2"
+			(uuid "b1c4f5f6-d2e9-43be-ac77-d7acd45d29ca")
+		)
+		(pin "3"
+			(uuid "829d6b72-ae62-4a68-9b9d-cdf4021baa13")
+		)
+		(pin "4"
+			(uuid "597b66dc-3a86-4d67-812d-68545533d173")
+		)
+		(pin "6"
+			(uuid "00657981-cc04-496f-91b4-3bca194f433f")
+		)
+		(pin "5"
+			(uuid "b8d8bc64-9192-4928-a247-8fbdb819e68a")
+		)
+		(instances
+			(project "reflow_station"
+				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "reflow_station_symbols:C")
 		(at 685.8 618.49 0)
 		(unit 1)
@@ -58800,6 +58663,138 @@
 			(project "reflow_station"
 				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be"
 					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reflow_station_symbols:BTA16-600B")
+		(at 1111.25 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e48ba251-481a-401c-a8e1-079d4358a6e3")
+		(property "Reference" "Q2"
+			(at 1115.06 90.7541 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BTA16-600B"
+			(at 1115.06 93.2941 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "reflow_station_library:TO-220-3_Vertical_Staggered"
+			(at 1116.33 93.345 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "PDF"
+			(at 1111.25 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "TO-220; pin 2 bent"
+			(at 1111.25 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Creación" "2026-09-16"
+			(at 1111.25 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Descripción 2" "Snnn - Data or Component Name"
+			(at 1111.25 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Texto 1" "T1"
+			(at 1111.25 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Texto 2" "T2"
+			(at 1111.25 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0f3152df-5228-4504-ab51-e5bae574d4fa")
+		)
+		(pin "3"
+			(uuid "d59c2ab1-27b7-4ab4-bcef-2b873b97f8c6")
+		)
+		(pin "2"
+			(uuid "9e8d986b-10ee-4cac-8370-1d0f0d3322d3")
+		)
+		(instances
+			(project "reflow_station"
+				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -60331,6 +60326,138 @@
 		)
 	)
 	(symbol
+		(lib_id "reflow_station_symbols:BTA16-600B")
+		(at 960.12 205.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ebcad92f-2486-4393-9ce5-9139a9b8d227")
+		(property "Reference" "Q3"
+			(at 963.93 205.0541 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BTA16-600B"
+			(at 963.93 207.5941 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "reflow_station_library:TO-220-3_Vertical_Staggered"
+			(at 965.2 207.645 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "PDF"
+			(at 960.12 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "TO-220; pin 2 bent"
+			(at 960.12 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Creación" "2026-09-16"
+			(at 960.12 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Descripción 2" "Snnn - Data or Component Name"
+			(at 960.12 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Texto 1" "T1"
+			(at 960.12 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Texto 2" "T2"
+			(at 960.12 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d1d6809b-1775-494d-9d21-eaca21c9a17e")
+		)
+		(pin "3"
+			(uuid "e2986812-b158-4ff5-b0bf-e0d9b3182d57")
+		)
+		(pin "2"
+			(uuid "6f35cc71-17dd-4591-8644-f14f67b83ebd")
+		)
+		(instances
+			(project "reflow_station"
+				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "reflow_station_symbols:GND")
 		(at 204.47 66.04 0)
 		(unit 1)
@@ -60732,7 +60859,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
+		(property "Footprint" "reflow_station_library:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
 			(at 80.01 220.726 0)
 			(hide yes)
 			(show_name no)
@@ -60743,7 +60870,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf"
+		(property "Datasheet" ""
 			(at 80.01 220.726 0)
 			(hide yes)
 			(show_name no)
@@ -60754,7 +60881,7 @@
 				)
 			)
 		)
-		(property "Description" "CPU Fan, tacho output, PWM input, 4-pin connector"
+		(property "Description" ""
 			(at 80.01 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -60819,7 +60946,7 @@
 				)
 			)
 		)
-		(property "Value" "330 1W fusible"
+		(property "Value" "470 1W fusible"
 			(at 942.34 186.69 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -61398,105 +61525,6 @@
 			(project "reflow_station"
 				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be"
 					(reference "R54")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "reflow_station_symbols:BTA16-600B")
-		(at 1111.25 205.74 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f1d5b29f-c795-488a-bcff-66657af79a38")
-		(property "Reference" "Q4"
-			(at 1115.06 205.0541 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BTA16-600B"
-			(at 1115.06 207.5941 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "reflow_station_library:TO-220-3_Vertical"
-			(at 1116.33 207.645 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/bta16.pdf"
-			(at 1111.25 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "16A RMS, 600V Off-State Voltage, 50mA Sensitivity, Insulated, Triac, TO-220"
-			(at 1111.25 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "package/TO_SOT/THT"
-			(at 1111.25 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1b601f78-5495-4866-8119-bc8afe110d09")
-		)
-		(pin "2"
-			(uuid "1936b2ea-eb2a-47fa-9d6d-f35d6feccd5c")
-		)
-		(pin "3"
-			(uuid "3453fa3b-fcbe-4e76-8ad3-8051a04e149c")
-		)
-		(instances
-			(project "reflow_station"
-				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be"
-					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -63307,82 +63335,6 @@
 			(project "reflow_station"
 				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be"
 					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "reflow_station_symbols:Heatsink")
-		(at 966.47 58.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ff4c5efe-6881-4897-96f3-0d430ac7a38e")
-		(property "Reference" "HS1"
-			(at 970.28 55.2449 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Heatsink"
-			(at 970.28 57.7849 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 966.7748 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 966.7748 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Heatsink"
-			(at 966.47 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "reflow_station"
-				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be"
-					(reference "HS1")
 					(unit 1)
 				)
 			)
