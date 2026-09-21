@@ -3518,7 +3518,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e9c0bea-17b6-4128-8c2c-bb9215c74986")
-		(property "Reference" "TP22"
+		(property "Reference" "TP18"
 			(at 363.22 111.2521 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3656,7 +3656,7 @@
 		(instances
 			(project "reflow_station"
 				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/4c6ea04d-797d-4462-90d3-3a3684cce336"
-					(reference "TP22")
+					(reference "TP18")
 					(unit 1)
 				)
 			)
@@ -7584,7 +7584,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "647775c7-d93d-44ee-8e1d-6f976818f251")
-		(property "Reference" "TP24"
+		(property "Reference" "TP20"
 			(at 372.11 111.2521 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7722,7 +7722,7 @@
 		(instances
 			(project "reflow_station"
 				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/4c6ea04d-797d-4462-90d3-3a3684cce336"
-					(reference "TP24")
+					(reference "TP20")
 					(unit 1)
 				)
 			)
@@ -8010,7 +8010,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "703477bc-74f1-4740-b021-ec0f3fe58f22")
-		(property "Reference" "TP17"
+		(property "Reference" "TP13"
 			(at 173.99 111.2521 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8148,7 +8148,7 @@
 		(instances
 			(project "reflow_station"
 				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/4c6ea04d-797d-4462-90d3-3a3684cce336"
-					(reference "TP17")
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -8863,7 +8863,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89952ae6-4269-41e0-a81c-453e2608dc38")
-		(property "Reference" "TP19"
+		(property "Reference" "TP15"
 			(at 182.88 111.2521 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9001,7 +9001,7 @@
 		(instances
 			(project "reflow_station"
 				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/4c6ea04d-797d-4462-90d3-3a3684cce336"
-					(reference "TP19")
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -9019,7 +9019,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ac019ea-5824-43c9-aaae-b346e77e0b9c")
-		(property "Reference" "TP21"
+		(property "Reference" "TP17"
 			(at 316.23 81.7879 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9157,7 +9157,7 @@
 		(instances
 			(project "reflow_station"
 				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/4c6ea04d-797d-4462-90d3-3a3684cce336"
-					(reference "TP21")
+					(reference "TP17")
 					(unit 1)
 				)
 			)
@@ -10481,7 +10481,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3e769ed-8ede-4546-beed-18c7dfcd64ad")
-		(property "Reference" "TP15"
+		(property "Reference" "TP11"
 			(at 115.57 159.5121 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10619,7 +10619,7 @@
 		(instances
 			(project "reflow_station"
 				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/4c6ea04d-797d-4462-90d3-3a3684cce336"
-					(reference "TP15")
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -10858,7 +10858,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b61a8b71-27d0-409a-bb65-8d17420a7ce4")
-		(property "Reference" "TP16"
+		(property "Reference" "TP12"
 			(at 129.54 81.7879 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10996,7 +10996,7 @@
 		(instances
 			(project "reflow_station"
 				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/4c6ea04d-797d-4462-90d3-3a3684cce336"
-					(reference "TP16")
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -11092,7 +11092,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1471f1d-5ff6-400f-b5d4-a67b648339d9")
-		(property "Reference" "TP23"
+		(property "Reference" "TP19"
 			(at 372.11 91.9479 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11230,7 +11230,7 @@
 		(instances
 			(project "reflow_station"
 				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/4c6ea04d-797d-4462-90d3-3a3684cce336"
-					(reference "TP23")
+					(reference "TP19")
 					(unit 1)
 				)
 			)
@@ -11841,7 +11841,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8b33bf5-c023-403d-80c6-043076e5f420")
-		(property "Reference" "TP20"
+		(property "Reference" "TP16"
 			(at 306.07 159.5121 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11979,7 +11979,7 @@
 		(instances
 			(project "reflow_station"
 				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/4c6ea04d-797d-4462-90d3-3a3684cce336"
-					(reference "TP20")
+					(reference "TP16")
 					(unit 1)
 				)
 			)
@@ -13416,7 +13416,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb6e8062-7217-4ae7-8239-0fadc71a2c30")
-		(property "Reference" "TP18"
+		(property "Reference" "TP14"
 			(at 182.88 90.6779 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13554,7 +13554,7 @@
 		(instances
 			(project "reflow_station"
 				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/4c6ea04d-797d-4462-90d3-3a3684cce336"
-					(reference "TP18")
+					(reference "TP14")
 					(unit 1)
 				)
 			)

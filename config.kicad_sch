@@ -2089,7 +2089,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1252d345-e65d-458c-9fd7-16b4a6cee685")
-		(property "Reference" "R81"
+		(property "Reference" "R80"
 			(at 158.75 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2261,7 +2261,7 @@
 		(instances
 			(project "reflow_station"
 				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/e571f478-2f31-4f14-9227-de33168fc084"
-					(reference "R81")
+					(reference "R80")
 					(unit 1)
 				)
 			)
@@ -2279,7 +2279,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d2cec63-5afa-48ee-b34a-e7d52f5bd690")
-		(property "Reference" "R76"
+		(property "Reference" "R77"
 			(at 120.65 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2451,7 +2451,7 @@
 		(instances
 			(project "reflow_station"
 				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/e571f478-2f31-4f14-9227-de33168fc084"
-					(reference "R76")
+					(reference "R77")
 					(unit 1)
 				)
 			)
@@ -2469,7 +2469,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49ad509e-1451-47f8-9343-b4921d8df07f")
-		(property "Reference" "R77"
+		(property "Reference" "R79"
 			(at 120.65 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2641,7 +2641,7 @@
 		(instances
 			(project "reflow_station"
 				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/e571f478-2f31-4f14-9227-de33168fc084"
-					(reference "R77")
+					(reference "R79")
 					(unit 1)
 				)
 			)
@@ -2659,7 +2659,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50961751-b770-4166-b07b-3e60c6a25ed7")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR0139"
 			(at 130.81 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -2719,7 +2719,7 @@
 		(instances
 			(project "reflow_station"
 				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/e571f478-2f31-4f14-9227-de33168fc084"
-					(reference "#PWR0136")
+					(reference "#PWR0139")
 					(unit 1)
 				)
 			)
@@ -2927,7 +2927,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "737f5e94-4e43-4eae-8755-336a7b81c3a7")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR0140"
 			(at 114.3 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -2987,7 +2987,7 @@
 		(instances
 			(project "reflow_station"
 				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/e571f478-2f31-4f14-9227-de33168fc084"
-					(reference "#PWR0135")
+					(reference "#PWR0140")
 					(unit 1)
 				)
 			)
@@ -3005,7 +3005,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7293202-8444-43ce-aff7-b545ed30be6f")
-		(property "Reference" "R78"
+		(property "Reference" "R81"
 			(at 120.65 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3177,7 +3177,7 @@
 		(instances
 			(project "reflow_station"
 				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/e571f478-2f31-4f14-9227-de33168fc084"
-					(reference "R78")
+					(reference "R81")
 					(unit 1)
 				)
 			)
@@ -3195,7 +3195,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "be218bda-9053-479f-a817-8640dbe186fd")
-		(property "Reference" "#PWR0137"
+		(property "Reference" "#PWR0141"
 			(at 165.1 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -3255,7 +3255,7 @@
 		(instances
 			(project "reflow_station"
 				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/e571f478-2f31-4f14-9227-de33168fc084"
-					(reference "#PWR0137")
+					(reference "#PWR0141")
 					(unit 1)
 				)
 			)
@@ -3274,7 +3274,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c12c7874-8575-484b-b96d-47f2afc921f3")
-		(property "Reference" "R79"
+		(property "Reference" "R76"
 			(at 158.75 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3446,7 +3446,7 @@
 		(instances
 			(project "reflow_station"
 				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/e571f478-2f31-4f14-9227-de33168fc084"
-					(reference "R79")
+					(reference "R76")
 					(unit 1)
 				)
 			)
@@ -3465,7 +3465,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5e76027-df21-4163-a9ce-72caba56c55f")
-		(property "Reference" "R80"
+		(property "Reference" "R78"
 			(at 158.75 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3637,7 +3637,7 @@
 		(instances
 			(project "reflow_station"
 				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/e571f478-2f31-4f14-9227-de33168fc084"
-					(reference "R80")
+					(reference "R78")
 					(unit 1)
 				)
 			)

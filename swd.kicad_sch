@@ -3296,7 +3296,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "66b8e3a7-7067-4e18-b1ce-94b9d2582a9d")
-		(property "Reference" "TP29"
+		(property "Reference" "TP25"
 			(at 217.17 79.5021 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3434,7 +3434,7 @@
 		(instances
 			(project "reflow_station"
 				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/93249a2a-e51b-4c44-9b6d-4c6bfcead48b/235cb61c-0bfd-4530-98f3-9fb88eaf14c4"
-					(reference "TP29")
+					(reference "TP25")
 					(unit 1)
 				)
 			)
@@ -3452,7 +3452,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "907e821b-b729-406d-b91c-dea318e9afa1")
-		(property "Reference" "TP28"
+		(property "Reference" "TP24"
 			(at 219.71 73.1521 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3590,7 +3590,7 @@
 		(instances
 			(project "reflow_station"
 				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/93249a2a-e51b-4c44-9b6d-4c6bfcead48b/235cb61c-0bfd-4530-98f3-9fb88eaf14c4"
-					(reference "TP28")
+					(reference "TP24")
 					(unit 1)
 				)
 			)
@@ -3864,7 +3864,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b6f10dac-d635-4fdb-8527-6c6cf3b108eb")
-		(property "Reference" "TP26"
+		(property "Reference" "TP22"
 			(at 217.17 44.9579 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4002,7 +4002,7 @@
 		(instances
 			(project "reflow_station"
 				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/93249a2a-e51b-4c44-9b6d-4c6bfcead48b/235cb61c-0bfd-4530-98f3-9fb88eaf14c4"
-					(reference "TP26")
+					(reference "TP22")
 					(unit 1)
 				)
 			)
@@ -4224,7 +4224,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f4a3fab4-1626-4e1e-a909-af0b0fc82500")
-		(property "Reference" "TP27"
+		(property "Reference" "TP23"
 			(at 219.71 51.3079 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4362,7 +4362,7 @@
 		(instances
 			(project "reflow_station"
 				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/93249a2a-e51b-4c44-9b6d-4c6bfcead48b/235cb61c-0bfd-4530-98f3-9fb88eaf14c4"
-					(reference "TP27")
+					(reference "TP23")
 					(unit 1)
 				)
 			)

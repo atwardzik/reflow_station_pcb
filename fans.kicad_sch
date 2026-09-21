@@ -1024,7 +1024,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02311e18-b505-41b3-829d-92206ba3564d")
-		(property "Reference" "#PWR0138"
+		(property "Reference" "#PWR0142"
 			(at 88.9 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -1084,7 +1084,7 @@
 		(instances
 			(project "reflow_station"
 				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/d74a71ab-4111-41f8-b742-f4b6812e7f98"
-					(reference "#PWR0138")
+					(reference "#PWR0142")
 					(unit 1)
 				)
 			)
@@ -1850,7 +1850,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5919748-de21-4d63-a6de-1b561cdcd164")
-		(property "Reference" "#PWR0139"
+		(property "Reference" "#PWR0143"
 			(at 215.9 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -1910,7 +1910,7 @@
 		(instances
 			(project "reflow_station"
 				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/d74a71ab-4111-41f8-b742-f4b6812e7f98"
-					(reference "#PWR0139")
+					(reference "#PWR0143")
 					(unit 1)
 				)
 			)
@@ -1928,7 +1928,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e37a0269-ffba-4b7a-98ee-3e9ce04e6ccf")
-		(property "Reference" "#PWR0141"
+		(property "Reference" "#PWR0145"
 			(at 215.9 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -1988,7 +1988,7 @@
 		(instances
 			(project "reflow_station"
 				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/d74a71ab-4111-41f8-b742-f4b6812e7f98"
-					(reference "#PWR0141")
+					(reference "#PWR0145")
 					(unit 1)
 				)
 			)
@@ -2006,7 +2006,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f57bc61a-7829-43c2-add8-12eb4365cc9e")
-		(property "Reference" "#PWR0140"
+		(property "Reference" "#PWR0144"
 			(at 88.9 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -2066,7 +2066,7 @@
 		(instances
 			(project "reflow_station"
 				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/d74a71ab-4111-41f8-b742-f4b6812e7f98"
-					(reference "#PWR0140")
+					(reference "#PWR0144")
 					(unit 1)
 				)
 			)

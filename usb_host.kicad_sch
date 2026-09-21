@@ -3840,7 +3840,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2cd8aa50-09ac-49e9-b124-48ecb16498fe")
-		(property "Reference" "TP25"
+		(property "Reference" "TP21"
 			(at 186.69 55.1179 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3978,7 +3978,7 @@
 		(instances
 			(project "reflow_station"
 				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/93249a2a-e51b-4c44-9b6d-4c6bfcead48b/b56b01c8-a4d6-4add-b4c8-1a1bd46e73bf"
-					(reference "TP25")
+					(reference "TP21")
 					(unit 1)
 				)
 			)
