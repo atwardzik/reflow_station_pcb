@@ -9,7 +9,7 @@
 	(property "Reference" "REF**"
 		(at 0 -3.95 0)
 		(layer "F.SilkS")
-		(uuid "c757c697-a748-4ff7-ab20-6d68fbafd03e")
+		(uuid "d22a8f01-1f18-4fbc-bb59-1aafd346e544")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 	(property "Value" "MountingHole_Pad"
 		(at 0 3.95 0)
 		(layer "F.Fab")
-		(uuid "971d0b4d-4ab0-496a-8631-6e0fd3fe5e99")
+		(uuid "ec59ed15-370c-4218-96e8-f1a91ce41ec3")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "74b5dfda-d558-4403-b6d2-5b7cf8c5c5dd")
+		(uuid "59e08f58-dc65-46b3-a0eb-98ef3f1b81e4")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,10 +43,101 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2fa89fcf-05a9-4d96-a5a4-fcf926f0a3c2")
+		(uuid "a1581fc6-82e7-4c71-bf97-ff58d74607b2")
 		(effects
 			(font
 				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Comment" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1877f809-55ac-4be1-974e-b284f0d2cf3b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Replacement_Mfr.No" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0b1e246c-ea5a-4bf8-8d68-e6f6269efc8a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0ca2adcd-3eb1-4ecb-a5a1-6877ae4998bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier_Link" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9986aa75-c1d1-4c45-bcd8-d18bc04856c2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLCPCB_PartNo" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c9338dfa-174e-4ece-bfa0-01a80868094a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Additional_Info" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "11664005-3723-4b5d-a9af-815d83370997")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fb38c3b2-4cfa-4f81-8039-82870c6cf2ff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -64,7 +155,7 @@
 		)
 		(fill no)
 		(layer "Cmts.User")
-		(uuid "4a8d23a9-320e-4d46-9b53-f41dffe18428")
+		(uuid "8b17d339-e9b3-47cd-87de-7470b26209e5")
 	)
 	(fp_circle
 		(center 0 0)
@@ -75,12 +166,12 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "cd6e9b7d-f5e5-4299-84d9-15b6f1010092")
+		(uuid "4249e927-662b-4deb-ad4f-4a224a5b3d45")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "3d41f0d4-79c9-481c-a00a-91c4ec5d1794")
+		(uuid "62f33db6-7951-4ca8-9062-c1b0a6346772")
 		(effects
 			(font
 				(size 1 1)
@@ -93,7 +184,7 @@
 		(size 3 3)
 		(drill 3)
 		(layers "*.Cu" "*.Mask")
-		(uuid "8610841b-5fbd-4aa5-925b-21edd2ff3f60")
+		(uuid "cb7a64af-cd78-4e5c-8574-b390abefc4d9")
 	)
 	(embedded_fonts no)
 )

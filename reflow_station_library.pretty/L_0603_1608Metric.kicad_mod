@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -1.43 0)
 		(layer "F.SilkS")
-		(uuid "c37b1783-0dc8-4141-afcd-1de5d7827433")
+		(uuid "8e51cccc-9aa8-459b-807b-b71a36c14d3a")
 		(effects
 			(font
 				(size 1 1)
@@ -16,10 +16,10 @@
 			)
 		)
 	)
-	(property "Value" "FCM1608KF-601T03"
+	(property "Value" "600R @ 100MHz"
 		(at 0 1.43 0)
 		(layer "F.Fab")
-		(uuid "0e8c6fef-6533-4b47-b143-0c3e1cf1f9b8")
+		(uuid "a571ad82-df7b-449c-95c6-7f9ff0467ac9")
 		(effects
 			(font
 				(size 1 1)
@@ -31,18 +31,18 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1697d7fa-b73e-43ca-9347-04d33ce27fb8")
+		(uuid "c8dbf1f5-3828-4de0-8a0b-a8c705f4407a")
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 	)
-	(property "Description" "Inductor"
+	(property "Description" "Inductor: 600R @ 100MHz, digital and analog voltage filtering"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c74cea1e-53d2-49b5-a163-44b4f1c259b3")
+		(uuid "6f0c55a6-7b45-4376-9519-be2b2e1ab6db")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -53,7 +53,111 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "c74b34c7-f2d6-4ad3-b6da-79ab59ae52cb")
+		(uuid "afa44394-78d7-49a5-9a3c-bf5c9907b537")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Comment" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "34b24c49-4d48-4ea2-97f5-be35ff3c4cba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Replacement_Mfr.No" "BLM18AG601SN1D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f997eeb-7685-4714-afbb-a8b273c57b4d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier" "JLCPCB"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b6f370e-d8ab-4094-af87-44b767c26f8d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier_Link" "https://jlcpcb.com/partdetail/TAITECH-FCM1608KF601T03/C141723"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "02256b07-ce40-45df-8063-41bd2418d436")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLCPCB_PartNo" "C141723"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f65a2345-b709-49fc-a80a-d27ae1abd8e1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Additional_Info" "C19330 is in greater availability"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f7ba77d3-e531-4a9b-a8e4-0ead8617edb1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "94396bd6-38e3-426b-840b-247e37d11f63")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mfr.No" "FCM1608KF-601T03"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "15099077-aafc-4018-b203-177c0e038291")
 		(effects
 			(font
 				(size 1 1)
@@ -74,7 +178,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "f6200887-ce0d-4ee7-90f2-cb258b4672f2")
+		(uuid "bacabd21-ac7a-4144-84a5-fa1118935330")
 	)
 	(fp_line
 		(start -0.162779 0.51)
@@ -84,7 +188,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "9b800826-2c6c-4308-8d20-6a6718eaf61c")
+		(uuid "b8414e82-1fde-4205-afe4-e994500982c0")
 	)
 	(fp_rect
 		(start -1.48 -0.73)
@@ -95,7 +199,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "8ccff337-84b4-4b8f-80fe-9cf035760c78")
+		(uuid "4fe2c242-2603-436a-b902-9e080f93f061")
 	)
 	(fp_rect
 		(start -0.8 -0.4)
@@ -106,12 +210,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "58e7c4f1-3dc0-4bba-a703-25e1ccc708d2")
+		(uuid "99c36d87-74ce-4b9e-bb04-1d945b9f7074")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "a826f34f-fdf1-4a61-94d1-bb09b691df63")
+		(uuid "642cfc76-19dc-4308-99b9-56ccffe463c5")
 		(effects
 			(font
 				(size 0.4 0.4)
@@ -124,14 +228,14 @@
 		(size 0.875 0.95)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "cc6eea44-2a77-448e-a1d0-1a2cd2ada3db")
+		(uuid "4676ac67-73f9-4a28-9ad4-7500bb071557")
 	)
 	(pad "2" smd roundrect
 		(at 0.7875 0)
 		(size 0.875 0.95)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "d7f81f16-113a-4745-b7ea-10eb578a0f04")
+		(uuid "9f96e075-9588-4114-a7cb-09ab1ef76a26")
 	)
 	(embedded_fonts no)
 	(model "kicad-embed://L_0603_1608Metric.step"

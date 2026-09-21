@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at -0.206 -0.063 0)
 		(layer "F.SilkS")
-		(uuid "ee8fc406-3a6b-4563-a136-d5d3c461efb9")
+		(uuid "04f068b1-af94-408c-bc92-9f281bbf5d39")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20,7 +20,7 @@
 		(at -0.206 -0.063 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "e9db9c02-f9f0-40da-9a41-fd3d7a780ab6")
+		(uuid "c68feaee-66ed-4cc5-9ada-6df25ad00948")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "eb4e9251-4268-4d4c-9779-4d399ff572eb")
+		(uuid "70c0a2a0-3d31-43e3-8fed-da7d2f5a47cc")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "182544f0-ca69-4b54-89d0-9d137efd4f53")
+		(uuid "4d5f59a0-df7d-4fd3-a71a-4f8dbe31a008")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -55,7 +55,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9467d8eb-5019-4804-9a18-0e706ff09613")
+		(uuid "20acc66a-eb41-48cb-8e7f-7ea8e163309b")
 		(effects
 			(font
 				(size 1 1)
@@ -68,7 +68,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "34c042e8-6c4a-4a7b-8d41-ebc49573f879")
+		(uuid "774cf914-1b2b-46d1-a680-679aecd83df1")
 		(effects
 			(font
 				(size 1 1)
@@ -81,7 +81,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a3cff316-b178-4f3f-a5aa-d2214e174dc9")
+		(uuid "3e6de7c9-beed-4541-849d-afab9ddf6da0")
 		(effects
 			(font
 				(size 1 1)
@@ -94,7 +94,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e29f00c8-1df9-4f59-b099-0746c86af48f")
+		(uuid "ebde7f93-fcad-435d-b48b-46502845056d")
 		(effects
 			(font
 				(size 1 1)
@@ -102,12 +102,90 @@
 			)
 		)
 	)
-	(property "Manufacturer_Part_Number" "PS1240P02BT"
+	(property "Comment" ""
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "884ff465-b34f-4438-b73a-3118ff38fce8")
+		(uuid "a0de6ca5-401c-4059-ab39-08ce7188d510")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mfr.No" "PS1240P02BT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4c880ea4-da56-40ca-84e2-7547c7d11554")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Replacement_Mfr.No" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a46f355f-e7f7-4387-97a6-fdcc850a011d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier" "MOUSER"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "18557d35-8cad-4171-8bab-d993a74f46b9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier_Link" "https://www.mouser.pl/en/ProductDetail/TDK/PS1240P02BT?qs=d7g9p1yFhWaZXSY9MjKMkw%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0bb762b1-569b-4e09-b528-d06b0c8b82cb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLCPCB_PartNo" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ec912de6-f736-468f-b7e1-95b004936970")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Additional_Info" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ac4f0c74-6c13-44d8-8a1b-4ad9ffbf540d")
 		(effects
 			(font
 				(size 1 1)
@@ -128,7 +206,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "b5f8dc62-0c28-469d-b59e-158ee19f42e6")
+		(uuid "541edece-c15b-4f33-866d-9aee5e317df1")
 	)
 	(fp_circle
 		(center 0 0)
@@ -139,7 +217,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "b4901c00-22c5-493a-9152-3bd13ca5f8a4")
+		(uuid "da9c5518-38e0-40bb-ae8b-ce061f2c94d5")
 	)
 	(fp_circle
 		(center 0 0)
@@ -150,12 +228,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "f4cdba10-f23c-4923-968e-e0966b8b1980")
+		(uuid "58362b5b-77ad-453d-a84b-8e53e41bcd80")
 	)
 	(fp_text user "${REFERENCE}"
 		(at -0.206 -0.063 0)
 		(layer "F.Fab")
-		(uuid "4cafdf12-d840-4988-830f-4ac85fe4d4ad")
+		(uuid "caaa34da-bf1d-4ba5-981e-5cabe21d7ab3")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -169,7 +247,7 @@
 		(drill 0.85)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "8304121b-1947-4a06-b0eb-e89a1e2b28b6")
+		(uuid "086d339f-912e-40fd-bfbe-d4bae55465da")
 	)
 	(pad "2" thru_hole circle
 		(at 0 2.5)
@@ -177,7 +255,7 @@
 		(drill 0.85)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "029dbd05-100c-43ce-a111-7b0a7b38a6a8")
+		(uuid "bd036e30-3a3e-46d5-acfd-d3f40a85363c")
 	)
 	(embedded_fonts no)
 	(model "${REFLOW_STATION}/PS1240P02BT.stp"

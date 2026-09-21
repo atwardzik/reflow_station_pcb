@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -1.448 0)
 		(layer "F.SilkS")
-		(uuid "e412efd1-ed7c-4f8c-af80-8c3354b1010c")
+		(uuid "fb071813-e2e6-4846-b013-084361907169")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "TestPoint"
 		(at 0 1.55 0)
 		(layer "F.Fab")
-		(uuid "bf762108-342e-422f-8eef-7dd71a098b6b")
+		(uuid "16356f3c-86a5-416a-be78-95fc2d1d3a03")
 		(effects
 			(font
 				(size 1 1)
@@ -28,11 +28,11 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 0 0)
+		(at 0 0 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "134385fc-dad0-4eed-a198-b4cc8665b6dc")
+		(uuid "68bf7c06-77ce-4728-9e26-ef85fe688582")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41,11 +41,11 @@
 		)
 	)
 	(property "Description" "test point"
-		(at 0 0 0)
+		(at 0 0 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "966d0003-a3f3-474b-8652-d2caadf89502")
+		(uuid "b0c1a5b2-b31f-4e10-89a8-cb8886e81ffe")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -53,9 +53,101 @@
 			)
 		)
 	)
+	(property "Comment" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c20c3dba-0896-4dff-b388-b4b739cfb684")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Replacement_Mfr.No" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "98635fd4-21c2-440f-8497-f77e2b0ba680")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dbb359c8-ffab-463c-b81d-f48c09c7a6ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier_Link" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5ce0386f-9075-469f-8bfe-ee887a7e0577")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLCPCB_PartNo" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "43dae6d5-1f93-49aa-8ecd-5e2ae6919b09")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Additional_Info" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6338662f-1598-492b-9f4a-6f8d3b2ce67e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cbad016d-a7f7-40ac-af39-cebfd5614165")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(property ki_fp_filters "Pin* Test*")
 	(sheetname "/")
 	(sheetfile "reflow_station.kicad_sch")
+	(attr exclude_from_bom)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_circle
 		(center 0 0)
@@ -66,7 +158,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "3661bcd1-792b-48ed-be9d-9e8f453a2b1f")
+		(uuid "b506bb5c-4627-4e53-8982-755b2d6103d9")
 	)
 	(fp_circle
 		(center 0 0)
@@ -77,12 +169,12 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "c97265a0-1bfd-47b6-9106-a0df2e88039b")
+		(uuid "0b577134-7b29-4c66-b471-cbc30573e66c")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -1.45 0)
 		(layer "F.Fab")
-		(uuid "70919dba-74d1-47bb-952d-9c80ad029204")
+		(uuid "ccabf5bb-ac24-4fbd-9bae-e2eac7fd29a8")
 		(effects
 			(font
 				(size 1 1)
@@ -91,10 +183,10 @@
 		)
 	)
 	(pad "1" smd circle
-		(at 0 0 180)
+		(at 0 0)
 		(size 1 1)
 		(layers "F.Cu" "F.Mask")
-		(uuid "5aee652b-9c80-4712-99a3-47f870024c00")
+		(uuid "eb5a4656-ec81-48f3-8919-4cee038b0b9c")
 	)
 	(embedded_fonts no)
 )

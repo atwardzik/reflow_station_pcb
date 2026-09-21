@@ -7,7 +7,7 @@
 	(property "Reference" "REF**"
 		(at 0 -2.45 0)
 		(layer "F.SilkS")
-		(uuid "31505635-0f1d-45b3-9d73-2563df047862")
+		(uuid "9b1ba237-f56a-4ce2-86fd-80abd0c2686b")
 		(effects
 			(font
 				(size 1 1)
@@ -18,7 +18,7 @@
 	(property "Value" "25MHz"
 		(at 0 2.45 0)
 		(layer "F.Fab")
-		(uuid "ac8e5295-0128-47d0-8f02-9f209d587de7")
+		(uuid "c208fd0c-9d43-4f21-9fe4-509ca01b2b1a")
 		(effects
 			(font
 				(size 1 1)
@@ -30,18 +30,18 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "4e4be03d-8691-4436-8f59-9b895a7d50c7")
+		(uuid "98172196-2d3b-4e8d-aead-eb4f90cbb4dc")
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 	)
-	(property "Description" "Four pin crystal, GND on pins 2 and 4"
+	(property "Description" "XOSC: 25MHz 50Ohm 4 pin"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c18fba56-87e6-4ef5-a402-ef26ffd672f0")
+		(uuid "8332ade0-e3cb-4c0e-be46-0c355333bd65")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -52,7 +52,124 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "e549bf55-449d-4cdf-83ad-707d222cab08")
+		(uuid "32ae609b-9a3a-46ab-9aac-5a72b2826415")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Comment" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "029c2a95-04f0-4c3d-bebc-e3f74b37f0b0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Replacement_Mfr.No" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9f6b940e-80be-47d3-81c4-105ea64a93e1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier" "JLCPCB"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "99e41ecd-7614-476f-b5ee-b9cb0a266b67")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier_Link" "https://jlcpcb.com/partdetail/YXC_CrystalOscillators-X322525MOB4SI/C9006"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b9e2266-3106-4095-b5c4-73b608bc766e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLCPCB_PartNo" "C9006"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5aacfb38-572a-46f3-82bd-8f25520506eb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Additional_Info" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a3757f44-53f3-417e-958f-0f2d6e61b64b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "847b5ef0-0744-4af1-8133-032d00a89c24")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mfr.No" "X322525MOB4SI"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c33dc68d-089d-4619-94bf-2f27824ffcfd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "SMD3225-4P"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b77789f5-5e38-4268-94f0-f390b7adfd02")
 		(effects
 			(font
 				(size 1 1)
@@ -73,7 +190,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "72ade230-dea5-4bbd-ba79-bf0a485d241a")
+		(uuid "f75f7503-2a51-44d2-9a92-8cb6642944c5")
 	)
 	(fp_line
 		(start -2.06 1.71)
@@ -83,7 +200,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "632e0c4b-b34b-4cf2-b793-87c2f63079f5")
+		(uuid "aa7a776b-e23e-48b6-80e3-74ad60a8f54b")
 	)
 	(fp_rect
 		(start -2.1 -1.75)
@@ -94,7 +211,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "f1036a54-d773-4e12-8be1-1a439393436d")
+		(uuid "d108a245-025f-4fe4-86d2-3a29c8a2a490")
 	)
 	(fp_poly
 		(pts
@@ -106,12 +223,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "bfa09d51-0620-4b94-9a84-c477d815988b")
+		(uuid "f0d63ced-48a3-451c-8429-468fe1d3556b")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "a30503eb-4191-4071-92bd-a64e69ead86c")
+		(uuid "a4f5d45a-6b7c-42c2-a13c-44e3567351cd")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -124,28 +241,28 @@
 		(size 1.4 1.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.208333)
-		(uuid "b81fb9ab-f632-4f3e-8bf5-795283d8a3fb")
+		(uuid "1704d546-f3e0-4700-bbf5-3339a62f8357")
 	)
 	(pad "2" smd roundrect
 		(at 1.1 0.85)
 		(size 1.4 1.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.208333)
-		(uuid "436e7ea1-d34e-48e5-bb16-9aecb1defdfa")
+		(uuid "9418ee37-638b-4e5f-be24-bb372f68b7a8")
 	)
 	(pad "3" smd roundrect
 		(at 1.1 -0.85)
 		(size 1.4 1.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.208333)
-		(uuid "7e65fdaa-7866-49cf-90cb-47c5ae3e2068")
+		(uuid "03243ef9-a9bc-4ee7-bbe9-f55670066032")
 	)
 	(pad "4" smd roundrect
 		(at -1.1 -0.85)
 		(size 1.4 1.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.208333)
-		(uuid "1696d8e8-ad31-4c1a-a0c0-b9c1f51564d9")
+		(uuid "aca8ba72-7d09-49fe-a8e6-6b64ff83b1a9")
 	)
 	(embedded_fonts no)
 	(model "${KICAD10_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_3225-4Pin_3.2x2.5mm.step"

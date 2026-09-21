@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -3.65 0)
 		(layer "F.SilkS")
-		(uuid "326868bc-6588-4c35-8e03-9b594f50fa98")
+		(uuid "dbedeab3-e322-42f4-a6c5-9694bba5cb67")
 		(effects
 			(font
 				(size 1 1)
@@ -16,10 +16,10 @@
 			)
 		)
 	)
-	(property "Value" "47u 25V"
+	(property "Value" "47u"
 		(at 0 3.65 0)
 		(layer "F.Fab")
-		(uuid "cae073c3-c5fe-4d27-8d81-dc4b9faa3370")
+		(uuid "daeab920-be2a-41d5-81b0-ca3613b1bafd")
 		(effects
 			(font
 				(size 1 1)
@@ -27,22 +27,22 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://www.tme.eu/Document/458b498f8990c968c05ae31cff6842ca/C2220C476M3R2CAUTO.pdf"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a747f4f4-8056-41c4-bd66-9d5c5647e64e")
+		(uuid "36770e53-dda7-4bdf-8486-ee623b4b0c56")
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 	)
-	(property "Description" "Unpolarized capacitor"
+	(property "Description" "Unpolarized capacitor: 47uF 25V X7R ±20% ceramic"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b9c86614-830d-4dc5-8a59-a5b228885188")
+		(uuid "74f200d2-8f67-4afe-8176-c8d3e924c843")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -53,7 +53,124 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "a4602e7e-1cb6-4c5c-a396-0cbbda7f6a7c")
+		(uuid "33a5b3b6-3013-4ba2-a27e-b5dee6387acf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Comment" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "84a88446-7dda-4bd1-bb48-f2b1913b8dba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Replacement_Mfr.No" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "982ff164-cd21-4b1c-82e1-f970d2584e87")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier" "TME"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6a8a4882-d9d3-4a9d-9715-6d92b6eb486b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier_Link" "https://www.tme.eu/pl/en/details/c2220c476m3r2cauto/mlcc-smd-capacitors/kemet/"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "309f4bec-6291-4a6c-bd8c-8c68025e7351")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLCPCB_PartNo" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "94b448b4-197d-4cd3-8f03-599f5f9fff11")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mfr.No" "C2220C476M3R2CAUTO"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ba7e9fd6-cc53-4a07-9b69-60a4979a3868")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "2220"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "46b7d874-6607-4b54-88cb-7147b84c668f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Additional_Info" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1fdc0b61-0895-4e60-ab3f-26d41a699880")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7d5bbb4f-038a-4daf-974c-5ef51a027030")
 		(effects
 			(font
 				(size 1 1)
@@ -74,7 +191,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "f0152eac-1827-401a-9dca-0a7f04554f56")
+		(uuid "557ffdad-307b-4664-a82f-6ff6f5f36cb9")
 	)
 	(fp_line
 		(start -1.415748 2.61)
@@ -84,7 +201,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "27d94485-4800-4cf7-919b-62f047d9aed2")
+		(uuid "7c18d32d-d173-4954-a917-610cbda1545a")
 	)
 	(fp_rect
 		(start -3.88 -2.95)
@@ -95,7 +212,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "017adba1-d845-44f9-ae79-99b552cc61c6")
+		(uuid "450bcb88-478a-468c-9907-79efbc753500")
 	)
 	(fp_rect
 		(start -2.85 -2.5)
@@ -106,12 +223,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "60bb18cb-c9ff-4af7-ba6a-d7aa2da83e29")
+		(uuid "014aacbd-0aa8-40f9-b415-5febada646da")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "7f07ddb3-45f6-4d49-ba04-96418f655fb2")
+		(uuid "a42268d0-9d78-4bc9-bfc1-dd64b7540158")
 		(effects
 			(font
 				(size 1 1)
@@ -124,14 +241,14 @@
 		(size 1.975 5.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.126582)
-		(uuid "3e6ff2b0-9d8c-422a-a3d0-c8e536df7daa")
+		(uuid "ed4f7cef-816e-4b2b-bfb0-d66e0c2ac683")
 	)
 	(pad "2" smd roundrect
 		(at 2.6375 0)
 		(size 1.975 5.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.126582)
-		(uuid "45222fd7-b174-498b-9672-1985b14bdf9f")
+		(uuid "af9de752-6ba0-43c5-9149-57459ec015c1")
 	)
 	(embedded_fonts no)
 	(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_2220_5750Metric.step"

@@ -2,13 +2,14 @@
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
+	(locked yes)
 	(layer "F.Cu")
 	(descr "Resistor, Axial_DIN0922 series, Axial, Horizontal, pin pitch=25.4mm, 5W, length*diameter=20*9mm^2, http://www.vishay.com/docs/20128/wkxwrx.pdf")
 	(tags "Resistor Axial_DIN0922 series Axial Horizontal pin pitch 25.4mm 5W length 20mm diameter 9mm")
 	(property "Reference" "REF**"
 		(at 12.7 -5.62 0)
 		(layer "F.SilkS")
-		(uuid "7763c63f-2fa5-4304-84bb-73824e027794")
+		(uuid "65b9857f-6106-4f10-83c6-47e77e6e01dd")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +20,7 @@
 	(property "Value" "100 3W"
 		(at 12.7 5.62 0)
 		(layer "F.Fab")
-		(uuid "eb59069a-40ad-4d49-98a1-3da1f87e98c4")
+		(uuid "ce29ace0-95cb-4008-9b2c-ba28ea8c9fe0")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f76ac5aa-bed2-4ead-ab1b-5011f6e62aa3")
+		(uuid "14cf3ee1-7242-48fa-bde1-553428634d5c")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e45c1a03-6041-43d3-952e-a0bb731554b3")
+		(uuid "d928e0fc-1d75-4b1b-895b-a34b57d46d65")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -53,7 +54,33 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "7e0c24f2-a0a5-4e04-b540-2a5838fb4b09")
+		(uuid "cec8b2b5-8744-40c6-aef6-5c8d9bb22e22")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Comment" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d331a6f2-f629-4901-b25c-9abea698d043")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Replacement_Mfr.No" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9cbf33d4-ed9f-415e-95ed-12f346b14367")
 		(effects
 			(font
 				(size 1 1)
@@ -74,7 +101,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "85baaf6e-64f9-41b5-8c60-f0056b5bfcf2")
+		(uuid "71d14051-27f5-4169-9709-639e912323d0")
 	)
 	(fp_line
 		(start 23.96 0)
@@ -84,7 +111,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "9c3c1ef7-3f6e-4a3f-b5ba-b12c369b856e")
+		(uuid "881faec1-a2c2-4d1b-a42a-2671b9fdd4c6")
 	)
 	(fp_rect
 		(start 2.58 -4.62)
@@ -95,7 +122,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "8fd88f92-ba56-4d03-bb9a-4926ed6820f3")
+		(uuid "411db9a5-44a7-46c2-9802-c5cf4a6c40e6")
 	)
 	(fp_rect
 		(start -1.45 -4.75)
@@ -106,7 +133,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "ee738418-3434-4e8b-a1ac-89baaf63fb2b")
+		(uuid "4110ac54-4e09-42c3-9bb1-b1104eb968f4")
 	)
 	(fp_line
 		(start 0 0)
@@ -116,7 +143,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "8588f3a4-fd81-406c-809a-8614e49d4f87")
+		(uuid "a5293ece-1de8-496a-820b-4c61121d6de9")
 	)
 	(fp_line
 		(start 25.4 0)
@@ -126,7 +153,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "e9c512fb-b910-4402-af3a-7e95e006cb40")
+		(uuid "c34d255e-8541-4630-a82d-e5bfb6f0791c")
 	)
 	(fp_rect
 		(start 2.7 -4.5)
@@ -137,12 +164,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "b2c7dc90-db17-4cbe-a9d6-0d98ff63ec5a")
+		(uuid "a5115f5a-09cd-43d9-a5bf-68b594a2f5f6")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 12.7 0 0)
 		(layer "F.Fab")
-		(uuid "faa4eac9-bf73-4a0e-97a8-79fa8714d109")
+		(uuid "5f28df26-e095-4ea8-b64d-51cc6be04a9c")
 		(effects
 			(font
 				(size 1 1)
@@ -156,7 +183,7 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "9c024061-5fd5-4a89-b981-605c7a64e691")
+		(uuid "b50ea67b-a8d0-400c-865c-b55bba915163")
 	)
 	(pad "2" thru_hole circle
 		(at 25.4 0)
@@ -164,7 +191,7 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "5b020712-fcca-408b-a4f6-915ca8a2218e")
+		(uuid "029f556e-7b49-460d-a2bf-8e94b9473637")
 	)
 	(embedded_fonts no)
 	(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0922_L20.0mm_D9.0mm_P25.40mm_Horizontal.step"

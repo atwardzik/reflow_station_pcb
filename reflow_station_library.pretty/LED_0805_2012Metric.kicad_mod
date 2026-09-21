@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -1.65 0)
 		(layer "F.SilkS")
-		(uuid "0f8b6225-3bd8-4c15-a197-213ecc3675e8")
+		(uuid "d9195d13-8b60-44fc-aa9a-ec245639ffa1")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "LED"
 		(at 0 1.65 0)
 		(layer "F.Fab")
-		(uuid "8640aa42-45f0-4551-a964-d6d5addc9fc1")
+		(uuid "cdadcd39-09c9-4b51-a9d9-b3762c4984f3")
 		(effects
 			(font
 				(size 1 1)
@@ -31,18 +31,18 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "5ab13094-0592-43d4-b17e-66b70f468a79")
+		(uuid "8b8c930a-f97a-457b-8077-ec53ab1e922c")
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 	)
-	(property "Description" "Light emitting diode"
+	(property "Description" "Light emitting diode: green"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e37163c5-a8b7-443a-9c05-c2b1a6a37b40")
+		(uuid "4ac3e393-4833-4301-8f9b-7ad08bcaca2d")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -53,7 +53,7 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "b32ec307-7b7f-4c55-a391-f3f4e562e542")
+		(uuid "545c92ec-fc46-493c-8f94-b8a3fafbd91a")
 		(effects
 			(font
 				(size 1 1)
@@ -66,7 +66,124 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e4558816-432f-4b22-8c8d-01c1359a8389")
+		(uuid "5e2e1a44-2a62-4671-9757-e714b1d6dceb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Comment" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "74c9f06d-3807-4c2d-af60-b5014610ea2a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Replacement_Mfr.No" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "197db2b7-b015-4c6b-abf3-9424c6fb272c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier" "JLCPCB"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "43877e92-9e54-4897-b8b6-45c2b637db04")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier_Link" "https://jlcpcb.com/partdetail/Hubei_KENTOElec-KT0805G/C2297"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7ae0b32f-eb91-4e9d-842b-e9934f3cef2b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLCPCB_PartNo" "C2297"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8e1cd308-257f-4287-a38e-3d87bc1ef0d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mfr.No" "KT-0805G"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "41bc41b5-26dd-4a82-8302-28b8bad7a9b7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "0805"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "678fb99b-d265-4fed-8374-3d37f3e8b80a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Additional_Info" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a14617b6-46cb-4526-8c29-27af7ec8302a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fbcd9c5e-0bd3-41d2-8cd6-0ee87d211e4d")
 		(effects
 			(font
 				(size 1 1)
@@ -87,7 +204,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "84c99206-3f4b-4c86-b07e-446944ff7f34")
+		(uuid "7d23a217-320d-4097-8b11-d8d392e46af8")
 	)
 	(fp_line
 		(start -1.685 0.96)
@@ -97,7 +214,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "08e0d0a8-3195-49d7-83aa-35a36e38e75b")
+		(uuid "a9863224-1aa9-4269-9fec-7e085b3f9030")
 	)
 	(fp_line
 		(start 1 -0.96)
@@ -107,7 +224,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "bcbfe4d6-24cb-4cb9-96a1-4746fe22a271")
+		(uuid "7317d670-758c-4f21-a472-454c6c0730e8")
 	)
 	(fp_rect
 		(start -1.68 -0.95)
@@ -118,7 +235,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "675b75a7-2814-4719-b6e7-264386181176")
+		(uuid "8383fb52-b8ab-4e89-b82b-826220120d73")
 	)
 	(fp_line
 		(start -1 -0.3)
@@ -128,7 +245,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "f90af9fb-197c-4a18-835d-29b453275c19")
+		(uuid "60701c61-d7e1-4578-9d0c-b2ba896c8b4a")
 	)
 	(fp_line
 		(start -1 0.6)
@@ -138,7 +255,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "df371657-478a-4954-a916-749e1a280d20")
+		(uuid "8d71d0bf-071e-43f2-9854-036e8a526871")
 	)
 	(fp_line
 		(start -0.7 -0.6)
@@ -148,7 +265,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "11956c10-f10c-4f45-8b0e-1f02226021ce")
+		(uuid "c6b01ba2-c2f2-4d93-8d85-ed92be08e412")
 	)
 	(fp_line
 		(start 1 -0.6)
@@ -158,7 +275,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "6971dff6-3f51-4c59-bd09-cdb52dfcbf21")
+		(uuid "a3683bc7-6883-476f-b121-325308ad4c3a")
 	)
 	(fp_line
 		(start 1 0.6)
@@ -168,12 +285,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "012c083b-0b9b-4d12-be74-0b0550602ddd")
+		(uuid "d4f25d86-fffb-46f9-b2a6-646d331a4f76")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "945a6847-02af-48fd-8408-71e46989adc8")
+		(uuid "76500618-acb5-45c4-9a5d-1fbfbbd8c486")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -186,14 +303,14 @@
 		(size 0.975 1.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "a9e4392d-12ff-4bd1-ad49-2fd88b9986d1")
+		(uuid "10e2a5a9-468f-48d0-ba57-f16627bd9f5e")
 	)
 	(pad "2" smd roundrect
 		(at 0.9375 0)
 		(size 0.975 1.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "a2d75b4e-ed9b-4930-9964-78b250024cb8")
+		(uuid "72517159-4522-4e0e-bef7-9519e7d36871")
 	)
 	(embedded_fonts no)
 	(model "kicad-embed://LED_0805_2012Metric.step"

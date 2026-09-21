@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 0 180)
 		(layer "F.SilkS")
-		(uuid "c58fabdc-0a1c-4905-a56d-b5602fa6f612")
+		(uuid "860720fb-a0c2-4e23-a8ed-983fa6157723")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20,7 +20,7 @@
 		(at 0 0 180)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "75145973-474f-4d65-8c28-cf86389fffe4")
+		(uuid "d29ffc71-87ee-4c8a-9a4b-5118c9b87f69")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -32,7 +32,7 @@
 		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "4f391ef1-2897-495f-84fa-85efd5d7bca6")
+		(uuid "23649059-79d2-4529-a62d-a017f9e12774")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8564c943-587d-4d37-94a6-d6f5d7bcc4c6")
+		(uuid "f261af93-a6a3-49df-9364-a091cfa07da0")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -55,7 +55,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "92953a84-4275-4242-b29c-0dd3dc8c28cd")
+		(uuid "82c73d87-0a77-4d05-8296-2511aebae241")
 		(effects
 			(font
 				(size 1 1)
@@ -68,7 +68,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d1506e7e-3790-4e46-8ab2-4580520017b6")
+		(uuid "05deb925-3db6-470d-9e9e-8d86cfcf08f4")
 		(effects
 			(font
 				(size 1 1)
@@ -81,7 +81,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "11bbcaa8-9ab7-4c70-aa73-95d1bb2e820d")
+		(uuid "47385a78-c635-4a95-8eef-a8490b4ca192")
 		(effects
 			(font
 				(size 1 1)
@@ -94,7 +94,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b75b0386-d678-4bdf-97ba-9111adbfe5b5")
+		(uuid "533bd257-5114-4583-9609-33501aa996ec")
 		(effects
 			(font
 				(size 1 1)
@@ -102,12 +102,103 @@
 			)
 		)
 	)
-	(property "Manufacturer_Part_Number" "MP100LGN-Z"
+	(property "Comment" ""
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a8254f31-4875-487a-b655-d6c8feb67539")
+		(uuid "4917124d-6a7e-471f-ab14-4f1739ab7129")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mfr.No" "MP100LGN-Z"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a1f4b9fa-63b7-4e57-b339-e17bbe980daa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Replacement_Mfr.No" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2d6bbc2a-a865-4fdc-969b-3fee2f6e2561")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier" "JLCPCB"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "405d7931-59ae-4616-abe6-8ed8f65a4057")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier_Link" "https://jlcpcb.com/partdetail/Monolithic_PowerSystems-MP100LGNZ/C17183900"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ac9f992d-9245-4bec-a981-990316bd388e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLCPCB_PartNo" "C17183900"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b465b9bb-6758-45dd-a251-ac93988efb44")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Additional_Info" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dd68e8fd-6e25-4dfa-a233-739a3304169a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "SOIC-8"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a3159b1-0cfd-4865-b3ff-1069cb65b5e2")
 		(effects
 			(font
 				(size 1 1)
@@ -127,7 +218,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "d7a56b29-268d-4c9c-9816-0ba7c5bfd992")
+		(uuid "e1814d1c-c601-483d-9f44-d7e21e9d727a")
 	)
 	(fp_line
 		(start -3.725 -2.75)
@@ -137,7 +228,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "f712fd12-ecc0-4080-be0a-16c6c93cb0b8")
+		(uuid "e6f87c5d-ca68-4b90-8180-8fc3cb9ec67e")
 	)
 	(fp_line
 		(start -3.725 2.75)
@@ -147,7 +238,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "8fbfcad4-eae9-46fc-bcba-eaf1ff0749fb")
+		(uuid "3652ab6a-36ab-4ba1-af59-a64ea6f7e7f3")
 	)
 	(fp_line
 		(start 3.725 -2.75)
@@ -157,7 +248,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "9f98a264-b8a7-4acb-9e75-460ac5fe4147")
+		(uuid "b5bcee4f-23ab-4aa0-884a-f9cd50cfad41")
 	)
 	(fp_line
 		(start 3.725 2.75)
@@ -167,7 +258,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "a2da0008-25a9-4f89-9128-6d97623482f5")
+		(uuid "307082eb-dfee-4f0b-8683-e20b2fa140c3")
 	)
 	(fp_line
 		(start -1.95 -2.45)
@@ -177,7 +268,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "16fedd89-ffe1-41b1-99e2-b7dc8907fc6a")
+		(uuid "dbf88201-00a8-4e14-8513-489a9147d361")
 	)
 	(fp_line
 		(start -1.95 -1.18)
@@ -187,7 +278,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "6946bc34-221d-42b5-91d9-3cccbae87f91")
+		(uuid "62fe7c1d-5065-445a-a2a1-7b031fab9275")
 	)
 	(fp_line
 		(start -1.95 2.45)
@@ -197,7 +288,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "97a1d965-f9fd-4511-9360-437f9a8034df")
+		(uuid "edb5046a-e237-4e6e-be0d-892ffcdcb098")
 	)
 	(fp_line
 		(start 1.95 -2.45)
@@ -207,7 +298,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "71aa8686-882f-4794-ae8e-e45e22851886")
+		(uuid "d1af6b25-2aab-4d8a-87c7-2e0276cb0598")
 	)
 	(fp_line
 		(start 1.95 2.45)
@@ -217,12 +308,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "3e5d6e77-933c-4817-9463-901219d0e4ce")
+		(uuid "41192a80-4a86-46ee-b3d7-f05c9b8cf9c7")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 180)
 		(layer "F.Fab")
-		(uuid "41c47d4f-7f1e-4384-85f8-6f4b172ad931")
+		(uuid "a2c6c260-3c9c-4ea0-8a9d-76288152ab47")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -234,55 +325,55 @@
 		(at -2.712 -1.905 90)
 		(size 0.7 1.525)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "8191f8ac-d434-463e-a52a-c3e6a3d7b168")
+		(uuid "621aadd0-45f6-440e-be3e-272ff6a8c05a")
 	)
 	(pad "2" smd rect
 		(at -2.712 -0.635 90)
 		(size 0.7 1.525)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "f37629db-a6e5-49cb-9ef7-ee3344d785e5")
+		(uuid "3076fa1d-ccd8-4cab-97c4-c2953f8f3f16")
 	)
 	(pad "3" smd rect
 		(at -2.712 0.635 90)
 		(size 0.7 1.525)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "091f9052-a979-4211-b01f-d8f50f8e3ae5")
+		(uuid "d0d3573d-52c6-4119-bbc4-f8422a874934")
 	)
 	(pad "4" smd rect
 		(at -2.712 1.905 90)
 		(size 0.7 1.525)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "70fc58ed-aaa7-43d4-9438-ff62cda9f314")
+		(uuid "f0d0979b-11e9-4987-b9c2-46683c2d1b5d")
 	)
 	(pad "5" smd rect
 		(at 2.712 1.905 90)
 		(size 0.7 1.525)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "9f8cb41f-f767-42bc-a155-03d6fc9a85ed")
+		(uuid "77457164-87e6-4c79-87ee-d856cd512744")
 	)
 	(pad "6" smd rect
 		(at 2.712 0.635 90)
 		(size 0.7 1.525)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "32f0f69c-048b-4bbd-acde-90ab4c9b35f7")
+		(uuid "4f6d453a-bd3e-43e9-9571-80bb41fa8ed4")
 	)
 	(pad "7" smd rect
 		(at 2.712 -0.635 90)
 		(size 0.7 1.525)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "20719810-56d9-4efc-b12a-67ea351b2ef3")
+		(uuid "f8606cad-4e96-4073-b442-da51184eb4b4")
 	)
 	(pad "8" smd rect
 		(at 2.712 -1.905 90)
 		(size 0.7 1.525)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "8ddfdc9a-269d-4c32-ab10-6cd4a2a73d5c")
+		(uuid "4c8ba94a-105c-4687-a825-0d9c744e44c5")
 	)
 	(pad "9" smd rect
 		(at 0 0)
 		(size 2.56 3.45)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "66f1fa2d-089a-4b05-aa97-01c4fece10ff")
+		(uuid "8ef5d319-1e7d-4af9-a6bc-8f7f2750f879")
 	)
 	(embedded_fonts no)
 	(model "${REFLOW_STATION}/MP100LGN-Z.stp"

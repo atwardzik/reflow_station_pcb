@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -1.85 0)
 		(layer "F.SilkS")
-		(uuid "d92d80bd-252e-4d3a-a6d4-75dd5ee3f60d")
+		(uuid "866210b1-1f2e-478c-9fed-f679ef2b27f1")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "22u"
 		(at 0 1.85 0)
 		(layer "F.Fab")
-		(uuid "fd32f15e-d98b-426f-be17-b7f5a66422c7")
+		(uuid "b6d6ef5b-0e07-443f-9e44-764f65c40380")
 		(effects
 			(font
 				(size 1 1)
@@ -31,18 +31,18 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0aa95761-caf5-45a9-8eb4-4e76aea46be3")
+		(uuid "7d9dc5ec-b588-4c2c-8b58-d93e28a87b4a")
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 	)
-	(property "Description" "Unpolarized capacitor"
+	(property "Description" "Unpolarized capacitor: 22uF 25V X5R 10% ceramic"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b4340dca-68b3-4c7d-b47c-3a631e98e827")
+		(uuid "0b0322e4-6535-4037-97b0-b1e2a9b45513")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -53,7 +53,124 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "5f21a49d-4f2e-4a8c-9f8c-8e6052673d15")
+		(uuid "6127bf0b-8f85-488d-a2cf-62c5134b9377")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Comment" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9dca47b1-94c3-4490-b5d7-3e81ca63b723")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Replacement_Mfr.No" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4d286eaf-f853-4297-9f82-02d9f255809f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier" "JLCPCB"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9c9cb6d9-67e5-45b6-beb7-76005d55ebf5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier_Link" "https://jlcpcb.com/partdetail/13537-CL31A226KAHNNNE/C12891"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b1a878c3-97df-4b51-a7f5-3e51b6e0d74d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLCPCB_PartNo" "C12891"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "283a79a9-cd29-4ac1-b56c-6dffc9a68b46")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mfr.No" "CL31A226KAHNNNE"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "010d6f32-728f-4d89-a9c4-d8b239171cff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "1206"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "72b4a4bf-a485-44dd-bfef-ae424bbec2bc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Additional_Info" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e25605a3-23b7-477b-8750-2ad588da2221")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "671a45d0-bf47-4008-9747-97cae3770aca")
 		(effects
 			(font
 				(size 1 1)
@@ -74,7 +191,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "97c7843c-3d2b-450c-ba47-ef99c2d15139")
+		(uuid "e4bd8ec6-768a-473e-b725-089acf633bc8")
 	)
 	(fp_line
 		(start -0.711252 0.91)
@@ -84,7 +201,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "be3d2404-4e89-4dcd-8903-9bca01992a03")
+		(uuid "4858146a-3dcb-4990-afb2-a53aa1d854df")
 	)
 	(fp_rect
 		(start -2.3 -1.15)
@@ -95,7 +212,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "397c61d3-5433-409a-9179-a7d5de4b9f35")
+		(uuid "f083ef30-35a1-49b5-a159-d8e4a76bb035")
 	)
 	(fp_rect
 		(start -1.6 -0.8)
@@ -106,12 +223,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "ae15bc1b-1aaf-4bc8-97c5-f7d957a6f367")
+		(uuid "7dc10bf4-d444-4da0-a718-cbb5e5383d52")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "47684893-a61a-4ef2-8bc6-0c0394151526")
+		(uuid "84f16b1e-a5f8-474f-b949-2875e6aa8949")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -124,14 +241,14 @@
 		(size 1.15 1.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.217391)
-		(uuid "ff256f43-e6d6-44f7-95f9-b71f9e0cdbba")
+		(uuid "8d74e0b9-6e7a-4181-b0df-ab7c6313b3d6")
 	)
 	(pad "2" smd roundrect
 		(at 1.475 0)
 		(size 1.15 1.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.217391)
-		(uuid "f3db4cfa-5583-4c14-ab0a-fb95e3096a8f")
+		(uuid "6888de67-63d3-4f50-a00c-44e80980406f")
 	)
 	(embedded_fonts no)
 	(model "kicad-embed://C_1206_3216Metric.step"

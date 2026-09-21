@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -2.45 0)
 		(layer "F.SilkS")
-		(uuid "49b97411-2a4e-4a90-890a-0fd7c6b3e7e2")
+		(uuid "0e58745d-0145-4cd5-bdc4-80f089b3636e")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "TPS82130"
 		(at 0 2.45 0)
 		(layer "F.Fab")
-		(uuid "ad7bcfda-bc56-4a95-8da7-99b82e560992")
+		(uuid "21f5a21f-7099-4f83-86f0-47b9c545d2c1")
 		(effects
 			(font
 				(size 1 1)
@@ -31,18 +31,18 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "26dc8178-7935-489c-a530-2ca91ef5709e")
+		(uuid "8ff20c3b-9f90-4993-bd65-f5f4e3e3b858")
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "Voltage Regulator: programmable step down, OC protection, 3A"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ca50cb65-e25d-460a-9a01-0449d168eaec")
+		(uuid "55b713a4-5763-4235-b243-28eec9851575")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -53,7 +53,124 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "88359653-b5df-4728-8a7b-8a271906ca79")
+		(uuid "8a600ff8-20fa-4742-b850-fdb183d7f93f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Comment" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bbf3afc8-8c53-4641-87cb-fe47428313b1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Replacement_Mfr.No" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "619a74ab-c03b-49c9-9294-4cb7b2c2589c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier" "JLCPCB"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "94a64383-2f8d-45c3-9192-bd8f53a0f4e0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier_Link" "https://jlcpcb.com/partdetail/TexasInstruments-TPS82130SILR/C473914"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eff24378-374e-4f9c-b3f9-91d73e6269c8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLCPCB_PartNo" "C473914"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e04ab593-15aa-4af9-8fa8-a5270e1bbd58")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Additional_Info" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f24085b0-5f8d-4f7e-83b4-1ed4cd82ad9a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e964c6bf-883c-4ed6-a52c-fbea3191d65a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mfr.No" "TPS82130SILR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "02c539cb-c3f2-4788-9dde-5f2ea7e5b086")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "USIP-8"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c6c0a02b-fb0e-4cc4-8da1-f0e6ec631392")
 		(effects
 			(font
 				(size 1 1)
@@ -74,7 +191,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "4a7f98e7-35f4-412f-809f-e8a229b8453c")
+		(uuid "b72b3e58-59c7-4e67-8c8f-1656365c7934")
 	)
 	(fp_line
 		(start -1.51 -1.485)
@@ -84,7 +201,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "e4f05a5a-5ddf-4fa9-931c-791d0b56b964")
+		(uuid "4ac2e118-74d0-4ce9-a14d-16487c4bfbbf")
 	)
 	(fp_line
 		(start -1.51 1.61)
@@ -94,7 +211,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "fa0dd9a4-2106-46ed-9946-b0f84b4fa6a9")
+		(uuid "0e196d6b-ec1f-414d-855e-35308e934b80")
 	)
 	(fp_line
 		(start 1.51 -1.61)
@@ -104,7 +221,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "8032da70-66d7-437f-8212-8d12b26ecb54")
+		(uuid "a3be45a9-81fd-4eec-87ee-6e498cb78770")
 	)
 	(fp_line
 		(start 1.51 1.485)
@@ -114,7 +231,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "59b10155-cdcf-4aa0-8a2a-0af8c6a44ad4")
+		(uuid "093e62ed-10fb-4950-8dc8-7855735b7fcd")
 	)
 	(fp_line
 		(start 1.51 1.61)
@@ -124,7 +241,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "0baa4d49-f275-48fa-8d93-ccde670c2f1a")
+		(uuid "d3307820-cbe3-4fab-82cb-5a10fc593d89")
 	)
 	(fp_poly
 		(pts
@@ -136,7 +253,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "46d94969-0e37-4039-a9f8-5295f5b0a89e")
+		(uuid "c8da5f94-1678-4608-9eab-7c548e8907fb")
 	)
 	(fp_rect
 		(start -1.65 -1.75)
@@ -147,7 +264,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "727460e3-043e-43e2-b77e-1d48638ed572")
+		(uuid "ef8aa157-3bc8-4119-ad27-d1559fc6552d")
 	)
 	(fp_poly
 		(pts
@@ -159,12 +276,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "f43d52bc-0a46-4acb-81d7-c083b7030b79")
+		(uuid "747b1baa-ad98-4c62-8b78-7e4d747d4d8c")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 90)
 		(layer "F.Fab")
-		(uuid "6fc0f128-870d-48be-9bb9-0f1f453e4cb0")
+		(uuid "867a87a3-7956-4d2b-9915-3b21f0fb3619")
 		(effects
 			(font
 				(size 0.75 0.75)
@@ -177,77 +294,77 @@
 		(size 0.95 0.55)
 		(layers "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "f647f5a8-c76b-4fb0-8eb6-b7a5b60580fc")
+		(uuid "6c6dd213-ecfc-4b56-8655-be41b00e27ee")
 	)
 	(pad "" smd roundrect
 		(at 0 0)
 		(size 0.95 0.55)
 		(layers "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "42962b0d-e00b-445f-96fe-dd92d41c5bad")
+		(uuid "c78b8687-876d-4c0b-985b-230c3ef5d721")
 	)
 	(pad "" smd roundrect
 		(at 0 0.63)
 		(size 0.95 0.55)
 		(layers "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "ad7daff6-df74-47dd-99fa-2f8f8452d690")
+		(uuid "7502082b-9624-4462-ad89-562f845f28e0")
 	)
 	(pad "1" smd roundrect
 		(at -1.0625 -0.975)
 		(size 0.625 0.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "41ec3529-a167-4af4-9955-7f759a34d05f")
+		(uuid "1f92fa7d-5637-42cb-b12c-79fb7145bf74")
 	)
 	(pad "2" smd roundrect
 		(at -1.0625 -0.325)
 		(size 0.625 0.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "d94051b2-2a60-4926-a22f-9384b87f6d29")
+		(uuid "6d44b67c-511d-4369-a65e-06fd46021d10")
 	)
 	(pad "3" smd roundrect
 		(at -1.0625 0.325)
 		(size 0.625 0.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "465bc13e-9122-4a76-aa86-bf2379992f71")
+		(uuid "62914f3e-12d2-40b7-a93a-de481bcfe6ed")
 	)
 	(pad "4" smd roundrect
 		(at -1.0625 0.975)
 		(size 0.625 0.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "1fe71d80-24cb-45b7-95f2-5f190e6b9c78")
+		(uuid "f92b9dfb-2340-441b-970d-57306e3897b4")
 	)
 	(pad "5" smd roundrect
 		(at 1.0625 0.975)
 		(size 0.625 0.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "33afa2e4-00a5-441d-be2c-b83d981dde58")
+		(uuid "1697285d-7531-4eed-9934-ce37c932d15f")
 	)
 	(pad "6" smd roundrect
 		(at 1.0625 0.325)
 		(size 0.625 0.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "5bbfb175-f010-4174-a2a2-97407c067d3e")
+		(uuid "5c867708-8157-4c9e-a1d9-1d0ac5429fa7")
 	)
 	(pad "7" smd roundrect
 		(at 1.0625 -0.325)
 		(size 0.625 0.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "b65bdcf0-4cf9-4c8e-b0ae-9f899e5cd6a5")
+		(uuid "844f63a5-522e-4167-8f01-a547f2389545")
 	)
 	(pad "8" smd roundrect
 		(at 1.0625 -0.975)
 		(size 0.625 0.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "7140e4b2-d7bd-41ea-bbe0-41f38ff31a4a")
+		(uuid "c7710475-ba77-4540-bd66-b68a9fc8bed8")
 	)
 	(pad "9" thru_hole circle
 		(at 0 -0.75)
@@ -256,7 +373,7 @@
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
 		(remove_unused_layers no)
-		(uuid "26aa2f91-95da-44f6-b525-1d85ac14c857")
+		(uuid "a105f4f3-c1e3-4c44-8d92-ec797f00056f")
 	)
 	(pad "9" thru_hole circle
 		(at 0 0)
@@ -265,7 +382,7 @@
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
 		(remove_unused_layers no)
-		(uuid "0428b590-ec35-462a-a73d-79d2bba6634c")
+		(uuid "1c68c718-1c46-40f5-8479-17d089cf8656")
 	)
 	(pad "9" smd rect
 		(at 0 0)
@@ -273,7 +390,7 @@
 		(property pad_prop_heatsink)
 		(layers "B.Cu")
 		(zone_connect 2)
-		(uuid "ca8401ce-b2ca-4d84-97f2-3b739baf5de1")
+		(uuid "71f6637d-5aeb-479b-810d-172bfeca050e")
 	)
 	(pad "9" smd rect
 		(at 0 0)
@@ -281,7 +398,7 @@
 		(property pad_prop_heatsink)
 		(layers "F.Cu" "F.Mask")
 		(zone_connect 2)
-		(uuid "aa2bf1e4-47ce-48f0-812a-5d4d9c0c01cd")
+		(uuid "f91a64e4-1432-429d-a476-1bfa73919721")
 	)
 	(pad "9" thru_hole circle
 		(at 0 0.75)
@@ -290,7 +407,7 @@
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
 		(remove_unused_layers no)
-		(uuid "016257c6-a400-44be-bd90-182bad6bd427")
+		(uuid "139a38f2-6394-4437-be41-5d674019059b")
 	)
 	(embedded_fonts no)
 	(model "${KICAD10_3DMODEL_DIR}/Package_LGA.3dshapes/Texas_SIL0008D_MicroSiP-8-1EP_2.8x3mm_P0.65mm_EP1.1x1.9mm.step"

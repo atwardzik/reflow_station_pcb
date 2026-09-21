@@ -9,7 +9,7 @@
 	(property "Reference" "REF**"
 		(at 0 -3.95 0)
 		(layer "F.SilkS")
-		(uuid "89f1bbf7-6403-42dd-9af7-a4ddbeed4768")
+		(uuid "c84783c7-6bf5-4ada-98a1-9fcc62f39655")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 	(property "Value" "MountingHole_Pad"
 		(at 0 3.95 0)
 		(layer "F.Fab")
-		(uuid "8da78b2f-54a4-46c6-bd27-cf16abc9bfc0")
+		(uuid "12a9f14d-be22-48b6-9a29-e95b9ae835e0")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "70a63fb8-dc73-4d54-83f5-532fbaaf3a30")
+		(uuid "84c7c8ca-84fd-4a77-b164-8437c6d2a89c")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,10 +43,101 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "28fc997e-84e7-42eb-8518-af0671700fc6")
+		(uuid "2bc24112-721a-4882-9a7c-1979dd26d5f2")
 		(effects
 			(font
 				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Comment" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2fed24b0-5443-4bb6-8af6-4fb2b1b15e24")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Replacement_Mfr.No" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d06c3083-da6e-4039-9b9e-e4ab863e551a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e86e963b-f004-484c-bb38-19dce67d31db")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier_Link" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "14453b57-68d9-4ffc-9451-a73974edcc5b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLCPCB_PartNo" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "df8979b1-41c6-4d5f-a77e-4f1300909a9e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Additional_Info" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e0b24ddf-07db-4a4c-9c44-d43d56003b10")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "32b7e3ea-a8c3-4d23-8550-fe649593cb2a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -64,7 +155,7 @@
 		)
 		(fill no)
 		(layer "Cmts.User")
-		(uuid "b2049fb8-3958-4d13-804e-0d11b1dcf454")
+		(uuid "a7528215-1560-4ea3-b4d5-f5641fb41bea")
 	)
 	(fp_circle
 		(center 0 0)
@@ -75,12 +166,12 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "d844b0de-44a3-470c-8ec0-a116171150bc")
+		(uuid "980659a4-7d54-4b38-a7ea-2f2be6591ee5")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "7ba5e19d-d1e7-474b-824e-0590478e0ec6")
+		(uuid "bc312ed9-d1c2-40a4-a8f8-fe8a90dfa342")
 		(effects
 			(font
 				(size 1 1)
@@ -95,7 +186,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 2)
-		(uuid "8559ae4f-9f10-4d2c-81c4-ea331e0a18ef")
+		(uuid "474252af-0012-4cf0-8b85-334f54a9e4e0")
 	)
 	(pad "1" thru_hole circle
 		(at -1.59099 -1.59099)
@@ -104,7 +195,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 2)
-		(uuid "da2a86c3-b93f-4b85-aa19-2c2c583308de")
+		(uuid "a00c70e8-c9af-4a25-b22c-967e47ea99f1")
 	)
 	(pad "1" thru_hole circle
 		(at -1.59099 1.59099)
@@ -113,7 +204,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 2)
-		(uuid "2a2f17ff-484d-44f4-9551-7346f48f5599")
+		(uuid "34eea138-11c0-469c-9894-dd1ca99edfdc")
 	)
 	(pad "1" thru_hole circle
 		(at 0 -2.25)
@@ -122,7 +213,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 2)
-		(uuid "5fd942c7-0af3-4f36-b681-52b45b73bf65")
+		(uuid "0b0a4001-aeff-4926-9c05-9e1dc5c1611e")
 	)
 	(pad "1" thru_hole circle
 		(at 0 0)
@@ -131,7 +222,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 2)
-		(uuid "a57919b4-53a3-4019-b04e-fd7151cde5be")
+		(uuid "7759c2e5-3e18-4693-b02d-e47aeacbc4d9")
 	)
 	(pad "1" thru_hole circle
 		(at 0 2.25)
@@ -140,7 +231,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 2)
-		(uuid "3e336a10-c0d6-4565-a0be-ddcbf9d274df")
+		(uuid "1eb71ddf-280a-4fe9-9c25-a054dc6aea4d")
 	)
 	(pad "1" thru_hole circle
 		(at 1.59099 -1.59099)
@@ -149,7 +240,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 2)
-		(uuid "9ba74338-5d26-4470-be9e-ebe5e437560c")
+		(uuid "af118ff7-d67d-422d-afed-f216fb56cc98")
 	)
 	(pad "1" thru_hole circle
 		(at 1.59099 1.59099)
@@ -158,7 +249,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 2)
-		(uuid "13bee721-15ca-4a6f-8804-b01f8b491339")
+		(uuid "7dd303c2-64f9-4c56-bb4d-47f9b02f7528")
 	)
 	(pad "1" thru_hole circle
 		(at 2.25 0)
@@ -167,7 +258,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 2)
-		(uuid "a38e6b81-99f2-4eba-8c66-0ae58755c648")
+		(uuid "1e6af35a-4948-4f9a-9b1a-3a298cb8017a")
 	)
 	(embedded_fonts no)
 )

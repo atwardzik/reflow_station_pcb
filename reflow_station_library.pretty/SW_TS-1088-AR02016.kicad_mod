@@ -6,7 +6,7 @@
 	(property "Reference" "REF**"
 		(at 0 0 270)
 		(layer "F.SilkS")
-		(uuid "4b05ddcc-023f-4931-a58c-db428448a072")
+		(uuid "3e2f8802-916b-4b12-a5d5-f6cfa40004ef")
 		(effects
 			(font
 				(size 1 1)
@@ -17,7 +17,7 @@
 	(property "Value" "SW_Push"
 		(at 8.68 2.615 180)
 		(layer "F.Fab")
-		(uuid "25791754-95ec-4cc9-8695-0693773cde03")
+		(uuid "03a45b8e-1038-4238-97f8-d37582a4a04d")
 		(effects
 			(font
 				(size 1 1)
@@ -29,7 +29,7 @@
 		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "4ada0485-8bdf-4430-89dc-8f233e59a776")
+		(uuid "bd8ab49f-db1a-4a98-9787-f47d988efe38")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37,11 +37,11 @@
 			)
 		)
 	)
-	(property "Description" "Push button switch, generic, two pins"
+	(property "Description" "Push button switch 2 pin"
 		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "08238ef7-992e-4650-9025-ef2f194d4c6d")
+		(uuid "d0560f84-83aa-4ae6-86e9-294570d3b5f4")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54,7 +54,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "02655291-4f71-431a-9281-e59ecfaab466")
+		(uuid "d5d0e7b4-493d-43fb-8799-fbb62b4d2454")
 		(effects
 			(font
 				(size 1 1)
@@ -67,7 +67,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "78187d1b-cc9e-4acf-b636-9dacecb35435")
+		(uuid "2670ec75-1677-4673-b576-907cd83728d8")
 		(effects
 			(font
 				(size 1 1)
@@ -75,12 +75,12 @@
 			)
 		)
 	)
-	(property "Package" "Package"
+	(property "Package" ""
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1e0b4bb5-ffca-4481-b7e8-5a09efece452")
+		(uuid "a5515edd-f42e-484e-a8b5-1f2b537bfd2d")
 		(effects
 			(font
 				(size 1 1)
@@ -93,20 +93,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9c173c6f-d401-4cc6-8fe7-0e17b436f5c8")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Check_prices" "https://www.snapeda.com/parts/TS-1088-AR02016/Xunpu/view-part/?ref=eda"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "5f3da570-c303-49db-97e8-49e60e33a5b0")
+		(uuid "a6c7669e-78f5-494f-a67a-7d920b7666f1")
 		(effects
 			(font
 				(size 1 1)
@@ -119,7 +106,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b508c9e6-945a-4696-aa52-ea17e3ec4793")
+		(uuid "e78ccf29-6286-48cc-840b-1a942a9e545d")
 		(effects
 			(font
 				(size 1 1)
@@ -132,20 +119,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2e356e17-05c1-499b-84e5-6ce5ace4b1a2")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "SnapEDA_Link" "https://www.snapeda.com/parts/TS-1088-AR02016/Xunpu/view-part/?ref=snap"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "9ed78dc8-77fd-4252-a017-4015b0380ce8")
+		(uuid "a145e300-4277-43a7-b2c0-ebbf2d977dac")
 		(effects
 			(font
 				(size 1 1)
@@ -158,33 +132,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1f63e4e8-5826-45c5-b2a1-41f49a6d5c2b")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Description_1" "50mA 4mm 100MΩ 100,000 Times 12V 160gf 3mm 2mm Round Button Vertical welding SPST SMD Tactile Switches ROHS"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "fa50a301-c4f5-408b-bfdf-5a7ba1fe4dc6")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Availability" "Not in stock"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "1456c82c-7876-4d2e-9881-414628cf41fd")
+		(uuid "362519af-1f1c-4615-977f-c23c6563b90b")
 		(effects
 			(font
 				(size 1 1)
@@ -197,7 +145,111 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "56d44c17-ef70-4e90-be26-5a1a082acc01")
+		(uuid "df5a858e-fe20-4a83-b7fc-bc976c5c3bf2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Comment" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b160fb94-b7a3-4503-bbe4-397e8f1693cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Replacement_Mfr.No" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "66ffd056-559f-4a6a-9dde-5c8ac1b20469")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier" "JLCPCB"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e8c21211-6b5b-4fd7-ab3f-d7118f25d429")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier_Link" "https://jlcpcb.com/partdetail/XUNPU-TS_1088AR02016/C720477"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "50723e95-9217-443b-aa44-cce87fffaadb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLCPCB_PartNo" "C720477"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c095b179-e9dd-400f-a5b3-bec65ac8818e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Additional_Info" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "45d80a50-cf65-4538-a2dc-2edd1b5177f3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a8ffc510-3fcb-4006-b4ee-aa595974efb5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mfr.No" "TS-1088-AR02016"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a965a40-b843-40f8-9114-6cae9a77731d")
 		(effects
 			(font
 				(size 1 1)
@@ -217,7 +269,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "3f00a570-4c59-4eae-bc56-201d8757b015")
+		(uuid "fc349e26-e7c2-49a5-8902-a76e67521ff2")
 	)
 	(fp_line
 		(start -2 -1.22)
@@ -227,7 +279,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "0b7e3a43-8c0b-4f8c-be2a-e1d7613db8f0")
+		(uuid "fb2e7d2f-baae-4bbf-a219-6d112f4c2e46")
 	)
 	(fp_line
 		(start -2 1.45)
@@ -237,7 +289,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "4562f7b2-0ead-4b50-a3ab-3f4923ab9996")
+		(uuid "294ad5d3-9e40-4d9a-a6c7-8fa8104a79f7")
 	)
 	(fp_line
 		(start 2 -1.45)
@@ -247,7 +299,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "36fbbe51-60c3-4807-a0dc-c4d02aa2ce38")
+		(uuid "c7f21170-bf50-41d6-8d47-1db0f96248c4")
 	)
 	(fp_line
 		(start 2 1.45)
@@ -257,7 +309,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "875ad89b-d4e1-4c9e-b060-07d787be64b0")
+		(uuid "b7aba8b3-66c4-452c-8019-2565d4e5c39f")
 	)
 	(fp_line
 		(start 2 1.45)
@@ -267,7 +319,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "94568a95-d18f-4de1-a364-e0762028fc28")
+		(uuid "d1096a4e-422b-4844-98dc-c5fadf3be118")
 	)
 	(fp_line
 		(start -3 -1.7)
@@ -277,7 +329,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "40be0734-4887-41cd-a8b7-19a28dd45201")
+		(uuid "5387b604-9777-4f3d-b1ec-7f5ab806e775")
 	)
 	(fp_line
 		(start -3 1.7)
@@ -287,7 +339,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "08d62570-1088-485d-ac66-ad1bfdb7ef84")
+		(uuid "50e76406-dd68-4533-b230-b31719d76f20")
 	)
 	(fp_line
 		(start 3 -1.7)
@@ -297,7 +349,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "1e6fc8a8-5be7-486d-b1d7-e47a509dbef3")
+		(uuid "fad24bb2-6afb-4634-8ba8-58c41870f3cd")
 	)
 	(fp_line
 		(start 3 1.7)
@@ -307,7 +359,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "50b5b57c-6357-4eb0-95bb-cdf48b70d488")
+		(uuid "ed960840-3d6d-411a-b745-80c32f5b4471")
 	)
 	(fp_line
 		(start -2 -1.45)
@@ -317,7 +369,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "7c9a7add-6c30-4b27-81d3-337537093a0e")
+		(uuid "aa114f30-1669-49bf-860c-d356f63566c2")
 	)
 	(fp_line
 		(start -2 1.45)
@@ -327,7 +379,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "dc6806ac-36ed-423b-9376-8dc142dc69b2")
+		(uuid "849555b1-19f4-4c8e-8830-2f156785d3dd")
 	)
 	(fp_line
 		(start 2 -1.45)
@@ -337,7 +389,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "ae4d5533-0e11-4ad1-9856-54224c98fda6")
+		(uuid "73357185-e240-457f-a883-005b8a5f17f9")
 	)
 	(fp_line
 		(start 2 1.45)
@@ -347,21 +399,21 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "8e937c37-76bc-49d1-8dc5-a79fe0057b0c")
+		(uuid "3d1b145c-d1e2-47d9-92e2-864752b3a808")
 	)
 	(pad "1" smd rect
 		(at -2.075 0)
 		(size 1.35 1.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
-		(uuid "c04c337e-e097-4c0e-9b6d-d1663c983534")
+		(uuid "32f3ead4-0c78-4d8e-98c8-1eb36a2fffe0")
 	)
 	(pad "2" smd rect
 		(at 2.075 0)
 		(size 1.35 1.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
-		(uuid "0f9efbb8-dec9-4546-a7d9-3893dd899a73")
+		(uuid "c937b41c-0959-42af-b185-36578fa874c1")
 	)
 	(embedded_fonts no)
 	(model "/Users/arturtwardzik/Desktop/3d_models/TS-1088-AR02016.step"

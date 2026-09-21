@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 0 0)
 		(layer "F.SilkS")
-		(uuid "69993981-6e10-40e7-afc1-93863a5eadb9")
+		(uuid "b4480e51-91c5-4415-aaf2-5aaf8b5ad464")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20,7 +20,7 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "450f9e4a-869d-42ee-823f-070acaf4063e")
+		(uuid "a6843313-3e58-496d-8c44-c8214d5e904f")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "4a260a51-fa2f-408e-9976-dbf11211a150")
+		(uuid "ba12b9cf-f11d-4862-ac15-f811c83bfe75")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0896c333-1fd9-44db-9f7b-60a06e00bdea")
+		(uuid "c0d8122b-0fea-4a1a-aef6-de96c66265d8")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -55,7 +55,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2fbe7704-f27c-435b-a57f-6bd164340175")
+		(uuid "6632f477-bada-4ab0-bc68-0e98fe0f4d08")
 		(effects
 			(font
 				(size 1 1)
@@ -68,7 +68,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8b859b2f-03c3-404b-a178-c0b6370e27e0")
+		(uuid "938dcfed-f23a-45fe-803c-1219d98dc8a8")
 		(effects
 			(font
 				(size 1 1)
@@ -81,7 +81,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "19a57a14-1ac2-464a-a4ff-5775cdf4b48e")
+		(uuid "6b7cc43d-fc6c-46a7-9b7a-639763710438")
 		(effects
 			(font
 				(size 1 1)
@@ -94,7 +94,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1120bd40-ef3a-4efe-b284-9112e1c133b1")
+		(uuid "107c4790-fa74-4ef9-80f9-df04b37fe83e")
 		(effects
 			(font
 				(size 1 1)
@@ -102,12 +102,103 @@
 			)
 		)
 	)
-	(property "Manufacturer_Part_Number" "AMC23C10DWVR"
+	(property "Comment" ""
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2d0a93d3-5ac1-4b37-a24e-04f31d3d8210")
+		(uuid "c8a4042e-9f44-4aec-9401-1be09b590acb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mfr.No" "AMC23C10DWVR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d008383-909e-4f20-925e-48f634a7c5cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Replacement_Mfr.No" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e8bc84f9-2189-43e8-a503-6a6683cbee12")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier" "JLCPCB"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "624bbb09-c297-4f99-afc4-46da4ed504c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier_Link" "https://jlcpcb.com/partdetail/TexasInstruments-AMC23C10DWVR/C5943166"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "528068ee-71ba-4bcc-8938-a7c7b14e29b7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLCPCB_PartNo" "C5943166"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a492da1c-b873-4088-b4c7-b0428192006e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "SOIC-8"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e5f4be12-de5a-4132-9fdb-1bbfd15884a5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Additional_Info" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "78e033c8-7895-485c-af60-0c4a99d88889")
 		(effects
 			(font
 				(size 1 1)
@@ -127,7 +218,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "6b472683-b10a-4a00-b28f-59690ec6e336")
+		(uuid "415f5c9f-67f6-493d-b3db-edf3e22e928d")
 	)
 	(fp_line
 		(start -4.05 -2.925)
@@ -137,7 +228,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "a03d30dd-9f34-4648-9fe6-87d163db9f41")
+		(uuid "115cb286-021c-4b67-8c34-2fd210f7a1d5")
 	)
 	(fp_line
 		(start -4.05 2.925)
@@ -147,7 +238,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "3db3714f-93d6-421c-90b8-524b1c8c5d84")
+		(uuid "ed716875-a1e4-436a-be27-69ce564c43e7")
 	)
 	(fp_line
 		(start 4.05 -2.925)
@@ -157,7 +248,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "852011c6-3b4a-40da-8f3c-115177977440")
+		(uuid "af9bd41c-e56d-462d-a983-53ab3a31844f")
 	)
 	(fp_line
 		(start 4.05 2.925)
@@ -167,7 +258,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "13a8b279-08a4-4a49-8086-9953cf73288d")
+		(uuid "9ace5033-a2b2-42cd-9199-9eb99918383c")
 	)
 	(fp_line
 		(start -6.5 -3.225)
@@ -177,7 +268,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "6e1597ab-09f1-4b5a-9a4f-53d6392aec91")
+		(uuid "40b2d38a-cf0c-48bc-a65f-47b5e290cca2")
 	)
 	(fp_line
 		(start -6.5 3.225)
@@ -187,7 +278,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "ef5431a7-b01e-42c5-843f-363630f53b05")
+		(uuid "f78ef0ce-b3c1-4656-9f3e-517fb8606dbd")
 	)
 	(fp_line
 		(start 6.5 -3.225)
@@ -197,7 +288,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "dd319d96-c378-447a-bc82-67d47ad8b401")
+		(uuid "0c8895d6-deec-412b-917b-90a9cc084a7e")
 	)
 	(fp_line
 		(start 6.5 3.225)
@@ -207,7 +298,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "bfcf09f7-94a7-4515-b57b-8e8fe9ccb805")
+		(uuid "d9890082-5688-4b6b-8b5e-8dce260771d8")
 	)
 	(fp_line
 		(start -3.75 -2.925)
@@ -217,7 +308,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "2bec5ee3-de68-48f4-894f-dd3eee40d43e")
+		(uuid "c9c91321-11b4-4faf-a57c-6db2eec8943d")
 	)
 	(fp_line
 		(start -3.75 -1.655)
@@ -227,7 +318,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "1a88454b-64f0-4575-9211-2fc6a3e578a0")
+		(uuid "06d4bb8a-0940-4261-b54c-16e0848fcef1")
 	)
 	(fp_line
 		(start -3.75 2.925)
@@ -237,7 +328,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "57fd2a18-8175-4d08-8192-3ee0ac9747e3")
+		(uuid "9a9e5f8d-a83a-4589-8219-2c9cb279b7e7")
 	)
 	(fp_line
 		(start 3.75 -2.925)
@@ -247,7 +338,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "46c28e90-af6a-4515-8bf9-87801d14cc8d")
+		(uuid "90e570ae-df0c-4333-8cf8-5a83df179a5b")
 	)
 	(fp_line
 		(start 3.75 2.925)
@@ -257,12 +348,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "e3725201-98a0-4cc1-b624-6231aac25aea")
+		(uuid "fcd7c0d7-2368-4f4d-a359-c6453b33c9de")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "967cfb74-881c-4911-95b0-72f9bc45010f")
+		(uuid "f28cb5ea-ac8e-4db5-b5ad-4086d55b42f4")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -274,49 +365,49 @@
 		(at -5.325 -1.905 90)
 		(size 0.65 1.85)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "aefa86f1-4b41-40fb-a05b-5c40fe424584")
+		(uuid "1146a4c8-1ba3-45a7-8c12-f42873a188a2")
 	)
 	(pad "2" smd rect
 		(at -5.325 -0.635 90)
 		(size 0.65 1.85)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "687b932c-83d6-4d54-9e88-5b85bf893f8a")
+		(uuid "69d1b2fd-8bbe-405e-8ac9-e59150737a4e")
 	)
 	(pad "3" smd rect
 		(at -5.325 0.635 90)
 		(size 0.65 1.85)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "19d43323-734c-4726-90a0-4222497dd012")
+		(uuid "f56cb222-9d8f-4046-983d-edde69120901")
 	)
 	(pad "4" smd rect
 		(at -5.325 1.905 90)
 		(size 0.65 1.85)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "dcd2e0e2-432b-49dd-ba3e-187e370da38b")
+		(uuid "51ad2b65-0d56-495c-a420-564d60aa9958")
 	)
 	(pad "5" smd rect
 		(at 5.325 1.905 90)
 		(size 0.65 1.85)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "7742c0ba-e8fd-47c3-aeef-d9bb92b89569")
+		(uuid "eb04887e-ac95-4511-bb9c-8157bb669177")
 	)
 	(pad "6" smd rect
 		(at 5.325 0.635 90)
 		(size 0.65 1.85)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "0824b42c-9e1b-49cb-bc0f-9ef0f5f69505")
+		(uuid "b3c20444-79c3-4461-86a5-79600b247833")
 	)
 	(pad "7" smd rect
 		(at 5.325 -0.635 90)
 		(size 0.65 1.85)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "831215b3-a93a-4ebd-a66a-8e554354d554")
+		(uuid "b6df3def-a511-44f7-971a-e97770ac5177")
 	)
 	(pad "8" smd rect
 		(at 5.325 -1.905 90)
 		(size 0.65 1.85)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "ed944bb4-ba56-47e0-982a-5b9e673d1c17")
+		(uuid "6f52cfc0-61f3-4a84-8d96-e28b5253029e")
 	)
 	(embedded_fonts no)
 	(model "AMC23C10DWVR.stp"

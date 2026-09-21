@@ -2,13 +2,14 @@
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
+	(locked yes)
 	(layer "F.Cu")
 	(descr "R474N31005001K-1")
 	(tags "Capacitor")
 	(property "Reference" "REF**"
 		(at 11.25 0 180)
 		(layer "F.SilkS")
-		(uuid "54a5c832-9640-42f8-bffb-1060a9c68013")
+		(uuid "5f32cbd2-5929-4bc3-8148-9f229ffdd554")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20,7 +21,7 @@
 		(at 11.25 0 180)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "a4cb3fc8-3764-4658-803b-c98346649056")
+		(uuid "6ea6ad4d-5563-41c2-8699-c04766c35fbc")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -28,22 +29,22 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://www.tme.eu/Document/74c9fedd37d4aad2db2d48e5f5684533/Datasheet-R474N31005001K.pdf"
 		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c54ce0b2-3cd1-4e8b-b5cc-7833626f02f0")
+		(uuid "06b35b7b-22b1-44d8-81d0-5204e2caf6d5")
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 	)
-	(property "Description" "Unpolarized capacitor"
+	(property "Description" "Unpolarized capacitor: 100nF 440VAC X2 10% polypropylene"
 		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3a73d730-b6a8-415b-9347-4fa0830f932c")
+		(uuid "fc4f7d63-1ef3-4058-bff3-5db764b13afd")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -55,7 +56,111 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f9d98a63-dd2c-4d21-ad72-350c92acf12b")
+		(uuid "18f88c8b-4c8f-4308-9b03-bd39b598a3d3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Comment" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "efe8dbcc-d87b-4f05-9fd5-3393918fa695")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Replacement_Mfr.No" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e1e09839-4341-4d8d-ae3e-ae7ced01b5b0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier" "TME"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6ae02e3f-c99b-49b1-8004-211c1d3a4fe3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier_Link" "https://www.tme.eu/pl/details/r474n31005001k/kondensatory-foliowe-tht/kemet/"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "18dede59-9bee-46ad-8966-816a418b08fc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLCPCB_PartNo" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ee1f9607-ea23-4e81-8f75-c1af2201b27b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mfr.No" "R474N31005001K"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f2c198b-8a57-4db8-af30-5aa60a38fea1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Additional_Info" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "70855458-835f-4467-afc5-ec37a603d153")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e6018160-0700-4d5a-9cba-f1eaca7211c7")
 		(effects
 			(font
 				(size 1 1)
@@ -76,7 +181,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "f3ad52e9-532d-4b33-8002-873951fe08cd")
+		(uuid "6012a0b5-8445-4581-bdd7-2e3d32dfb486")
 	)
 	(fp_line
 		(start -2 3.5)
@@ -86,7 +191,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "79d5cc24-056c-4ea6-bccd-517105f7c806")
+		(uuid "05052604-0a86-41ae-b79c-9884094b3423")
 	)
 	(fp_line
 		(start 24.5 -3.5)
@@ -96,7 +201,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "fe8e39a0-39f6-4fea-b7c1-2fda0ec4ab5e")
+		(uuid "d33a5b58-e94e-4cc7-963d-8c3710859dcf")
 	)
 	(fp_line
 		(start 24.5 3.5)
@@ -106,7 +211,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "f794cc76-634d-4653-9d65-c2bc9d9b40c1")
+		(uuid "0e8373a7-b46a-4b33-8642-1625570b8e2d")
 	)
 	(fp_line
 		(start -3 -4.5)
@@ -116,7 +221,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "9047c10b-ce01-4447-95c2-0993bafdac8d")
+		(uuid "c4ce28ae-0f87-4eb9-9f21-dafe37ad75d0")
 	)
 	(fp_line
 		(start -3 4.5)
@@ -126,7 +231,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "2e2b2019-9ca1-4695-bd66-cfd1eada6548")
+		(uuid "c5e71475-09c3-43b1-a989-ffe61cb4960b")
 	)
 	(fp_line
 		(start 25.5 -4.5)
@@ -136,7 +241,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "9782251a-a41a-460f-86fa-c90aaccb2990")
+		(uuid "451287c7-589b-4469-ae01-70456f68639b")
 	)
 	(fp_line
 		(start 25.5 4.5)
@@ -146,7 +251,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "65ca306a-67ef-4b87-be71-5f8e9b203368")
+		(uuid "57e674e5-a534-493f-8a3e-c54ff64cc7fe")
 	)
 	(fp_line
 		(start -2 -3.5)
@@ -156,7 +261,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "746d3bb5-5dc8-4625-97bb-cd7d67714257")
+		(uuid "ddd75fd0-b0b5-415b-bf12-352060b0cbd9")
 	)
 	(fp_line
 		(start -2 3.5)
@@ -166,7 +271,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "633887b1-2fa4-40e0-9851-57dfd2e17de5")
+		(uuid "b9729749-e034-4737-89d1-09c23ced5ef7")
 	)
 	(fp_line
 		(start 24.5 -3.5)
@@ -176,7 +281,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "9c3ad92a-bea7-407c-aa2a-7a2e51db9d8e")
+		(uuid "8c206aa6-888b-4414-9a88-e6a0148525ea")
 	)
 	(fp_line
 		(start 24.5 3.5)
@@ -186,12 +291,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "a07360ef-e064-45d8-85d0-7d5f9ebc388a")
+		(uuid "690453c4-b49e-46aa-b6db-1cdbd4915ef2")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 11.25 0 180)
 		(layer "F.Fab")
-		(uuid "e87d181e-8f22-40a6-9f0f-3775fa18874f")
+		(uuid "4f7c1f90-b11a-4358-83fd-1f5f26f42e25")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -205,7 +310,7 @@
 		(drill 1.05)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "1fe169ac-c06a-4c16-817b-80069288d48c")
+		(uuid "f4116e87-66ff-48b4-a1bc-cbc47fe62dc7")
 	)
 	(pad "2" thru_hole circle
 		(at 22.5 0)
@@ -213,7 +318,7 @@
 		(drill 1.05)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "25c02b6a-af82-44ac-9d25-cd7c7449ae74")
+		(uuid "e58e474c-b340-4186-928f-cbd841595145")
 	)
 	(embedded_fonts no)
 	(model "${REFLOW_STATION}/R474N31005001K.stp"

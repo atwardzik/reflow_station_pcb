@@ -2,13 +2,14 @@
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
+	(locked yes)
 	(layer "F.Cu")
 	(descr "B32921C_(13_x_4)")
 	(tags "Capacitor")
 	(property "Reference" "REF**"
-		(at 4.775 0 0)
+		(at 4.775 0 180)
 		(layer "F.SilkS")
-		(uuid "723af059-3046-434a-a086-a1df633fb473")
+		(uuid "596e725b-723d-4fd5-ae19-bbbdc25871a3")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17,10 +18,10 @@
 		)
 	)
 	(property "Value" "10n 305V X2"
-		(at 4.775 0 0)
+		(at 4.775 0 180)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "cf5f2492-4027-469d-90fb-c94954cffeaa")
+		(uuid "394858ca-67e5-4f26-8610-41066ec32f35")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -28,25 +29,129 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
-		(at 0 0 0)
+	(property "Datasheet" "https://www.tme.eu/Document/b68f0c52455388a5f3f01ef7d5bbddae/x2_b32921_928.pdf"
+		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "269036e6-85d0-4028-8e7d-8fbcd29df0df")
+		(uuid "9e3cd036-c0b8-42be-be59-2dcfa5cb1743")
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 	)
-	(property "Description" "Unpolarized capacitor"
-		(at 0 0 0)
+	(property "Description" "Unpolarized capacitor: 10nF 305VAC X2 20% polypropylene"
+		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a3543c72-c751-4a7f-9fab-e2fac0445284")
+		(uuid "137ae997-d194-4636-ac9f-7d0e26dd062f")
 		(effects
 			(font
 				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Comment" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "42ed3de6-cba2-4add-b227-1349093ab113")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Replacement_Mfr.No" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ca5d779e-ebdf-4961-9a12-c0b2ee9d5194")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mfr.No" "B32921C3103M189"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0ef4b7d4-76e4-4d23-a05c-ff7cb323471a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier" "TME"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5d2e65d4-dfcb-4086-8193-8bdedc686f1f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier_Link" "https://www.tme.eu/pl/details/b32921c3103m189/kondensatory-foliowe-tht/tdk/"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aa74c2e0-c77e-4058-9c03-9ce4f94c368d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLCPCB_PartNo" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "235a3181-5049-4839-980c-cb9e7b0c65db")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Additional_Info" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e1d18316-5e20-49e8-a394-55c3aaeab81e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "200b6a8f-0a6c-423b-bc8d-e3ab4e396468")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -63,7 +168,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "90944120-b2ca-4748-9457-fb36e7befbe3")
+		(uuid "14bf72c7-1513-4924-97c4-b7938daa9436")
 	)
 	(fp_line
 		(start -2.025 0)
@@ -73,7 +178,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "c43f405e-0286-442c-bc4c-d1d3674a7951")
+		(uuid "1c3dadd3-3743-4912-b619-21f12e2cbe70")
 	)
 	(fp_line
 		(start -1.5 -2)
@@ -83,7 +188,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "245e00c2-627a-4d6c-9c6f-8fdf04c17867")
+		(uuid "3e4d4901-1f8d-4459-9f20-70d92c305b5e")
 	)
 	(fp_line
 		(start -1.5 2)
@@ -93,7 +198,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "9baf9fb6-dd4e-492a-8c52-3319ce3d2356")
+		(uuid "0977c8dd-790d-4cf6-8f7e-960609afa37f")
 	)
 	(fp_line
 		(start 11.5 -2)
@@ -103,7 +208,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "d4f786c2-8faf-458d-bec4-e0c0413239a3")
+		(uuid "4ebada86-bcbc-4f2f-8f02-cf98d4689d06")
 	)
 	(fp_line
 		(start 11.5 2)
@@ -113,7 +218,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "29a3814a-353c-44b3-be0b-b0e743822d71")
+		(uuid "66a7faa5-e877-400b-a7a7-ef5c134b90ee")
 	)
 	(fp_arc
 		(start -2.075 0)
@@ -124,7 +229,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "8db9dfcf-f648-4b90-90cc-b61f14281843")
+		(uuid "bf57c9a9-6cb4-43ff-850d-9ae9faf34c36")
 	)
 	(fp_arc
 		(start -2.025 0)
@@ -135,7 +240,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "537bb8a9-bc88-461c-99e1-f19949070b4a")
+		(uuid "0c7121ab-6862-4263-bc48-7d92b348c30a")
 	)
 	(fp_line
 		(start -2.95 -3)
@@ -145,7 +250,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "3066524e-8489-4511-b832-df45ec050921")
+		(uuid "67135165-2143-42ae-8d97-5ea9013254fc")
 	)
 	(fp_line
 		(start -2.95 3)
@@ -155,7 +260,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "566e15ee-799c-4ca7-aba3-bab5fb6372a1")
+		(uuid "56b352e7-b39d-4e22-92ae-ed7c3ab102f9")
 	)
 	(fp_line
 		(start 12.5 -3)
@@ -165,7 +270,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "1f5f971e-b38a-4610-96ae-b8e33d43c48a")
+		(uuid "fec4c67e-7e54-4a84-b7bf-6587746447dd")
 	)
 	(fp_line
 		(start 12.5 3)
@@ -175,7 +280,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "edfd7f27-228a-4742-9bd2-81a0cb2b9c6d")
+		(uuid "46acb0d6-42de-4348-bf88-1a7797a637ee")
 	)
 	(fp_line
 		(start -1.5 -2)
@@ -185,7 +290,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "69aba422-2f2d-48d5-aa49-0d71047c0a12")
+		(uuid "f08bbc37-9b27-4111-88df-fd69c4f17826")
 	)
 	(fp_line
 		(start -1.5 2)
@@ -195,7 +300,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "7a8f92e7-96a4-47c7-b84f-0c61f486e122")
+		(uuid "9b02d762-4648-451f-b9e8-4252291c2b82")
 	)
 	(fp_line
 		(start 11.5 -2)
@@ -205,7 +310,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "76fe036e-423b-4447-aa9f-1e5e819f9539")
+		(uuid "7284e411-0942-46d0-95f2-820b5c864926")
 	)
 	(fp_line
 		(start 11.5 2)
@@ -215,12 +320,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "7b03ca93-b4ff-4ac2-9436-47f6c057785e")
+		(uuid "1bdf106e-887e-428b-91c1-a7206b2a680d")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 4.775 0 0)
+		(at 4.775 0 180)
 		(layer "F.Fab")
-		(uuid "b9421b56-b080-45e1-be42-0691562fe5c9")
+		(uuid "a171566c-85af-4aa8-86f3-ba7db5cd24a4")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -234,7 +339,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "9e1034be-a018-4d1d-a417-0ada1fcdd03d")
+		(uuid "02f4ff76-688f-43e0-bdea-f93f68902c29")
 	)
 	(pad "2" thru_hole circle
 		(at 10 0)
@@ -242,7 +347,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "4303680f-33d5-44c8-b133-1ce17e1ac24c")
+		(uuid "17e30dae-32fd-4934-926a-42e3b7574a19")
 	)
 	(embedded_fonts no)
 	(model "${REFLOW_STATION}/B32921C3103M189.stp"

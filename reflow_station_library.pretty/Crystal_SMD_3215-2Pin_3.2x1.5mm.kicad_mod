@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -2 180)
 		(layer "F.SilkS")
-		(uuid "750d8e7a-cf93-493f-b488-4e1fb63c976e")
+		(uuid "83c942a2-f640-478f-89f3-592f68e4152a")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "32.768kHz"
 		(at 0 2 180)
 		(layer "F.Fab")
-		(uuid "bde3bb84-60b4-47d2-8f4f-0cb5c226e2ff")
+		(uuid "e98880a7-edcf-4cd1-b04f-175a176b61b3")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "13b87a96-519f-414e-9306-e1dfdcf389dd")
+		(uuid "e863b5b8-3db3-4a4f-9246-142a4b821076")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40,15 +40,132 @@
 			)
 		)
 	)
-	(property "Description" "Two pin crystal"
+	(property "Description" "XOSC: 32.768kHz 70kOhm 2 pin"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7bb0ae5d-ae6e-43b5-acc0-75d2d5b27c25")
+		(uuid "b14a0a0d-0ec9-4992-87ff-1bb826b0ea33")
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Comment" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7349be8c-e0be-47a5-aa8d-beb9f683dea6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Replacement_Mfr.No" "NX3215SA 32.768KHZ EXS00A-MU00525"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0d5027f3-24b4-4bc4-be0d-247d109c2547")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier" "JLCPCB"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d437ba2d-533f-4cc0-882f-cf9d8e24096b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier_Link" "https://jlcpcb.com/partdetail/C528987"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "67df8b8f-ceff-4af4-85aa-de253420ef70")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLCPCB_PartNo" "C528987"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dc7cb1b3-6266-4c28-bc42-e24b5d643538")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Additional_Info" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0a96a8dd-75fb-4352-9f25-3b5fe0578af9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4deb51ef-58fc-4c3e-8279-63b45bba06ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mfr.No" "NX3215SA 32.768KHZ EXS00A-MU00525"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "70c15cc8-99d0-46fc-a7c4-df027ebb5b13")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "SMD3215-2p"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "800f08f3-31f6-4b5c-88be-36952bee5809")
+		(effects
+			(font
+				(size 1 1)
 				(thickness 0.15)
 			)
 		)
@@ -66,7 +183,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "9e2fba00-aec8-42fb-aef2-2de54cc1bf29")
+		(uuid "d479c78d-eff2-4bae-a5b4-293e7cb7bf7f")
 	)
 	(fp_line
 		(start -0.675 0.875)
@@ -76,7 +193,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "7cf362ba-2718-4664-bdf6-9aef88803f8d")
+		(uuid "d12088f0-e382-4b61-b6b6-a553c7cb0a39")
 	)
 	(fp_line
 		(start -2 -1.15)
@@ -86,7 +203,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "2bd6d53d-70ef-41f4-8228-53c9a034e124")
+		(uuid "b7a9e192-a033-488f-8d19-f709df85b569")
 	)
 	(fp_line
 		(start -2 -1.15)
@@ -96,7 +213,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "427c35ba-81a4-4181-8c72-5046a6588299")
+		(uuid "6a649850-3675-4bfd-8f84-a65023400ab3")
 	)
 	(fp_line
 		(start -2 1.15)
@@ -106,7 +223,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "ae00c5fa-1384-49cd-95ae-a82d32b242c6")
+		(uuid "f48aa7cb-6a5b-4ab1-a6da-a4a116479b9e")
 	)
 	(fp_line
 		(start 2 -1.15)
@@ -116,7 +233,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "50d08f15-7f6f-432f-ab40-e3a5aadc4918")
+		(uuid "3ff9d2b7-cb3f-4aa3-9448-0cd89a1ce86e")
 	)
 	(fp_line
 		(start -1.6 -0.75)
@@ -126,7 +243,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "e0ad4fb7-6fbb-4f2f-a0f6-9061575ac722")
+		(uuid "c45bc76f-c75c-4419-b587-dc38bf04e702")
 	)
 	(fp_line
 		(start -1.6 -0.75)
@@ -136,7 +253,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "3e266d7c-710a-4507-afdc-7da02e20b677")
+		(uuid "9746ee10-d9d4-4418-a244-0131e48cd795")
 	)
 	(fp_line
 		(start -1.6 0.75)
@@ -146,7 +263,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "3000144a-4d6e-4e09-9735-22fa35a0e383")
+		(uuid "a3ee3e38-3ca0-4f35-b49a-8177cc5d5f13")
 	)
 	(fp_line
 		(start 1.6 -0.75)
@@ -156,12 +273,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "610c78fc-632d-4261-a6ca-736996d2fa21")
+		(uuid "87059d25-1abb-4006-b30f-d6258213d1ec")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -2 180)
 		(layer "F.Fab")
-		(uuid "3c8e0e1a-d98e-4d34-80d3-a190d32e0d53")
+		(uuid "c1625d55-0b31-4306-9964-006920c1e8fa")
 		(effects
 			(font
 				(size 1 1)
@@ -173,13 +290,13 @@
 		(at 1.25 0)
 		(size 1 1.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "7f4b55a4-dbba-4191-b5ab-4b943fb4d5c9")
+		(uuid "78648513-12ea-43fe-91a3-1f46583d1c0e")
 	)
 	(pad "2" smd rect
 		(at -1.25 0)
 		(size 1 1.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "ca7679a4-5776-42bd-b36e-de3d2e91d2ef")
+		(uuid "657cc1df-37c1-4293-80f4-6fb22e2f269f")
 	)
 	(embedded_fonts no)
 	(model "${KICAD10_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_3215-2Pin_3.2x1.5mm.step"

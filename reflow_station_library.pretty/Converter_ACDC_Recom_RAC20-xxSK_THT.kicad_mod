@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at -1 -4.59 0)
 		(layer "F.SilkS")
-		(uuid "e7438e2d-94f0-4dfc-afda-cd37bff5921a")
+		(uuid "1dc416e7-cf60-4e77-bf25-bd4dfc7f6ff7")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "RAC20-12SK"
 		(at 22.75 25.01 0)
 		(layer "F.Fab")
-		(uuid "ec5b53c2-ba14-4309-af96-d64cbd599078")
+		(uuid "4f4311aa-97a0-46d9-8cf5-d7695b367ef6")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1c79d1df-3a29-44b5-ad85-facf1fcd7ea0")
+		(uuid "995d9e4e-151c-4064-9529-35b73f5e23c2")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,10 +45,114 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "39bedb89-1077-499b-8eff-bec0060c800f")
+		(uuid "271021d2-25ff-42c2-ba59-8e1980269451")
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Comment" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5575bcc3-4209-4a69-a4ba-4481058de92b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Replacement_Mfr.No" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b1927199-aae9-4653-9bb0-cc2f14cfeff5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier" "TME"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8a1dd1ca-01f7-4ba3-a944-d9d8ef77980e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier_Link" "https://www.tme.eu/pl/details/rac20-12sk/przetwornice-ac-dc-na-pcb/recom/"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "486ffbbd-c74d-4c7b-b00d-a792c14e4650")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLCPCB_PartNo" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0311f0a8-01e1-4fd1-b8ce-2fdb1fe6d446")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Additional_Info" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e5b5995d-5564-44d5-ac54-4a977ed0822b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "527bc502-f774-4f3e-b7e1-3b825f994bb0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mfr.No" "RAC20-12SK"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a86e66e1-45db-4a98-95ac-3622f3140eac")
+		(effects
+			(font
+				(size 1 1)
 				(thickness 0.15)
 			)
 		)
@@ -66,7 +170,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "89764c79-e4b8-42b4-bc7d-9350589a8c71")
+		(uuid "6dd51405-7e54-40dd-9246-60b6a220403a")
 	)
 	(fp_line
 		(start -4 -0.89)
@@ -76,7 +180,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "c9ec5d6b-a96b-4f2c-86bd-67ebe1e76436")
+		(uuid "33425275-b14c-43bc-9dff-5b362b4bd7ee")
 	)
 	(fp_line
 		(start -3.62 -3.51)
@@ -86,7 +190,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "af5eac36-8605-428f-a7e0-53a2fbbc498f")
+		(uuid "3f98d986-6b48-452a-be14-76a3880111f7")
 	)
 	(fp_line
 		(start -3.62 -3.51)
@@ -96,7 +200,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "0d567d49-4d72-4369-87eb-379806f02bbb")
+		(uuid "e9d564ad-ed48-4b48-acc7-bed909359524")
 	)
 	(fp_line
 		(start -3.62 24.13)
@@ -106,7 +210,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "bbaa8fe5-f776-4e8b-a3d8-6b7587d539c1")
+		(uuid "6ae1daf3-9f28-4700-903d-52074ed160f1")
 	)
 	(fp_line
 		(start 49.12 -3.51)
@@ -116,7 +220,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "12fd920b-9a2b-4ed5-9075-239027b24bb9")
+		(uuid "83910eeb-4b5f-47b2-a5df-454ebae4d685")
 	)
 	(fp_line
 		(start -3.75 -3.64)
@@ -126,7 +230,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "76edffb0-1992-4b2d-bbaa-bda8c90a3a55")
+		(uuid "144cf217-682b-4acf-bb1f-3736c9472c62")
 	)
 	(fp_line
 		(start -3.75 -3.64)
@@ -136,7 +240,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "926fa4ca-9ee9-414d-9cff-09e3af1d5b3f")
+		(uuid "b8ef27c1-1250-4869-8738-a56c106539da")
 	)
 	(fp_line
 		(start -3.75 24.26)
@@ -146,7 +250,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "69cf0127-a202-4216-bf7e-1da3ba27c999")
+		(uuid "2f882f8d-d13d-4ee7-8980-452ad52f762a")
 	)
 	(fp_line
 		(start 49.25 -3.64)
@@ -156,7 +260,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "f9f1195f-6f6f-4007-b9eb-21b898e129ce")
+		(uuid "50cb2cd6-2789-4e94-9449-1f49cbd57878")
 	)
 	(fp_line
 		(start -3.5 -2.39)
@@ -166,7 +270,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "b7730cda-820a-4c60-9fec-040c81a741f9")
+		(uuid "b3a97b2b-84cd-4efd-b41e-a39855144d33")
 	)
 	(fp_line
 		(start -3.5 24.01)
@@ -176,7 +280,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "5fab3358-c11a-4a7c-8e78-e6a67ae4c7d9")
+		(uuid "5efc4954-8df7-4653-a4fe-1641a0d2fb61")
 	)
 	(fp_line
 		(start -2.5 -3.39)
@@ -186,7 +290,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "cd04efcf-5f45-4059-92ec-cb0ffcd5151c")
+		(uuid "a3c83fc5-6a46-41ff-8305-b93e840cebf6")
 	)
 	(fp_line
 		(start 49 -3.39)
@@ -196,7 +300,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "c0bcfeaa-e19f-4bf8-8db6-91c1f8ac5615")
+		(uuid "973dc07b-e9f4-4578-9ecc-56749764d652")
 	)
 	(fp_line
 		(start 49 24.01)
@@ -206,12 +310,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "228d240f-6d75-489c-b324-7c010ad506fe")
+		(uuid "cab8e61c-a046-466e-b7a8-3e88cb7b207e")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 22.75 10.31 0)
 		(layer "F.Fab")
-		(uuid "176e499d-b36f-4e09-95c1-a3a113d115e2")
+		(uuid "cc3d65b0-11ed-4ece-a826-28660aa0b21c")
 		(effects
 			(font
 				(size 1 1)
@@ -225,7 +329,7 @@
 		(drill 1.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "b301b0de-1da5-44d4-8c5f-2af9ce612b95")
+		(uuid "ec46791e-7a0d-45e7-899a-ddd6cf4f6dec")
 	)
 	(pad "2" thru_hole circle
 		(at 0 20.32)
@@ -233,7 +337,7 @@
 		(drill 1.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "99257211-7029-403d-a4dd-228a0dcedb86")
+		(uuid "26cd57fb-a30d-4ff9-b9fe-30ca1218432f")
 	)
 	(pad "4" thru_hole circle
 		(at 45.72 10.16)
@@ -241,7 +345,7 @@
 		(drill 1.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "e601befa-4a1a-4655-b463-53a79b53dcd7")
+		(uuid "f93ef7a6-071a-4286-8ef7-defbbef44a83")
 	)
 	(pad "5" thru_hole circle
 		(at 45.72 0)
@@ -249,7 +353,7 @@
 		(drill 1.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "b778f253-6afe-4ed7-8d6e-dc7bf3252e68")
+		(uuid "128f4227-f0d9-4016-88c8-cc1e9e344315")
 	)
 	(embedded_fonts no)
 	(model "${REFLOW_STATION}/RAC20-12SK.stp"

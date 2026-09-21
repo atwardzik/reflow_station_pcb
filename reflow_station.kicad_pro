@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 3.0,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
@@ -211,6 +211,8 @@
       ],
       "track_widths": [
         0.0,
+        0.2,
+        0.4,
         2.0,
         6.0,
         8.0
@@ -259,7 +261,146 @@
       "sch_revision": "1"
     },
     "layer_pairs": [],
-    "layer_presets": [],
+    "layer_presets": [
+      {
+        "activeLayer": -2,
+        "flipBoard": false,
+        "layers": [
+          0,
+          2,
+          5,
+          8,
+          12,
+          14,
+          16,
+          17,
+          18,
+          20,
+          22,
+          24,
+          25,
+          26,
+          28,
+          30,
+          31,
+          32,
+          34,
+          36,
+          37,
+          38,
+          40,
+          42,
+          44,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98,
+          99,
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119,
+          120,
+          121,
+          122,
+          123,
+          124,
+          125,
+          126,
+          127
+        ],
+        "name": "SIGNAL_LAYERS",
+        "renderLayers": [
+          "vias",
+          "footprint_text",
+          "footprint_anchors",
+          "ratsnest",
+          "grid",
+          "footprints_front",
+          "footprints_back",
+          "footprint_values",
+          "footprint_references",
+          "tracks",
+          "drc_errors",
+          "drawing_sheet",
+          "bitmaps",
+          "pads",
+          "zones",
+          "drc_warnings",
+          "drc_exclusions",
+          "locked_item_shadows",
+          "conflict_shadows",
+          "shapes",
+          "board_outline_area",
+          "ly_points"
+        ]
+      }
+    ],
     "viewports": []
   },
   "boards": [],
@@ -587,7 +728,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2,
         "schematic_color": "rgb(255, 153, 0)",
-        "track_width": 3.0,
+        "track_width": 2.0,
         "tuning_profile": "",
         "wire_width": 10
       },
@@ -741,33 +882,27 @@
           "show": true
         },
         {
-          "group_by": true,
-          "label": "DNP",
-          "name": "${DNP}",
+          "group_by": false,
+          "label": "Mfr.No",
+          "name": "Mfr.No",
           "show": true
         },
         {
-          "group_by": true,
-          "label": "Exclude from BOM",
-          "name": "${EXCLUDE_FROM_BOM}",
+          "group_by": false,
+          "label": "Replacement_Mfr.No",
+          "name": "Replacement_Mfr.No",
           "show": true
         },
         {
-          "group_by": true,
-          "label": "Exclude from Board",
-          "name": "${EXCLUDE_FROM_BOARD}",
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
           "show": true
         },
         {
-          "group_by": true,
-          "label": "Exclude from Simulation",
-          "name": "${EXCLUDE_FROM_SIM}",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Exclude from Position Files",
-          "name": "${EXCLUDE_FROM_POS_FILES}",
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
           "show": true
         },
         {
@@ -783,9 +918,51 @@
           "show": true
         },
         {
+          "group_by": true,
+          "label": "Supplier",
+          "name": "Supplier",
+          "show": true
+        },
+        {
           "group_by": false,
-          "label": "Mouser Part Number",
-          "name": "Mouser Part Number",
+          "label": "Supplier_Link",
+          "name": "Supplier_Link",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB_PartNo",
+          "name": "JLCPCB_PartNo",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from Simulation",
+          "name": "${EXCLUDE_FROM_SIM}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from Position Files",
+          "name": "${EXCLUDE_FROM_POS_FILES}",
+          "show": false
+        },
+        {
+          "group_by": true,
+          "label": "DNP",
+          "name": "${DNP}",
+          "show": false
+        },
+        {
+          "group_by": true,
+          "label": "Exclude from BOM",
+          "name": "${EXCLUDE_FROM_BOM}",
+          "show": false
+        },
+        {
+          "group_by": true,
+          "label": "Exclude from Board",
+          "name": "${EXCLUDE_FROM_BOARD}",
           "show": false
         },
         {
@@ -822,18 +999,6 @@
           "group_by": false,
           "label": "TME Electronic Components Price/Stock",
           "name": "TME Electronic Components Price/Stock",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_Part_Number",
-          "name": "Manufacturer_Part_Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
           "show": false
         },
         {
@@ -904,12 +1069,6 @@
         },
         {
           "group_by": false,
-          "label": "SnapEDA_Link",
-          "name": "SnapEDA_Link",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "MP",
           "name": "MP",
           "show": false
@@ -922,32 +1081,38 @@
         },
         {
           "group_by": false,
-          "label": "Description_1",
-          "name": "Description_1",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Package",
-          "name": "Package",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Check_prices",
-          "name": "Check_prices",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "PARTREV",
           "name": "PARTREV",
           "show": false
         },
         {
           "group_by": false,
-          "label": "Availability",
-          "name": "Availability",
+          "label": "Texto 2",
+          "name": "Texto 2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Texto 1",
+          "name": "Texto 1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Additional_Info",
+          "name": "Additional_Info",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Comment",
+          "name": "Comment",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
           "show": false
         }
       ],
@@ -1007,7 +1172,7 @@
         "uuid": "77770e37-dda2-4cf3-b2f1-cea4793bc3be"
       }
     ],
-    "used_designators": "TP1-40,L1-5,LS1,Q1-5,RV1-4,FL1,P1,J1-13,M1-4,TC1-4,IC1-2,TR1,C1-63,U1-14,SW1-8,HS1-4,F1,Y1-2,#PWR1-147,D1-15,H1-4,R1-85",
+    "used_designators": "TP1-40,L1-5,LS1,Q1-5,RV1-4,FL1,P1,J1-13,M1-4,TC1-4,IC1-2,TR1,C1-63,U1-14,SW1-8,HS1-4,F1,Y1-2,#PWR1-149,D1-15,H1-4,R1-85",
     "variants": []
   },
   "sheets": [
