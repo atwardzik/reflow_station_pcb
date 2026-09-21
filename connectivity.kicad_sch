@@ -1,0 +1,503 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "4fdd5a76-7314-42b5-a190-10c279c78dce")
+	(paper "A4")
+	(title_block
+		(title "Connectivity")
+		(date "2026-09-21")
+		(rev "1")
+		(company "Artur Twardzik")
+	)
+	(lib_symbols)
+	(text "Connectivity"
+		(exclude_from_sim no)
+		(at 47.498 23.368 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "62b45941-8be8-4682-9552-c78f61aa6fb8")
+	)
+	(wire
+		(pts
+			(xy 165.1 78.74) (xy 152.4 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a7902df-5b07-48ae-9ce1-cd690a19bb04")
+	)
+	(wire
+		(pts
+			(xy 241.3 86.36) (xy 228.6 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "165f8c1b-fb4b-4ef1-a509-0e56847ebd47")
+	)
+	(wire
+		(pts
+			(xy 241.3 78.74) (xy 228.6 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b8c52f4-67f1-4ca2-b8fa-fc07086f68b6")
+	)
+	(wire
+		(pts
+			(xy 241.3 81.28) (xy 228.6 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b857dd6-cb98-4da0-b7a6-f34ed21c3370")
+	)
+	(wire
+		(pts
+			(xy 241.3 83.82) (xy 228.6 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65981b3a-3cf6-4f86-bc12-f98910e1a1b9")
+	)
+	(wire
+		(pts
+			(xy 38.1 81.28) (xy 50.8 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80ae528d-8936-4bf0-a82f-a832e5bafd19")
+	)
+	(wire
+		(pts
+			(xy 88.9 81.28) (xy 76.2 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fcce00b-d31b-43e4-bbf4-801d7113fab5")
+	)
+	(wire
+		(pts
+			(xy 76.2 83.82) (xy 88.9 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c71bf8ad-1714-4cc6-a56a-9c1de774118f")
+	)
+	(wire
+		(pts
+			(xy 165.1 83.82) (xy 152.4 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd006ada-866b-4a09-88bc-13752ad98ee3")
+	)
+	(wire
+		(pts
+			(xy 165.1 86.36) (xy 152.4 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9113c54-c0b0-4b6c-beff-87ed68d63d54")
+	)
+	(wire
+		(pts
+			(xy 38.1 83.82) (xy 50.8 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcfc7421-6881-497a-84c5-507def5e46f5")
+	)
+	(hierarchical_label "USB_OC#"
+		(shape input)
+		(at 38.1 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4f41a1af-d436-4c80-9576-0102b57ad901")
+	)
+	(hierarchical_label "SWDIO"
+		(shape bidirectional)
+		(at 241.3 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "545d3ff0-df1f-4142-8ffd-39057837bb3a")
+	)
+	(hierarchical_label "USB_EN#"
+		(shape input)
+		(at 38.1 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "56f440a5-970e-4bd9-b20d-a064ab733885")
+	)
+	(hierarchical_label "USB_UART_VBUS_SENSE"
+		(shape output)
+		(at 165.1 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5949be85-edd8-401c-aea2-378200d4df81")
+	)
+	(hierarchical_label "SWO"
+		(shape input)
+		(at 241.3 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6f255dea-a8a6-4874-a83e-1de83e97b04b")
+	)
+	(hierarchical_label "USB_D+"
+		(shape bidirectional)
+		(at 88.9 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "79de8378-b941-4ab6-9583-667a72946ef9")
+	)
+	(hierarchical_label "USB_UART_D+"
+		(shape bidirectional)
+		(at 165.1 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8a9d27aa-e5eb-4fd4-b0a4-f0bd673e5e82")
+	)
+	(hierarchical_label "USB_D-"
+		(shape bidirectional)
+		(at 88.9 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "be7c08e8-48dd-4b9a-82c1-d4c1a090fdab")
+	)
+	(hierarchical_label "SWCLK"
+		(shape output)
+		(at 241.3 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c89b8d9a-5757-4e06-9469-bd59c2a9e7ae")
+	)
+	(hierarchical_label "RESET#"
+		(shape output)
+		(at 241.3 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f3a4d279-ad26-4c1e-b0df-adf0b4aec7ba")
+	)
+	(hierarchical_label "USB_UART_D-"
+		(shape bidirectional)
+		(at 165.1 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f868fcc3-3b8e-44e7-8865-ccf235f5be3c")
+	)
+	(sheet
+		(at 203.2 76.2)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "235cb61c-0bfd-4530-98f3-9fb88eaf14c4")
+		(property "Sheetname" "SWD"
+			(at 203.2 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "swd.kicad_sch"
+			(at 203.2 89.4846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SWO" input
+			(at 228.6 86.36 0)
+			(uuid "9b8791c6-8b0c-4b94-a3f2-20b6c84cef64")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SWDIO" bidirectional
+			(at 228.6 83.82 0)
+			(uuid "d96eaebf-c527-436c-8e60-62e5bb00e12e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RESET#" output
+			(at 228.6 78.74 0)
+			(uuid "ec00fcf8-828a-4162-b897-772f7e6dda9a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SWCLK" output
+			(at 228.6 81.28 0)
+			(uuid "caa4b00f-518a-446f-a471-061c23196485")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "reflow_station"
+				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/93249a2a-e51b-4c44-9b6d-4c6bfcead48b"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 76.2)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "afde93fc-0e64-4521-8622-78d987e18a67")
+		(property "Sheetname" "USB-UART"
+			(at 127 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb_uart.kicad_sch"
+			(at 127 89.4846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_UART_VBUS_SENSE" output
+			(at 152.4 78.74 0)
+			(uuid "a31b0cff-d0bc-40cb-aeff-a0afcbf90b0e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_UART_D+" bidirectional
+			(at 152.4 86.36 0)
+			(uuid "8c21cbc6-429e-40f5-9b52-3e9d57d0d025")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_UART_D-" bidirectional
+			(at 152.4 83.82 0)
+			(uuid "c63c6eeb-525c-4074-921a-67e4a8f3ec04")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "reflow_station"
+				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/93249a2a-e51b-4c44-9b6d-4c6bfcead48b"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 76.2)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b56b01c8-a4d6-4add-b4c8-1a1bd46e73bf")
+		(property "Sheetname" "USB Host"
+			(at 50.8 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb_host.kicad_sch"
+			(at 50.8 89.4846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_D-" bidirectional
+			(at 76.2 81.28 0)
+			(uuid "f3f2c959-99ed-463c-ad80-059112757c58")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_EN#" input
+			(at 50.8 81.28 180)
+			(uuid "1edc4b90-5f26-4454-ab8b-617965a9e1ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_D+" bidirectional
+			(at 76.2 83.82 0)
+			(uuid "92a425c2-4f69-4083-980c-23e49e950717")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_OC#" input
+			(at 50.8 83.82 180)
+			(uuid "e71e776f-ea8b-42a3-82f9-2541fadac277")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "reflow_station"
+				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/93249a2a-e51b-4c44-9b6d-4c6bfcead48b"
+					(page "7")
+				)
+			)
+		)
+	)
+)

@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "border_display_style": 2,
+          "border_display_style": 0,
           "border_hatch_pitch": 0.5,
           "corner_radius": 0.0,
           "corner_smoothing": 0,
@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 3.0,
+          "min_clearance": 0.0,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
@@ -211,8 +211,7 @@
       ],
       "track_widths": [
         0.0,
-        0.2,
-        0.4,
+        1.0,
         2.0,
         6.0,
         8.0
@@ -815,11 +814,11 @@
       },
       {
         "netclass": "HV",
-        "pattern": "/L"
+        "pattern": "LINE"
       },
       {
         "netclass": "HV",
-        "pattern": "/N"
+        "pattern": "NEUT"
       },
       {
         "netclass": "GND",
@@ -828,6 +827,14 @@
       {
         "netclass": "HVS",
         "pattern": "/L_FUSED"
+      },
+      {
+        "netclass": "HV",
+        "pattern": "L_*"
+      },
+      {
+        "netclass": "HV",
+        "pattern": "N_*"
       }
     ]
   },
@@ -846,7 +853,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 1
+      "sort_order": 0
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
@@ -1172,13 +1179,73 @@
         "uuid": "77770e37-dda2-4cf3-b2f1-cea4793bc3be"
       }
     ],
-    "used_designators": "TP1-40,L1-5,LS1,Q1-5,RV1-4,FL1,P1,J1-13,M1-4,TC1-4,IC1-2,TR1,C1-63,U1-14,SW1-8,HS1-4,F1,Y1-2,#PWR1-149,D1-15,H1-4,R1-85",
+    "used_designators": "TP1-48,L1-6,LS1,Q1-9,RV1-8,FL1,P1,J1-17,M1-4,TC1-4,IC1-2,TR1,C1-70,U1-18,SW1-8,HS1-8,F1,Y1-2,#PWR1-176,D1-15,H1-4,R1-97",
     "variants": []
   },
   "sheets": [
     [
       "77770e37-dda2-4cf3-b2f1-cea4793bc3be",
       "Root"
+    ],
+    [
+      "350efc8d-b55b-4c4a-a58d-c17ba5e545ee",
+      "Power"
+    ],
+    [
+      "b85d55bb-26cc-49b9-8d01-c94152f17286",
+      "AC Synchronization"
+    ],
+    [
+      "061047fe-fe83-46c7-b0ca-e22505d30f25",
+      "Heaters"
+    ],
+    [
+      "4c6ea04d-797d-4462-90d3-3a3684cce336",
+      "Thermocouples"
+    ],
+    [
+      "93249a2a-e51b-4c44-9b6d-4c6bfcead48b",
+      "Connectivity"
+    ],
+    [
+      "b56b01c8-a4d6-4add-b4c8-1a1bd46e73bf",
+      "USB Host"
+    ],
+    [
+      "afde93fc-0e64-4521-8622-78d987e18a67",
+      "USB-UART"
+    ],
+    [
+      "235cb61c-0bfd-4530-98f3-9fb88eaf14c4",
+      "SWD"
+    ],
+    [
+      "68b7f722-bad3-45c2-b522-78eb1b3727cc",
+      "User Interface"
+    ],
+    [
+      "2c9d5867-f6a1-43a2-84b0-7e2a68b6fe62",
+      "Buttons"
+    ],
+    [
+      "3afc4fe4-3fa4-4c3e-afce-f70380747f42",
+      "Signaling"
+    ],
+    [
+      "7541a5a5-2984-4dfb-a481-9cfc9c599e6e",
+      "LCD"
+    ],
+    [
+      "e571f478-2f31-4f14-9227-de33168fc084",
+      "Device Configuration"
+    ],
+    [
+      "d74a71ab-4111-41f8-b742-f4b6812e7f98",
+      "Fans"
+    ],
+    [
+      "1e8608a8-33a9-4259-9dbf-a6e46211bc3f",
+      "MCU"
     ]
   ],
   "text_variables": {},

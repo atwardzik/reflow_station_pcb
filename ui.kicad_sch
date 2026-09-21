@@ -1,0 +1,720 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "056057df-1dc0-4c3d-905a-f1f315eab68d")
+	(paper "A4")
+	(title_block
+		(title "User Interface")
+		(date "2026-09-21")
+		(rev "1")
+		(company "Artur Twardzik")
+	)
+	(lib_symbols)
+	(text "User Interface"
+		(exclude_from_sim no)
+		(at 51.816 23.114 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "791ecd16-b5db-4e01-9e46-7592b05d8375")
+	)
+	(wire
+		(pts
+			(xy 38.1 82.55) (xy 50.8 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06839539-0d9a-4436-a98c-503ee75abd67")
+	)
+	(wire
+		(pts
+			(xy 101.6 92.71) (xy 114.3 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "132831e8-7700-4897-92e8-d77dea9abd18")
+	)
+	(wire
+		(pts
+			(xy 203.2 80.01) (xy 215.9 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "173a0aff-dc67-4a74-94ed-18ec81589bbf")
+	)
+	(wire
+		(pts
+			(xy 38.1 85.09) (xy 50.8 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "244547cb-9a8f-49e8-ad16-c92941f44c30")
+	)
+	(wire
+		(pts
+			(xy 203.2 87.63) (xy 215.9 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35bacf52-ce53-4a1c-9044-030f7c25deeb")
+	)
+	(wire
+		(pts
+			(xy 152.4 88.9) (xy 165.1 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e86e37b-fd5b-4322-98e0-42ba56d67e54")
+	)
+	(wire
+		(pts
+			(xy 101.6 95.25) (xy 114.3 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47547e41-6205-486f-8056-aaab453da38e")
+	)
+	(wire
+		(pts
+			(xy 203.2 97.79) (xy 215.9 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b7df446-cc9f-4664-aaf3-184abe984ce6")
+	)
+	(wire
+		(pts
+			(xy 254 87.63) (xy 266.7 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "545a54f8-3bc1-4b41-b25c-1a7061d64362")
+	)
+	(wire
+		(pts
+			(xy 101.6 82.55) (xy 114.3 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71bfc411-f3cd-4741-9b1a-a3d6d003397b")
+	)
+	(wire
+		(pts
+			(xy 254 90.17) (xy 266.7 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ab78ab1-9b4b-4735-b244-e57d00c3e691")
+	)
+	(wire
+		(pts
+			(xy 101.6 85.09) (xy 114.3 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82450eb9-eef4-4ab7-a0eb-dc264c2bcf90")
+	)
+	(wire
+		(pts
+			(xy 203.2 82.55) (xy 215.9 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af8f406a-d0ac-4895-a91c-ffeea599e269")
+	)
+	(wire
+		(pts
+			(xy 101.6 87.63) (xy 114.3 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5d2eb7a-598a-4f74-8967-8fd9f624b680")
+	)
+	(wire
+		(pts
+			(xy 38.1 80.01) (xy 50.8 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c795efb8-6113-4531-aadb-4673a97e3eb5")
+	)
+	(wire
+		(pts
+			(xy 203.2 95.25) (xy 215.9 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfe50d9e-da3f-43d7-8302-c14cd2ec7ce1")
+	)
+	(wire
+		(pts
+			(xy 101.6 90.17) (xy 114.3 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d240048a-5d30-4062-97c9-0bf14070d5a6")
+	)
+	(wire
+		(pts
+			(xy 203.2 90.17) (xy 215.9 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e52be797-53ec-4bcc-a0b8-2b6b6dcaf5e4")
+	)
+	(hierarchical_label "DIODE_FAIL#"
+		(shape input)
+		(at 101.6 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "034ba46d-14ef-4bdd-add2-82fecce76abf")
+	)
+	(hierarchical_label "STOP#"
+		(shape output)
+		(at 38.1 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "15e9d504-137e-438c-87d2-68f0ca92462a")
+	)
+	(hierarchical_label "DIODE_RUN#"
+		(shape input)
+		(at 101.6 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "20e5aa2c-a0b8-4d96-bff5-bd7fa8c73c07")
+	)
+	(hierarchical_label "DIODE_HEAT#"
+		(shape input)
+		(at 101.6 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4360c998-83c6-43dd-a5e7-d1a09293b6e2")
+	)
+	(hierarchical_label "DIODE_STOP#"
+		(shape input)
+		(at 101.6 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5358492f-8498-4e52-81ef-02f9de87323c")
+	)
+	(hierarchical_label "KILL#"
+		(shape output)
+		(at 38.1 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "564e0027-298f-4a2a-af39-33156c41e58f")
+	)
+	(hierarchical_label "LCD_SDA"
+		(shape bidirectional)
+		(at 266.7 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "64d54869-c83e-4778-b8cc-4fc9fda84636")
+	)
+	(hierarchical_label "BUZZER_ON"
+		(shape input)
+		(at 165.1 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6e5318d1-1478-4229-9838-cc32cf9887ac")
+	)
+	(hierarchical_label "DSI1_DP1"
+		(shape input)
+		(at 203.2 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "78498e5c-a1d5-4cff-8b68-705466a720e8")
+	)
+	(hierarchical_label "RUN#"
+		(shape output)
+		(at 38.1 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "87e3e76a-50a7-4cfb-94f2-15415fafde10")
+	)
+	(hierarchical_label "DIODE_COOL#"
+		(shape input)
+		(at 101.6 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9471f3bd-d373-4390-b4ba-fd6d0bd2bd1b")
+	)
+	(hierarchical_label "DSI1_DP0"
+		(shape input)
+		(at 203.2 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9734bd12-bb37-4f6d-b706-6d8642cb6b01")
+	)
+	(hierarchical_label "DSI1_CN"
+		(shape input)
+		(at 203.2 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a4641239-cdd9-4561-b37f-9d4b69c0714e")
+	)
+	(hierarchical_label "DSI1_CP"
+		(shape input)
+		(at 203.2 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a9d81603-c903-46e5-ab51-5ec6fbc0abcd")
+	)
+	(hierarchical_label "DIODE_TEST#"
+		(shape input)
+		(at 101.6 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "af641b16-f0b3-41ce-9317-abb23b231d86")
+	)
+	(hierarchical_label "DSI1_DN0"
+		(shape input)
+		(at 203.2 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ccb0da06-b20d-4ee7-bd2c-900617b05eb3")
+	)
+	(hierarchical_label "DSI1_DN1"
+		(shape input)
+		(at 203.2 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ec2e5022-ba75-4f3f-9b7e-613057128ada")
+	)
+	(hierarchical_label "LCD_SCL"
+		(shape input)
+		(at 266.7 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fe74f00c-db3b-42f4-b19e-e722db6de07f")
+	)
+	(sheet
+		(at 50.8 76.2)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "2c9d5867-f6a1-43a2-84b0-7e2a68b6fe62")
+		(property "Sheetname" "Buttons"
+			(at 50.8 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buttons.kicad_sch"
+			(at 50.8 89.4846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "STOP#" output
+			(at 50.8 82.55 180)
+			(uuid "14821093-fd56-4445-be15-1cc4ffd330e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RUN#" output
+			(at 50.8 80.01 180)
+			(uuid "3c77994c-2ad9-4f54-a3a1-e6b196f5b829")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "KILL#" output
+			(at 50.8 85.09 180)
+			(uuid "0e195027-1641-4278-bdc9-7ae9760be853")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "reflow_station"
+				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/68b7f722-bad3-45c2-b522-78eb1b3727cc"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 76.2)
+		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3afc4fe4-3fa4-4c3e-afce-f70380747f42")
+		(property "Sheetname" "Signaling"
+			(at 114.3 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "signaling.kicad_sch"
+			(at 114.3 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIODE_STOP#" input
+			(at 114.3 85.09 180)
+			(uuid "4a540fa4-6d0a-4373-8df4-8eefd4d496d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BUZZER_ON" input
+			(at 152.4 88.9 0)
+			(uuid "803eabfb-7eb8-4808-b020-31c4f12f07da")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DIODE_HEAT#" input
+			(at 114.3 87.63 180)
+			(uuid "f6928a60-fe0f-4611-a921-4566d7edfa1a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIODE_COOL#" input
+			(at 114.3 90.17 180)
+			(uuid "52b165f9-6243-4e9b-a70f-39b2515a92d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIODE_FAIL#" input
+			(at 114.3 92.71 180)
+			(uuid "75b9207f-9c05-4517-882a-d942eaf7df2d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIODE_RUN#" input
+			(at 114.3 82.55 180)
+			(uuid "f94360e3-468b-463a-9ee5-59da29fed44e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIODE_TEST#" input
+			(at 114.3 95.25 180)
+			(uuid "3ccb9ceb-1977-4885-a43b-4763f6d654e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "reflow_station"
+				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/68b7f722-bad3-45c2-b522-78eb1b3727cc"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 215.9 76.2)
+		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7541a5a5-2984-4dfb-a481-9cfc9c599e6e")
+		(property "Sheetname" "LCD"
+			(at 215.9 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "lcd.kicad_sch"
+			(at 215.9 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DSI1_DN0" input
+			(at 215.9 80.01 180)
+			(uuid "4499093e-8177-49e4-a354-e161d18701b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LCD_SCL" input
+			(at 254 87.63 0)
+			(uuid "8d090c99-f32c-4beb-8813-a2c0b7405552")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DSI1_CP" input
+			(at 215.9 87.63 180)
+			(uuid "df98a964-3f5d-4ec3-957c-3b37d7e38f14")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DSI1_DP1" input
+			(at 215.9 95.25 180)
+			(uuid "71428da9-3ca4-456b-a1bb-7a3dd8a32367")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LCD_SDA" bidirectional
+			(at 254 90.17 0)
+			(uuid "0c77bfc4-10c3-424a-b9e3-4b06d316b8a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DSI1_DP0" input
+			(at 215.9 82.55 180)
+			(uuid "27d6e981-b22a-4059-a1e3-76c67650a90a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DSI1_CN" input
+			(at 215.9 90.17 180)
+			(uuid "045130a4-4213-4257-998e-f1641c493bab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DSI1_DN1" input
+			(at 215.9 97.79 180)
+			(uuid "d0e3ee4b-7de3-4242-9283-bed79ff516d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "reflow_station"
+				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/68b7f722-bad3-45c2-b522-78eb1b3727cc"
+					(page "13")
+				)
+			)
+		)
+	)
+)
