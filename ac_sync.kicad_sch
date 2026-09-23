@@ -2080,15 +2080,29 @@
 		)
 		(uuid "fb83b04b-7b56-4d58-9f08-e3f71214ca6b")
 	)
-	(label "+12V_ISOLATED"
-		(at 124.46 71.12 0)
+	(global_label "+12V_ISOLATED"
+		(shape passive)
+		(at 124.46 71.12 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "377e6ab7-63cc-460e-b41f-8d1de67876ff")
+		(uuid "0d4552db-0045-4556-a16f-0ea676f4ec8e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 107.8904 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
 	(hierarchical_label "AC_SYNC"
 		(shape output)

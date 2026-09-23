@@ -1453,6 +1453,12 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 38.1 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e960896-b45b-4535-a0a3-6b7b733fb3a0")
+	)
 	(wire
 		(pts
 			(xy 41.91 38.1) (xy 34.29 38.1)
@@ -1462,6 +1468,16 @@
 			(type default)
 		)
 		(uuid "02a25d9a-29c7-4445-8932-697fda9899cf")
+	)
+	(wire
+		(pts
+			(xy 38.1 154.94) (xy 50.8 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "041eeb08-958b-4a1d-b026-27f6f312c4fd")
 	)
 	(wire
 		(pts
@@ -2185,7 +2201,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 154.94) (xy 50.8 154.94)
+			(xy 25.4 154.94) (xy 38.1 154.94)
 		)
 		(stroke
 			(width 0)
@@ -2435,6 +2451,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 154.94) (xy 38.1 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee5a0d69-b8dc-4bac-802c-1abfb00e18e3")
+	)
+	(wire
+		(pts
 			(xy 119.38 144.78) (xy 144.78 144.78)
 		)
 		(stroke
@@ -2512,16 +2538,6 @@
 			(justify left bottom)
 		)
 		(uuid "2372977c-9b1a-4c1c-83c7-6ed40c6fa7a4")
-	)
-	(label "SHIELD"
-		(at 33.02 154.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e2fc29c2-f977-45fe-be14-d7a59beac596")
 	)
 	(label "L_IN"
 		(at 38.1 50.8 0)
@@ -3412,6 +3428,84 @@
 			(project "reflow_station"
 				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reflow_station_symbols:Earth")
+		(at 38.1 157.48 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7add2805-0b36-416a-bc86-16ed01cb4e40")
+		(property "Reference" "#PWR0177"
+			(at 38.1 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Earth"
+			(at 38.1 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 38.1 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7fb32ce6-f061-43c3-91cf-30b950602a80")
+		)
+		(instances
+			(project "reflow_station"
+				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be"
+					(reference "#PWR0177")
 					(unit 1)
 				)
 			)

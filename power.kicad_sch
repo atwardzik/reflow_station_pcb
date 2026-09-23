@@ -4897,16 +4897,6 @@
 		)
 		(uuid "fb829b06-782e-4060-8e9c-1513d9e4e35c")
 	)
-	(label "+12V_ISOLATED"
-		(at 222.25 203.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2436ef52-4149-44da-964a-f88c723ebbbe")
-	)
 	(label "L_RECTIFIED"
 		(at 78.74 185.42 0)
 		(effects
@@ -4916,6 +4906,30 @@
 			(justify left bottom)
 		)
 		(uuid "e49ba081-6173-4d5a-8bab-22ac09d5105f")
+	)
+	(global_label "+12V_ISOLATED"
+		(shape passive)
+		(at 222.25 203.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3ad02125-bcf3-4080-ad3b-841231ebcb40")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 238.8196 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(symbol
 		(lib_id "reflow_station_symbols:C")
