@@ -442,7 +442,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "reflow_station_symbols:+5V"
+		(symbol "reflow_station_symbols:+3V3"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -467,7 +467,7 @@
 					)
 				)
 			)
-			(property "Value" "+5V"
+			(property "Value" "+3V3"
 				(at 0 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -499,7 +499,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -521,7 +521,7 @@
 					)
 				)
 			)
-			(symbol "+5V_0_1"
+			(symbol "+3V3_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -559,7 +559,7 @@
 					)
 				)
 			)
-			(symbol "+5V_1_1"
+			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -2306,16 +2306,6 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 83.82) (xy 261.62 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07e5e669-b45a-45b8-8826-f31a96b909b9")
-	)
-	(wire
-		(pts
 			(xy 133.35 236.22) (xy 133.35 233.68)
 		)
 		(stroke
@@ -2363,6 +2353,16 @@
 			(type default)
 		)
 		(uuid "191c3dfa-0b58-4d67-af72-2daa32b0cb52")
+	)
+	(wire
+		(pts
+			(xy 267.97 198.12) (xy 261.62 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1aab242f-299d-4b7e-b425-11b088878c4c")
 	)
 	(wire
 		(pts
@@ -2483,16 +2483,6 @@
 			(type default)
 		)
 		(uuid "32c63eb7-8342-435f-8f73-afa899059d83")
-	)
-	(wire
-		(pts
-			(xy 261.62 190.5) (xy 261.62 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36bac05d-4a4e-4dbb-8095-fc6e0daafedf")
 	)
 	(wire
 		(pts
@@ -2756,16 +2746,6 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 76.2) (xy 261.62 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6491b3a2-2bd6-49a5-a6a5-564d31ed597d")
-	)
-	(wire
-		(pts
 			(xy 254 86.36) (xy 254 88.9)
 		)
 		(stroke
@@ -2996,6 +2976,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 76.2) (xy 261.62 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "895f5b4e-f23f-4d16-b565-8f72b490849e")
+	)
+	(wire
+		(pts
 			(xy 133.35 210.82) (xy 133.35 204.47)
 		)
 		(stroke
@@ -3053,16 +3043,6 @@
 			(type default)
 		)
 		(uuid "987fe5ef-8c50-4c64-bb64-5a432c920934")
-	)
-	(wire
-		(pts
-			(xy 71.12 190.5) (xy 71.12 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9943a627-b3d9-4537-a329-1c1b62ca386b")
 	)
 	(wire
 		(pts
@@ -3136,6 +3116,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 83.82) (xy 261.62 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a504c3de-5a76-46b1-ac0e-a357c9658050")
+	)
+	(wire
+		(pts
 			(xy 133.35 185.42) (xy 133.35 196.85)
 		)
 		(stroke
@@ -3143,16 +3133,6 @@
 			(type default)
 		)
 		(uuid "a74fe12e-c011-457b-bd4b-3c3a1158c081")
-	)
-	(wire
-		(pts
-			(xy 267.97 198.12) (xy 261.62 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8ad4310-1e5e-404a-9d5d-fdf3c55767b6")
 	)
 	(wire
 		(pts
@@ -3306,6 +3286,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 190.5) (xy 71.12 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfd0730a-a77d-4cf3-a449-6a46f6805abe")
+	)
+	(wire
+		(pts
 			(xy 294.64 88.9) (xy 320.04 88.9)
 		)
 		(stroke
@@ -3366,13 +3356,13 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 198.12) (xy 71.12 198.12)
+			(xy 261.62 190.5) (xy 261.62 198.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c98d4d15-5703-4289-978b-fc9f84a71f33")
+		(uuid "ca2093ac-eafb-473f-8917-60233d774b6e")
 	)
 	(wire
 		(pts
@@ -3513,6 +3503,16 @@
 			(type default)
 		)
 		(uuid "e0f64f2f-958d-42e2-a64b-9e332d7fe1f8")
+	)
+	(wire
+		(pts
+			(xy 77.47 198.12) (xy 71.12 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e284b676-22b9-4081-b14a-6cad85ccd8ab")
 	)
 	(wire
 		(pts
@@ -4163,84 +4163,6 @@
 			(project "reflow_station"
 				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/061047fe-fe83-46c7-b0ca-e22505d30f25"
 					(reference "#PWR065")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "reflow_station_symbols:+5V")
-		(at 71.12 76.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "141e2967-b191-4b28-acc2-3909597ba5f1")
-		(property "Reference" "#PWR050"
-			(at 71.12 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 71.12 71.12 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.12 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 71.12 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1cf22ac6-4cc1-4ba4-95ef-b81d60696532")
-		)
-		(instances
-			(project "reflow_station"
-				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/061047fe-fe83-46c7-b0ca-e22505d30f25"
-					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -5678,6 +5600,84 @@
 			(project "reflow_station"
 				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/061047fe-fe83-46c7-b0ca-e22505d30f25"
 					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reflow_station_symbols:+3V3")
+		(at 71.12 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e15dd96-53c5-440c-a5fc-43d89a1acf7c")
+		(property "Reference" "#PWR050"
+			(at 71.12 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 71.12 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 71.12 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "71befb66-3206-43ee-bf52-4c67e2c4a054")
+		)
+		(instances
+			(project "reflow_station"
+				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/061047fe-fe83-46c7-b0ca-e22505d30f25"
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -7141,6 +7141,196 @@
 		)
 	)
 	(symbol
+		(lib_id "reflow_station_symbols:R")
+		(at 81.28 198.12 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51aabe14-3d12-4022-9246-ef039ecaed1d")
+		(property "Reference" "R20"
+			(at 81.28 191.77 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 81.28 194.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
+			(at 81.28 199.898 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor: 220Ohm 50V 62.5mW 1%"
+			(at 81.28 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 81.28 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
+			(at 81.28 198.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement_Mfr.No" ""
+			(at 81.28 198.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "JLCPCB"
+			(at 81.28 198.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier_Link" "https://jlcpcb.com/partdetail/25834-0402WGF2200TCE/C25091"
+			(at 81.28 198.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB_PartNo" "C25091"
+			(at 81.28 198.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Additional_Info" ""
+			(at 81.28 198.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 81.28 198.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr.No" "0402WGF2200TCE"
+			(at 81.28 198.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0402"
+			(at 81.28 198.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ae4ed6f6-4a62-4ae8-a821-31eb5ab14715")
+		)
+		(pin "2"
+			(uuid "86e380a5-c254-42b8-9f40-2a4913233c68")
+		)
+		(instances
+			(project "reflow_station"
+				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/061047fe-fe83-46c7-b0ca-e22505d30f25"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "reflow_station_symbols:Varistor")
 		(at 175.26 83.82 0)
 		(unit 1)
@@ -7770,196 +7960,6 @@
 		)
 	)
 	(symbol
-		(lib_id "reflow_station_symbols:R")
-		(at 81.28 198.12 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "627537b7-ee6e-4ef3-9a01-8dd38c21d087")
-		(property "Reference" "R20"
-			(at 81.28 191.77 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "680"
-			(at 81.28 194.31 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
-			(at 81.28 199.898 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor: 680Ohm 50V 62.5mW 1%"
-			(at 81.28 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 81.28 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Comment" ""
-			(at 81.28 198.12 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Replacement_Mfr.No" ""
-			(at 81.28 198.12 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "JLCPCB"
-			(at 81.28 198.12 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier_Link" "https://jlcpcb.com/partdetail/25873-0402WGF6800TCE/C25130"
-			(at 81.28 198.12 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB_PartNo" "C25130"
-			(at 81.28 198.12 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Additional_Info" ""
-			(at 81.28 198.12 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 81.28 198.12 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mfr.No" "0402WGF6800TCE"
-			(at 81.28 198.12 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" "0402"
-			(at 81.28 198.12 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d13bb7d9-e9c7-449d-8caa-e88368ab1ce8")
-		)
-		(pin "2"
-			(uuid "3907017b-58c5-4510-a6c0-6a1017acec40")
-		)
-		(instances
-			(project "reflow_station"
-				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/061047fe-fe83-46c7-b0ca-e22505d30f25"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "reflow_station_symbols:C")
 		(at 346.71 204.47 0)
 		(unit 1)
@@ -8130,84 +8130,6 @@
 		)
 	)
 	(symbol
-		(lib_id "reflow_station_symbols:+5V")
-		(at 71.12 190.5 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "701c0684-e67f-4f6b-9d65-9ec4c08c3e8f")
-		(property "Reference" "#PWR051"
-			(at 71.12 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 71.12 185.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.12 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 71.12 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2a3abd8e-3952-4b30-aae2-dfafcc635323")
-		)
-		(instances
-			(project "reflow_station"
-				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/061047fe-fe83-46c7-b0ca-e22505d30f25"
-					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:LINE")
 		(at 190.5 182.88 0)
 		(unit 1)
@@ -8287,7 +8209,7 @@
 	)
 	(symbol
 		(lib_id "reflow_station_symbols:R")
-		(at 271.78 83.82 90)
+		(at 271.78 198.12 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8296,9 +8218,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7d42aaa5-081f-4b05-8577-2ab7f7f9d0bb")
-		(property "Reference" "R25"
-			(at 271.78 77.47 90)
+		(uuid "7a32e4ea-fab5-441e-937d-3e5463d24099")
+		(property "Reference" "R26"
+			(at 271.78 191.77 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8307,8 +8229,8 @@
 				)
 			)
 		)
-		(property "Value" "680"
-			(at 271.78 80.01 90)
+		(property "Value" "220"
+			(at 271.78 194.31 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8318,7 +8240,7 @@
 			)
 		)
 		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
-			(at 271.78 85.598 90)
+			(at 271.78 199.898 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8329,7 +8251,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.78 83.82 0)
+			(at 271.78 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8339,8 +8261,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor: 680Ohm 50V 62.5mW 1%"
-			(at 271.78 83.82 0)
+		(property "Description" "Resistor: 220Ohm 50V 62.5mW 1%"
+			(at 271.78 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8351,7 +8273,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 271.78 83.82 0)
+			(at 271.78 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8362,7 +8284,7 @@
 			)
 		)
 		(property "Comment" ""
-			(at 271.78 83.82 90)
+			(at 271.78 198.12 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8373,7 +8295,7 @@
 			)
 		)
 		(property "Replacement_Mfr.No" ""
-			(at 271.78 83.82 90)
+			(at 271.78 198.12 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8384,7 +8306,7 @@
 			)
 		)
 		(property "Supplier" "JLCPCB"
-			(at 271.78 83.82 90)
+			(at 271.78 198.12 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8394,8 +8316,8 @@
 				)
 			)
 		)
-		(property "Supplier_Link" "https://jlcpcb.com/partdetail/25873-0402WGF6800TCE/C25130"
-			(at 271.78 83.82 90)
+		(property "Supplier_Link" "https://jlcpcb.com/partdetail/25834-0402WGF2200TCE/C25091"
+			(at 271.78 198.12 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8405,8 +8327,8 @@
 				)
 			)
 		)
-		(property "JLCPCB_PartNo" "C25130"
-			(at 271.78 83.82 90)
+		(property "JLCPCB_PartNo" "C25091"
+			(at 271.78 198.12 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8417,7 +8339,7 @@
 			)
 		)
 		(property "Additional_Info" ""
-			(at 271.78 83.82 90)
+			(at 271.78 198.12 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8428,7 +8350,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 271.78 83.82 90)
+			(at 271.78 198.12 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8438,8 +8360,8 @@
 				)
 			)
 		)
-		(property "Mfr.No" "0402WGF6800TCE"
-			(at 271.78 83.82 90)
+		(property "Mfr.No" "0402WGF2200TCE"
+			(at 271.78 198.12 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8450,7 +8372,7 @@
 			)
 		)
 		(property "Package" "0402"
-			(at 271.78 83.82 90)
+			(at 271.78 198.12 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8461,15 +8383,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "d6f91312-0916-44bb-b93e-329b9933640f")
+			(uuid "28607d6c-826c-4fc3-af61-572214776220")
 		)
 		(pin "2"
-			(uuid "40f5ac3b-d266-4955-8810-06af9701b7cd")
+			(uuid "1cd9b276-a7be-484a-a029-494456ce6857")
 		)
 		(instances
 			(project "reflow_station"
 				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/061047fe-fe83-46c7-b0ca-e22505d30f25"
-					(reference "R25")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -8640,6 +8562,196 @@
 			(project "reflow_station"
 				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/061047fe-fe83-46c7-b0ca-e22505d30f25"
 					(reference "HS4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reflow_station_symbols:R")
+		(at 271.78 83.82 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "861cdc61-4758-4dbf-a93a-78f0a495878f")
+		(property "Reference" "R25"
+			(at 271.78 77.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 271.78 80.01 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
+			(at 271.78 85.598 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor: 220Ohm 50V 62.5mW 1%"
+			(at 271.78 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 271.78 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" ""
+			(at 271.78 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Replacement_Mfr.No" ""
+			(at 271.78 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "JLCPCB"
+			(at 271.78 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier_Link" "https://jlcpcb.com/partdetail/25834-0402WGF2200TCE/C25091"
+			(at 271.78 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB_PartNo" "C25091"
+			(at 271.78 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Additional_Info" ""
+			(at 271.78 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 271.78 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr.No" "0402WGF2200TCE"
+			(at 271.78 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0402"
+			(at 271.78 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ef1144ff-54aa-40aa-a97f-77df482fbc3c")
+		)
+		(pin "2"
+			(uuid "ec7ddf78-a27f-4a5e-8f4f-8ef0e295a66d")
+		)
+		(instances
+			(project "reflow_station"
+				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/061047fe-fe83-46c7-b0ca-e22505d30f25"
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -8849,196 +8961,6 @@
 			(project "reflow_station"
 				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/061047fe-fe83-46c7-b0ca-e22505d30f25"
 					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "reflow_station_symbols:R")
-		(at 271.78 198.12 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8ce1cc22-c9af-4cb9-8955-45e5318035d0")
-		(property "Reference" "R26"
-			(at 271.78 191.77 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "680"
-			(at 271.78 194.31 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
-			(at 271.78 199.898 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 271.78 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor: 680Ohm 50V 62.5mW 1%"
-			(at 271.78 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 271.78 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Comment" ""
-			(at 271.78 198.12 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Replacement_Mfr.No" ""
-			(at 271.78 198.12 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "JLCPCB"
-			(at 271.78 198.12 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier_Link" "https://jlcpcb.com/partdetail/25873-0402WGF6800TCE/C25130"
-			(at 271.78 198.12 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB_PartNo" "C25130"
-			(at 271.78 198.12 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Additional_Info" ""
-			(at 271.78 198.12 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 271.78 198.12 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mfr.No" "0402WGF6800TCE"
-			(at 271.78 198.12 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" "0402"
-			(at 271.78 198.12 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e0748edf-3c48-41b9-94ba-5e40c0627105")
-		)
-		(pin "2"
-			(uuid "c3769ef6-0130-4bb3-ada0-67f3bcf9a29e")
-		)
-		(instances
-			(project "reflow_station"
-				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/061047fe-fe83-46c7-b0ca-e22505d30f25"
-					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -9271,7 +9193,7 @@
 				)
 			)
 		)
-		(property "Value" "680"
+		(property "Value" "220"
 			(at 81.28 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9303,7 +9225,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor: 680Ohm 50V 62.5mW 1%"
+		(property "Description" "Resistor: 220Ohm 50V 62.5mW 1%"
 			(at 81.28 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -9358,7 +9280,7 @@
 				)
 			)
 		)
-		(property "Supplier_Link" "https://jlcpcb.com/partdetail/25873-0402WGF6800TCE/C25130"
+		(property "Supplier_Link" "https://jlcpcb.com/partdetail/25834-0402WGF2200TCE/C25091"
 			(at 81.28 83.82 90)
 			(hide yes)
 			(show_name no)
@@ -9369,7 +9291,7 @@
 				)
 			)
 		)
-		(property "JLCPCB_PartNo" "C25130"
+		(property "JLCPCB_PartNo" "C25091"
 			(at 81.28 83.82 90)
 			(hide yes)
 			(show_name no)
@@ -9402,7 +9324,7 @@
 				)
 			)
 		)
-		(property "Mfr.No" "0402WGF6800TCE"
+		(property "Mfr.No" "0402WGF2200TCE"
 			(at 81.28 83.82 90)
 			(hide yes)
 			(show_name no)
@@ -9626,84 +9548,6 @@
 			(project "reflow_station"
 				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/061047fe-fe83-46c7-b0ca-e22505d30f25"
 					(reference "R30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "reflow_station_symbols:+5V")
-		(at 261.62 190.5 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "98ea74c5-fa81-4714-88c4-4e4c9dc2f033")
-		(property "Reference" "#PWR059"
-			(at 261.62 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 261.62 185.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 261.62 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 261.62 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2182ac60-34cd-4db2-8d78-ba4df2eb54b8")
-		)
-		(instances
-			(project "reflow_station"
-				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/061047fe-fe83-46c7-b0ca-e22505d30f25"
-					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -10242,6 +10086,84 @@
 		)
 	)
 	(symbol
+		(lib_id "reflow_station_symbols:+3V3")
+		(at 71.12 190.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a84145d8-f82a-44ac-974c-22bebff9c362")
+		(property "Reference" "#PWR051"
+			(at 71.12 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 71.12 185.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 71.12 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1931bf4b-b468-4bbf-9574-c7d296689bfc")
+		)
+		(instances
+			(project "reflow_station"
+				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/061047fe-fe83-46c7-b0ca-e22505d30f25"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "reflow_station_symbols:R")
 		(at 306.07 71.12 90)
 		(unit 1)
@@ -10585,84 +10507,6 @@
 			(project "reflow_station"
 				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/061047fe-fe83-46c7-b0ca-e22505d30f25"
 					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "reflow_station_symbols:+5V")
-		(at 261.62 76.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b36255e4-ee26-4b2d-bfa4-394a32c7b262")
-		(property "Reference" "#PWR058"
-			(at 261.62 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 261.62 71.12 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 261.62 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 261.62 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "514db3a1-0533-4f57-93e5-e6fc64fc5539")
-		)
-		(instances
-			(project "reflow_station"
-				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/061047fe-fe83-46c7-b0ca-e22505d30f25"
-					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -11575,6 +11419,162 @@
 			(project "reflow_station"
 				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/061047fe-fe83-46c7-b0ca-e22505d30f25"
 					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reflow_station_symbols:+3V3")
+		(at 261.62 190.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cff9b7f3-d516-4164-b41a-0f84df6f9887")
+		(property "Reference" "#PWR059"
+			(at 261.62 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 261.62 185.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 261.62 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2944cfbc-f51a-4c28-a5e0-8a1d492d3eb7")
+		)
+		(instances
+			(project "reflow_station"
+				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/061047fe-fe83-46c7-b0ca-e22505d30f25"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reflow_station_symbols:+3V3")
+		(at 261.62 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d40f8176-fcbf-4998-bd46-c60d6665f13a")
+		(property "Reference" "#PWR058"
+			(at 261.62 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 261.62 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 261.62 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "54de9e05-6a91-4eff-8cf5-aab01f701557")
+		)
+		(instances
+			(project "reflow_station"
+				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/061047fe-fe83-46c7-b0ca-e22505d30f25"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
