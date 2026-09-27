@@ -9555,7 +9555,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "reflow_station_library:C_0603_1608Metric"
+		(property "Footprint" "reflow_station_library:C_0402_1005Metric"
 			(at 127.9652 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -9577,7 +9577,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor: 2.2uF 16V X5R 10% ceramic"
+		(property "Description" "Unpolarized capacitor: 2.2uF 6.3V X5R 20% ceramic"
 			(at 127 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -9632,7 +9632,7 @@
 				)
 			)
 		)
-		(property "Supplier_Link" "https://jlcpcb.com/partdetail/24366-CL10A225KO8NNNC/C23630"
+		(property "Supplier_Link" "https://jlcpcb.com/partdetail/13164-CL05A225MQ5NSNC/C12530"
 			(at 127 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -9643,7 +9643,7 @@
 				)
 			)
 		)
-		(property "JLCPCB_PartNo" "C23630"
+		(property "JLCPCB_PartNo" "C12530"
 			(at 127 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -9654,7 +9654,7 @@
 				)
 			)
 		)
-		(property "Mfr.No" "CL10A225KO8NNNC"
+		(property "Mfr.No" "CL05A225MQ5NSNC"
 			(at 127 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -9665,7 +9665,7 @@
 				)
 			)
 		)
-		(property "Package" "0603"
+		(property "Package" "0402"
 			(at 127 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -12501,7 +12501,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "reflow_station_library:C_0603_1608Metric"
+		(property "Footprint" "reflow_station_library:C_0402_1005Metric"
 			(at 140.6652 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -12523,7 +12523,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor: 2.2uF 16V X5R 10% ceramic"
+		(property "Description" "Unpolarized capacitor: 2.2uF 6.3V X5R 20% ceramic"
 			(at 139.7 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -12578,7 +12578,7 @@
 				)
 			)
 		)
-		(property "Supplier_Link" "https://jlcpcb.com/partdetail/24366-CL10A225KO8NNNC/C23630"
+		(property "Supplier_Link" "https://jlcpcb.com/partdetail/13164-CL05A225MQ5NSNC/C12530"
 			(at 139.7 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -12589,7 +12589,7 @@
 				)
 			)
 		)
-		(property "JLCPCB_PartNo" "C23630"
+		(property "JLCPCB_PartNo" "C12530"
 			(at 139.7 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -12600,7 +12600,7 @@
 				)
 			)
 		)
-		(property "Mfr.No" "CL10A225KO8NNNC"
+		(property "Mfr.No" "CL05A225MQ5NSNC"
 			(at 139.7 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -12611,7 +12611,7 @@
 				)
 			)
 		)
-		(property "Package" "0603"
+		(property "Package" "0402"
 			(at 139.7 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -12771,7 +12771,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "reflow_station_library:C_0603_1608Metric"
+		(property "Footprint" "reflow_station_library:C_0402_1005Metric"
 			(at 173.6852 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -12793,7 +12793,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor: 2.2uF 16V X5R 10% ceramic"
+		(property "Description" "Unpolarized capacitor: 2.2uF 6.3V X5R 20% ceramic"
 			(at 172.72 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -12848,7 +12848,7 @@
 				)
 			)
 		)
-		(property "Supplier_Link" "https://jlcpcb.com/partdetail/24366-CL10A225KO8NNNC/C23630"
+		(property "Supplier_Link" "https://jlcpcb.com/partdetail/13164-CL05A225MQ5NSNC/C12530"
 			(at 172.72 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -12859,7 +12859,7 @@
 				)
 			)
 		)
-		(property "JLCPCB_PartNo" "C23630"
+		(property "JLCPCB_PartNo" "C12530"
 			(at 172.72 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -12870,7 +12870,7 @@
 				)
 			)
 		)
-		(property "Mfr.No" "CL10A225KO8NNNC"
+		(property "Mfr.No" "CL05A225MQ5NSNC"
 			(at 172.72 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -12881,7 +12881,7 @@
 				)
 			)
 		)
-		(property "Package" "0603"
+		(property "Package" "0402"
 			(at 172.72 99.06 0)
 			(hide yes)
 			(show_name no)
