@@ -1349,18 +1349,6 @@
 		(uuid "507bf195-af2c-42b1-b290-f19a2a2981e1")
 	)
 	(junction
-		(at 166.37 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3000364f-2f6f-44b6-9d5c-b332c3c2d9f8")
-	)
-	(junction
-		(at 119.38 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4f5d44a0-d2b7-447f-8e38-39da9bf3278e")
-	)
-	(junction
 		(at 168.91 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1377,30 +1365,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b27fe8c-1926-40ed-87da-d3ced68735ab")
-	)
-	(junction
-		(at 109.22 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6dca6a33-8480-4dcd-80ad-a386efabf655")
-	)
-	(junction
-		(at 163.83 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ab1385c9-d378-4132-acc3-7b083ce2533f")
-	)
-	(junction
-		(at 111.76 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d0d34007-c129-4437-8388-1e5abca82b28")
-	)
-	(junction
-		(at 121.92 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e28ec3aa-36d2-45c2-b1c7-7ecfd3e1dd87")
 	)
 	(wire
 		(pts
@@ -1454,7 +1418,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 83.82) (xy 135.89 83.82)
+			(xy 116.84 83.82) (xy 135.89 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1464,7 +1428,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 58.42) (xy 151.13 58.42)
+			(xy 151.13 58.42) (xy 168.91 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1494,7 +1458,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 86.36) (xy 119.38 86.36)
+			(xy 116.84 86.36) (xy 133.35 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1521,16 +1485,6 @@
 			(type default)
 		)
 		(uuid "2c1a9526-1317-4609-87bd-edae2655ba83")
-	)
-	(wire
-		(pts
-			(xy 111.76 44.45) (xy 111.76 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2daf4c0f-2746-4bb7-b0e8-08095676f02a")
 	)
 	(wire
 		(pts
@@ -1574,16 +1528,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 58.42) (xy 109.22 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46784456-5d07-4a91-8050-5b8465dbca0c")
-	)
-	(wire
-		(pts
 			(xy 137.16 167.64) (xy 137.16 165.1)
 		)
 		(stroke
@@ -1591,16 +1535,6 @@
 			(type default)
 		)
 		(uuid "483cf333-f5c1-4dc2-bcd1-6a128e2dfa68")
-	)
-	(wire
-		(pts
-			(xy 163.83 55.88) (xy 148.59 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bbbf3f9-04df-4eea-a600-7fa9401738ea")
 	)
 	(wire
 		(pts
@@ -1624,16 +1558,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 44.45) (xy 163.83 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61d6c20e-ea64-405d-947f-dbe662351232")
-	)
-	(wire
-		(pts
 			(xy 138.43 104.14) (xy 138.43 107.95)
 		)
 		(stroke
@@ -1641,16 +1565,6 @@
 			(type default)
 		)
 		(uuid "620a8030-9df0-4d78-a417-cf6b0ca02201")
-	)
-	(wire
-		(pts
-			(xy 106.68 55.88) (xy 111.76 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66c8e76c-b6b8-4595-b8ea-3a3b258e9181")
 	)
 	(wire
 		(pts
@@ -1704,17 +1618,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 86.36) (xy 133.35 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d0eaab6-e348-42b2-95bf-ef9080a7e944")
-	)
-	(wire
-		(pts
-			(xy 111.76 55.88) (xy 143.51 55.88)
+			(xy 106.68 55.88) (xy 143.51 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1731,16 +1635,6 @@
 			(type default)
 		)
 		(uuid "6fa0e57a-2ab3-45ee-b5f1-37adc7b41eca")
-	)
-	(wire
-		(pts
-			(xy 166.37 50.8) (xy 166.37 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "723b0922-12d8-45a4-b8be-3abdaa9694e0")
 	)
 	(wire
 		(pts
@@ -1794,7 +1688,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 55.88) (xy 168.91 55.88)
+			(xy 148.59 55.88) (xy 168.91 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1854,16 +1748,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 83.82) (xy 121.92 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94eb8955-db61-45a0-9b97-4358e8431183")
-	)
-	(wire
-		(pts
 			(xy 133.35 97.79) (xy 133.35 107.95)
 		)
 		(stroke
@@ -1904,16 +1788,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 58.42) (xy 109.22 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d9f7c80-4e8b-4ddc-9217-43a77ef013b9")
-	)
-	(wire
-		(pts
 			(xy 135.89 83.82) (xy 135.89 90.17)
 		)
 		(stroke
@@ -1924,17 +1798,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 58.42) (xy 168.91 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e965742-3eb2-4ac5-aa29-cec5d796b969")
-	)
-	(wire
-		(pts
-			(xy 109.22 58.42) (xy 140.97 58.42)
+			(xy 106.68 58.42) (xy 140.97 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1951,16 +1815,6 @@
 			(type default)
 		)
 		(uuid "af5f2ab8-5b44-4e6e-82b7-90a10d89808b")
-	)
-	(wire
-		(pts
-			(xy 119.38 81.28) (xy 119.38 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd0dc58a-4b69-4252-ab15-afdd6c836792")
 	)
 	(wire
 		(pts
@@ -2021,16 +1875,6 @@
 			(type default)
 		)
 		(uuid "f48a7c50-2632-46f9-81a4-12f7eb186df2")
-	)
-	(wire
-		(pts
-			(xy 121.92 76.2) (xy 121.92 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f82555b9-7852-4f9b-ac41-27543a3c6bec")
 	)
 	(wire
 		(pts
@@ -2582,163 +2426,6 @@
 			(project "reflow_station"
 				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/68b7f722-bad3-45c2-b522-78eb1b3727cc/7541a5a5-2984-4dfb-a481-9cfc9c599e6e"
 					(reference "#PWR0133")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "reflow_station_symbols:TestPoint")
-		(at 109.22 50.8 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1dfbb238-2246-4fea-a3a2-5cfb7b9927aa")
-		(property "Reference" "TP28"
-			(at 106.68 46.2279 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 106.68 48.7679 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "reflow_station_library:TestPoint_Pad_D1.0mm"
-			(at 104.14 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 109.22 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Comment" ""
-			(at 109.22 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Replacement_Mfr.No" ""
-			(at 109.22 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" ""
-			(at 109.22 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier_Link" ""
-			(at 109.22 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB_PartNo" ""
-			(at 109.22 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Additional_Info" ""
-			(at 109.22 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 109.22 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e2097f7a-0d99-4dd2-b979-76a26625af4f")
-		)
-		(instances
-			(project "reflow_station"
-				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/68b7f722-bad3-45c2-b522-78eb1b3727cc/7541a5a5-2984-4dfb-a481-9cfc9c599e6e"
-					(reference "TP28")
 					(unit 1)
 				)
 			)
@@ -3537,162 +3224,6 @@
 			(project "reflow_station"
 				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/68b7f722-bad3-45c2-b522-78eb1b3727cc/7541a5a5-2984-4dfb-a481-9cfc9c599e6e"
 					(reference "R70")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "reflow_station_symbols:TestPoint")
-		(at 166.37 50.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "59935231-fe54-43ca-b474-7666a7c5ba73")
-		(property "Reference" "TP29"
-			(at 168.91 46.2279 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 168.91 48.7679 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "reflow_station_library:TestPoint_Pad_D1.0mm"
-			(at 171.45 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 166.37 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Comment" ""
-			(at 166.37 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Replacement_Mfr.No" ""
-			(at 166.37 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" ""
-			(at 166.37 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier_Link" ""
-			(at 166.37 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB_PartNo" ""
-			(at 166.37 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Additional_Info" ""
-			(at 166.37 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 166.37 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ce3f15c8-30b0-4297-bf8a-2772232f4586")
-		)
-		(instances
-			(project "reflow_station"
-				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/68b7f722-bad3-45c2-b522-78eb1b3727cc/7541a5a5-2984-4dfb-a481-9cfc9c599e6e"
-					(reference "TP29")
 					(unit 1)
 				)
 			)
@@ -4841,163 +4372,6 @@
 		)
 	)
 	(symbol
-		(lib_id "reflow_station_symbols:TestPoint")
-		(at 119.38 81.28 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b0ab6900-d0e0-43f2-b5ca-cb0446b30a20")
-		(property "Reference" "TP32"
-			(at 116.84 76.7079 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 116.84 79.2479 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "reflow_station_library:TestPoint_Pad_D1.0mm"
-			(at 114.3 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 119.38 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Comment" ""
-			(at 119.38 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Replacement_Mfr.No" ""
-			(at 119.38 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" ""
-			(at 119.38 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier_Link" ""
-			(at 119.38 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB_PartNo" ""
-			(at 119.38 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Additional_Info" ""
-			(at 119.38 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 119.38 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3cda72ea-a7ef-40ca-8e2c-316be6d75904")
-		)
-		(instances
-			(project "reflow_station"
-				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/68b7f722-bad3-45c2-b522-78eb1b3727cc/7541a5a5-2984-4dfb-a481-9cfc9c599e6e"
-					(reference "TP32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "reflow_station_symbols:F52Q-1A7H1-11015")
 		(at 123.19 120.65 0)
 		(unit 1)
@@ -5334,162 +4708,6 @@
 		)
 	)
 	(symbol
-		(lib_id "reflow_station_symbols:TestPoint")
-		(at 121.92 76.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c65306ff-1bd4-443d-a3f1-7966eb1dac8b")
-		(property "Reference" "TP30"
-			(at 124.46 71.6279 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 124.46 74.1679 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "reflow_station_library:TestPoint_Pad_D1.0mm"
-			(at 127 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 121.92 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Comment" ""
-			(at 121.92 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Replacement_Mfr.No" ""
-			(at 121.92 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" ""
-			(at 121.92 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier_Link" ""
-			(at 121.92 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB_PartNo" ""
-			(at 121.92 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Additional_Info" ""
-			(at 121.92 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 121.92 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "946e0e63-7f79-4ae9-b70e-66de6e55ee29")
-		)
-		(instances
-			(project "reflow_station"
-				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/68b7f722-bad3-45c2-b522-78eb1b3727cc/7541a5a5-2984-4dfb-a481-9cfc9c599e6e"
-					(reference "TP30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "reflow_station_symbols:GND")
 		(at 130.81 104.14 180)
 		(unit 1)
@@ -5562,318 +4780,6 @@
 			(project "reflow_station"
 				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/68b7f722-bad3-45c2-b522-78eb1b3727cc/7541a5a5-2984-4dfb-a481-9cfc9c599e6e"
 					(reference "#PWR0130")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "reflow_station_symbols:TestPoint")
-		(at 163.83 44.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d9703187-319c-4563-97d5-8bfa33bd06c7")
-		(property "Reference" "TP27"
-			(at 166.37 39.8779 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 166.37 42.4179 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "reflow_station_library:TestPoint_Pad_D1.0mm"
-			(at 168.91 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 163.83 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Comment" ""
-			(at 163.83 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Replacement_Mfr.No" ""
-			(at 163.83 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" ""
-			(at 163.83 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier_Link" ""
-			(at 163.83 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB_PartNo" ""
-			(at 163.83 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Additional_Info" ""
-			(at 163.83 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 163.83 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b443b6d0-f03b-412d-b186-9bded490f9f9")
-		)
-		(instances
-			(project "reflow_station"
-				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/68b7f722-bad3-45c2-b522-78eb1b3727cc/7541a5a5-2984-4dfb-a481-9cfc9c599e6e"
-					(reference "TP27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "reflow_station_symbols:TestPoint")
-		(at 111.76 44.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "da8c10d2-fecc-4a2c-921b-b4c475e98eaa")
-		(property "Reference" "TP26"
-			(at 114.3 39.8779 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 114.3 42.4179 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "reflow_station_library:TestPoint_Pad_D1.0mm"
-			(at 116.84 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 111.76 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Comment" ""
-			(at 111.76 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Replacement_Mfr.No" ""
-			(at 111.76 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" ""
-			(at 111.76 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier_Link" ""
-			(at 111.76 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB_PartNo" ""
-			(at 111.76 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Additional_Info" ""
-			(at 111.76 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 111.76 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4df85424-0334-42e7-83a5-9b0446cf909d")
-		)
-		(instances
-			(project "reflow_station"
-				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/68b7f722-bad3-45c2-b522-78eb1b3727cc/7541a5a5-2984-4dfb-a481-9cfc9c599e6e"
-					(reference "TP26")
 					(unit 1)
 				)
 			)

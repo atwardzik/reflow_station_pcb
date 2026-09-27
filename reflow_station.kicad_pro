@@ -66,7 +66,7 @@
           "pad_connection": 1,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
-          "thermal_relief_spoke_width": 0.8
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -752,7 +752,7 @@
         "wire_width": 10
       },
       {
-        "clearance": 0.16,
+        "clearance": 0.504,
         "diff_pair_gap": 0.3289,
         "diff_pair_width": 0.168,
         "name": "MIPI_DSI",
@@ -764,7 +764,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.16,
+        "clearance": 0.5835,
         "diff_pair_gap": 0.2539,
         "diff_pair_width": 0.1945,
         "name": "USB",
@@ -852,7 +852,7 @@
       },
       {
         "netclass": "USB",
-        "pattern": "*USB*"
+        "pattern": "*USB*D*"
       },
       {
         "netclass": "MIPI_DSI",
