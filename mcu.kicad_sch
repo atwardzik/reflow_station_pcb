@@ -10809,7 +10809,8 @@
 	)
 	(symbol
 		(lib_id "reflow_station_symbols:R")
-		(at 267.97 172.72 90)
+		(at 267.97 172.72 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10817,7 +10818,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7376cb47-0bca-4dba-8d16-68e34d9f2f18")
 		(property "Reference" "R85"
 			(at 267.97 166.37 90)

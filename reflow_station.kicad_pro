@@ -211,6 +211,7 @@
       ],
       "track_widths": [
         0.0,
+        0.16,
         0.2,
         0.3,
         0.4,
@@ -752,7 +753,7 @@
         "wire_width": 10
       },
       {
-        "clearance": 0.0504,
+        "clearance": 0.504,
         "diff_pair_gap": 0.3289,
         "diff_pair_width": 0.168,
         "name": "MIPI_DSI",
@@ -764,7 +765,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.05835,
+        "clearance": 0.5835,
         "diff_pair_gap": 0.2539,
         "diff_pair_width": 0.1945,
         "name": "USB",

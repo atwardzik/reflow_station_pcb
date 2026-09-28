@@ -3560,7 +3560,8 @@
 	)
 	(symbol
 		(lib_id "reflow_station_symbols:R")
-		(at 63.5 78.74 180)
+		(at 63.5 78.74 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3568,10 +3569,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1f1bfe76-703e-4016-846f-9989cae08828")
 		(property "Reference" "R48"
-			(at 66.04 77.4699 0)
+			(at 60.96 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3582,7 +3582,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 66.04 80.0099 0)
+			(at 60.96 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3593,7 +3593,7 @@
 			)
 		)
 		(property "Footprint" "reflow_station_library:R_0402_1005Metric"
-			(at 65.278 78.74 90)
+			(at 61.722 78.74 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
