@@ -3445,7 +3445,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7add2805-0b36-416a-bc86-16ed01cb4e40")
-		(property "Reference" "#PWR0177"
+		(property "Reference" "#PWR08"
 			(at 38.1 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -3505,7 +3505,7 @@
 		(instances
 			(project "reflow_station"
 				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be"
-					(reference "#PWR0177")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)

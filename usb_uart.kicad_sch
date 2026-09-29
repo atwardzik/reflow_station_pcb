@@ -3520,7 +3520,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4309ed70-db9d-40dd-80d0-394fdced906a")
-		(property "Reference" "R52"
+		(property "Reference" "R58"
 			(at 205.74 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3694,7 +3694,7 @@
 		(instances
 			(project "reflow_station"
 				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/93249a2a-e51b-4c44-9b6d-4c6bfcead48b/afde93fc-0e64-4521-8622-78d987e18a67"
-					(reference "R52")
+					(reference "R58")
 					(unit 1)
 				)
 			)
@@ -3712,7 +3712,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55d75ff7-09f5-44d2-b889-f44e012d23d4")
-		(property "Reference" "R51"
+		(property "Reference" "R57"
 			(at 205.74 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3886,7 +3886,7 @@
 		(instances
 			(project "reflow_station"
 				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/93249a2a-e51b-4c44-9b6d-4c6bfcead48b/afde93fc-0e64-4521-8622-78d987e18a67"
-					(reference "R51")
+					(reference "R57")
 					(unit 1)
 				)
 			)
@@ -3904,7 +3904,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f8335bd-4000-4fc3-b198-87ed6494c68d")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR0107"
 			(at 88.9 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -3964,7 +3964,7 @@
 		(instances
 			(project "reflow_station"
 				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/93249a2a-e51b-4c44-9b6d-4c6bfcead48b/afde93fc-0e64-4521-8622-78d987e18a67"
-					(reference "#PWR0106")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -3982,7 +3982,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88bdaff2-ee69-48aa-902f-f1e1a3636929")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR0108"
 			(at 111.76 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -4042,7 +4042,7 @@
 		(instances
 			(project "reflow_station"
 				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/93249a2a-e51b-4c44-9b6d-4c6bfcead48b/afde93fc-0e64-4521-8622-78d987e18a67"
-					(reference "#PWR0107")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -4060,7 +4060,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e4eee10-d31b-4476-baf5-ef835e18e248")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR0104"
 			(at 138.43 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -4120,7 +4120,7 @@
 		(instances
 			(project "reflow_station"
 				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/93249a2a-e51b-4c44-9b6d-4c6bfcead48b/afde93fc-0e64-4521-8622-78d987e18a67"
-					(reference "#PWR0103")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -4138,7 +4138,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b40f986d-3449-4973-ad8b-d5fb909d1f3b")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR0106"
 			(at 203.2 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4198,7 +4198,7 @@
 		(instances
 			(project "reflow_station"
 				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/93249a2a-e51b-4c44-9b6d-4c6bfcead48b/afde93fc-0e64-4521-8622-78d987e18a67"
-					(reference "#PWR0105")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -4409,7 +4409,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb615ead-4ead-4806-8e2e-a359e5603367")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR0105"
 			(at 111.76 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -4469,7 +4469,7 @@
 		(instances
 			(project "reflow_station"
 				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/93249a2a-e51b-4c44-9b6d-4c6bfcead48b/afde93fc-0e64-4521-8622-78d987e18a67"
-					(reference "#PWR0104")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -4487,7 +4487,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d974d9a3-daee-4b80-a09a-22d5b103c3dc")
-		(property "Reference" "R49"
+		(property "Reference" "R55"
 			(at 134.62 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4661,7 +4661,7 @@
 		(instances
 			(project "reflow_station"
 				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/93249a2a-e51b-4c44-9b6d-4c6bfcead48b/afde93fc-0e64-4521-8622-78d987e18a67"
-					(reference "R49")
+					(reference "R55")
 					(unit 1)
 				)
 			)
@@ -4679,7 +4679,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f76ba7f2-ffd5-4359-85bd-6dbbacc18c8a")
-		(property "Reference" "R50"
+		(property "Reference" "R56"
 			(at 142.24 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4853,7 +4853,7 @@
 		(instances
 			(project "reflow_station"
 				(path "/77770e37-dda2-4cf3-b2f1-cea4793bc3be/93249a2a-e51b-4c44-9b6d-4c6bfcead48b/afde93fc-0e64-4521-8622-78d987e18a67"
-					(reference "R50")
+					(reference "R56")
 					(unit 1)
 				)
 			)
