@@ -6,9 +6,9 @@
 	(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 	(tags "capacitor")
 	(property "Reference" "REF**"
-		(at 0 -1.16 0)
+		(at 0 -1.16 180)
 		(layer "F.SilkS")
-		(uuid "36cec715-c1f1-42e0-8f33-3370e75f3d84")
+		(uuid "7e36bc5c-e472-4053-8462-190ce8130709")
 		(effects
 			(font
 				(size 1 1)
@@ -16,10 +16,10 @@
 			)
 		)
 	)
-	(property "Value" "100n"
-		(at 0 1.16 0)
+	(property "Value" "1.5p"
+		(at 0 1.16 180)
 		(layer "F.Fab")
-		(uuid "e1ccd6ef-21bd-4fd4-8bcb-578f8d053a3c")
+		(uuid "e957a100-2ddd-412b-8f72-fab515b67adc")
 		(effects
 			(font
 				(size 1 1)
@@ -28,21 +28,21 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 0 0)
+		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "333fda32-8a5a-4fd4-ae92-cd26790f7a92")
+		(uuid "b2622b37-96a8-4de3-96b3-4ab1e86972a6")
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 	)
-	(property "Description" "Unpolarized capacitor: 100nF 50V X7R ±10% ceramic"
-		(at 0 0 0)
+	(property "Description" "Unpolarized capacitor: 1.5pF 50V C0G ceramic"
+		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1f55d51e-0798-425c-9a75-d4fa47534d61")
+		(uuid "df5a8ce5-a064-400e-b5a2-bce532267ece")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50,10 +50,10 @@
 		)
 	)
 	(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-		(at 0 0 0)
+		(at 0 0 180)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "c4cc0a23-b715-4d23-baad-a6ec40467d7f")
+		(uuid "4b5478f8-a69f-417d-9f6f-b2b1b18644b6")
 		(effects
 			(font
 				(size 1 1)
@@ -66,7 +66,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e0c0680d-157f-4871-9e5f-dad4436fd792")
+		(uuid "bff7f045-da39-4018-800c-a808cb3112ea")
 		(effects
 			(font
 				(size 1 1)
@@ -79,7 +79,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "63210c25-b412-4443-afed-d38d506f421a")
+		(uuid "a52fda7d-75bd-4faa-af92-56c67a444ce3")
 		(effects
 			(font
 				(size 1 1)
@@ -92,7 +92,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2bf232fb-7e1a-4371-af26-148d1119888c")
+		(uuid "c784bc20-2cac-44da-98ee-a8c846c78299")
 		(effects
 			(font
 				(size 1 1)
@@ -100,12 +100,12 @@
 			)
 		)
 	)
-	(property "Supplier_Link" "https://jlcpcb.com/partdetail/291005-CL05B104KB54PNC/C307331"
+	(property "Supplier_Link" "https://jlcpcb.com/partdetail/1904-0402CG1R5C500NT/C1552"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0fc58105-d614-49f0-982a-81a3a6595ba8")
+		(uuid "531c985d-16d8-459e-a2a8-d9ce9d61ab00")
 		(effects
 			(font
 				(size 1 1)
@@ -113,12 +113,12 @@
 			)
 		)
 	)
-	(property "JLCPCB_PartNo" "C307331 "
+	(property "JLCPCB_PartNo" "C1552"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2fee23f7-c1fb-4531-969a-aeff0a225262")
+		(uuid "a7fb2c95-21e8-41cb-913b-36e7c6e0f846")
 		(effects
 			(font
 				(size 1 1)
@@ -131,7 +131,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "26728e18-7aa3-4750-94b8-1c88b6c071a4")
+		(uuid "16f9027c-c768-4ca7-8501-9db7504bb720")
 		(effects
 			(font
 				(size 1 1)
@@ -139,12 +139,12 @@
 			)
 		)
 	)
-	(property "Mfr.No" "CL05B104KB54PNC"
+	(property "Mfr.No" "0402CG1R5C500NT"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e1928dae-ea10-4b2b-a77d-2f241cfe2aa7")
+		(uuid "e3c0d51d-8b76-4354-9bcc-910d9b5de1cc")
 		(effects
 			(font
 				(size 1 1)
@@ -157,7 +157,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "5dd493b2-a792-4f8c-94a6-baa5c6f876b9")
+		(uuid "7fa666ae-d6b7-46b4-89f9-2ec0db33cac4")
 		(effects
 			(font
 				(size 1 1)
@@ -170,7 +170,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1f8f0b61-0528-4aa8-9821-31c37b35bdfb")
+		(uuid "84001487-c20a-435a-bf95-5630cdf2fe56")
 		(effects
 			(font
 				(size 1 1)
@@ -179,8 +179,8 @@
 		)
 	)
 	(property ki_fp_filters "C_*")
-	(sheetname "/")
-	(sheetfile "reflow_station.kicad_sch")
+	(sheetname "/MCU/")
+	(sheetfile "mcu.kicad_sch")
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
@@ -191,7 +191,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "3606a141-a4e9-4073-8365-04d9435f4de2")
+		(uuid "7f1aebd0-1ef0-4dfa-8c0d-9010e5a6158c")
 	)
 	(fp_line
 		(start -0.107836 0.36)
@@ -201,7 +201,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "8d56ec67-7715-4733-9438-784834eab507")
+		(uuid "138add81-7d90-4606-bfe2-f13dd0db1194")
 	)
 	(fp_rect
 		(start -0.91 -0.46)
@@ -212,7 +212,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "6388aa99-b414-4210-a019-2592e75c2ee1")
+		(uuid "f6578ca4-5704-430d-83b2-69ad6c4226bd")
 	)
 	(fp_rect
 		(start -0.5 -0.25)
@@ -223,12 +223,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "59867949-19cf-4c62-b68f-92d97e3e102a")
+		(uuid "a1c41051-724b-492b-9f49-7155710af988")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at 0 0 180)
 		(layer "F.Fab")
-		(uuid "ca3fe150-e68a-43b5-8d72-f1977c839cfb")
+		(uuid "d8d2ff11-3d98-451a-87df-bd6b3607ea71")
 		(effects
 			(font
 				(size 0.25 0.25)
@@ -241,14 +241,14 @@
 		(size 0.56 0.62)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "c35e0078-1a98-4da7-966e-83f77a2ae1bf")
+		(uuid "5f7203cd-0cfd-48c8-ae2f-152cec56081b")
 	)
 	(pad "2" smd roundrect
 		(at 0.48 0)
 		(size 0.56 0.62)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "ca54e17e-5672-4be7-8a1a-e985f1921dc8")
+		(uuid "20a881c6-132b-47c0-9f36-05ae44a6bc07")
 	)
 	(embedded_fonts no)
 	(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"

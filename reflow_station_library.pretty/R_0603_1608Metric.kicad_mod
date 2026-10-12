@@ -6,9 +6,9 @@
 	(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 	(tags "resistor")
 	(property "Reference" "REF**"
-		(at 0 -1.43 0)
+		(at 0 -1.43 180)
 		(layer "F.SilkS")
-		(uuid "ff9597e9-c8b9-4ad1-8ea5-2d3c9aa6a4fd")
+		(uuid "7db880d7-8024-4882-93b3-400e4ff2f225")
 		(effects
 			(font
 				(size 1 1)
@@ -16,10 +16,10 @@
 			)
 		)
 	)
-	(property "Value" "10"
-		(at 0 1.43 0)
+	(property "Value" "82k"
+		(at 0 1.43 180)
 		(layer "F.Fab")
-		(uuid "2b00d1d5-3f7f-4545-ac9e-dea05364f1ce")
+		(uuid "32354f97-f07e-4e8a-982b-51cf7c9fab93")
 		(effects
 			(font
 				(size 1 1)
@@ -28,21 +28,21 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 0 0)
+		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "90e0a5b2-ca9e-4b44-a25b-d16ac0165233")
+		(uuid "5892be25-b189-4676-9c09-f723488dfb6e")
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 	)
-	(property "Description" "Resistor: 10Ohm 75V 100mW 1%"
-		(at 0 0 0)
+	(property "Description" "Resistor: 82kOhm 75V 100mW 1%"
+		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9b11774f-c8f6-4b29-98c2-1849bb41b3f8")
+		(uuid "0cdf5ad3-fe1b-4552-82a4-a7ff34af7758")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50,10 +50,10 @@
 		)
 	)
 	(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-		(at 0 0 0)
+		(at 0 0 180)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "963f7cfa-2fa6-473c-880f-677546f0c38f")
+		(uuid "e9e3ce79-9b35-4a21-9c94-98afd868f1e6")
 		(effects
 			(font
 				(size 1 1)
@@ -66,7 +66,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ec7eab7b-a978-459d-86c0-1bcd37ea02a2")
+		(uuid "3628b684-e06c-4a45-ab39-b86257dd207f")
 		(effects
 			(font
 				(size 1 1)
@@ -79,7 +79,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "012f98ef-c6c6-4d27-80ab-c2a73ed0704e")
+		(uuid "a4a4baa3-359d-4156-9ec5-6bd66a372b57")
 		(effects
 			(font
 				(size 1 1)
@@ -92,7 +92,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "585941f5-35e5-4372-b237-749f1a664946")
+		(uuid "a9364874-f66f-4f2b-8974-5f70ceaba1b8")
 		(effects
 			(font
 				(size 1 1)
@@ -100,12 +100,12 @@
 			)
 		)
 	)
-	(property "Supplier_Link" "https://jlcpcb.com/partdetail/23586-0603WAF100JT5E/C22859"
+	(property "Supplier_Link" "https://jlcpcb.com/partdetail/23981-0603WAF8202T5E/C23254"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3de22c41-d798-4fdc-8213-83a292aeb439")
+		(uuid "c36f2821-d3f8-4332-a9f7-a7a448c20eea")
 		(effects
 			(font
 				(size 1 1)
@@ -113,12 +113,12 @@
 			)
 		)
 	)
-	(property "JLCPCB_PartNo" "C22859"
+	(property "JLCPCB_PartNo" "C23254"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2ebd7eed-2d5f-458a-9a9b-6a168585b33a")
+		(uuid "2ad0c583-72f0-4f39-8e1e-f98e24eae919")
 		(effects
 			(font
 				(size 1 1)
@@ -131,7 +131,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ecd1dd8a-ffa9-442d-9a12-97a9dd5abc0a")
+		(uuid "9c73827e-1f9a-4a59-9006-7600b511b027")
 		(effects
 			(font
 				(size 1 1)
@@ -144,7 +144,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8cd91310-732f-4c6c-8f11-863ac6195af3")
+		(uuid "ba0da811-af1d-41d7-8cde-6f73be9bf72d")
 		(effects
 			(font
 				(size 1 1)
@@ -152,12 +152,12 @@
 			)
 		)
 	)
-	(property "Mfr.No" "0603WAF100JT5E"
+	(property "Mfr.No" "0603WAF8202T5E"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "fb6865d2-b78c-4871-a0ca-8ea868acdfde")
+		(uuid "6d360b06-fcda-4ee8-ab81-67907b963027")
 		(effects
 			(font
 				(size 1 1)
@@ -170,7 +170,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1f6604b4-ff27-4bae-a142-36f3ccf2cf72")
+		(uuid "0909c1f4-c9e1-4cf5-a74f-b7cc665ed7da")
 		(effects
 			(font
 				(size 1 1)
@@ -179,8 +179,8 @@
 		)
 	)
 	(property ki_fp_filters "R_*")
-	(sheetname "/")
-	(sheetfile "reflow_station.kicad_sch")
+	(sheetname "/Connectivity/USB-UART/")
+	(sheetfile "usb_uart.kicad_sch")
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
@@ -191,7 +191,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "c0a0c8f0-65d2-49fd-9a9d-34eda12de958")
+		(uuid "d32a2479-0310-4b0c-b748-2eb2c314c881")
 	)
 	(fp_line
 		(start -0.237258 0.5225)
@@ -201,7 +201,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "d0d1ee5f-6b6c-4128-8b3b-b063b79fa890")
+		(uuid "7458f369-4d1d-4fe3-b9ee-0cc597553ac5")
 	)
 	(fp_rect
 		(start -1.48 -0.73)
@@ -212,7 +212,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "7104511a-828a-4af7-8d85-03abd59d1f50")
+		(uuid "ecdb41bb-9d8c-4363-99e7-5f355fd44900")
 	)
 	(fp_rect
 		(start -0.8 -0.4125)
@@ -223,12 +223,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "399f10ee-f36f-4f19-867d-a5e02342cbbc")
+		(uuid "99a2d65c-a7af-49e8-8e70-f3ec926d6292")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at 0 0 180)
 		(layer "F.Fab")
-		(uuid "26d1305c-3e88-4334-8cd7-b297f9376c95")
+		(uuid "03053159-8e06-4831-88ed-45d1be9ad78f")
 		(effects
 			(font
 				(size 0.4 0.4)
@@ -241,14 +241,14 @@
 		(size 0.8 0.95)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "f091756b-d2ba-47f9-ba44-8081cff1c97a")
+		(uuid "e6c00161-ffa5-425e-8393-c3fc80fef693")
 	)
 	(pad "2" smd roundrect
 		(at 0.825 0)
 		(size 0.8 0.95)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "98fc3fde-91cf-46dc-9089-abc0ec5e4aa8")
+		(uuid "c0671945-87c4-4c23-ab4a-e210b28e2d6d")
 	)
 	(embedded_fonts no)
 	(model "kicad-embed://R_0603_1608Metric.step"

@@ -2,13 +2,14 @@
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
+	(locked yes)
 	(layer "F.Cu")
 	(descr "Recom RAC20-xxSK https://recom-power.com/pdf/Powerline_AC-DC/RAC20-K.pdf#page=6 Rev. 6/2020")
 	(tags "Recom RAC20-xxSK")
 	(property "Reference" "REF**"
 		(at -1 -4.59 0)
 		(layer "F.SilkS")
-		(uuid "1dc416e7-cf60-4e77-bf25-bd4dfc7f6ff7")
+		(uuid "cf4e2015-e0da-4f2c-9a95-8f3104c1df51")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +20,7 @@
 	(property "Value" "RAC20-12SK"
 		(at 22.75 25.01 0)
 		(layer "F.Fab")
-		(uuid "4f4311aa-97a0-46d9-8cf5-d7695b367ef6")
+		(uuid "7307f89b-8bac-4ae9-b5fe-7d47d4e0d552")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "995d9e4e-151c-4064-9529-35b73f5e23c2")
+		(uuid "25eea66e-ac4f-4543-9410-788ab1679e71")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "271021d2-25ff-42c2-ba59-8e1980269451")
+		(uuid "432855f7-629f-4d57-b9d3-7d577d377aa0")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -58,7 +59,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "5575bcc3-4209-4a69-a4ba-4481058de92b")
+		(uuid "f6ae9b82-9752-4298-afdc-29bf9b3c8023")
 		(effects
 			(font
 				(size 1 1)
@@ -71,7 +72,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b1927199-aae9-4653-9bb0-cc2f14cfeff5")
+		(uuid "fa62427b-c6fe-430f-add7-95a625330f29")
 		(effects
 			(font
 				(size 1 1)
@@ -84,7 +85,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8a1dd1ca-01f7-4ba3-a944-d9d8ef77980e")
+		(uuid "e4b3fb9b-781b-403d-9d76-afe6c9d7b94d")
 		(effects
 			(font
 				(size 1 1)
@@ -97,7 +98,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "486ffbbd-c74d-4c7b-b00d-a792c14e4650")
+		(uuid "df912c1b-bc7b-49b1-b8f4-bf432b51adf6")
 		(effects
 			(font
 				(size 1 1)
@@ -110,7 +111,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0311f0a8-01e1-4fd1-b8ce-2fdb1fe6d446")
+		(uuid "6694de80-98af-4bbc-bed7-4523d359cfa9")
 		(effects
 			(font
 				(size 1 1)
@@ -123,7 +124,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e5b5995d-5564-44d5-ac54-4a977ed0822b")
+		(uuid "3a114595-e52f-4dd8-8f41-c52b11eb0c9f")
 		(effects
 			(font
 				(size 1 1)
@@ -136,7 +137,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "527bc502-f774-4f3e-b7e1-3b825f994bb0")
+		(uuid "606efc99-342e-4495-95ad-691f8244281f")
 		(effects
 			(font
 				(size 1 1)
@@ -149,7 +150,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a86e66e1-45db-4a98-95ac-3622f3140eac")
+		(uuid "492e21fa-775f-456a-b328-a7cf24b80941")
 		(effects
 			(font
 				(size 1 1)
@@ -158,8 +159,8 @@
 		)
 	)
 	(property ki_fp_filters "Converter*ACDC*Recom*RAC20*SK*THT*")
-	(sheetname "/")
-	(sheetfile "reflow_station.kicad_sch")
+	(sheetname "/Power/")
+	(sheetfile "power.kicad_sch")
 	(attr through_hole)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
@@ -170,7 +171,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "6dd51405-7e54-40dd-9246-60b6a220403a")
+		(uuid "05b35a15-2f0e-4027-a5ab-e2b372cd17c2")
 	)
 	(fp_line
 		(start -4 -0.89)
@@ -180,7 +181,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "33425275-b14c-43bc-9dff-5b362b4bd7ee")
+		(uuid "1884776f-dc52-493a-9ebd-fb4a5ba58c88")
 	)
 	(fp_line
 		(start -3.62 -3.51)
@@ -190,7 +191,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "3f98d986-6b48-452a-be14-76a3880111f7")
+		(uuid "1845f2e5-4cd2-4540-be9d-2196c6c9e1c2")
 	)
 	(fp_line
 		(start -3.62 -3.51)
@@ -200,7 +201,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "e9d564ad-ed48-4b48-acc7-bed909359524")
+		(uuid "18ed8e7c-1dc3-46d1-baf0-dedc5dfda8e1")
 	)
 	(fp_line
 		(start -3.62 24.13)
@@ -210,7 +211,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "6ae1daf3-9f28-4700-903d-52074ed160f1")
+		(uuid "beda1540-0f2e-47a9-8c1b-ceccd9619d3a")
 	)
 	(fp_line
 		(start 49.12 -3.51)
@@ -220,7 +221,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "83910eeb-4b5f-47b2-a5df-454ebae4d685")
+		(uuid "98cb2c2b-2500-49f0-b650-d82c32704348")
 	)
 	(fp_line
 		(start -3.75 -3.64)
@@ -230,7 +231,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "144cf217-682b-4acf-bb1f-3736c9472c62")
+		(uuid "7c937321-e889-4fca-b274-616d225c06ff")
 	)
 	(fp_line
 		(start -3.75 -3.64)
@@ -240,7 +241,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "b8ef27c1-1250-4869-8738-a56c106539da")
+		(uuid "6ace8ae2-c8fb-49d5-bbd6-c97361b49da1")
 	)
 	(fp_line
 		(start -3.75 24.26)
@@ -250,7 +251,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "2f882f8d-d13d-4ee7-8980-452ad52f762a")
+		(uuid "28c3df0e-667c-49a0-a88f-2096759d22f6")
 	)
 	(fp_line
 		(start 49.25 -3.64)
@@ -260,7 +261,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "50cb2cd6-2789-4e94-9449-1f49cbd57878")
+		(uuid "0b23dc8b-d524-4878-9e7f-e3f8fd5da0d2")
 	)
 	(fp_line
 		(start -3.5 -2.39)
@@ -270,7 +271,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "b3a97b2b-84cd-4efd-b41e-a39855144d33")
+		(uuid "5c653669-c4b0-4c81-b744-1c4216404600")
 	)
 	(fp_line
 		(start -3.5 24.01)
@@ -280,7 +281,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "5efc4954-8df7-4653-a4fe-1641a0d2fb61")
+		(uuid "7cd67202-807d-4c97-b971-f0c19332817c")
 	)
 	(fp_line
 		(start -2.5 -3.39)
@@ -290,7 +291,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "a3c83fc5-6a46-41ff-8305-b93e840cebf6")
+		(uuid "8896aea4-a0af-4190-bc24-49ae75aa8ad8")
 	)
 	(fp_line
 		(start 49 -3.39)
@@ -300,7 +301,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "973dc07b-e9f4-4578-9ecc-56749764d652")
+		(uuid "8624b6d4-ec04-4fd9-abbf-85c2d4e5b809")
 	)
 	(fp_line
 		(start 49 24.01)
@@ -310,12 +311,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "cab8e61c-a046-466e-b7a8-3e88cb7b207e")
+		(uuid "12c1fd98-ec24-4342-840a-c7c73e62c793")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 22.75 10.31 0)
 		(layer "F.Fab")
-		(uuid "cc3d65b0-11ed-4ece-a826-28660aa0b21c")
+		(uuid "13d36879-5fa3-40f7-b4c7-7740c423fe4b")
 		(effects
 			(font
 				(size 1 1)
@@ -329,7 +330,7 @@
 		(drill 1.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "ec46791e-7a0d-45e7-899a-ddd6cf4f6dec")
+		(uuid "488a4353-9a0f-4f87-85e3-94095f525e5e")
 	)
 	(pad "2" thru_hole circle
 		(at 0 20.32)
@@ -337,7 +338,7 @@
 		(drill 1.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "26cd57fb-a30d-4ff9-b9fe-30ca1218432f")
+		(uuid "180ba58a-b18d-4571-93b2-44625607faf0")
 	)
 	(pad "4" thru_hole circle
 		(at 45.72 10.16)
@@ -345,7 +346,7 @@
 		(drill 1.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "f93ef7a6-071a-4286-8ef7-defbbef44a83")
+		(uuid "729a77b2-906c-42b8-9814-7a7eb87539ed")
 	)
 	(pad "5" thru_hole circle
 		(at 45.72 0)
@@ -353,7 +354,7 @@
 		(drill 1.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "128f4227-f0d9-4016-88c8-cc1e9e344315")
+		(uuid "9534cc29-e0e2-49f3-9a8c-cbc5443e61b9")
 	)
 	(embedded_fonts no)
 	(model "${REFLOW_STATION}/RAC20-12SK.stp"

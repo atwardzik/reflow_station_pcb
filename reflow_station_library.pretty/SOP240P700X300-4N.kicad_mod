@@ -2,13 +2,14 @@
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
+	(locked yes)
 	(layer "F.Cu")
 	(descr "MB10")
 	(tags "Bridge Rectifier")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at 0 0 180)
 		(layer "F.SilkS")
-		(uuid "046949ae-79d5-416e-bcf1-5b25fa2ac190")
+		(uuid "c320d847-5587-488a-9b78-4fd3270a567b")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17,10 +18,10 @@
 		)
 	)
 	(property "Value" "MB10S"
-		(at 0 0 0)
+		(at 0 0 180)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "ee7b191c-0a47-4427-b9cf-f609ac67dd96")
+		(uuid "b57ca411-310f-4ea9-a2f9-1b220fe57a09")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -29,10 +30,10 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 0 0)
+		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ca12d30e-e776-4592-be4b-1d86765c965d")
+		(uuid "22388d29-a0ac-4233-a265-1c465127fb19")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40,10 +41,10 @@
 		)
 	)
 	(property "Description" "Single-Phase Diode Bridge Rectifier"
-		(at 0 0 0)
+		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "5d472f47-57db-4a8d-94df-721b6609d22d")
+		(uuid "aaf9fb4f-c422-4576-bc2a-5904a06d4d3e")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -55,7 +56,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7358c7e8-e12d-48fd-be0b-1aa63c8d5fe6")
+		(uuid "52bc7304-60aa-482a-a72a-66358ed33a56")
 		(effects
 			(font
 				(size 1 1)
@@ -68,7 +69,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1d56771f-9489-442f-86cf-c4deee5e0e6d")
+		(uuid "8bccc265-f998-4df2-8c46-9ef787e57b2b")
 		(effects
 			(font
 				(size 1 1)
@@ -81,7 +82,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "29978216-2db3-4ac0-a225-9d7a7c7d9b2b")
+		(uuid "9094a6b5-c7f1-41e2-913b-a6680d2caf65")
 		(effects
 			(font
 				(size 1 1)
@@ -94,7 +95,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "dbee5728-0042-473b-bb44-45b0184ab14c")
+		(uuid "f71563c1-3d92-45e4-99c9-59ee8e679385")
 		(effects
 			(font
 				(size 1 1)
@@ -107,7 +108,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3f5c1f6b-ea56-4842-9ce8-84097c76383d")
+		(uuid "caa72509-03c4-48f7-aea3-1d873bdc203f")
 		(effects
 			(font
 				(size 1 1)
@@ -120,7 +121,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1358bcfb-e6dc-48ea-b48b-90d7c7ec80ba")
+		(uuid "2071e6fc-dde2-4d9d-b460-8da5f9cf38cc")
 		(effects
 			(font
 				(size 1 1)
@@ -133,7 +134,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a0d668ed-3a7a-43f9-aece-1eaf9d6619e1")
+		(uuid "8514d22f-72a6-4c90-999d-907d04d8c27e")
 		(effects
 			(font
 				(size 1 1)
@@ -146,7 +147,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1cc12aaa-8cca-4537-83a2-78044b3a384e")
+		(uuid "3177e66b-016a-4330-b397-d4ed0d2fdf7d")
 		(effects
 			(font
 				(size 1 1)
@@ -159,7 +160,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8c4faf16-05fe-44ba-b111-c70fa7031670")
+		(uuid "11509b6a-09d0-4afa-a71f-e7c55a314b64")
 		(effects
 			(font
 				(size 1 1)
@@ -172,7 +173,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "773df939-58c0-4bbc-99a8-2a341d6c31e1")
+		(uuid "eeba468c-e9fd-479f-b4b2-061dc945baae")
 		(effects
 			(font
 				(size 1 1)
@@ -181,8 +182,8 @@
 		)
 	)
 	(property ki_fp_filters "TSSOP*4.4x5mm*P4mm*")
-	(sheetname "/")
-	(sheetfile "reflow_station.kicad_sch")
+	(sheetname "/Power/")
+	(sheetfile "power.kicad_sch")
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
@@ -193,7 +194,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "9db5dbfc-443d-49d3-9f66-47170fb6640e")
+		(uuid "105b21fc-29f9-467b-a0ac-2ef0a01039c4")
 	)
 	(fp_line
 		(start -1.75 -2.35)
@@ -203,7 +204,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "3ca5a42f-d2a4-4b00-8bb6-1923d23676fa")
+		(uuid "21a4e2fd-0034-4d23-a986-67ae3c751ca5")
 	)
 	(fp_line
 		(start -1.75 2.35)
@@ -213,7 +214,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "47bcb7f7-5287-4fa0-8a8e-a6e44b52038c")
+		(uuid "b6166728-86c7-4311-8127-58bc7c8e7db2")
 	)
 	(fp_line
 		(start 1.75 -2.35)
@@ -223,7 +224,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "1931ad8f-15e7-45b1-9c44-fc4ee136f774")
+		(uuid "3462fe3c-a36d-4915-a5eb-64a983f1068c")
 	)
 	(fp_line
 		(start 1.75 2.35)
@@ -233,7 +234,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "e8bcc9bc-3c8d-4185-9003-6bf9a194e111")
+		(uuid "d046d23d-c3ae-484e-93fe-b1985ada48ad")
 	)
 	(fp_line
 		(start -4.2 -2.7)
@@ -243,7 +244,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "48202888-0ce0-4d49-a50d-ab7434446531")
+		(uuid "3faa6332-3918-4477-96db-81c0545f3e3d")
 	)
 	(fp_line
 		(start -4.2 2.7)
@@ -253,7 +254,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "ad9d5b8a-4c1f-4481-a553-e674be379fd9")
+		(uuid "8502928a-629e-447c-97c6-c381c1d0f2a1")
 	)
 	(fp_line
 		(start 4.2 -2.7)
@@ -263,7 +264,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "b09263f3-1a56-42c5-a4dd-0fae9cb1073c")
+		(uuid "6f355c24-f3f4-4e35-8deb-30c673bdfcba")
 	)
 	(fp_line
 		(start 4.2 2.7)
@@ -273,7 +274,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "9dce298d-9829-4243-b48e-bd40f44492a0")
+		(uuid "1200548a-d79f-4ff0-a1fc-24998aab8e42")
 	)
 	(fp_line
 		(start -1.9 -2.35)
@@ -283,7 +284,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "a23219fa-46bf-443a-b46c-f3ee2f9d97bc")
+		(uuid "2c38e15a-7a01-4286-bdef-38d50833297f")
 	)
 	(fp_line
 		(start -1.9 0.05)
@@ -293,7 +294,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "23d167a6-772b-4cdd-8e53-07ab3ca1a022")
+		(uuid "3aa3a1ac-30c3-4784-91ef-cf37e886fcff")
 	)
 	(fp_line
 		(start -1.9 2.35)
@@ -303,7 +304,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "97660cae-0c40-455a-b3f2-75f606c79841")
+		(uuid "c034b888-e550-4795-a7ab-dfd9e0915582")
 	)
 	(fp_line
 		(start 1.9 -2.35)
@@ -313,7 +314,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "89513498-074a-484c-b4e7-a71f85225251")
+		(uuid "f49191d7-629a-4b41-999d-1dd1d0805b4f")
 	)
 	(fp_line
 		(start 1.9 2.35)
@@ -323,12 +324,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "2f335176-cbbc-46df-ad73-f499ef35f30e")
+		(uuid "1610d556-3eb1-45e6-bd5a-b93cfac94721")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at 0 0 180)
 		(layer "F.Fab")
-		(uuid "7fc9f17d-104d-4a78-9a73-7d294cbf7a12")
+		(uuid "b2398170-0770-48d9-88e9-a4d47ab37156")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -340,25 +341,25 @@
 		(at -3.025 -1.2 90)
 		(size 1 1.85)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "3ee5df37-227b-4f59-9687-f4df4a083770")
+		(uuid "768539f0-b43c-437c-be12-301c43fd4b2a")
 	)
 	(pad "2" smd rect
 		(at -3.025 1.2 90)
 		(size 1 1.85)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "b4a8907c-ec7a-4513-902b-c5e68ace5815")
+		(uuid "fcae79ec-93e8-4a47-89c5-7edd18b47364")
 	)
 	(pad "3" smd rect
 		(at 3.025 1.2 90)
 		(size 1 1.85)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "ce07c452-c1fc-4ece-bbe9-1f677c3fe313")
+		(uuid "6d54bb14-eac1-468b-9454-93ece0dc5c84")
 	)
 	(pad "4" smd rect
 		(at 3.025 -1.2 90)
 		(size 1 1.85)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "3ab1dfeb-0168-4902-8b6d-4be13ab874d9")
+		(uuid "528908ce-3468-42cf-a39d-58352403da7b")
 	)
 	(embedded_fonts no)
 	(model "${REFLOW_STATION}/MB10S.stp"

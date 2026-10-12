@@ -7,9 +7,9 @@
 	(descr "Resistor, Axial_DIN0411 series, Axial, Horizontal, pin pitch=15.24mm, 1W, length*diameter=9.9*3.6mm^2")
 	(tags "Resistor Axial_DIN0411 series Axial Horizontal pin pitch 15.24mm 1W length 9.9mm diameter 3.6mm")
 	(property "Reference" "REF**"
-		(at 7.62 -2.92 0)
+		(at 7.62 -2.92 180)
 		(layer "F.SilkS")
-		(uuid "e2b324bc-7ae1-43f0-8f54-fd0c040d5734")
+		(uuid "3705d1ec-4b02-4c42-996c-e75723cb4867")
 		(effects
 			(font
 				(size 1 1)
@@ -18,9 +18,9 @@
 		)
 	)
 	(property "Value" "470 1W fusible"
-		(at 7.62 2.92 0)
+		(at 7.62 2.92 180)
 		(layer "F.Fab")
-		(uuid "87814e41-098e-4383-b8ff-c842441c68f0")
+		(uuid "a9ba0b3b-442c-4521-893a-0562287530f3")
 		(effects
 			(font
 				(size 1 1)
@@ -29,10 +29,10 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 0 0)
+		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2fe40812-87b7-42cc-8df4-11449b7a9b52")
+		(uuid "56c26c22-ce3e-45e3-8d69-f382ce286570")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40,10 +40,10 @@
 		)
 	)
 	(property "Description" "Resistor: 470Ohm 1W 10% fusible"
-		(at 0 0 0)
+		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a58cfc1f-6f71-40af-87d0-f7da3c800777")
+		(uuid "51b1c12a-939a-41f1-8a00-8f57aad9aa81")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51,10 +51,10 @@
 		)
 	)
 	(property "KiLib_Generator" "resistor/THT"
-		(at 0 0 0)
+		(at 0 0 180)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "3575e222-2a8a-46aa-a12f-17d6452012c3")
+		(uuid "2473daba-2f06-443c-a0b5-dd1a5ce63639")
 		(effects
 			(font
 				(size 1 1)
@@ -67,7 +67,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "4802ac5a-df70-4e7d-b339-1e90555aad2f")
+		(uuid "ec9add75-eaae-40d1-824d-1986a3218958")
 		(effects
 			(font
 				(size 1 1)
@@ -80,7 +80,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3af5ca41-47c4-4464-aa8e-a0a5e19d6e38")
+		(uuid "9d728122-35a1-49d6-8852-e1571990639c")
 		(effects
 			(font
 				(size 1 1)
@@ -93,7 +93,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8bc647c4-2648-4a02-9e7b-5618aa709ce1")
+		(uuid "b0f38f77-a2a0-4833-a2f3-04cbd3e3ba9e")
 		(effects
 			(font
 				(size 1 1)
@@ -106,7 +106,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "25314a44-5c28-4c78-a729-4959a4ac6f83")
+		(uuid "dc2640f4-33ac-4886-9d0e-b340a3f52fbe")
 		(effects
 			(font
 				(size 1 1)
@@ -119,7 +119,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "40e12f2b-526c-40c6-a9fd-ba4e23cc99b0")
+		(uuid "5288c2f0-07ad-4ee2-ba07-63a831c8d4f8")
 		(effects
 			(font
 				(size 1 1)
@@ -132,7 +132,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "62d45335-ca58-4a5d-b8c2-33b021253b8e")
+		(uuid "7ea5b389-e1a2-4c7f-90a9-9c8a5299ca64")
 		(effects
 			(font
 				(size 1 1)
@@ -145,7 +145,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3f949d41-22ab-417e-868d-fa1fb09527f1")
+		(uuid "f160f487-105c-4f86-ad27-4c31518b058e")
 		(effects
 			(font
 				(size 1 1)
@@ -158,7 +158,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "92049242-7394-4669-b686-e644dcc942f6")
+		(uuid "1e16f831-6e22-4ab1-901b-3d67d8b5081d")
 		(effects
 			(font
 				(size 1 1)
@@ -167,8 +167,8 @@
 		)
 	)
 	(property ki_fp_filters "R_*")
-	(sheetname "/")
-	(sheetfile "reflow_station.kicad_sch")
+	(sheetname "/Heaters/")
+	(sheetfile "heaters.kicad_sch")
 	(attr through_hole)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
@@ -179,7 +179,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "1e4b2dad-0e64-4947-ad22-64bf259c4b0d")
+		(uuid "3d23bc96-39f4-493c-9a2d-500f844839e1")
 	)
 	(fp_line
 		(start 13.8 0)
@@ -189,7 +189,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "f6ded1e9-1b03-401b-b6b0-8cfc432d6fcf")
+		(uuid "38c583f2-b7cd-4ea0-8ab0-07d1b5c7ce4e")
 	)
 	(fp_rect
 		(start 2.55 -1.92)
@@ -200,7 +200,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "c75aa833-d6e6-4b00-87fe-94584a7cae02")
+		(uuid "e38d2c31-eb05-4a31-be92-6c00657d500e")
 	)
 	(fp_rect
 		(start -1.45 -2.05)
@@ -211,7 +211,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "0c2cc12a-6dff-49b4-bb38-ca5c5ab92698")
+		(uuid "f941f4d8-b3ef-40c1-9630-a1f91cfb98c1")
 	)
 	(fp_line
 		(start 0 0)
@@ -221,7 +221,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "43b46691-c3b7-4bf2-946d-0af879853a7f")
+		(uuid "a2d6a8df-0fcf-4d18-9c14-e6e8260b19d8")
 	)
 	(fp_line
 		(start 15.24 0)
@@ -231,7 +231,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "7a66108b-f3f4-446f-b17e-ed198a0d938a")
+		(uuid "6150f388-bc51-4fd8-a0f0-ec9f548310f1")
 	)
 	(fp_rect
 		(start 2.67 -1.8)
@@ -242,12 +242,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "d29329f9-e667-47cb-aa5f-ba52bef4a57f")
+		(uuid "fdb79409-484d-498a-998f-d8f9bb799c25")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 7.62 0 0)
+		(at 7.62 0 180)
 		(layer "F.Fab")
-		(uuid "6059a279-04a9-48c7-aa3e-e15ba8178670")
+		(uuid "5380263f-551f-4a9b-b7a3-e195acae8f73")
 		(effects
 			(font
 				(size 1 1)
@@ -261,7 +261,7 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "3e0af526-56e6-44a2-a3f6-9288a0e9710b")
+		(uuid "021e73ae-6167-46bb-bd82-791be9c0bef1")
 	)
 	(pad "2" thru_hole circle
 		(at 15.24 0)
@@ -269,7 +269,7 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "a4c030af-a9e8-4c66-810e-fb5678092053")
+		(uuid "8c184b97-8960-471b-b2b8-dec5402f442d")
 	)
 	(embedded_fonts no)
 	(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal.step"

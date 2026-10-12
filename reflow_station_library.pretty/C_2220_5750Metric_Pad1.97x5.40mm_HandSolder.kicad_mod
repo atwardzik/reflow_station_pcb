@@ -2,13 +2,14 @@
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
+	(locked yes)
 	(layer "F.Cu")
 	(descr "Capacitor SMD 2220 (5750 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf)")
 	(tags "capacitor handsolder")
 	(property "Reference" "REF**"
 		(at 0 -3.65 0)
 		(layer "F.SilkS")
-		(uuid "dbedeab3-e322-42f4-a6c5-9694bba5cb67")
+		(uuid "cdf1825e-35b8-4867-ab7c-12987de53ac9")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +20,7 @@
 	(property "Value" "47u"
 		(at 0 3.65 0)
 		(layer "F.Fab")
-		(uuid "daeab920-be2a-41d5-81b0-ca3613b1bafd")
+		(uuid "ddc6a51d-cabb-4659-88dd-6ecd52375199")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "36770e53-dda7-4bdf-8486-ee623b4b0c56")
+		(uuid "7c51c8d2-68f6-4fcc-9ab3-f8aa8255554d")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "74f200d2-8f67-4afe-8176-c8d3e924c843")
+		(uuid "e962369f-fe8c-411b-a366-7487c3b74ffb")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -53,7 +54,7 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "33a5b3b6-3013-4ba2-a27e-b5dee6387acf")
+		(uuid "47bba629-0504-4911-897e-38665aca587b")
 		(effects
 			(font
 				(size 1 1)
@@ -66,7 +67,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "84a88446-7dda-4bd1-bb48-f2b1913b8dba")
+		(uuid "29ce933c-aff9-46a5-b3d7-0ccb26799dfe")
 		(effects
 			(font
 				(size 1 1)
@@ -79,7 +80,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "982ff164-cd21-4b1c-82e1-f970d2584e87")
+		(uuid "cef403ca-ead7-42ea-9927-2f0578753f5c")
 		(effects
 			(font
 				(size 1 1)
@@ -92,7 +93,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "6a8a4882-d9d3-4a9d-9715-6d92b6eb486b")
+		(uuid "b382ebf5-9b95-4416-97cc-af2529d19a3d")
 		(effects
 			(font
 				(size 1 1)
@@ -105,7 +106,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "309f4bec-6291-4a6c-bd8c-8c68025e7351")
+		(uuid "c74b7100-828b-4ee1-9e5f-8acc643ac162")
 		(effects
 			(font
 				(size 1 1)
@@ -118,7 +119,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "94b448b4-197d-4cd3-8f03-599f5f9fff11")
+		(uuid "e88f7bb4-0f3a-406f-a156-f3143805073b")
 		(effects
 			(font
 				(size 1 1)
@@ -131,7 +132,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ba7e9fd6-cc53-4a07-9b69-60a4979a3868")
+		(uuid "7c02e59a-6228-473e-ac11-6999dae884f9")
 		(effects
 			(font
 				(size 1 1)
@@ -144,7 +145,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "46b7d874-6607-4b54-88cb-7147b84c668f")
+		(uuid "7bfaaa21-2b3b-4e69-a27c-44a3dac547b2")
 		(effects
 			(font
 				(size 1 1)
@@ -157,7 +158,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1fdc0b61-0895-4e60-ab3f-26d41a699880")
+		(uuid "5ec3250b-43ea-4335-8b18-6390fb720775")
 		(effects
 			(font
 				(size 1 1)
@@ -170,7 +171,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7d5bbb4f-038a-4daf-974c-5ef51a027030")
+		(uuid "37f26eac-e3c7-4313-8fdd-20d61df52f25")
 		(effects
 			(font
 				(size 1 1)
@@ -179,8 +180,8 @@
 		)
 	)
 	(property ki_fp_filters "C_*")
-	(sheetname "/")
-	(sheetfile "reflow_station.kicad_sch")
+	(sheetname "/Power/")
+	(sheetfile "power.kicad_sch")
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
@@ -191,7 +192,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "557ffdad-307b-4664-a82f-6ff6f5f36cb9")
+		(uuid "c193f64d-d150-4bac-9fdc-43f3ecbcb0e1")
 	)
 	(fp_line
 		(start -1.415748 2.61)
@@ -201,7 +202,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "7c18d32d-d173-4954-a917-610cbda1545a")
+		(uuid "04fff86e-8b45-43de-b685-35b314b78593")
 	)
 	(fp_rect
 		(start -3.88 -2.95)
@@ -212,7 +213,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "450bcb88-478a-468c-9907-79efbc753500")
+		(uuid "c0855c0a-2287-42ae-b4b1-bc280519a3d6")
 	)
 	(fp_rect
 		(start -2.85 -2.5)
@@ -223,12 +224,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "014aacbd-0aa8-40f9-b415-5febada646da")
+		(uuid "144db651-ada0-4c96-a65c-8263a5093088")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "a42268d0-9d78-4bc9-bfc1-dd64b7540158")
+		(uuid "a6b52cde-bdbc-411e-ba57-a2c5834fe00a")
 		(effects
 			(font
 				(size 1 1)
@@ -241,14 +242,14 @@
 		(size 1.975 5.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.126582)
-		(uuid "ed4f7cef-816e-4b2b-bfb0-d66e0c2ac683")
+		(uuid "5bea3ee6-2f99-4e69-95a8-997a00be003b")
 	)
 	(pad "2" smd roundrect
 		(at 2.6375 0)
 		(size 1.975 5.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.126582)
-		(uuid "af9de752-6ba0-43c5-9149-57459ec015c1")
+		(uuid "6aca44e3-64eb-4d12-b834-60e1791f39ef")
 	)
 	(embedded_fonts no)
 	(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_2220_5750Metric.step"

@@ -1477,7 +1477,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "reflow_station_library:D_SOD-323"
 			(at 64.77 95.885 0)
 			(hide yes)
 			(show_name no)
@@ -1579,7 +1579,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "reflow_station_library:D_SOD-323"
 			(at 217.17 95.885 0)
 			(hide yes)
 			(show_name no)
@@ -4117,7 +4117,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "reflow_station_library:D_SOD-323"
 			(at 140.97 95.885 0)
 			(hide yes)
 			(show_name no)

@@ -2,13 +2,14 @@
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
+	(locked yes)
 	(layer "F.Cu")
 	(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 	(tags "resistor")
 	(property "Reference" "REF**"
-		(at 0 -1.17 0)
+		(at 0 -1.17 180)
 		(layer "F.SilkS")
-		(uuid "121739e6-6337-4081-b12a-c7a40bad1fd6")
+		(uuid "7168c16f-7e38-4751-aa1f-0af4cac1e16e")
 		(effects
 			(font
 				(size 1 1)
@@ -16,10 +17,10 @@
 			)
 		)
 	)
-	(property "Value" "5.1k"
-		(at 0 1.17 0)
+	(property "Value" "90.9k"
+		(at 0 1.17 180)
 		(layer "F.Fab")
-		(uuid "71d2bc61-fb5a-4c2e-bfcd-e479d5628488")
+		(uuid "c65bcbe4-0e95-4de9-9db2-fca1570122c2")
 		(effects
 			(font
 				(size 1 1)
@@ -28,21 +29,21 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 0 0)
+		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "fd5d1e75-dfe0-4a57-ada7-1329238d3a9c")
+		(uuid "bf8b3dcc-8f56-4ca8-9753-3d29031eeead")
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 	)
-	(property "Description" "Resistor: 5.1kOhm 50V 62.5mW 1%"
-		(at 0 0 0)
+	(property "Description" "Resistor: 90.9kOhm 50V 62.5mW 1%"
+		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f5f52f9a-37da-40c0-9341-c2bbda492ac1")
+		(uuid "fdf4a2a5-5765-4020-93f7-7df0bfc6e8f7")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50,10 +51,10 @@
 		)
 	)
 	(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-		(at 0 0 0)
+		(at 0 0 180)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "47d860cf-b9d4-4468-9ec1-343b3c9e562c")
+		(uuid "78ac0f87-35a9-40ae-b2be-7603ef45aac7")
 		(effects
 			(font
 				(size 1 1)
@@ -66,7 +67,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "087f8416-0c58-4f6f-8897-17c253743ab4")
+		(uuid "69a514b8-9526-4b58-a0ac-fca018d25f0b")
 		(effects
 			(font
 				(size 1 1)
@@ -79,7 +80,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1305063b-2210-4da6-8aa3-4c985c7acc80")
+		(uuid "31c9792a-a404-4ed9-b72e-e996682b0efe")
 		(effects
 			(font
 				(size 1 1)
@@ -92,7 +93,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "96484c91-fa57-42da-89cf-ec2c62b29865")
+		(uuid "6303e684-dfc5-4699-84e1-e0d607a712e4")
 		(effects
 			(font
 				(size 1 1)
@@ -100,12 +101,12 @@
 			)
 		)
 	)
-	(property "Supplier_Link" "https://jlcpcb.com/partdetail/26648-0402WGF5101TCE/C25905"
+	(property "Supplier_Link" "https://jlcpcb.com/partdetail/27738-0402WGF9092TCE/C26989"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "28415998-1147-4125-acad-d63138866d7c")
+		(uuid "911c3e46-0157-45a2-853f-3c8802958d78")
 		(effects
 			(font
 				(size 1 1)
@@ -113,12 +114,12 @@
 			)
 		)
 	)
-	(property "JLCPCB_PartNo" "C25905"
+	(property "JLCPCB_PartNo" "C26989"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "da008487-5a13-4016-9f36-5d1bd784abee")
+		(uuid "c2f4c4ce-a06e-45ac-91d1-463efdbe173c")
 		(effects
 			(font
 				(size 1 1)
@@ -131,7 +132,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c87b52f8-8804-48d6-b748-a4aea8b97aea")
+		(uuid "d014f112-957f-4c6f-b036-6254d9dec65a")
 		(effects
 			(font
 				(size 1 1)
@@ -144,7 +145,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8abf903b-4157-4f7d-b1aa-495aa7db5ebc")
+		(uuid "bcae109c-3124-487f-a921-e040e97abb98")
 		(effects
 			(font
 				(size 1 1)
@@ -152,12 +153,12 @@
 			)
 		)
 	)
-	(property "Mfr.No" "0402WGF5101TCE"
+	(property "Mfr.No" "0402WGF9092TCE"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "fd87eacf-388d-4c11-b382-35a8bcee558e")
+		(uuid "689a4b88-997a-40a6-bab4-290cccb1d8a6")
 		(effects
 			(font
 				(size 1 1)
@@ -170,7 +171,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7fe4faed-0fb2-447a-b139-2d0fb2e24aaa")
+		(uuid "4dd7c875-06fe-4ff9-aa95-223e426e5415")
 		(effects
 			(font
 				(size 1 1)
@@ -179,8 +180,8 @@
 		)
 	)
 	(property ki_fp_filters "R_*")
-	(sheetname "/")
-	(sheetfile "reflow_station.kicad_sch")
+	(sheetname "/Power/")
+	(sheetfile "power.kicad_sch")
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
@@ -191,7 +192,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "17ea4deb-19bc-4c6b-be16-92c08fcf7395")
+		(uuid "8f74e9a8-6e23-4785-aa62-87711f2f82aa")
 	)
 	(fp_line
 		(start -0.153641 0.38)
@@ -201,7 +202,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "496c2e59-468c-422b-ba43-e409e83b2ab2")
+		(uuid "d9948899-0672-4d14-a5b1-0bccc6613433")
 	)
 	(fp_rect
 		(start -0.93 -0.47)
@@ -212,7 +213,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "fe7ccf41-1d5c-4b23-b4b2-7478d6fb3fd6")
+		(uuid "fed2ec38-e774-4caa-9eff-7de62d51f5a1")
 	)
 	(fp_rect
 		(start -0.525 -0.27)
@@ -223,12 +224,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "4cc69b3e-fae7-4eb7-97b0-a717098491a5")
+		(uuid "e913f0c1-bd48-4915-969a-891f3f1024a3")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at 0 0 180)
 		(layer "F.Fab")
-		(uuid "2079a3ce-c48d-4745-88fc-f1e68e108d10")
+		(uuid "b385eb71-f1a5-4f4c-b23b-84d592cb095a")
 		(effects
 			(font
 				(size 0.26 0.26)
@@ -241,14 +242,14 @@
 		(size 0.54 0.64)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "48253b4e-0fac-4ae7-8ca7-514e35b9ffb4")
+		(uuid "96bb1490-3cdf-4830-b67e-b15d91db4686")
 	)
 	(pad "2" smd roundrect
 		(at 0.51 0)
 		(size 0.54 0.64)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "ddec2b61-02d1-47b3-b437-825f7395706b")
+		(uuid "3d7407bb-d4da-4174-a92b-a0741e56b856")
 	)
 	(embedded_fonts no)
 	(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_01005_0402Metric.step"

@@ -2,13 +2,14 @@
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
+	(locked yes)
 	(layer "F.Cu")
 	(descr "6-lead surface-mounted (SMD) DIP package, row spacing 9.53mm (375 mils)")
 	(tags "SMD DIP DIL PDIP SMDIP 2.54mm 9.53mm 375mil")
 	(property "Reference" "REF**"
-		(at 0 -4.87 0)
+		(at 0 -4.87 180)
 		(layer "F.SilkS")
-		(uuid "71e6c3ff-6fab-46e0-b5b6-80fc0bd9d037")
+		(uuid "c8ceab11-7b08-4129-9638-ef4fb116dbce")
 		(effects
 			(font
 				(size 1 1)
@@ -16,10 +17,10 @@
 			)
 		)
 	)
-	(property "Value" "MOC3052M"
-		(at 0 4.87 0)
+	(property "Value" "MOC3052"
+		(at 0 4.87 180)
 		(layer "F.Fab")
-		(uuid "d3abcbbf-0b15-4cc1-b49b-424abed95084")
+		(uuid "fe16048f-b5ab-4237-b7e3-23afc6f5c3cd")
 		(effects
 			(font
 				(size 1 1)
@@ -28,21 +29,21 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 0 0)
+		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f559b5b3-b353-49c0-8552-ceecf3e34211")
+		(uuid "df6c8fb3-7474-4981-ac3e-feaaa20cd631")
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 	)
-	(property "Description" "Optocoupler: without zero detection circuit 10mA"
-		(at 0 0 0)
+	(property "Description" "Optocoupler: without zero detection circuit 20mA"
+		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f8ff9020-c4e7-498d-b452-328c38efc3fb")
+		(uuid "9f424a49-1759-4813-858a-3cd00dfda9b1")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50,10 +51,10 @@
 		)
 	)
 	(property "KiLib_Generator" "package/DIP/legacy"
-		(at 0 0 0)
+		(at 0 0 180)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "f048aa3a-3076-4b0f-ac20-558a52fd49bb")
+		(uuid "38ffdf2e-e817-477a-83d9-244561f307e3")
 		(effects
 			(font
 				(size 1 1)
@@ -66,7 +67,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "6d7ad4e1-ca9e-42d4-9515-eebc15998c58")
+		(uuid "48eb3155-07c4-4112-8c9f-7e37a96a250b")
 		(effects
 			(font
 				(size 1 1)
@@ -79,7 +80,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "98275fa4-44b6-4f7d-b460-66851a0c8bca")
+		(uuid "8e105f39-0bd7-400c-8e57-374fb4629d5d")
 		(effects
 			(font
 				(size 1 1)
@@ -87,12 +88,12 @@
 			)
 		)
 	)
-	(property "Supplier" "TME"
+	(property "Supplier" "JLCPCB"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7c626a5e-617f-4d10-aa0a-98a2047ec235")
+		(uuid "c442f138-4555-4212-9e1d-a4b6826f5fd2")
 		(effects
 			(font
 				(size 1 1)
@@ -100,12 +101,12 @@
 			)
 		)
 	)
-	(property "Supplier_Link" "https://www.tme.eu/pl/details/moc3052m-ons/optotriaki/onsemi/moc3052m/"
+	(property "Supplier_Link" "https://jlcpcb.com/partdetail/LiteOn-MOC3052STA1/C115471"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "101f8448-9f8f-4cc9-8fef-af8b5a3cdb0b")
+		(uuid "334a9d73-2721-4df2-ab15-11ac0b93d837")
 		(effects
 			(font
 				(size 1 1)
@@ -113,12 +114,12 @@
 			)
 		)
 	)
-	(property "JLCPCB_PartNo" ""
+	(property "JLCPCB_PartNo" "C115471"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b7d50097-fb05-4f6e-8835-186550a33fdd")
+		(uuid "177ef919-fabc-43f7-8259-72af490c95b3")
 		(effects
 			(font
 				(size 1 1)
@@ -131,7 +132,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e76efa0b-797c-4d92-96df-2028f96c9cc5")
+		(uuid "32688bfe-d912-4e70-9d84-a870fed51cb2")
 		(effects
 			(font
 				(size 1 1)
@@ -144,7 +145,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "905b363b-3d9d-499f-8162-e1a255510d0f")
+		(uuid "f3d9c09d-fd86-4811-9548-7ee1d3b689e9")
 		(effects
 			(font
 				(size 1 1)
@@ -152,12 +153,12 @@
 			)
 		)
 	)
-	(property "Mfr.No" "MOC3052M"
+	(property "Mfr.No" "MOC3052S-TA1"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "fc9d6c37-cf73-47f8-9676-5787eb8aa9e5")
+		(uuid "0a31e242-5b72-4f64-92ac-3dfd0527362a")
 		(effects
 			(font
 				(size 1 1)
@@ -165,12 +166,12 @@
 			)
 		)
 	)
-	(property "Package" "DIP-6"
+	(property "Package" "SMD-6P"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "aa58318e-802d-4dfa-8810-7b93f3f3e197")
+		(uuid "f02b7a14-3ecf-49cc-a619-bd1aafd75679")
 		(effects
 			(font
 				(size 1 1)
@@ -179,8 +180,8 @@
 		)
 	)
 	(property ki_fp_filters "DIP*W7.62mm* SMDIP*W9.53mm* DIP*W10.16mm*")
-	(sheetname "/")
-	(sheetfile "reflow_station.kicad_sch")
+	(sheetname "/Heaters/")
+	(sheetfile "heaters.kicad_sch")
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
@@ -191,7 +192,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "6c060903-efa4-4ee1-9aba-d7d655bf9001")
+		(uuid "2ec95e61-2404-4d72-b542-a930d159cfb3")
 	)
 	(fp_line
 		(start -3.235 3.87)
@@ -201,7 +202,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "9a435a67-da08-4467-99ea-a1a2221fa2d5")
+		(uuid "02304095-7130-40a1-8812-21001edf94b0")
 	)
 	(fp_line
 		(start -1 -3.87)
@@ -211,7 +212,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "037ffb24-f904-49a0-a96a-e9fd5c2db15c")
+		(uuid "fdde7a3c-3053-4254-b9e4-8a795b52b76f")
 	)
 	(fp_line
 		(start 3.235 -3.87)
@@ -221,7 +222,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "d28fd578-8082-47f0-bfa8-5ddf50fb7683")
+		(uuid "6d5690d7-90f1-4f4a-b7e3-2022efdbbfbe")
 	)
 	(fp_line
 		(start 3.235 3.87)
@@ -231,7 +232,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "aa06640c-7625-4b12-bca3-8e7034c364af")
+		(uuid "f3784494-5d34-47bd-9177-b3de525ee576")
 	)
 	(fp_arc
 		(start 1 -3.87)
@@ -242,7 +243,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "ca61404a-abbd-46fe-8879-265ded1ccfdc")
+		(uuid "2519caac-0520-4f0a-9b12-cadb09254390")
 	)
 	(fp_rect
 		(start -6.02 -4.06)
@@ -253,7 +254,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "ebc7bcc8-e169-4fbc-a4a9-8fc07b255aa4")
+		(uuid "f86f81c2-805f-4d62-9274-797846ce5ed0")
 	)
 	(fp_line
 		(start -3.175 -2.81)
@@ -263,7 +264,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "691bb447-b3fb-4548-a5d8-2454457f1bfa")
+		(uuid "84f342d3-6615-4574-9a8f-31564656cd9c")
 	)
 	(fp_line
 		(start -3.175 3.81)
@@ -273,7 +274,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "01ca03eb-2939-45ab-862b-a14339d66cb3")
+		(uuid "75e18c15-d0c7-4812-88e3-d526639d0ef7")
 	)
 	(fp_line
 		(start -2.175 -3.81)
@@ -283,7 +284,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "e7fc8d57-7c8d-4640-a630-cc1358fc6aa5")
+		(uuid "1d134d1c-1ab9-4efc-b399-1b6dc27bbffa")
 	)
 	(fp_line
 		(start 3.175 -3.81)
@@ -293,7 +294,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "105cd336-a575-4407-9180-170319df37e3")
+		(uuid "d3311fa8-ab06-4226-8478-73fd914cde99")
 	)
 	(fp_line
 		(start 3.175 3.81)
@@ -303,12 +304,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "7cded3c2-db39-4ae9-88bb-c35d202b7164")
+		(uuid "2f8b2e70-79d9-4fd5-8505-db4ad2489e08")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 90)
 		(layer "F.Fab")
-		(uuid "41acab3d-27b8-4284-afa7-1529dadb5dd4")
+		(uuid "a885a06d-6997-4764-9c22-582b8412f7f8")
 		(effects
 			(font
 				(size 1 1)
@@ -317,52 +318,52 @@
 		)
 	)
 	(point
-		(at 0.01 0)
+		(at 125.97 103.14)
 		(size 1.27)
 		(layer "F.Fab")
-		(uuid "6326d620-4a8f-4d7f-ae7e-e0aeef3e172d")
+		(uuid "b7c53383-67dc-4894-a30c-10f7d459d3f4")
 	)
 	(pad "1" smd roundrect
 		(at -4.765 -2.54)
 		(size 2 1.78)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.140449)
-		(uuid "3bb676b2-57e2-4ad4-bbcb-0f5a9048c22c")
+		(uuid "6bd18e18-585c-4006-88be-5d20d6976ef7")
 	)
 	(pad "2" smd roundrect
 		(at -4.765 0)
 		(size 2 1.78)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.140449)
-		(uuid "66c7915f-56fb-41cb-aed9-6377aa8b789d")
+		(uuid "9462789e-3214-4c81-b839-4b8ce39994a1")
 	)
 	(pad "3" smd roundrect
 		(at -4.765 2.54)
 		(size 2 1.78)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.140449)
-		(uuid "5819a50b-3acb-4f2e-b79c-30d9ecc4cbd4")
+		(uuid "3d136a34-8099-44b9-b1b9-ae20c334ebad")
 	)
 	(pad "4" smd roundrect
 		(at 4.765 2.54)
 		(size 2 1.78)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.140449)
-		(uuid "fa1db118-433d-4ba3-a69e-404b80d866f8")
+		(uuid "769afea8-af92-4ca2-9721-13b9190c2c63")
 	)
 	(pad "5" smd roundrect
 		(at 4.765 0)
 		(size 2 1.78)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.140449)
-		(uuid "f896e147-a9a1-4a25-b204-d2ef255c2d2c")
+		(uuid "ba236c7e-81ca-44a7-823a-0ab6c8a7a810")
 	)
 	(pad "6" smd roundrect
 		(at 4.765 -2.54)
 		(size 2 1.78)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.140449)
-		(uuid "3db68d52-3167-4c66-8575-170f8672de74")
+		(uuid "b644b6da-4e1f-4c77-af48-b46ce87a7517")
 	)
 	(embedded_fonts no)
 	(model "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/SMDIP-6_W9.53mm.step"

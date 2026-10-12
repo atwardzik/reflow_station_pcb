@@ -2,13 +2,14 @@
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
+	(locked yes)
 	(layer "F.Cu")
 	(descr "SMD pad as test Point, diameter 1.0mm")
 	(tags "test point SMD pad")
 	(property "Reference" "REF**"
 		(at 0 -1.448 0)
 		(layer "F.SilkS")
-		(uuid "fb071813-e2e6-4846-b013-084361907169")
+		(uuid "48f1f424-56b9-424d-a22f-09e64f2bad3d")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +20,7 @@
 	(property "Value" "TestPoint"
 		(at 0 1.55 0)
 		(layer "F.Fab")
-		(uuid "16356f3c-86a5-416a-be78-95fc2d1d3a03")
+		(uuid "5aeba04b-926e-4ea1-a7d7-0499def694ea")
 		(effects
 			(font
 				(size 1 1)
@@ -28,11 +29,11 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 0 180)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "68bf7c06-77ce-4728-9e26-ef85fe688582")
+		(uuid "534c439b-96c4-4c47-a29d-fe153dd7ac9c")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41,11 +42,11 @@
 		)
 	)
 	(property "Description" "test point"
-		(at 0 0 180)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b0c1a5b2-b31f-4e10-89a8-cb8886e81ffe")
+		(uuid "b8678e6a-04ed-482e-9be3-bef0531354c0")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54,11 +55,11 @@
 		)
 	)
 	(property "Comment" ""
-		(at 0 0 0)
+		(at 0 0 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c20c3dba-0896-4dff-b388-b4b739cfb684")
+		(uuid "9ad6cea4-8932-482b-91fa-76cf86156cf7")
 		(effects
 			(font
 				(size 1 1)
@@ -67,11 +68,11 @@
 		)
 	)
 	(property "Replacement_Mfr.No" ""
-		(at 0 0 0)
+		(at 0 0 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "98635fd4-21c2-440f-8497-f77e2b0ba680")
+		(uuid "117e6f7d-903a-49a2-9a7d-52971e9006fa")
 		(effects
 			(font
 				(size 1 1)
@@ -80,11 +81,11 @@
 		)
 	)
 	(property "Supplier" ""
-		(at 0 0 0)
+		(at 0 0 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "dbb359c8-ffab-463c-b81d-f48c09c7a6ea")
+		(uuid "1acf9c92-0c40-470c-911b-c2dc95d29ae3")
 		(effects
 			(font
 				(size 1 1)
@@ -93,11 +94,11 @@
 		)
 	)
 	(property "Supplier_Link" ""
-		(at 0 0 0)
+		(at 0 0 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "5ce0386f-9075-469f-8bfe-ee887a7e0577")
+		(uuid "f7a39b36-9c84-462b-aba4-f6f420677273")
 		(effects
 			(font
 				(size 1 1)
@@ -106,11 +107,11 @@
 		)
 	)
 	(property "JLCPCB_PartNo" ""
-		(at 0 0 0)
+		(at 0 0 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "43dae6d5-1f93-49aa-8ecd-5e2ae6919b09")
+		(uuid "7d6268be-211a-4839-8add-e8cd537a5f3f")
 		(effects
 			(font
 				(size 1 1)
@@ -119,11 +120,11 @@
 		)
 	)
 	(property "Additional_Info" ""
-		(at 0 0 0)
+		(at 0 0 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "6338662f-1598-492b-9f4a-6f8d3b2ce67e")
+		(uuid "55884fbe-ebb1-42f3-822f-e049a8bd688e")
 		(effects
 			(font
 				(size 1 1)
@@ -132,11 +133,11 @@
 		)
 	)
 	(property "Mouser Part Number" ""
-		(at 0 0 0)
+		(at 0 0 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "cbad016d-a7f7-40ac-af39-cebfd5614165")
+		(uuid "34b8295d-778f-4357-a505-ddf27abfc288")
 		(effects
 			(font
 				(size 1 1)
@@ -145,8 +146,8 @@
 		)
 	)
 	(property ki_fp_filters "Pin* Test*")
-	(sheetname "/")
-	(sheetfile "reflow_station.kicad_sch")
+	(sheetname "/Thermocouples/")
+	(sheetfile "thermocouples.kicad_sch")
 	(attr exclude_from_bom)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_circle
@@ -158,7 +159,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "b506bb5c-4627-4e53-8982-755b2d6103d9")
+		(uuid "eef4d4e4-2a17-4f44-91a4-f84998189891")
 	)
 	(fp_circle
 		(center 0 0)
@@ -169,12 +170,12 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "0b577134-7b29-4c66-b471-cbc30573e66c")
+		(uuid "c89c7e09-03c8-47cd-8778-06c80b53673b")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -1.45 0)
 		(layer "F.Fab")
-		(uuid "ccabf5bb-ac24-4fbd-9bae-e2eac7fd29a8")
+		(uuid "d0f07fd4-b491-4f7f-815c-c79736038f04")
 		(effects
 			(font
 				(size 1 1)
@@ -183,10 +184,10 @@
 		)
 	)
 	(pad "1" smd circle
-		(at 0 0)
+		(at 0 0 180)
 		(size 1 1)
 		(layers "F.Cu" "F.Mask")
-		(uuid "eb5a4656-ec81-48f3-8919-4cee038b0b9c")
+		(uuid "de3f671a-fa46-4901-8933-86418ea196b3")
 	)
 	(embedded_fonts no)
 )
